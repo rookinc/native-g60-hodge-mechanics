@@ -1,0 +1,202 @@
+{
+  "artifact_id": "native_g60_hodge_mechanics_theorem_012",
+  "audit_pass": true,
+  "checks": {
+    "all_required_artifacts_exist": true,
+    "all_required_artifacts_pass": true,
+    "boundary_of_boundary_is_zero": true,
+    "cell_actions_are_transitive": true,
+    "cochain_dimensions_are_60_120_20": true,
+    "diagonal_hodge_family_has_three_positive_scalars": true,
+    "explicit_projectors_constructed": true,
+    "forced_work_balance_derived": true,
+    "full_native_group_equivariance_passes": true,
+    "gauge_dimensions_are_59_and_61": true,
+    "gauge_quotient_splits_42_plus_19": true,
+    "harmonic_basis_dimension_is_42": true,
+    "harmonic_character_norm_is_8": true,
+    "harmonic_irreducible_dimensions_are_2_6_6_8_10_10": true,
+    "harmonic_irreducible_dimensions_sum_to_42": true,
+    "harmonic_representation_is_faithful": true,
+    "hodge_dimensions_are_59_42_19": true,
+    "hodge_dimensions_sum_to_120": true,
+    "homogeneous_energy_conservation_proved": true,
+    "native_symmetry_does_not_select_unique_numeric_weights": true,
+    "static_range_and_kernel_are_78_and_42": true,
+    "wave_zero_and_positive_modes_are_42_and_78": true,
+    "weighted_operators_have_two_effective_ratios": true
+  },
+  "claim_boundary": {
+    "electromagnetism_claim": false,
+    "finite_hodge_mechanics_established": true,
+    "finite_wave_baseline_established": true,
+    "force_claim": false,
+    "full_symmetry_equivariance_established": true,
+    "gauge_structure_established": true,
+    "gravity_claim": false,
+    "mathematical_energy_balance_established": true,
+    "maxwell_claim": false,
+    "native_metric_derived": false,
+    "non_diagonal_positive_hodge_commutant_classified": false,
+    "photon_claim": false,
+    "physical_constants_derived": false,
+    "physical_energy_claim": false,
+    "physical_time_scale_derived": false,
+    "physical_units_derived": false,
+    "quantum_claim": false,
+    "spacetime_claim": false,
+    "statement": "The theorem concerns a finite combinatorial Hodge mechanics. It does not derive a metric geometry, physical units, constitutive ratios, electromagnetism, photons, spacetime, quantum mechanics, gravity, physical forces, physical energy, a simulation of the physical universe, or a unification.",
+    "static_solvability_boundary_established": true,
+    "surface_rederived_in_project46": false,
+    "surface_source_remains_project45": true,
+    "symmetry_compatible_diagonal_family_classified": true,
+    "unification_claim": false,
+    "uniform_hodge_theorem_established": true,
+    "unique_constitutive_ratios_derived": false,
+    "universe_simulation_claim": false
+  },
+  "next_frontier": {
+    "forbidden_shortcut": "Do not assign physical units or familiar field names to the free ratios without an independent derivation.",
+    "primary": "Classify the full positive self-adjoint commutant of the native cell actions, beyond diagonal weights.",
+    "secondary": "Determine whether construction data selects the remaining positive ratios x=b/a and y=c/b."
+  },
+  "required_artifacts": {
+    "001": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_cochain_complex_import_001.json",
+      "verdict": "project45_native_g60_cochain_complex_received_unchanged"
+    },
+    "002": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_uniform_hodge_baseline_002.json",
+      "verdict": "native_g60_uniform_hodge_baseline_constructed"
+    },
+    "003": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_hodge_decomposition_003.json",
+      "verdict": "native_g60_explicit_hodge_decomposition_constructed"
+    },
+    "004": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_harmonic_1_form_basis_004.json",
+      "verdict": "native_g60_harmonic_1_form_basis_exported"
+    },
+    "005": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_hodge_symmetry_commutation_005.json",
+      "verdict": "native_g60_uniform_hodge_decomposition_is_full_group_equivariant"
+    },
+    "006": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_harmonic_representation_decomposition_006.json",
+      "verdict": "native_g60_harmonic_representation_restricted_and_profiled"
+    },
+    "006b": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_harmonic_irreducible_decomposition_006b.json",
+      "verdict": "native_g60_harmonic_real_isotypic_decomposition_identified"
+    },
+    "006c": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_harmonic_multiplicity_split_006c.json",
+      "verdict": "native_g60_doubled_10_dimensional_harmonic_sector_split"
+    },
+    "007": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_gauge_equivalence_audit_007.json",
+      "verdict": "native_g60_uniform_gauge_equivalence_identified"
+    },
+    "008": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_static_field_response_008.json",
+      "verdict": "native_g60_static_solvability_and_harmonic_obstruction_identified"
+    },
+    "009": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_wave_operator_baseline_009.json",
+      "verdict": "native_g60_uniform_wave_dynamics_baseline_constructed"
+    },
+    "010": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_discrete_energy_conservation_010.json",
+      "verdict": "native_g60_uniform_energy_balance_identified"
+    },
+    "011": {
+      "audit_pass": true,
+      "path": "artifacts/json/native_g60_weighted_hodge_candidate_search_011.json",
+      "verdict": "full_symmetry_forces_three_scalar_positive_hodge_family"
+    }
+  },
+  "theorem": {
+    "chain_complex": {
+      "dimensions": {
+        "C0": 60,
+        "C1": 120,
+        "C2": 20
+      },
+      "operators": {
+        "d0": "B1^T",
+        "d1": "B2^T",
+        "identity": "d1 d0 = 0"
+      }
+    },
+    "finite_dynamics": {
+      "equation": "A_double_dot + Delta1 A = J(t)",
+      "forced_energy_balance": "dE/dt = <A_dot,J>",
+      "homogeneous_energy_balance": "dE/dt = 0",
+      "oscillatory_dimension": 78,
+      "zero_mode_dimension": 42
+    },
+    "gauge_structure": {
+      "curvature_complete_classifier": false,
+      "gauge_orbit_dimension": 59,
+      "gauge_quotient_dimension": 61,
+      "quotient_decomposition": "61 = 42 harmonic + 19 coexact"
+    },
+    "harmonic_representation": {
+      "central_halfturn_split": {
+        "minus_dimension": 30,
+        "plus_dimension": 12
+      },
+      "character_norm": 8,
+      "decomposition": "2 + 6 + 6 + 8 + 10 + 10",
+      "dimension": 42,
+      "faithful": true,
+      "irreducible_dimensions": [
+        2,
+        6,
+        6,
+        8,
+        10,
+        10
+      ]
+    },
+    "statement": "On the imported native genus-21 surface of AT4val[60,6], the full native automorphism group preserves a positive uniform discrete Hodge complex whose edge-cochain space decomposes orthogonally into exact, harmonic, and coexact subspaces of dimensions 59, 42, and 19. The harmonic subspace carries a faithful 42-dimensional group representation with irreducible dimensions 2, 6, 6, 8, 10, and 10. Gauge equivalence removes exactly the 59-dimensional exact sector, leaving a 61-dimensional quotient formed by 42 harmonic and 19 coexact directions. The edge Laplacian has rank 78 and harmonic kernel dimension 42, admits the stated static solvability condition, and defines a finite homogeneous second-order dynamics with a conserved quadratic invariant. Full native symmetry forces every positive diagonal Hodge structure to have the form star0=aI60, star1=bI120, star2=cI20, while leaving the two effective positive ratios b/a and c/b undetermined.",
+    "static_mechanics": {
+      "equation": "Delta1 A = J",
+      "harmonic_kernel_dimension": 42,
+      "operator_rank": 78,
+      "solvability_condition": "P_harmonic J = 0"
+    },
+    "symmetry_compatible_diagonal_family": {
+      "conditions": "a>0, b>0, c>0",
+      "effective_ratios": [
+        "x=b/a",
+        "y=c/b"
+      ],
+      "star0": "a I60",
+      "star1": "b I120",
+      "star2": "c I20",
+      "unique_numeric_point_selected": false
+    },
+    "title": "Native finite Hodge mechanics on the genus-21 surface of AT4val[60,6]",
+    "uniform_hodge_decomposition": {
+      "coexact_dimension": 19,
+      "dimension_identity": "120 = 59 + 42 + 19",
+      "exact_dimension": 59,
+      "harmonic_dimension": 42
+    }
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_finite_hodge_mechanics_theorem_packaged"
+}

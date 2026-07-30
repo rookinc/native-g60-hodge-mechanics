@@ -1,0 +1,17 @@
+artifact_id: native_g60_hodge_mechanics_theorem_012
+theorem_pass: true
+verdict: native_g60_finite_hodge_mechanics_theorem_packaged
+required_artifact_count: 13
+required_artifact_pass_count: 13
+failed_check_count: 0
+failed_checks: none
+hodge_dimensions: 59,42,19
+harmonic_irreducible_dimensions: 2,6,6,8,10,10
+gauge_dimensions: 59,61
+static_rank_kernel: 78,42
+wave_zero_positive_modes: 42,78
+diagonal_hodge_parameters: a,b,c
+effective_operator_ratios: b/a,c/b
+physical_claim: false
+maxwell_claim: false
+universe_simulation_claim: false

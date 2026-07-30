@@ -1,0 +1,199 @@
+{
+  "artifact_id": "native_g60_cross_flux_pencil_maximizer_locus_028",
+  "audit_pass": true,
+  "boundary": {
+    "all_global_maximizers_found": false,
+    "physical_claim": false,
+    "quadratic_equations_exactly_derived": false,
+    "sharp_one_third_upper_bound_proved": false,
+    "terminal_optimizer_locus_audited": true,
+    "terminal_set_equals_complete_locus": false
+  },
+  "checks": {
+    "all_terminal_points_are_unit": true,
+    "all_terminal_points_reach_one_third": true,
+    "generic_comparison_completed": true,
+    "input_026_audit_pass": true,
+    "quadratic_fit_completed": true,
+    "terminal_point_count_is_256": true,
+    "terminal_points_span_four_coordinates": true
+  },
+  "earned_interpretation": {
+    "complete_maximizer_locus_classified": false,
+    "finite_projective_orbit_identified": true,
+    "maximizer_terminal_set_collected": true,
+    "quadratic_locus_candidate_found": false,
+    "quadratic_locus_proved": false
+  },
+  "generic_comparison": {
+    "correlation_relation_score_target_gap": null,
+    "maximum_quadratic_relation_score": 0.0,
+    "maximum_sigma": 0.3332531150181467,
+    "median_quadratic_relation_score": 0.0,
+    "minimum_quadratic_relation_score": 0.0,
+    "minimum_target_gap": 8.021831518661982e-05,
+    "near_maximum_count": 0,
+    "probe_count": 20000
+  },
+  "outputs": {
+    "generic_csv": "artifacts/csv/native_g60_cross_flux_pencil_generic_comparison_028.csv",
+    "locus_npz": "artifacts/npy/native_g60_cross_flux_pencil_maximizer_locus_028.npz",
+    "point_csv": "artifacts/csv/native_g60_cross_flux_pencil_maximizer_points_028.csv",
+    "quadratic_csv": "artifacts/csv/native_g60_cross_flux_pencil_quadratic_relations_028.csv"
+  },
+  "quadratic_fit": {
+    "design_rank": 10,
+    "design_shape": [
+      256,
+      10
+    ],
+    "maximum_relation_terminal_residual": null,
+    "null_threshold": 8.674184600398219e-08,
+    "quadratic_nullity": 0,
+    "relation_found": false,
+    "relation_rows": [],
+    "relations_resolved_on_terminal_set": false,
+    "singular_values": [
+      8.674184600398219,
+      8.308235086688514,
+      8.044179167730276,
+      7.664760173773166,
+      6.4215938478604055,
+      6.0173694570548495,
+      2.7594374996120763,
+      2.629568459220887,
+      2.3498430278646443,
+      1.9410230663498267
+    ],
+    "terminal_score_maximum": 0.0
+  },
+  "terminal_set": {
+    "all_reach_one_third": true,
+    "centered_rank": 4,
+    "centered_singular_values": [
+      8.516064502747682,
+      7.851309387714331,
+      7.5839218067203245,
+      4.3575554138828725
+    ],
+    "cluster_profiles": {
+      "1e-04": {
+        "cluster_count": 10,
+        "cluster_size_profile": [
+          35,
+          29,
+          28,
+          27,
+          26,
+          26,
+          22,
+          22,
+          22,
+          19
+        ],
+        "largest_cluster_size": 35
+      },
+      "1e-06": {
+        "cluster_count": 10,
+        "cluster_size_profile": [
+          35,
+          29,
+          28,
+          27,
+          26,
+          26,
+          22,
+          22,
+          22,
+          19
+        ],
+        "largest_cluster_size": 35
+      },
+      "1e-08": {
+        "cluster_count": 15,
+        "cluster_size_profile": [
+          34,
+          28,
+          28,
+          27,
+          26,
+          25,
+          22,
+          21,
+          21,
+          19,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "largest_cluster_size": 34
+      },
+      "1e-10": {
+        "cluster_count": 15,
+        "cluster_size_profile": [
+          34,
+          28,
+          28,
+          27,
+          26,
+          25,
+          22,
+          21,
+          21,
+          19,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "largest_cluster_size": 34
+      }
+    },
+    "coordinate_rank": 4,
+    "covariance": [
+      [
+        0.2506706243801507,
+        -0.01347239506932536,
+        0.011485750189994919,
+        0.004389448768641234
+      ],
+      [
+        -0.01347239506932536,
+        0.28184944924982724,
+        -0.0016938979748690227,
+        0.008724198138083304
+      ],
+      [
+        0.011485750189994919,
+        -0.0016938979748690227,
+        0.2404513888558937,
+        -0.009265444406171651
+      ],
+      [
+        0.004389448768641234,
+        0.008724198138083304,
+        -0.009265444406171651,
+        0.22702853751412852
+      ]
+    ],
+    "covariance_eigenvalues": [
+      0.21767001161009272,
+      0.24056020780908993,
+      0.2532489161458928,
+      0.28852086443492475
+    ],
+    "maximum_target_gap_abs": 7.771561172376096e-16,
+    "point_count": 256,
+    "projective_pairwise_distance": {
+      "maximum": 1.2909944727165357,
+      "median": 1.2909944477107094,
+      "minimum": 0.0
+    },
+    "unit_norm_maximum_residual": 2.220446049250313e-16
+  },
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_maximizer_locus_not_quadratically_resolved"
+}

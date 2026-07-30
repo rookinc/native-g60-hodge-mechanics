@@ -1,0 +1,4 @@
+target,definition,polynomial_degree,monomial_degree,gram_size,coefficient_constraint_count,solver,solver_status,elapsed_seconds,optimized_margin,maximum_coefficient_residual,minimum_gram_eigenvalue,maximum_gram_eigenvalue,numerical_rank,coefficient_pass,psd_pass,floating_interior_sos_candidate
+e4_residual_1_over_16,e4-(1/16)e1e3,8,4,35,165,SCS,optimal,0.15672508301213384,-8.585377799109246e-13,1.1145475498540075e-14,-1.5544598642437032e-11,0.0033130476375239446,25,True,True,False
+e4,e4,8,4,35,165,SCS,optimal,0.2019817919936031,0.00011773756992672188,1.734723475976807e-18,0.00011773756992669824,0.006110093017199112,35,True,True,True
+e5,e5,10,5,56,286,SCS,optimal,0.4429469578899443,-1.0861662049893416e-13,1.0052690779550075e-15,-9.691876424848114e-13,0.0003470096407022765,46,True,True,False

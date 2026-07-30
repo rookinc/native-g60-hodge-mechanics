@@ -1,0 +1,115 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_higher_sdp_probe_048",
+  "audit_pass": true,
+  "boundary": {
+    "exact_reconstruction_deferred": true,
+    "floating_sdp_probe_only": true,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false,
+    "symmetry_reduction_not_used": true
+  },
+  "checks": {
+    "all_coefficient_residuals_bounded": true,
+    "all_gram_values_finite": true,
+    "all_three_sdp_problems_completed": true,
+    "m3_replay_receipts_pass": true
+  },
+  "completed_target_count": 3,
+  "earned_interpretation": {
+    "e4_has_floating_interior_sos_candidate": true,
+    "e4_residual_has_floating_interior_sos_candidate": false,
+    "e5_has_floating_interior_sos_candidate": false,
+    "exact_rational_higher_sos_certificate_found": false,
+    "global_gap_psd_proved": false
+  },
+  "interior_candidate_count": 1,
+  "m3_replay_pass": true,
+  "outputs": {
+    "gram_csv": "artifacts/csv/native_g60_cross_flux_gap_higher_sdp_gram_entries_048.csv",
+    "probe_npz": "artifacts/npy/native_g60_cross_flux_gap_higher_sdp_probe_048.npz",
+    "residual_csv": "artifacts/csv/native_g60_cross_flux_gap_higher_sdp_coefficient_residuals_048.csv",
+    "summary_csv": "artifacts/csv/native_g60_cross_flux_gap_higher_sdp_summary_048.csv"
+  },
+  "results": [
+    {
+      "coefficient_constraint_count": 165,
+      "coefficient_pass": true,
+      "definition": "e4-(1/16)e1e3",
+      "elapsed_seconds": 0.15672508301213384,
+      "floating_interior_sos_candidate": false,
+      "gram_size": 35,
+      "maximum_coefficient_residual": 1.1145475498540075e-14,
+      "maximum_gram_eigenvalue": 0.0033130476375239446,
+      "minimum_gram_eigenvalue": -1.5544598642437032e-11,
+      "monomial_degree": 4,
+      "numerical_rank": 25,
+      "optimized_margin": -8.585377799109246e-13,
+      "polynomial_degree": 8,
+      "psd_pass": true,
+      "solver": "SCS",
+      "solver_status": "optimal",
+      "target": "e4_residual_1_over_16"
+    },
+    {
+      "coefficient_constraint_count": 165,
+      "coefficient_pass": true,
+      "definition": "e4",
+      "elapsed_seconds": 0.2019817919936031,
+      "floating_interior_sos_candidate": true,
+      "gram_size": 35,
+      "maximum_coefficient_residual": 1.734723475976807e-18,
+      "maximum_gram_eigenvalue": 0.006110093017199112,
+      "minimum_gram_eigenvalue": 0.00011773756992669824,
+      "monomial_degree": 4,
+      "numerical_rank": 35,
+      "optimized_margin": 0.00011773756992672188,
+      "polynomial_degree": 8,
+      "psd_pass": true,
+      "solver": "SCS",
+      "solver_status": "optimal",
+      "target": "e4"
+    },
+    {
+      "coefficient_constraint_count": 286,
+      "coefficient_pass": true,
+      "definition": "e5",
+      "elapsed_seconds": 0.4429469578899443,
+      "floating_interior_sos_candidate": false,
+      "gram_size": 56,
+      "maximum_coefficient_residual": 1.0052690779550075e-15,
+      "maximum_gram_eigenvalue": 0.0003470096407022765,
+      "minimum_gram_eigenvalue": -9.691876424848114e-13,
+      "monomial_degree": 5,
+      "numerical_rank": 46,
+      "optimized_margin": -1.0861662049893416e-13,
+      "polynomial_degree": 10,
+      "psd_pass": true,
+      "solver": "SCS",
+      "solver_status": "optimal",
+      "target": "e5"
+    }
+  ],
+  "solver": {
+    "cvxpy_version": "1.9.2",
+    "installed_solvers": [
+      "CLARABEL",
+      "SCS",
+      "SCIPY",
+      "HIGHS",
+      "GLOP",
+      "PDLP",
+      "OSQP"
+    ],
+    "name": "SCS",
+    "options": {
+      "acceleration_lookback": 20,
+      "eps": 1e-08,
+      "max_iters": 250000,
+      "normalize": true,
+      "scale": 1.0,
+      "verbose": true
+    }
+  },
+  "theorem_pass": false,
+  "verdict": "partial_floating_interior_sos_candidates_found_for_higher_gap_invariants"
+}

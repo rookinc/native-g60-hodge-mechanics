@@ -1,0 +1,113 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_determinant_identity_043",
+  "audit_pass": false,
+  "boundary": {
+    "all_gap_elementary_invariants_nonnegative_proved": false,
+    "determinant_identity_proved": false,
+    "determinant_nonnegative_globally_proved": false,
+    "global_gap_psd_proved": false,
+    "physical_claim": false
+  },
+  "checks": {
+    "all_coefficient_matrices_match": false,
+    "degree_twelve_monomial_count_is_455": true,
+    "input_035_theorem_pass": true,
+    "input_042_audit_pass": true,
+    "probe_identity_pass": false,
+    "reduced_expression_is_homogeneous_compatible": true,
+    "regression_model_found": true
+  },
+  "coefficient_certificate": {
+    "all_coefficients_pass": false,
+    "coefficient_residual_l2": 1.426337890273809e-05,
+    "degree": 12,
+    "maximum_coefficient_residual": 4.679298619697009e-06,
+    "monomial_count": 455
+  },
+  "earned_interpretation": {
+    "gap_determinant_has_exact_native_moment_formula": false,
+    "gap_matrix_positive_semidefinite_proved": false,
+    "global_one_third_bound_proved": false
+  },
+  "outputs": {
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_gap_determinant_coefficients_043.csv",
+    "identity_npz": "artifacts/npy/native_g60_cross_flux_gap_determinant_identity_043.npz",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_gap_determinant_probes_043.csv"
+  },
+  "probe_certificate": {
+    "all_probes_pass": false,
+    "maximum_probe_residual": 2.8219447911170876,
+    "probe_count": 4096
+  },
+  "regression_reconstruction": {
+    "expression_before_elimination": "-R2/10000000 - S4**2/10000000 + S4/10000000 + S6**2/10000000 - S6/6400927 + 1/6769526",
+    "floating_coefficients": [
+      1.477208222070404e-07,
+      5.1929545131785806e-08,
+      -1.5622736112354905e-07,
+      5.68670814508542e-23,
+      -9.010870616802494e-08,
+      -8.675972640122076e-08,
+      3.2150205761317854e-08,
+      4.300574241481206e-22,
+      7.716049382716096e-08,
+      3.682240119932919e-21
+    ],
+    "homogeneous_compatible": true,
+    "homogeneous_terms": [
+      {
+        "coefficient": "-7/480000000",
+        "homogeneous_compatible": true,
+        "n2_power": 4,
+        "s4_power": 1,
+        "s6_power": 0,
+        "s8_power": 0,
+        "weighted_degree": 4
+      },
+      {
+        "coefficient": "1/10000000",
+        "homogeneous_compatible": true,
+        "n2_power": 0,
+        "s4_power": 0,
+        "s6_power": 2,
+        "s8_power": 0,
+        "weighted_degree": 12
+      },
+      {
+        "coefficient": "-16400927/64009270000000",
+        "homogeneous_compatible": true,
+        "n2_power": 3,
+        "s4_power": 0,
+        "s6_power": 1,
+        "s8_power": 0,
+        "weighted_degree": 6
+      },
+      {
+        "coefficient": "12600763/62387951616000",
+        "homogeneous_compatible": true,
+        "n2_power": 6,
+        "s4_power": 0,
+        "s6_power": 0,
+        "s8_power": 0,
+        "weighted_degree": 0
+      }
+    ],
+    "model": "gap_determinant__moments_quadratic",
+    "rational_coefficients": [
+      "1/6769526",
+      "1/10000000",
+      "-1/6400927",
+      "0",
+      "-1/10000000",
+      "-1/10000000",
+      "0",
+      "0",
+      "1/10000000",
+      "0"
+    ],
+    "reduced_expanded": "-7*S4/480000000 + S6**2/10000000 - 16400927*S6/64009270000000 + 12600763/62387951616000",
+    "reduced_expression": "-(3639824307050568*S4 - 24958795248346752*S6**2 + 63951265008346752*S6 - 50410352567063125)/249587952483467520000000"
+  },
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_gap_determinant_identity_not_resolved"
+}

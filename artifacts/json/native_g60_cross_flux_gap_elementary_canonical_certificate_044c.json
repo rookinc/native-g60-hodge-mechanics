@@ -1,0 +1,105 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_elementary_canonical_certificate_044c",
+  "audit_pass": true,
+  "boundary": {
+    "canonical_elementary_identity_chain_proved": true,
+    "global_gap_psd_proved": false,
+    "global_nonnegativity_of_e1_through_e5_proved": false,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false
+  },
+  "canonical_formulas": {
+    "e1": "(5/12)*N2",
+    "e2": "(271/3456)*N2^2 + (-1/120)*S4",
+    "e3": "(6107/746496)*N2^3 + (-1/540)*N2*S4 + (-1/1800)*S6",
+    "e4": "(70403/143327232)*N2^4 + (-47/276480)*N2^2*S4 + (-1/8640)*N2*S6 + (1/57600)*S4^2",
+    "e5": "(40051/2579890176)*N2^5 + (-205/35831808)*N2^3*S4 + (-121/12441600)*N2^2*S6 + (1/2073600)*N2*S4^2 + (1/432000)*S4*S6"
+  },
+  "checks": {
+    "all_coefficient_certificates_pass": true,
+    "all_nonunit_probes_pass": true,
+    "canonical_e3_formula_locked": true,
+    "five_canonical_formulas_tested": true,
+    "input_044_theorem_pass": true,
+    "input_044b_selection_failure_recorded": true
+  },
+  "earned_interpretation": {
+    "automatic_normalization_failure_resolved_by_direct_certificate": true,
+    "canonical_e1_through_e5_formulas_proved": true,
+    "complete_gap_characteristic_invariant_chain_available": true,
+    "global_gap_psd_proved": false,
+    "noncanonical_e3_coordinates_replaced": true
+  },
+  "formula_certificates": [
+    {
+      "basis_names": "[\"N2\"]",
+      "canonical_formula": "(5/12)*N2",
+      "coefficient_certificate_pass": true,
+      "coefficient_residual_l2": 2.4540228976318946e-15,
+      "elementary_invariant": "e1",
+      "maximum_coefficient_residual": 1.6167622796103842e-15,
+      "monomial_count": 10,
+      "polynomial_degree": 2
+    },
+    {
+      "basis_names": "[\"N2^2\", \"S4\"]",
+      "canonical_formula": "(271/3456)*N2^2 + (-1/120)*S4",
+      "coefficient_certificate_pass": true,
+      "coefficient_residual_l2": 1.8017948072387296e-15,
+      "elementary_invariant": "e2",
+      "maximum_coefficient_residual": 6.576228277210827e-16,
+      "monomial_count": 35,
+      "polynomial_degree": 4
+    },
+    {
+      "basis_names": "[\"N2^3\", \"N2*S4\", \"S6\"]",
+      "canonical_formula": "(6107/746496)*N2^3 + (-1/540)*N2*S4 + (-1/1800)*S6",
+      "coefficient_certificate_pass": true,
+      "coefficient_residual_l2": 6.846516830745144e-16,
+      "elementary_invariant": "e3",
+      "maximum_coefficient_residual": 1.9808373691310166e-16,
+      "monomial_count": 84,
+      "polynomial_degree": 6
+    },
+    {
+      "basis_names": "[\"N2^4\", \"N2^2*S4\", \"N2*S6\", \"S4^2\", \"S8\"]",
+      "canonical_formula": "(70403/143327232)*N2^4 + (-47/276480)*N2^2*S4 + (-1/8640)*N2*S6 + (1/57600)*S4^2",
+      "coefficient_certificate_pass": true,
+      "coefficient_residual_l2": 1.4166857025422278e-16,
+      "elementary_invariant": "e4",
+      "maximum_coefficient_residual": 4.2012834183813297e-17,
+      "monomial_count": 165,
+      "polynomial_degree": 8
+    },
+    {
+      "basis_names": "[\"N2^5\", \"N2^3*S4\", \"N2^2*S6\", \"N2*S4^2\", \"N2*S8\", \"S4*S6\", \"S10\"]",
+      "canonical_formula": "(40051/2579890176)*N2^5 + (-205/35831808)*N2^3*S4 + (-121/12441600)*N2^2*S6 + (1/2073600)*N2*S4^2 + (1/432000)*S4*S6",
+      "coefficient_certificate_pass": true,
+      "coefficient_residual_l2": 1.511228920248298e-17,
+      "elementary_invariant": "e5",
+      "maximum_coefficient_residual": 5.451504048528677e-18,
+      "monomial_count": 286,
+      "polynomial_degree": 10
+    }
+  ],
+  "outputs": {
+    "certificate_npz": "artifacts/npy/native_g60_cross_flux_gap_elementary_canonical_certificate_044c.npz",
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_gap_elementary_canonical_coefficients_044c.csv",
+    "formula_csv": "artifacts/csv/native_g60_cross_flux_gap_elementary_canonical_formulas_044c.csv",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_gap_elementary_canonical_probes_044c.csv"
+  },
+  "probe_summary": {
+    "all_probes_pass": true,
+    "maximum_probe_residual": 3.552713678800501e-13,
+    "maximum_probe_residual_by_invariant": {
+      "e1": 1.7763568394002505e-14,
+      "e2": 1.0302869668521453e-13,
+      "e3": 2.7000623958883807e-13,
+      "e4": 3.552713678800501e-13,
+      "e5": 2.007283228522283e-13
+    },
+    "probe_count": 4096
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_cross_flux_gap_elementary_canonical_certificate_exact"
+}

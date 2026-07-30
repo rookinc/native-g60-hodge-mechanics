@@ -1,0 +1,94 @@
+{
+  "artifact_id": "native_g60_gauge_equivalence_audit_007",
+  "audit_pass": true,
+  "boundary": {
+    "dynamics_defined": false,
+    "electromagnetism_claim": false,
+    "face_curvature_is_complete_gauge_classifier": false,
+    "force_claim": false,
+    "gauge_equivalence_audited": true,
+    "gauge_quotient_identified": true,
+    "harmonic_global_classes_survive_gauge": true,
+    "maxwell_claim": false,
+    "physical_claim": false,
+    "physical_energy_claim": false,
+    "static_field_equation_defined": false,
+    "unification_claim": false,
+    "uniform_coulomb_like_gauge_constructed": true,
+    "universe_simulation_claim": false
+  },
+  "checks": {
+    "all_deterministic_probes_pass": true,
+    "curvature_depends_only_on_coexact_sector": true,
+    "d0_shape_is_120_by_60": true,
+    "d1_d0_is_zero": true,
+    "d1_shape_is_20_by_120": true,
+    "exact_projector_matches_gauge_solver": true,
+    "exact_sector_has_zero_curvature": true,
+    "gauge_fixed_projector_is_idempotent": true,
+    "gauge_fixed_projector_matches_harmonic_plus_coexact": true,
+    "gauge_fixed_sector_is_divergence_free": true,
+    "gauge_orbit_dimension_is_59": true,
+    "gauge_quotient_dimension_is_61": true,
+    "gauge_quotient_splits_42_plus_19": true,
+    "harmonic_sector_has_zero_curvature": true,
+    "input_hodge_decomposition_pass": true,
+    "input_symmetry_commutation_pass": true
+  },
+  "earned_interpretation": {
+    "coexact_sector": "Gauge-invariant component carrying all face curvature.",
+    "curvature_is_complete_gauge_invariant": false,
+    "exact_sector": "Gauge-removable local gradient component.",
+    "harmonic_sector": "Gauge-invariant, curvature-free global circulation component.",
+    "reason_curvature_is_not_complete": "Distinct harmonic classes have identical zero face curvature but are not gauge equivalent."
+  },
+  "gauge_structure": {
+    "constant_parameter_kernel_dimension": 1,
+    "curvature": "F = d1 A",
+    "edge_potential_space_dimension": 120,
+    "gauge_fixed_representative": "A_perp = (I - P_exact) A",
+    "gauge_fixed_space": "Harmonic(42) direct_sum Coexact(19)",
+    "gauge_orbit_dimension": 59,
+    "gauge_quotient_dimension": 61,
+    "transformation": "A -> A + d0 phi",
+    "vertex_parameter_space_dimension": 60
+  },
+  "inputs": {
+    "b1": "data/imported/project45/native_g60_B1_vertex_edge_004.csv",
+    "b2": "data/imported/project45/native_g60_B2_edge_face_004.csv",
+    "hodge_decomposition": "artifacts/json/native_g60_hodge_decomposition_003.json",
+    "hodge_projectors": "artifacts/npy/native_g60_hodge_projectors_003.npz",
+    "symmetry_commutation": "artifacts/json/native_g60_hodge_symmetry_commutation_005.json"
+  },
+  "operator_residuals": {
+    "curvature_coexact_identity_max_abs": 2.220446049250313e-15,
+    "d1_d0_max_abs": 0.0,
+    "exact_curvature_max_abs": 1.0737938316296436e-15,
+    "exact_projector_solver_max_abs": 1.3322676295501878e-15,
+    "gauge_fixed_divergence_max_abs": 1.9984014443252818e-15,
+    "gauge_fixed_idempotence_max_abs": 7.771561172376096e-16,
+    "gauge_fixed_projector_solver_max_abs": 1.3322676295501878e-15,
+    "harmonic_curvature_max_abs": 2.157996004115148e-15
+  },
+  "outputs": {
+    "gauge_fix_npz": "artifacts/npy/native_g60_gauge_fix_operators_007.npz",
+    "probe_csv": "artifacts/csv/native_g60_gauge_equivalence_probes_007.csv"
+  },
+  "probe_audit": {
+    "all_probes_pass": true,
+    "global_maximum_residuals": {
+      "coexact_invariance": 1.5543122344752192e-15,
+      "constant_potential_null": 0.0,
+      "curvature_from_coexact_only": 1.1546319456101628e-14,
+      "exact_shift": 1.021405182655144e-14,
+      "gauge_curvature": 2.6645352591003757e-15,
+      "gauge_fixed_divergence": 9.43689570931383e-15,
+      "gauge_fixed_representative": 9.769962616701378e-15,
+      "gauge_orbit_reconstruction": 8.881784197001252e-16,
+      "harmonic_invariance": 1.021405182655144e-14
+    },
+    "probe_count": 32,
+    "random_seed": 46007
+  },
+  "verdict": "native_g60_uniform_gauge_equivalence_identified"
+}

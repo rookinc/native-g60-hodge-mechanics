@@ -1,0 +1,77 @@
+{
+  "artifact_id": "native_g60_cross_flux_energy_coupling_021",
+  "audit_pass": true,
+  "boundary": {
+    "coupling_strength_derived": false,
+    "force_claim": false,
+    "mathematical_total_energy_conserved": true,
+    "physical_claim": false,
+    "physical_energy_claim": false,
+    "physical_tension_claim": false,
+    "physical_thread_claim": false,
+    "reciprocal_feedback_law_constructed": true,
+    "symmetry_invariant_interaction_scalar_constructed": true
+  },
+  "channel": {
+    "equivariance_max_abs": 1.1657341758564144e-15,
+    "frobenius_norm": 0.9999999999999999,
+    "shape": [
+      4,
+      36
+    ]
+  },
+  "checks": {
+    "all_reciprocal_coupling_probes_pass": true,
+    "channel_is_equivariant": true,
+    "channel_shape_is_4_by_36": true,
+    "energy_derivative_is_zero": true,
+    "four_flux_representation_shape_is_480_by_4_by_4": true,
+    "input_015_audit_pass": true,
+    "six_sector_dimensions_are_6_and_6": true,
+    "stiffness_is_positive": true,
+    "stiffness_is_symmetric": true
+  },
+  "construction": {
+    "coupling_used_for_probe": 0.25,
+    "equations": {
+      "f": "f_double_dot + K4 f = -g T4(u tensor v)",
+      "u": "u_double_dot = -g grad_u I",
+      "v": "v_double_dot = -g grad_v I"
+    },
+    "interaction_potential": "U_int = g I(u,v,f)",
+    "interaction_scalar": "I(u,v,f) = <f,T4(u tensor v)>"
+  },
+  "energy": {
+    "differential_balance": "dE/dt = 0",
+    "formula": "E = 1/2||u_dot||^2 + 1/2||v_dot||^2 + 1/2||f_dot||^2 + 1/2<f,K4 f> + g<f,T4(u tensor v)>",
+    "status": "finite mathematical interaction energy"
+  },
+  "four_flux_stiffness": {
+    "eigenvalues": [
+      9.999999999999988,
+      9.999999999999998,
+      10.000000000000002,
+      10.000000000000004
+    ],
+    "maximum_eigenvalue": 10.000000000000004,
+    "minimum_eigenvalue": 9.999999999999988,
+    "shape": [
+      4,
+      4
+    ]
+  },
+  "probe_audit": {
+    "all_probes_pass": true,
+    "global_maximum_residuals": {
+      "energy_derivative": 3.83026943495679e-15,
+      "gradient_f_finite_difference": 3.073334919889703e-10,
+      "gradient_u_finite_difference": 3.1580005277476175e-10,
+      "gradient_v_finite_difference": 4.211085508076806e-10,
+      "reciprocal_power_balance": 0.0,
+      "trilinear_equivariance": 9.769962616701378e-15
+    },
+    "probe_count": 64,
+    "random_seed": 46021
+  },
+  "verdict": "native_g60_cross_flux_reciprocal_energy_coupling_identified"
+}

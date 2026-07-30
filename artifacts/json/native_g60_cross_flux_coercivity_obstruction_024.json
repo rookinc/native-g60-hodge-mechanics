@@ -1,0 +1,127 @@
+{
+  "artifact_id": "native_g60_cross_flux_coercivity_obstruction_024",
+  "audit_pass": true,
+  "boundary": {
+    "actual_dynamical_escape_proved": false,
+    "constructive_escape_direction_proved": true,
+    "critical_coupling_proved": false,
+    "finite_time_blowup_proved": false,
+    "force_claim": false,
+    "physical_claim": false,
+    "physical_energy_claim": false,
+    "physical_instability_claim": false,
+    "sharp_tensor_norm_proved": false,
+    "specific_stabilizing_completion_selected": false
+  },
+  "checks": {
+    "all_ray_potentials_negative": true,
+    "channel_shape_is_4_by_36": true,
+    "extremal_candidate_stationarity_residuals_resolved": true,
+    "input_021_audit_pass": true,
+    "input_022_audit_pass": true,
+    "input_023_audit_pass": true,
+    "nonzero_bilinear_witness_found": true,
+    "quartic_ray_formula_verified": true,
+    "stiffness_is_10_identity": true,
+    "witness_below_flattening_upper_bound": true,
+    "witness_vectors_are_unit": true
+  },
+  "earned_interpretation": {
+    "bounded_low_amplitude_trajectories_remain_valid": true,
+    "energy_conservation_implies_global_boundedness": false,
+    "minimal_potential_is_noncoercive": true,
+    "numerical_extremal_is_globally_certified": false,
+    "stabilizing_terms_are_required_for_global_confinement": true
+  },
+  "extremal_search": {
+    "absolute_upper_lower_gap": 0.16666666666667196,
+    "converged_start_count": 512,
+    "distinct_rounded_terminal_values": [
+      0.333333333333
+    ],
+    "flattening_upper_bound": 0.5000000000000007,
+    "global_extremum_certified": false,
+    "maximum_iterations": 2000,
+    "random_seed": 46024,
+    "relative_upper_lower_gap": 0.3333333333333435,
+    "start_count": 512,
+    "status": "numerical extremal candidate",
+    "witness_gain_lower_bound": 0.3333333333333287
+  },
+  "outputs": {
+    "ray_csv": "artifacts/csv/native_g60_cross_flux_coercivity_ray_024.csv",
+    "start_csv": "artifacts/csv/native_g60_cross_flux_extremal_starts_024.csv",
+    "witness_npz": "artifacts/npy/native_g60_cross_flux_coercivity_obstruction_024.npz"
+  },
+  "ray_verification": {
+    "amplitudes": [
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "couplings": [
+      0.25,
+      0.5,
+      1.0,
+      1.5
+    ],
+    "maximum_formula_residual": 3.552713678800501e-15,
+    "negative_value_count": 20,
+    "row_count": 20
+  },
+  "theorem": {
+    "limit": "negative infinity as a tends to infinity for every nonzero g",
+    "ray": {
+      "f": "-(g/10) T4(a u_w, a v_w)",
+      "u": "a u_w",
+      "v": "a v_w"
+    },
+    "required_fact": "one nonzero bilinear channel witness",
+    "restricted_potential": "-g^2 sigma_w^2 a^4 / 20",
+    "statement": "Because the cross-six bilinear channel has a nonzero unit witness with gain sigma_w > 0, the potential restricted to u=a*u_w, v=a*v_w and f=-(g/10)T4(u,v) equals -g^2*sigma_w^2*a^4/20. For every nonzero g this tends to negative infinity as a tends to infinity. Therefore the minimal reciprocal 6+6+4 potential is not coercive.",
+    "status": "constructive noncoercivity theorem"
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_cross_flux_potential_noncoercive",
+  "witness": {
+    "flux": [
+      0.2311643472035716,
+      0.13174710103782927,
+      0.05555561702057265,
+      -0.19295188643453604
+    ],
+    "gain": 0.3333333333333287,
+    "quartic_descent_coefficient_at_g_1": -0.005555555555555401,
+    "stationarity_residuals": {
+      "candidate_tolerance": 1e-07,
+      "f": 6.938893903907228e-18,
+      "load_bearing_for_noncoercivity": false,
+      "u": 2.4610350986364145e-08,
+      "v": 1.6621596948711677e-08
+    },
+    "u": [
+      0.29739633023932305,
+      -0.08220388020859193,
+      -0.15912069337321672,
+      0.8993591705389873,
+      0.26501329449948346,
+      -0.01998964444948177
+    ],
+    "unit_flux_direction": [
+      0.6934930416107244,
+      0.3952413031134933,
+      0.16666685106172027,
+      -0.5788556593036162
+    ],
+    "v": [
+      0.9015132119192225,
+      -0.03071110109419172,
+      -0.0047169286958846784,
+      0.3525706140832387,
+      0.2219425831905847,
+      0.11288914668826953
+    ]
+  }
+}

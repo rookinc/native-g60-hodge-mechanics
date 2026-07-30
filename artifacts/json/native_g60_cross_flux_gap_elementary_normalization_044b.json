@@ -1,0 +1,120 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_elementary_normalization_044b",
+  "audit_pass": false,
+  "boundary": {
+    "elementary_formula_normalization_completed": false,
+    "global_nonnegativity_proved": false,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false
+  },
+  "checks": {
+    "all_direct_nonunit_probes_pass": true,
+    "all_normalized_coefficient_fits_pass": true,
+    "e3_formula_is_compact": false,
+    "five_formulas_normalized": true,
+    "input_044_theorem_pass": true
+  },
+  "earned_interpretation": {
+    "all_e1_through_e5_formulas_have_common_scale_normalizations": false,
+    "elementary_identity_chain_is_ready_for_nonnegativity_analysis": false,
+    "global_gap_psd_proved": false,
+    "noncanonical_e3_reconstruction_replaced": false
+  },
+  "formula_rows": [
+    {
+      "anchor_basis": "N2",
+      "basis_count": 1,
+      "basis_names": "[\"N2\"]",
+      "common_scale": "5/12",
+      "condition_number": 1.0,
+      "design_rank": 1,
+      "elementary_invariant": "e1",
+      "floating_maximum_residual": 1.6167622796103842e-15,
+      "formula": "(5/12)*N2",
+      "invariant_pass": true,
+      "normalized_maximum_residual": 1.6167622796103842e-15,
+      "polynomial_degree": 2,
+      "ratio_denominator_limit": 100
+    },
+    {
+      "anchor_basis": "S4",
+      "basis_count": 2,
+      "basis_names": "[\"N2^2\", \"S4\"]",
+      "common_scale": "-1/120",
+      "condition_number": 2.629253183605631,
+      "design_rank": 2,
+      "elementary_invariant": "e2",
+      "floating_maximum_residual": 6.585443995676954e-16,
+      "formula": "(271/3456)*N2^2 + (-1/120)*S4",
+      "invariant_pass": true,
+      "normalized_maximum_residual": 6.576228277210827e-16,
+      "polynomial_degree": 4,
+      "ratio_denominator_limit": 1000
+    },
+    {
+      "anchor_basis": "N2^3",
+      "basis_count": 3,
+      "basis_names": "[\"N2^3\", \"N2*S4\", \"S6\"]",
+      "common_scale": "44436804164/5431782636517",
+      "condition_number": 9.751598703520981,
+      "design_rank": 3,
+      "elementary_invariant": "e3",
+      "floating_maximum_residual": 1.9800242175016525e-16,
+      "formula": "(44436804164/5431782636517)*N2^3 + (-307147190381568/165859482806046595)*N2*S4 + (-460720785572352/829297414030232975)*S6",
+      "invariant_pass": true,
+      "normalized_maximum_residual": 1.979753166958531e-16,
+      "polynomial_degree": 6,
+      "ratio_denominator_limit": 1000000
+    },
+    {
+      "anchor_basis": "N2*S6",
+      "basis_count": 5,
+      "basis_names": "[\"N2^4\", \"N2^2*S4\", \"N2*S6\", \"S4^2\", \"S8\"]",
+      "common_scale": "-1/8640",
+      "condition_number": 26.65657923358334,
+      "design_rank": 5,
+      "elementary_invariant": "e4",
+      "floating_maximum_residual": 4.185020385794047e-17,
+      "formula": "(70403/143327232)*N2^4 + (-47/276480)*N2^2*S4 + (-1/8640)*N2*S6 + (1/57600)*S4^2",
+      "invariant_pass": true,
+      "normalized_maximum_residual": 4.2039939238125434e-17,
+      "polynomial_degree": 8,
+      "ratio_denominator_limit": 100000
+    },
+    {
+      "anchor_basis": "N2*S4^2",
+      "basis_count": 7,
+      "basis_names": "[\"N2^5\", \"N2^3*S4\", \"N2^2*S6\", \"N2*S4^2\", \"N2*S8\", \"S4*S6\", \"S10\"]",
+      "common_scale": "1/2073600",
+      "condition_number": 76.91262068746727,
+      "design_rank": 7,
+      "elementary_invariant": "e5",
+      "floating_maximum_residual": 5.349860094858161e-18,
+      "formula": "(40051/2579890176)*N2^5 + (-205/35831808)*N2^3*S4 + (-121/12441600)*N2^2*S6 + (1/2073600)*N2*S4^2 + (1/432000)*S4*S6",
+      "invariant_pass": true,
+      "normalized_maximum_residual": 5.451504048528677e-18,
+      "polynomial_degree": 10,
+      "ratio_denominator_limit": 100000
+    }
+  ],
+  "normalized_formulas": {
+    "e1": "(5/12)*N2",
+    "e2": "(271/3456)*N2^2 + (-1/120)*S4",
+    "e3": "(44436804164/5431782636517)*N2^3 + (-307147190381568/165859482806046595)*N2*S4 + (-460720785572352/829297414030232975)*S6",
+    "e4": "(70403/143327232)*N2^4 + (-47/276480)*N2^2*S4 + (-1/8640)*N2*S6 + (1/57600)*S4^2",
+    "e5": "(40051/2579890176)*N2^5 + (-205/35831808)*N2^3*S4 + (-121/12441600)*N2^2*S6 + (1/2073600)*N2*S4^2 + (1/432000)*S4*S6"
+  },
+  "outputs": {
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_gap_elementary_normalized_coefficients_044b.csv",
+    "formula_csv": "artifacts/csv/native_g60_cross_flux_gap_elementary_normalized_formulas_044b.csv",
+    "normalization_npz": "artifacts/npy/native_g60_cross_flux_gap_elementary_normalization_044b.npz",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_gap_elementary_normalized_probes_044b.csv"
+  },
+  "probe_summary": {
+    "all_probes_pass": true,
+    "maximum_probe_residual": 7.744915819785092e-13,
+    "probe_count": 4096
+  },
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_gap_elementary_normalization_failed"
+}

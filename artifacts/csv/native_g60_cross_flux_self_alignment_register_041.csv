@@ -1,0 +1,5 @@
+class_id,role,orbit_size,stabilizer_order,self_aligned,extremal,s4,s6,s8,covariant_spectrum,pencil_rank,pencil_squared_spectrum,pencil_polynomial_law,operator_norm,one_third_gap,local_status
+A10,native_extremal_axes,10,48,True,True,115/72,3275/2592,34745/31104,"[5/72,5/12,5/12,115/72]",6,"[1/144 x4,1/9 x2]",(B-I/9)(B-I/144)=0,1/3,0,analytic_strict_local_maximum
+N15,near_extremal_nonaxis,15,32,True,False,25/16,1375/1152,26875/27648,"[25/144,25/144,85/144,25/16]",4,"[0 x2,(3-sqrt(5))/48 x2,(3+sqrt(5))/48 x2]",B(B^2-B/8+I/576)=0,sqrt((3+sqrt(5))/48),1/3-sqrt((3+sqrt(5))/48),self_aligned_nonextremal
+N10,rank_four_nonaxis,10,48,True,False,25/24,125/288,625/3456,"[5/72,25/36,25/36,25/24]",4,"[0 x2,1/16 x4]",B(B-I/16)=0,1/4,1/12,self_aligned_nonextremal
+N5,isotropic_nonaxis,5,96,True,False,35/48,275/1152,2315/27648,"[85/144,85/144,85/144,35/48]",6,[1/24 x6],B=I/24,sqrt(6)/12,1/3-sqrt(6)/12,self_aligned_nonextremal

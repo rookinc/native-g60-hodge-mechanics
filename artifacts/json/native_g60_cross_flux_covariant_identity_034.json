@@ -1,0 +1,73 @@
+{
+  "artifact_id": "native_g60_cross_flux_covariant_identity_034",
+  "audit_pass": true,
+  "boundary": {
+    "full_covariant_determined_by_scalar_moments": false,
+    "global_one_third_bound_proved": false,
+    "operator_norm_reconstructed_exactly": false,
+    "physical_claim": false,
+    "quartic_covariant_identity_proved": true,
+    "sextic_directional_identity_proved": true
+  },
+  "checks": {
+    "axis_register_shape_is_10_by_4": true,
+    "input_033_audit_pass": true,
+    "probe_audit_pass": true,
+    "quartic_identity_coefficientwise_exact": true,
+    "quartic_monomial_count_is_35": true,
+    "sextic_identity_coefficientwise_exact": true,
+    "sextic_monomial_count_is_84": true
+  },
+  "coefficient_certificates": {
+    "quartic": {
+      "degree": 4,
+      "maximum_residual": 3.552713678800501e-15,
+      "monomial_count": 35,
+      "rational_coefficients": [
+        "25/54",
+        "55/36"
+      ]
+    },
+    "sextic": {
+      "degree": 6,
+      "maximum_residual": 5.440092820663267e-15,
+      "monomial_count": 84,
+      "rational_coefficients": [
+        "-625/1152",
+        "55/48",
+        "1"
+      ]
+    }
+  },
+  "definition": {
+    "S4": "S4(f)=sum_i <f,q_i>^4",
+    "S6": "S6(f)=sum_i <f,q_i>^6",
+    "covariant": "C(f)=sum_i <f,q_i>^2 q_i q_i^T"
+  },
+  "earned_interpretation": {
+    "directional_c_squared_reduces_to_scalar_register_moments": true,
+    "full_covariant_matrix_remains_richer_than_its_scalar_contractions": true,
+    "global_operator_norm_bound_proved": false,
+    "trace_c_squared_adds_no_information_beyond_s4_on_unit_sphere": true
+  },
+  "identities": {
+    "f_transpose_c_f": "f^T C(f) f = S4(f)",
+    "f_transpose_c_squared_f": "f^T C(f)^2 f = (-625/1152) norm_sixth + (55/48) norm_squared_times_S4 + (1) S6",
+    "trace_c_squared": "tr(C(f)^2) = (25/54) norm_fourth + (55/36) S4"
+  },
+  "outputs": {
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_covariant_identity_coefficients_034.csv",
+    "identity_csv": "artifacts/csv/native_g60_cross_flux_covariant_identities_034.csv",
+    "identity_npz": "artifacts/npy/native_g60_cross_flux_covariant_identity_034.npz",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_covariant_identity_probes_034.csv"
+  },
+  "probe_summary": {
+    "all_probes_pass": true,
+    "maximum_f_transpose_c_f_residual": 1.3322676295501878e-15,
+    "maximum_quartic_residual": 3.9968028886505635e-15,
+    "maximum_sextic_residual": 4.440892098500626e-15,
+    "probe_count": 4096
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_cross_flux_covariant_contraction_identities_exact"
+}

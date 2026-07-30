@@ -1,0 +1,629 @@
+{
+  "artifact_id": "native_g60_cross_flux_covariant_residual_zero_locus_036",
+  "audit_pass": false,
+  "axis_jacobian": {
+    "all_axes_locally_isolated": true,
+    "axis_rows": [
+      {
+        "axis_id": 0,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.3888888888939321,
+        "minimum_singular_value": 0.3472222221053595
+      },
+      {
+        "axis_id": 1,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.3888888889275783,
+        "minimum_singular_value": 0.3472222220898408
+      },
+      {
+        "axis_id": 2,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.388888888849412,
+        "minimum_singular_value": 0.347222222201097
+      },
+      {
+        "axis_id": 3,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.38888888885103,
+        "minimum_singular_value": 0.3472222221683301
+      },
+      {
+        "axis_id": 4,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.3888888889044406,
+        "minimum_singular_value": 0.3472222222022088
+      },
+      {
+        "axis_id": 5,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.3888888888867608,
+        "minimum_singular_value": 0.3472222221893217
+      },
+      {
+        "axis_id": 6,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.3888888888810111,
+        "minimum_singular_value": 0.3472222221680892
+      },
+      {
+        "axis_id": 7,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.388888888880073,
+        "minimum_singular_value": 0.3472222221183541
+      },
+      {
+        "axis_id": 8,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.3888888888921838,
+        "minimum_singular_value": 0.34722222219036103
+      },
+      {
+        "axis_id": 9,
+        "jacobian_rank": 3,
+        "locally_isolated": true,
+        "maximum_singular_value": 1.388888888880437,
+        "minimum_singular_value": 0.3472222221692749
+      }
+    ],
+    "minimum_tangent_jacobian_singular_value": 0.3472222220898408
+  },
+  "boundary": {
+    "global_algebraic_zero_locus_proved": false,
+    "global_one_third_bound_proved": false,
+    "local_isolation_proved_numerically": true,
+    "multistart_zero_locus_census_completed": false,
+    "physical_claim": false,
+    "r_equals_zero_iff_native_axis_proved": false
+  },
+  "checks": {
+    "all_native_axes_locally_isolated": true,
+    "all_recovered_root_clusters_match_native_axes": false,
+    "all_ten_native_axis_lines_recovered": true,
+    "at_least_one_root_recovered": true,
+    "axis_line_count_is_10": true,
+    "exclusion_search_completed": true,
+    "input_035_theorem_pass": true,
+    "no_non_axis_zero_found": false,
+    "root_search_completed": true
+  },
+  "earned_interpretation": {
+    "all_recovered_real_projective_zeros_are_native_axes": false,
+    "all_ten_native_axes_recovered": true,
+    "complete_real_zero_locus_proved": false,
+    "native_axis_zeros_are_locally_isolated": true,
+    "non_axis_zero_found": true
+  },
+  "exclusion_search": {
+    "best_valid_axis_distance": 0.842024673785866,
+    "best_valid_residual_norm": 1.3877787807814457e-17,
+    "exclusion_radius": 0.05,
+    "non_axis_zero_found": true,
+    "start_count": 512,
+    "valid_exclusion_count": 394
+  },
+  "outputs": {
+    "axis_csv": "artifacts/csv/native_g60_cross_flux_covariant_residual_axis_jacobians_036.csv",
+    "exclusion_csv": "artifacts/csv/native_g60_cross_flux_covariant_residual_exclusion_search_036.csv",
+    "root_csv": "artifacts/csv/native_g60_cross_flux_covariant_residual_roots_036.csv",
+    "start_csv": "artifacts/csv/native_g60_cross_flux_covariant_residual_starts_036.csv",
+    "zero_locus_npz": "artifacts/npy/native_g60_cross_flux_covariant_residual_zero_locus_036.npz"
+  },
+  "root_search": {
+    "accepted_root_count": 2048,
+    "all_clusters_match_axes": false,
+    "all_ten_axes_recovered": true,
+    "cluster_rows": [
+      {
+        "axis_distance": 0.8420246737858658,
+        "cluster_id": 0,
+        "cluster_size": 93,
+        "f0": 0.41489778145221534,
+        "f1": 0.4391159712482318,
+        "f2": 8.215051954841127e-16,
+        "f3": 0.7968920847522278,
+        "matches_native_axis": false,
+        "nearest_axis_id": 6,
+        "residual_norm": 4.081762055578507e-16
+      },
+      {
+        "axis_distance": 0.8420246737858655,
+        "cluster_id": 1,
+        "cluster_size": 88,
+        "f0": 0.4579639560315349,
+        "f1": -0.280032199726701,
+        "f2": 0.6454972243679017,
+        "f3": 0.5433086741673708,
+        "matches_native_axis": false,
+        "nearest_axis_id": 1,
+        "residual_norm": 6.206335383118183e-16
+      },
+      {
+        "axis_distance": 0.8420246737858657,
+        "cluster_id": 2,
+        "cluster_size": 87,
+        "f0": 0.024098142754118493,
+        "f1": 0.870222052124732,
+        "f2": 3.258538363672931e-15,
+        "f3": -0.49206997420247295,
+        "matches_native_axis": false,
+        "nearest_axis_id": 0,
+        "residual_norm": 8.042889475864443e-16
+      },
+      {
+        "axis_distance": 0.8420246737858658,
+        "cluster_id": 3,
+        "cluster_size": 84,
+        "f0": -0.04306617457931948,
+        "f1": 0.7191481709749329,
+        "f2": -0.6454972243679011,
+        "f3": 0.25358341058485656,
+        "matches_native_axis": false,
+        "nearest_axis_id": 1,
+        "residual_norm": 4.815412394636862e-16
+      },
+      {
+        "axis_distance": 0.8420246737858647,
+        "cluster_id": 4,
+        "cluster_size": 80,
+        "f0": -0.537177344742033,
+        "f1": -0.30615270748547,
+        "f2": 0.6454972243679001,
+        "f3": 0.4483796977211973,
+        "matches_native_axis": false,
+        "nearest_axis_id": 0,
+        "residual_norm": 1.227537204523176e-15
+      },
+      {
+        "axis_distance": 0.8420246737858649,
+        "cluster_id": 5,
+        "cluster_size": 79,
+        "f0": -0.0671643173334376,
+        "f1": -0.1510738811497989,
+        "f2": -0.6454972243679032,
+        "f3": 0.7456533847873303,
+        "matches_native_axis": false,
+        "nearest_axis_id": 6,
+        "residual_norm": 1.4106960734103326e-15
+      },
+      {
+        "axis_distance": 0.842024673785866,
+        "cluster_id": 6,
+        "cluster_size": 77,
+        "f0": -0.5802435193213511,
+        "f1": 0.412995463489463,
+        "f2": 1.6562284127503415e-16,
+        "f3": 0.7019631083060538,
+        "matches_native_axis": false,
+        "nearest_axis_id": 0,
+        "residual_norm": 3.570113697685536e-16
+      },
+      {
+        "axis_distance": 0.8420246737858653,
+        "cluster_id": 7,
+        "cluster_size": 73,
+        "f0": -0.5130792019879141,
+        "f1": 0.5640693446392627,
+        "f2": 0.6454972243679036,
+        "f3": -0.04369027648127549,
+        "matches_native_axis": false,
+        "nearest_axis_id": 2,
+        "residual_norm": 8.618765454229259e-16
+      },
+      {
+        "axis_distance": 0.8420246737858657,
+        "cluster_id": 8,
+        "cluster_size": 73,
+        "f0": 0.9951413007735666,
+        "f1": 0.026120507758769118,
+        "f2": 6.61359547008861e-16,
+        "f3": 0.09492897644617386,
+        "matches_native_axis": false,
+        "nearest_axis_id": 3,
+        "residual_norm": 1.6840031719004235e-16
+      },
+      {
+        "axis_distance": 0.8420246737858651,
+        "cluster_id": 9,
+        "cluster_size": 67,
+        "f0": 0.4820620987856534,
+        "f1": 0.5901898523980316,
+        "f2": 0.6454972243679038,
+        "f3": 0.05123869996489834,
+        "matches_native_axis": false,
+        "nearest_axis_id": 3,
+        "residual_norm": 9.057848289240456e-16
+      },
+      {
+        "axis_distance": 0.8804857344718369,
+        "cluster_id": 10,
+        "cluster_size": 59,
+        "f0": -0.08714485551127041,
+        "f1": 0.4491021590075083,
+        "f2": -0.40824829046386296,
+        "f3": 0.789966048805927,
+        "matches_native_axis": false,
+        "nearest_axis_id": 8,
+        "residual_norm": 8.617648093045562e-16
+      },
+      {
+        "axis_distance": 0.4174423812329622,
+        "cluster_id": 11,
+        "cluster_size": 59,
+        "f0": -0.06942474824732016,
+        "f1": 0.7093591396508162,
+        "f2": 0.4564354645876402,
+        "f3": 0.5325941062303591,
+        "matches_native_axis": false,
+        "nearest_axis_id": 8,
+        "residual_norm": 7.531177654404661e-16
+      },
+      {
+        "axis_distance": 0.41744238123296246,
+        "cluster_id": 12,
+        "cluster_size": 56,
+        "f0": 0.7511635062560291,
+        "f1": 0.12529535398545497,
+        "f2": 0.45643546458763984,
+        "f3": -0.460131641821635,
+        "matches_native_axis": false,
+        "nearest_axis_id": 0,
+        "residual_norm": 2.7194799110210365e-16
+      },
+      {
+        "axis_distance": 0.4174423812329598,
+        "cluster_id": 13,
+        "cluster_size": 54,
+        "f0": 0.7207111221712288,
+        "f1": 0.6338099023597338,
+        "f2": 9.94484072990179e-16,
+        "f3": -0.2808210926006681,
+        "matches_native_axis": false,
+        "nearest_axis_id": 3,
+        "residual_norm": 6.530440769261223e-16
+      },
+      {
+        "axis_distance": 0.8804857344718369,
+        "cluster_id": 14,
+        "cluster_size": 54,
+        "f0": 0.019051254620723636,
+        "f1": 0.6879709387049788,
+        "f2": 0.6123724356957975,
+        "f3": -0.3890154716650266,
+        "matches_native_axis": false,
+        "nearest_axis_id": 9,
+        "residual_norm": 9.396246243876959e-16
+      },
+      {
+        "axis_distance": 0.41744238123296035,
+        "cluster_id": 15,
+        "cluster_size": 52,
+        "f0": -0.03897236416252045,
+        "f1": 0.20084459127653892,
+        "f2": 0.9128709291752761,
+        "f3": 0.3532835570093969,
+        "matches_native_axis": false,
+        "nearest_axis_id": 7,
+        "residual_norm": 5.743794908190346e-16
+      },
+      {
+        "axis_distance": 0.41744238123296085,
+        "cluster_id": 16,
+        "cluster_size": 52,
+        "f0": -0.42733408740711437,
+        "f1": -0.32330802136279124,
+        "f2": -2.894694292519563e-15,
+        "f3": 0.8443088896028548,
+        "matches_native_axis": false,
+        "nearest_axis_id": 0,
+        "residual_norm": 2.661296653564706e-16
+      },
+      {
+        "axis_distance": 0.41744238123296246,
+        "cluster_id": 17,
+        "cluster_size": 51,
+        "f0": 0.7341235461005907,
+        "f1": -0.49004456021001624,
+        "f2": 0.45643546458763784,
+        "f3": -0.11218562624477668,
+        "matches_native_axis": false,
+        "nearest_axis_id": 1,
+        "residual_norm": 8.920730087951354e-16
+      },
+      {
+        "axis_distance": 0.4174423812329611,
+        "cluster_id": 18,
+        "cluster_size": 46,
+        "f0": 0.6732187779309906,
+        "f1": 0.5269845365385394,
+        "f2": -0.4564354645876359,
+        "f3": 0.2464354721971518,
+        "matches_native_axis": false,
+        "nearest_axis_id": 3,
+        "residual_norm": 9.238896857051836e-16
+      },
+      {
+        "axis_distance": 0.0,
+        "cluster_id": 19,
+        "cluster_size": 45,
+        "f0": 0.6934929700486072,
+        "f1": 0.39524144582917453,
+        "f2": 0.1666666666666735,
+        "f3": -0.578855700683897,
+        "matches_native_axis": true,
+        "nearest_axis_id": 0,
+        "residual_norm": 3.128879526812945e-15
+      },
+      {
+        "axis_distance": 0.41744238123296196,
+        "cluster_id": 20,
+        "cluster_size": 44,
+        "f0": 0.6866312018603514,
+        "f1": -0.5968699260312101,
+        "f2": -1.2624206572760053e-15,
+        "f3": 0.4150709385530466,
+        "matches_native_axis": false,
+        "nearest_axis_id": 5,
+        "residual_norm": 1.2441048548802037e-15
+      },
+      {
+        "axis_distance": 0.4174423812329614,
+        "cluster_id": 21,
+        "cluster_size": 44,
+        "f0": 0.3104169949195529,
+        "f1": 0.9258417951924132,
+        "f2": 3.3360735173797787e-15,
+        "f3": 0.21554178142532837,
+        "matches_native_axis": false,
+        "nearest_axis_id": 8,
+        "residual_norm": 4.603949291125036e-16
+      },
+      {
+        "axis_distance": 0.41744238123296085,
+        "cluster_id": 22,
+        "cluster_size": 43,
+        "f0": 0.6561788177755511,
+        "f1": -0.0883553776569309,
+        "f2": -0.45643546458764095,
+        "f3": 0.5943814877740101,
+        "matches_native_axis": false,
+        "nearest_axis_id": 4,
+        "residual_norm": 1.3788683915077173e-15
+      },
+      {
+        "axis_distance": 0.41744238123296273,
+        "cluster_id": 23,
+        "cluster_size": 41,
+        "f0": -0.08646470840275906,
+        "f1": 0.09401922545534452,
+        "f2": 0.45643546458763806,
+        "f3": 0.8805401218072179,
+        "matches_native_axis": false,
+        "nearest_axis_id": 7,
+        "residual_norm": 2.387624894196368e-16
+      },
+      {
+        "axis_distance": 0.8804857344718369,
+        "cluster_id": 24,
+        "cluster_size": 41,
+        "f0": 0.01905125462072389,
+        "f1": 0.6879709387049825,
+        "f2": -0.6123724356957926,
+        "f3": -0.3890154716650277,
+        "matches_native_axis": false,
+        "nearest_axis_id": 9,
+        "residual_norm": 1.1209924842431371e-15
+      },
+      {
+        "axis_distance": 0.4174423812329614,
+        "cluster_id": 25,
+        "cluster_size": 40,
+        "f0": -0.3323493989266369,
+        "f1": -0.1096572897204039,
+        "f2": 0.9128709291752762,
+        "f3": -0.2102042399927901,
+        "matches_native_axis": false,
+        "nearest_axis_id": 4,
+        "residual_norm": 5.003707553108401e-16
+      },
+      {
+        "axis_distance": 0.4174423812329611,
+        "cluster_id": 26,
+        "cluster_size": 39,
+        "f0": 0.3713217630891562,
+        "f1": -0.09118730155614219,
+        "f2": 0.9128709291752766,
+        "f3": -0.14307931701660165,
+        "matches_native_axis": false,
+        "nearest_axis_id": 1,
+        "residual_norm": 1.0103182026100664e-15
+      },
+      {
+        "axis_distance": 0.0,
+        "cluster_id": 27,
+        "cluster_size": 36,
+        "f0": -0.055598192310190656,
+        "f1": 0.9284162965471453,
+        "f2": 0.16666666666666455,
+        "f3": 0.32737477535654,
+        "matches_native_axis": true,
+        "nearest_axis_id": 8,
+        "residual_norm": 2.6665944475439295e-15
+      },
+      {
+        "axis_distance": 0.0,
+        "cluster_id": 28,
+        "cluster_size": 36,
+        "f0": -4.248417991771404e-15,
+        "f1": -2.1847760746789706e-15,
+        "f2": 1.0,
+        "f3": 2.2601248019960903e-15,
+        "matches_native_axis": true,
+        "nearest_axis_id": 9,
+        "residual_norm": 1.1214993808762262e-15
+      },
+      {
+        "axis_distance": 0.8804857344718368,
+        "cluster_id": 29,
+        "cluster_size": 36,
+        "f0": 0.8303007037924236,
+        "f1": -0.20390100496429955,
+        "f2": -0.40824829046386235,
+        "f3": -0.319935079023368,
+        "matches_native_axis": false,
+        "nearest_axis_id": 0,
+        "residual_norm": 3.3766115072321297e-16
+      },
+      {
+        "axis_distance": 0.4174423812329611,
+        "cluster_id": 30,
+        "cluster_size": 36,
+        "f0": 0.27633707460867624,
+        "f1": -0.3048380331985295,
+        "f2": -1.3277449492213265e-15,
+        "f3": 0.9114338125790437,
+        "matches_native_axis": false,
+        "nearest_axis_id": 6,
+        "residual_norm": 1.159062478901209e-16
+      },
+      {
+        "axis_distance": 0.0,
+        "cluster_id": 31,
+        "cluster_size": 35,
+        "f0": 0.5912289249578006,
+        "f1": -0.3615200153144492,
+        "f2": -0.16666666666666402,
+        "f3": 0.7014084823000839,
+        "matches_native_axis": true,
+        "nearest_axis_id": 5,
+        "residual_norm": 2.010699415441723e-15
+      },
+      {
+        "axis_distance": 0.880485734471837,
+        "cluster_id": 32,
+        "cluster_size": 35,
+        "f0": 0.743155848281152,
+        "f1": 0.24520115404320475,
+        "f2": 0.40824829046386335,
+        "f3": 0.47003096978256126,
+        "matches_native_axis": false,
+        "nearest_axis_id": 3,
+        "residual_norm": 3.6506759942727966e-16
+      },
+      {
+        "axis_distance": 0.4174423812329611,
+        "cluster_id": 33,
+        "cluster_size": 35,
+        "f0": -0.3932541670962357,
+        "f1": 0.907371807028152,
+        "f2": 3.5730111736868075e-15,
+        "f3": 0.14841685844914002,
+        "matches_native_axis": false,
+        "nearest_axis_id": 8,
+        "residual_norm": 2.5943974335363627e-16
+      },
+      {
+        "axis_distance": 0.0,
+        "cluster_id": 34,
+        "cluster_size": 33,
+        "f0": 0.677937685788396,
+        "f1": -0.1664844734010758,
+        "f2": 0.6666666666666693,
+        "f3": -0.26122589814142216,
+        "matches_native_axis": true,
+        "nearest_axis_id": 1,
+        "residual_norm": 1.961044852356119e-15
+      },
+      {
+        "axis_distance": 0.0,
+        "cluster_id": 35,
+        "cluster_size": 32,
+        "f0": -0.662382401528192,
+        "f1": 0.7282103926313362,
+        "f2": -0.1666666666666623,
+        "f3": -0.05640390440106125,
+        "matches_native_axis": true,
+        "nearest_axis_id": 2,
+        "residual_norm": 1.429412144204889e-15
+      },
+      {
+        "axis_distance": 0.0,
+        "cluster_id": 36,
+        "cluster_size": 32,
+        "f0": -0.07115347657039368,
+        "f1": 0.3666903773168864,
+        "f2": 0.6666666666666685,
+        "f3": 0.6450045778990249,
+        "matches_native_axis": true,
+        "nearest_axis_id": 7,
+        "residual_norm": 3.2159359137519293e-16
+      },
+      {
+        "axis_distance": 2.1073424255447017e-08,
+        "cluster_id": 37,
+        "cluster_size": 30,
+        "f0": -0.6067842092180046,
+        "f1": -0.2002059039158153,
+        "f2": 0.6666666666666672,
+        "f3": -0.38377867975760066,
+        "matches_native_axis": true,
+        "nearest_axis_id": 4,
+        "residual_norm": 1.2994827337208943e-15
+      },
+      {
+        "axis_distance": 0.0,
+        "cluster_id": 38,
+        "cluster_size": 27,
+        "f0": 0.6223394934782073,
+        "f1": 0.7619318231460679,
+        "f2": -0.16666666666666158,
+        "f3": 0.0661488772151223,
+        "matches_native_axis": true,
+        "nearest_axis_id": 3,
+        "residual_norm": 2.0253964504621837e-15
+      },
+      {
+        "axis_distance": 0.0,
+        "cluster_id": 39,
+        "cluster_size": 24,
+        "f0": -0.08670876083060083,
+        "f1": -0.1950355419133667,
+        "f2": 0.16666666666666513,
+        "f3": 0.962634380441507,
+        "matches_native_axis": true,
+        "nearest_axis_id": 6,
+        "residual_norm": 1.232860053741059e-15
+      }
+    ],
+    "matched_axis_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "projective_cluster_count": 40,
+    "start_count": 2048
+  },
+  "system": {
+    "equation": "C(f)f-S4(f)f=0",
+    "projective_identification": "f equivalent to -f",
+    "sphere_constraint": "||f||^2=1"
+  },
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_residual_zero_locus_census_incomplete"
+}

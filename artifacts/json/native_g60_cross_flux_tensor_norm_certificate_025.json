@@ -1,0 +1,201 @@
+{
+  "artifact_id": "native_g60_cross_flux_tensor_norm_certificate_025",
+  "audit_pass": false,
+  "base_matrix": {
+    "maximum_eigenvalue": 0.11111111111111145,
+    "minimum_eigenvalue": -0.1388888888888902,
+    "negative_eigenvalue_count": 4
+  },
+  "boundary": {
+    "exact_rank_one_upper_bound_proved": false,
+    "numerical_sos_candidate_search_completed": true,
+    "physical_claim": false,
+    "quartic_descent_rate_minus_one_over_180_proved": false,
+    "rank_one_upper_bound_numerically_supported": false,
+    "sharp_tensor_norm_proved": false
+  },
+  "certificate_model": {
+    "base_quadratic_form": "(1/9)I36 - T4^T T4",
+    "candidate_form": "Q = base + sum lambda_m M_m",
+    "minor_count": 225,
+    "rank_one_coordinate": "z = u tensor v in R^36",
+    "rank_one_relations": "z_ab z_cd - z_ad z_cb = 0",
+    "required_property": "Q positive semidefinite"
+  },
+  "certificate_status": {
+    "exact_rational_certificate_recovered": false,
+    "numerical_certificate_pass": false,
+    "sharp_tensor_norm_proved": false
+  },
+  "checks": {
+    "channel_shape_is_4_by_36": true,
+    "input_024_theorem_pass": true,
+    "lower_bound_witness_matches_one_third": true,
+    "numerical_gram_candidate_found": true,
+    "numerical_gram_candidate_psd": false,
+    "numerical_solver_available": true,
+    "rank_one_identity_resolved_on_probes": true,
+    "rank_one_minor_count_is_225": true
+  },
+  "outputs": {
+    "candidate_npz": "artifacts/npy/native_g60_cross_flux_tensor_norm_certificate_025.npz",
+    "minor_multiplier_csv": "artifacts/csv/native_g60_cross_flux_rank_one_minor_multipliers_025.csv",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_tensor_norm_certificate_probes_025.csv"
+  },
+  "probe_summary": {
+    "maximum_flux_norm": 0.3167957752787825,
+    "maximum_identity_residual": 1.1102230246251565e-16,
+    "maximum_minor_residual": 5.551115123125783e-17,
+    "minimum_direct_gap": 0.010751547876626244,
+    "probe_count": 4096
+  },
+  "solver_search": {
+    "evaluation_count": 178,
+    "iteration_count": 136,
+    "maximum_gram_eigenvalue": 0.3062241928865923,
+    "message": "Smooth minimum-eigenvalue homotopy completed.",
+    "minimum_eigenvalue_multiplicity": 8,
+    "minimum_gram_eigenvalue": -0.013888888983342352,
+    "objective_margin": -0.013888888983342352,
+    "solver_available": true,
+    "solver_backend": "scipy_l_bfgs_b_soft_minimum_homotopy",
+    "stage_rows": [
+      {
+        "evaluation_count": 14,
+        "gradient_max_abs": 1.9145499421946433e-11,
+        "iteration_count": 12,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "minimum_eigenvalue_multiplicity": 4,
+        "multiplier_norm": 0.4381734043277438,
+        "smooth_objective": -0.14171143403681366,
+        "stage_id": 1,
+        "status": 0,
+        "success": true,
+        "temperature": 0.05,
+        "true_minimum_eigenvalue": -0.02992448462802745
+      },
+      {
+        "evaluation_count": 18,
+        "gradient_max_abs": 3.3061036460585447e-09,
+        "iteration_count": 15,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "minimum_eigenvalue_multiplicity": 4,
+        "multiplier_norm": 0.5574662680407425,
+        "smooth_objective": -0.060036614414010446,
+        "stage_id": 2,
+        "status": 0,
+        "success": true,
+        "temperature": 0.02,
+        "true_minimum_eigenvalue": -0.017642149904009446
+      },
+      {
+        "evaluation_count": 38,
+        "gradient_max_abs": 1.395915894594063e-08,
+        "iteration_count": 31,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "minimum_eigenvalue_multiplicity": 4,
+        "multiplier_norm": 0.6413738534575254,
+        "smooth_objective": -0.035416033173469676,
+        "stage_id": 3,
+        "status": 0,
+        "success": true,
+        "temperature": 0.01,
+        "true_minimum_eigenvalue": -0.014482158041831894
+      },
+      {
+        "evaluation_count": 30,
+        "gradient_max_abs": 7.749357089185949e-09,
+        "iteration_count": 25,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "minimum_eigenvalue_multiplicity": 4,
+        "multiplier_norm": 0.6784396311004184,
+        "smooth_objective": -0.02431783871971191,
+        "stage_id": 4,
+        "status": 0,
+        "success": true,
+        "temperature": 0.005,
+        "true_minimum_eigenvalue": -0.013914311829941177
+      },
+      {
+        "evaluation_count": 60,
+        "gradient_max_abs": 2.031416834139682e-08,
+        "iteration_count": 48,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "minimum_eigenvalue_multiplicity": 8,
+        "multiplier_norm": 0.6996858792219097,
+        "smooth_objective": -0.018047779031276797,
+        "stage_id": 5,
+        "status": 0,
+        "success": true,
+        "temperature": 0.002,
+        "true_minimum_eigenvalue": -0.013888895145382156
+      },
+      {
+        "evaluation_count": 6,
+        "gradient_max_abs": 1.5838044907902707e-08,
+        "iteration_count": 2,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "minimum_eigenvalue_multiplicity": 8,
+        "multiplier_norm": 0.6996858954401166,
+        "smooth_objective": -0.015968330430587895,
+        "stage_id": 6,
+        "status": 0,
+        "success": true,
+        "temperature": 0.001,
+        "true_minimum_eigenvalue": -0.013888889211291711
+      },
+      {
+        "evaluation_count": 4,
+        "gradient_max_abs": 3.859373737995567e-08,
+        "iteration_count": 1,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "minimum_eigenvalue_multiplicity": 8,
+        "multiplier_norm": 0.6996858952604249,
+        "smooth_objective": -0.014928609659731501,
+        "stage_id": 7,
+        "status": 0,
+        "success": true,
+        "temperature": 0.0005,
+        "true_minimum_eigenvalue": -0.013888889424984145
+      },
+      {
+        "evaluation_count": 4,
+        "gradient_max_abs": 1.538409168631849e-08,
+        "iteration_count": 1,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "minimum_eigenvalue_multiplicity": 8,
+        "multiplier_norm": 0.6996858954249486,
+        "smooth_objective": -0.014304777197227458,
+        "stage_id": 8,
+        "status": 0,
+        "success": true,
+        "temperature": 0.0002,
+        "true_minimum_eigenvalue": -0.013888889034916559
+      },
+      {
+        "evaluation_count": 4,
+        "gradient_max_abs": 3.243372211818654e-08,
+        "iteration_count": 1,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "minimum_eigenvalue_multiplicity": 8,
+        "multiplier_norm": 0.699685895316667,
+        "smooth_objective": -0.014096833043059451,
+        "stage_id": 9,
+        "status": 0,
+        "success": true,
+        "temperature": 0.0001,
+        "true_minimum_eigenvalue": -0.013888888983342352
+      }
+    ],
+    "status": "candidate_not_psd",
+    "success": true
+  },
+  "target": {
+    "inequality": "||T4(u,v)|| <= (1/3)||u||||v||",
+    "known_lower_bound_witness": 0.3333333333333287,
+    "target_norm": "1/3",
+    "target_norm_squared": 0.1111111111111111
+  },
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_tensor_norm_certificate_not_found"
+}

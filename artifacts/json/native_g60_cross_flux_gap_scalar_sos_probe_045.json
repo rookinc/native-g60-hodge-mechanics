@@ -1,0 +1,80 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_scalar_sos_probe_045",
+  "audit_pass": true,
+  "boundary": {
+    "failure_would_only_cover_tested_multistart_search": true,
+    "floating_candidates_are_not_exact_certificates": true,
+    "global_one_third_bound_proved": false,
+    "nonlinear_gram_search_only": true,
+    "physical_claim": false
+  },
+  "candidate_count": 2,
+  "checks": {
+    "all_best_gram_matrices_numerically_psd": true,
+    "input_044c_theorem_pass": true,
+    "quartic_e2_probe_completed": true,
+    "sextic_e3_probe_completed": true,
+    "summary_row_count_is_2": true
+  },
+  "definition": {
+    "gram_constraint": "Qk=Lk Lk^T",
+    "quartic_form": "e2=z2^T Q2 z2",
+    "sextic_form": "e3=z3^T Q3 z3",
+    "target_invariants": [
+      "e2(G)",
+      "e3(G)"
+    ]
+  },
+  "earned_interpretation": {
+    "exact_rational_sos_certificate_found": false,
+    "floating_psd_gram_candidate_for_e2": true,
+    "floating_psd_gram_candidate_for_e3": true,
+    "global_gap_psd_proved": false,
+    "global_nonnegativity_proved": false
+  },
+  "outputs": {
+    "gram_csv": "artifacts/csv/native_g60_cross_flux_gap_scalar_sos_gram_entries_045.csv",
+    "probe_npz": "artifacts/npy/native_g60_cross_flux_gap_scalar_sos_probe_045.npz",
+    "summary_csv": "artifacts/csv/native_g60_cross_flux_gap_scalar_sos_summary_045.csv"
+  },
+  "results": [
+    {
+      "best_nfev": 177,
+      "best_start_id": 5,
+      "coefficient_constraint_count": 35,
+      "coefficient_residual_l2": 5.396794253521553e-13,
+      "elementary_invariant": "e2",
+      "floating_psd_gram_candidate_found": true,
+      "gram_size": 10,
+      "maximum_coefficient_residual": 3.760047828649249e-13,
+      "maximum_gram_eigenvalue": 0.23903504353040567,
+      "minimum_gram_eigenvalue": 0.010900162586519754,
+      "monomial_count": 10,
+      "monomial_degree": 2,
+      "numerical_rank": 10,
+      "polynomial_degree": 4,
+      "start_count": 6,
+      "symmetric_gram_variable_count": 55
+    },
+    {
+      "best_nfev": 1271,
+      "best_start_id": 4,
+      "coefficient_constraint_count": 84,
+      "coefficient_residual_l2": 2.481505686924006e-14,
+      "elementary_invariant": "e3",
+      "floating_psd_gram_candidate_found": true,
+      "gram_size": 20,
+      "maximum_coefficient_residual": 9.957312752106873e-15,
+      "maximum_gram_eigenvalue": 0.08505172979142703,
+      "minimum_gram_eigenvalue": 5.538058926803591e-06,
+      "monomial_count": 20,
+      "monomial_degree": 3,
+      "numerical_rank": 20,
+      "polynomial_degree": 6,
+      "start_count": 6,
+      "symmetric_gram_variable_count": 210
+    }
+  ],
+  "theorem_pass": false,
+  "verdict": "floating_psd_gram_candidates_found_for_e2_and_e3"
+}

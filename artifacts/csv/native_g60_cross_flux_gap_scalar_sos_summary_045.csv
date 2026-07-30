@@ -1,0 +1,3 @@
+elementary_invariant,polynomial_degree,monomial_degree,monomial_count,gram_size,symmetric_gram_variable_count,coefficient_constraint_count,start_count,best_start_id,best_nfev,maximum_coefficient_residual,coefficient_residual_l2,minimum_gram_eigenvalue,maximum_gram_eigenvalue,numerical_rank,floating_psd_gram_candidate_found
+e2,4,2,10,10,55,35,6,5,177,3.760047828649249e-13,5.396794253521553e-13,0.010900162586519754,0.23903504353040567,10,True
+e3,6,3,20,20,210,84,6,4,1271,9.957312752106873e-15,2.481505686924006e-14,5.538058926803591e-06,0.08505172979142703,20,True

@@ -1,0 +1,417 @@
+{
+  "artifact_id": "native_g60_cross_flux_axis_extremal_certificate_030",
+  "audit_pass": true,
+  "boundary": {
+    "all_global_maximizers_classified": false,
+    "finite_axis_spectral_certificate_completed": true,
+    "global_operator_norm_bound_proved": false,
+    "local_maximality_analytically_proved": false,
+    "local_neighborhood_sampling_completed": true,
+    "physical_claim": false
+  },
+  "checks": {
+    "all_axis_spectral_certificates_pass": true,
+    "all_local_probe_rows_completed": true,
+    "all_sampled_neighborhood_points_drop_below_one_third": true,
+    "axis_line_count_is_10": true,
+    "every_axis_has_high_multiplicity_two": true,
+    "every_axis_has_low_multiplicity_four": true,
+    "input_029_theorem_pass": true,
+    "slice_shape_is_4_by_6_by_6": true
+  },
+  "earned_interpretation": {
+    "complete_equality_locus_proved": false,
+    "global_one_third_upper_bound_proved": false,
+    "native_axes_are_proved_strict_local_maxima": false,
+    "native_axes_are_sampled_strict_local_maxima": true,
+    "native_axes_have_exact_one_third_extremal_spectrum": true
+  },
+  "finite_axis_certificate": {
+    "all_axes_pass": true,
+    "axis_rows": [
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 0,
+        "high_projector_idempotence_max_abs": 2.7755575615628914e-15,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 7.105427357601002e-15,
+        "low_projector_idempotence_max_abs": 2.6645352591003757e-15,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 7.105427357601002e-15,
+        "maximum_eigenvalue_residual": 3.469446951953614e-16,
+        "maximum_singular_value_residual": 5.551115123125783e-16,
+        "minimum_singular_value": 0.08333333333333315,
+        "operator_norm": 0.33333333333333387,
+        "polynomial_identity_max_abs": 2.887582840071995e-17,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 2.66983044361929e-15,
+        "singular_values": [
+          0.08333333333333315,
+          0.0833333333333332,
+          0.08333333333333369,
+          0.08333333333333373,
+          0.33333333333333376,
+          0.33333333333333387
+        ]
+      },
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 1,
+        "high_projector_idempotence_max_abs": 1.1102230246251565e-15,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 1.3322676295501878e-15,
+        "low_projector_idempotence_max_abs": 1.1102230246251565e-15,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 8.881784197001252e-16,
+        "maximum_eigenvalue_residual": 1.3877787807814457e-16,
+        "maximum_singular_value_residual": 4.996003610813204e-16,
+        "minimum_singular_value": 0.08333333333333283,
+        "operator_norm": 0.3333333333333334,
+        "polynomial_identity_max_abs": 1.2504787215362702e-17,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 1.1146553388076836e-15,
+        "singular_values": [
+          0.08333333333333283,
+          0.08333333333333304,
+          0.08333333333333356,
+          0.08333333333333373,
+          0.3333333333333331,
+          0.3333333333333334
+        ]
+      },
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 2,
+        "high_projector_idempotence_max_abs": 2.3314683517128287e-15,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 7.105427357601002e-15,
+        "low_projector_idempotence_max_abs": 2.4702462297909733e-15,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 7.105427357601002e-15,
+        "maximum_eigenvalue_residual": 3.608224830031759e-16,
+        "maximum_singular_value_residual": 5.551115123125783e-16,
+        "minimum_singular_value": 0.08333333333333291,
+        "operator_norm": 0.33333333333333287,
+        "polynomial_identity_max_abs": 2.708260994793172e-17,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 2.480848480242145e-15,
+        "singular_values": [
+          0.08333333333333291,
+          0.08333333333333307,
+          0.08333333333333338,
+          0.08333333333333354,
+          0.33333333333333276,
+          0.33333333333333287
+        ]
+      },
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 3,
+        "high_projector_idempotence_max_abs": 1.6653345369377348e-15,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 7.549516567451064e-15,
+        "low_projector_idempotence_max_abs": 1.609823385706477e-15,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 7.549516567451064e-15,
+        "maximum_eigenvalue_residual": 4.163336342344337e-16,
+        "maximum_singular_value_residual": 6.106226635438361e-16,
+        "minimum_singular_value": 0.08333333333333323,
+        "operator_norm": 0.3333333333333339,
+        "polynomial_identity_max_abs": 1.7512648865616423e-17,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 1.6119283628355367e-15,
+        "singular_values": [
+          0.08333333333333323,
+          0.08333333333333336,
+          0.08333333333333355,
+          0.0833333333333337,
+          0.33333333333333376,
+          0.3333333333333339
+        ]
+      },
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 4,
+        "high_projector_idempotence_max_abs": 2.220446049250313e-16,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 2.220446049250313e-16,
+        "low_projector_idempotence_max_abs": 2.498001805406602e-16,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 0.0,
+        "maximum_eigenvalue_residual": 5.117434254131581e-17,
+        "maximum_singular_value_residual": 3.0531133177191805e-16,
+        "minimum_singular_value": 0.08333333333333327,
+        "operator_norm": 0.3333333333333333,
+        "polynomial_identity_max_abs": 2.911018104944759e-18,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 2.378121380606269e-16,
+        "singular_values": [
+          0.08333333333333327,
+          0.08333333333333331,
+          0.08333333333333344,
+          0.08333333333333363,
+          0.33333333333333326,
+          0.3333333333333333
+        ]
+      },
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 5,
+        "high_projector_idempotence_max_abs": 1.3322676295501878e-15,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 3.774758283725532e-15,
+        "low_projector_idempotence_max_abs": 1.3877787807814457e-15,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 3.552713678800501e-15,
+        "maximum_eigenvalue_residual": 1.6653345369377348e-16,
+        "maximum_singular_value_residual": 2.498001805406602e-16,
+        "minimum_singular_value": 0.08333333333333308,
+        "operator_norm": 0.3333333333333331,
+        "polynomial_identity_max_abs": 1.4324343796171716e-17,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 1.3861897942203822e-15,
+        "singular_values": [
+          0.08333333333333308,
+          0.08333333333333313,
+          0.08333333333333351,
+          0.08333333333333355,
+          0.3333333333333331,
+          0.3333333333333331
+        ]
+      },
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 6,
+        "high_projector_idempotence_max_abs": 1.2212453270876722e-15,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 5.329070518200751e-15,
+        "low_projector_idempotence_max_abs": 1.27675647831893e-15,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 5.329070518200751e-15,
+        "maximum_eigenvalue_residual": 2.7755575615628914e-16,
+        "maximum_singular_value_residual": 3.885780586188048e-16,
+        "minimum_singular_value": 0.08333333333333305,
+        "operator_norm": 0.333333333333333,
+        "polynomial_identity_max_abs": 1.4258826727891343e-17,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 1.2858544485680561e-15,
+        "singular_values": [
+          0.08333333333333305,
+          0.08333333333333316,
+          0.08333333333333327,
+          0.08333333333333334,
+          0.3333333333333329,
+          0.333333333333333
+        ]
+      },
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 7,
+        "high_projector_idempotence_max_abs": 3.885780586188048e-16,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 6.661338147750939e-16,
+        "low_projector_idempotence_max_abs": 3.885780586188048e-16,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 8.881784197001252e-16,
+        "maximum_eigenvalue_residual": 6.505213034913027e-17,
+        "maximum_singular_value_residual": 3.885780586188048e-16,
+        "minimum_singular_value": 0.08333333333333294,
+        "operator_norm": 0.3333333333333333,
+        "polynomial_identity_max_abs": 4.139097851979195e-18,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 3.8774559094837227e-16,
+        "singular_values": [
+          0.08333333333333294,
+          0.08333333333333307,
+          0.08333333333333351,
+          0.08333333333333359,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 8,
+        "high_projector_idempotence_max_abs": 3.8163916471489756e-16,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 0.0,
+        "low_projector_idempotence_max_abs": 3.3306690738754696e-16,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 0.0,
+        "maximum_eigenvalue_residual": 6.158268339717665e-17,
+        "maximum_singular_value_residual": 3.7470027081099033e-16,
+        "minimum_singular_value": 0.083333333333333,
+        "operator_norm": 0.3333333333333334,
+        "polynomial_identity_max_abs": 4.1711466285724104e-18,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 3.835877641533103e-16,
+        "singular_values": [
+          0.083333333333333,
+          0.08333333333333304,
+          0.08333333333333362,
+          0.0833333333333337,
+          0.33333333333333326,
+          0.3333333333333334
+        ]
+      },
+      {
+        "axis_certificate_pass": true,
+        "axis_id": 9,
+        "high_projector_idempotence_max_abs": 5.551115123125783e-16,
+        "high_projector_rank": 2,
+        "high_projector_trace_residual": 1.7763568394002505e-15,
+        "low_projector_idempotence_max_abs": 5.551115123125783e-16,
+        "low_projector_rank": 4,
+        "low_projector_trace_residual": 1.7763568394002505e-15,
+        "maximum_eigenvalue_residual": 1.5265566588595902e-16,
+        "maximum_singular_value_residual": 3.7470027081099033e-16,
+        "minimum_singular_value": 0.08333333333333295,
+        "operator_norm": 0.33333333333333326,
+        "polynomial_identity_max_abs": 6.208021237303414e-18,
+        "projector_completeness_max_abs": 0.0,
+        "projector_orthogonality_max_abs": 5.762475538664021e-16,
+        "singular_values": [
+          0.08333333333333295,
+          0.08333333333333315,
+          0.08333333333333338,
+          0.08333333333333347,
+          0.3333333333333331,
+          0.33333333333333326
+        ]
+      }
+    ],
+    "maximum_polynomial_residual": 2.887582840071995e-17,
+    "maximum_spectral_residual": 6.106226635438361e-16
+  },
+  "local_neighborhood_probe": {
+    "all_sampled_points_drop": true,
+    "axis_summaries": [
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 0,
+        "maximum_off_axis_sigma": 0.3333333327777834,
+        "minimum_drop_over_angle_squared": 0.05136227946347382,
+        "minimum_positive_drop": 5.555499393850027e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      },
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 1,
+        "maximum_off_axis_sigma": 0.3333333327778594,
+        "minimum_drop_over_angle_squared": 0.05135012004169325,
+        "minimum_positive_drop": 5.554738891078159e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      },
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 2,
+        "maximum_off_axis_sigma": 0.3333333327777984,
+        "minimum_drop_over_angle_squared": 0.051333921722207514,
+        "minimum_positive_drop": 5.555348958630191e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      },
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 3,
+        "maximum_off_axis_sigma": 0.333333332777795,
+        "minimum_drop_over_angle_squared": 0.05132875758093735,
+        "minimum_positive_drop": 5.555383375543954e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      },
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 4,
+        "maximum_off_axis_sigma": 0.3333333327778194,
+        "minimum_drop_over_angle_squared": 0.05156580075473815,
+        "minimum_positive_drop": 5.555139126478537e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      },
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 5,
+        "maximum_off_axis_sigma": 0.33333333277781646,
+        "minimum_drop_over_angle_squared": 0.05161197058671795,
+        "minimum_positive_drop": 5.555168547388689e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      },
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 6,
+        "maximum_off_axis_sigma": 0.33333333277780364,
+        "minimum_drop_over_angle_squared": 0.051613841995301606,
+        "minimum_positive_drop": 5.555296778148033e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      },
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 7,
+        "maximum_off_axis_sigma": 0.33333333277785265,
+        "minimum_drop_over_angle_squared": 0.051347498339104895,
+        "minimum_positive_drop": 5.554806614682661e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      },
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 8,
+        "maximum_off_axis_sigma": 0.33333333277770794,
+        "minimum_drop_over_angle_squared": 0.05147082460281726,
+        "minimum_positive_drop": 5.55625379039526e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      },
+      {
+        "all_sampled_off_axis_points_drop": true,
+        "axis_id": 9,
+        "maximum_off_axis_sigma": 0.33333333277781074,
+        "minimum_drop_over_angle_squared": 0.051606514232505056,
+        "minimum_positive_drop": 5.555225723874457e-10,
+        "nonpositive_drop_count": 0,
+        "probe_count": 4608
+      }
+    ],
+    "geodesic_angles": [
+      0.0001,
+      0.0002,
+      0.0005,
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05
+    ],
+    "maximum_sampled_off_axis_sigma": 0.3333333327778594,
+    "minimum_sampled_drop": 5.554738891078159e-10,
+    "minimum_sampled_drop_over_angle_squared": 0.05132875758093735,
+    "status": "sampled strict-local-max evidence",
+    "tangent_direction_count_per_axis": 512,
+    "total_nonpositive_drop_count": 0,
+    "total_probe_count": 46080
+  },
+  "outputs": {
+    "axis_csv": "artifacts/csv/native_g60_cross_flux_axis_spectral_certificate_030.csv",
+    "certificate_npz": "artifacts/npy/native_g60_cross_flux_axis_extremal_certificate_030.npz",
+    "local_probe_csv": "artifacts/csv/native_g60_cross_flux_axis_local_extremal_probes_030.csv"
+  },
+  "theorem": {
+    "axis_line_count": 10,
+    "axis_polynomial_identity": "(B_q - I6/9)(B_q - I6/144) = 0",
+    "high_eigenvalue": "1/9",
+    "high_multiplicity": 2,
+    "high_singular_value": "1/3",
+    "low_eigenvalue": "1/144",
+    "low_multiplicity": 4,
+    "low_singular_value": "1/12",
+    "statement": "For each of the ten native unoriented four-flux axis lines q, the pencil Gram matrix B_q=A(q)^T A(q) satisfies (B_q-I/9)(B_q-I/144)=0. Its eigenvalue 1/9 has multiplicity two and its eigenvalue 1/144 has multiplicity four. Therefore A(q) has singular values 1/3 twice and 1/12 four times."
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_cross_flux_ten_axes_have_exact_extremal_spectrum"
+}

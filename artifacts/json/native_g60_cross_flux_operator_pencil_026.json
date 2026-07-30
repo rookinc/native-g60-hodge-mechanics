@@ -1,0 +1,164 @@
+{
+  "artifact_id": "native_g60_cross_flux_operator_pencil_026",
+  "audit_pass": true,
+  "boundary": {
+    "counterexample_above_one_third_found": false,
+    "exact_polynomial_identity_derived": false,
+    "global_operator_norm_bound_proved": false,
+    "multistart_sphere_search_completed": true,
+    "operator_pencil_constructed": true,
+    "physical_claim": false,
+    "sharp_tensor_norm_proved": false
+  },
+  "checks": {
+    "all_optimization_starts_completed": true,
+    "input_024_theorem_pass": true,
+    "input_025_search_completed": true,
+    "near_target_stationarity_resolved": true,
+    "optimized_value_does_not_exceed_one_third": true,
+    "optimized_value_reaches_one_third": true,
+    "random_probe_does_not_exceed_one_third": true,
+    "tensor_shape_is_4_by_6_by_6": true,
+    "witness_pencil_reaches_one_third": true,
+    "witness_pencil_recovers_obstruction_gain": true
+  },
+  "earned_interpretation": {
+    "one_third_candidate_recovered_from_pencil": true,
+    "one_third_upper_bound_numerically_supported": true,
+    "sharp_tensor_norm_proved": false,
+    "simple_clifford_identity_found": false,
+    "tensor_norm_reduced_to_four_parameter_operator_pencil": true
+  },
+  "known_witness": {
+    "f": [
+      0.6934930416107244,
+      0.3952413031134933,
+      0.16666685106172027,
+      -0.5788556593036162
+    ],
+    "gain_from_024": 0.3333333333333287,
+    "left_alignment_with_known_inputs": 0.9979619587054316,
+    "pencil_operator_norm": 0.33333333333333043,
+    "right_alignment_with_known_inputs": 0.9979619587054332,
+    "singular_values": [
+      0.33333333333333043,
+      0.33333333333333026,
+      0.08333337943208823,
+      0.08333337943208817,
+      0.08333328723456675,
+      0.08333328723456669
+    ]
+  },
+  "operator_pencil": {
+    "definition": "A(f) = sum_r f_r A_r",
+    "slice_count": 4,
+    "slice_shape": [
+      6,
+      6
+    ],
+    "target_norm": 0.3333333333333333,
+    "tensor_norm_identity": "sigma_star = max_{||f||=1} ||A(f)||_op"
+  },
+  "optimization": {
+    "best_f": [
+      0.6223394900205398,
+      0.7619318259861068,
+      -0.166666663693226,
+      0.06614888452438754
+    ],
+    "best_left_singular_vector": [
+      -0.3869012166137694,
+      0.6379159149980635,
+      0.04858110230515398,
+      -0.12157424934719144,
+      -0.21524549867931278,
+      -0.6163600308810955
+    ],
+    "best_right_singular_vector": [
+      2.8072181305085932e-16,
+      -0.23275337353346393,
+      0.4818645917530928,
+      0.4831627264515993,
+      0.41005509068757795,
+      0.5586062877308813
+    ],
+    "best_sigma": 0.3333333333333341,
+    "best_singular_values": [
+      0.3333333333333341,
+      0.33333333333333376,
+      0.08333333489186356,
+      0.08333333489186355,
+      0.08333333177480347,
+      0.08333333177480336
+    ],
+    "best_tangent_stationarity_residual": 1.494626935602479e-09,
+    "best_target_gap": -7.771561172376096e-16,
+    "maximum_near_target_stationarity_residual": 4.608930968366395e-09,
+    "near_target_count": 256,
+    "rounded_terminal_sigmas": [
+      0.333333333333
+    ],
+    "start_count": 256
+  },
+  "outputs": {
+    "operator_pencil_npz": "artifacts/npy/native_g60_cross_flux_operator_pencil_026.npz",
+    "pair_csv": "artifacts/csv/native_g60_cross_flux_operator_pencil_pairs_026.csv",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_operator_pencil_probes_026.csv",
+    "start_csv": "artifacts/csv/native_g60_cross_flux_operator_pencil_starts_026.csv"
+  },
+  "random_probe": {
+    "maximum_sigma": 0.3332993829540491,
+    "mean_sigma": 0.30171128365711836,
+    "minimum_sigma": 0.21021259687604438,
+    "probe_count": 20000,
+    "quantiles": {
+      "q01": 0.23808287831261873,
+      "q25": 0.28701090109134264,
+      "q50": 0.3066500028624721,
+      "q75": 0.32107442287489435,
+      "q99": 0.33194699798876254
+    },
+    "target_minus_maximum": 3.3950379284219956e-05
+  },
+  "slice_algebra": {
+    "frobenius_gram": [
+      [
+        0.25000000000000067,
+        8.049116928532385e-16,
+        -3.469446951953614e-17,
+        -9.020562075079397e-17
+      ],
+      [
+        8.049116928532385e-16,
+        0.2499999999999999,
+        7.667477763817487e-16,
+        -3.642919299551295e-17
+      ],
+      [
+        -3.469446951953614e-17,
+        7.667477763817487e-16,
+        0.2499999999999998,
+        2.6020852139652106e-17
+      ],
+      [
+        -9.020562075079397e-17,
+        -3.642919299551295e-17,
+        2.6020852139652106e-17,
+        0.2499999999999993
+      ]
+    ],
+    "frobenius_gram_eigenvalues": [
+      0.24999999999999883,
+      0.2499999999999993,
+      0.25000000000000017,
+      0.2500000000000013
+    ],
+    "maximum_cross_slice_scalar_identity_residual": 0.09486919936853792,
+    "maximum_same_slice_scalar_identity_residual": 0.12028130608117195,
+    "simple_clifford_identity_holds": false,
+    "skew_product_span_rank": 6,
+    "symmetric_product_span_rank": 6
+  },
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_operator_pencil_supports_one_third_norm_candidate"
+}

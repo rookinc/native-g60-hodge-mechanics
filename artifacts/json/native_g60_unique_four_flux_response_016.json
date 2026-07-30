@@ -1,0 +1,114 @@
+{
+  "artifact_id": "native_g60_unique_four_flux_response_016",
+  "audit_pass": true,
+  "boundary": {
+    "electromagnetism_claim": false,
+    "force_claim": false,
+    "input_dynamics_selected": false,
+    "overall_constitutive_scale_selected": false,
+    "physical_claim": false,
+    "physical_flux_claim": false,
+    "reproducible_unit_normalization_selected": true,
+    "static_combinatorial_flux_response_exported": true,
+    "unique_equivariant_four_channel_isolated": true
+  },
+  "channel": {
+    "canonical_status": "unique equivariant line, normalized reproducibly; overall physical scale remains unselected",
+    "domain": "V6a tensor V6b",
+    "domain_dimension": 36,
+    "hom_dimension": 1,
+    "map_rank": 4,
+    "normalization": {
+      "normalized_frobenius_norm": 1.0,
+      "original_frobenius_norm": 1.0,
+      "pivot_column": 18,
+      "pivot_row": 1,
+      "pivot_value": 0.22161914355152532
+    },
+    "target": "unique cross target C4",
+    "target_dimension": 4,
+    "target_residual_max_abs": 3.187554387107383e-16
+  },
+  "checks": {
+    "all_36_coordinate_pairs_tested": true,
+    "all_coordinate_pair_probes_pass": true,
+    "all_face_flux_patterns_have_zero_total": true,
+    "channel_image_lies_in_target_four": true,
+    "channel_normalized_to_unit_frobenius_norm": true,
+    "channel_rank_is_4": true,
+    "deterministic_channel_sign_is_positive": true,
+    "face_flux_span_is_4": true,
+    "input_015_audit_pass": true,
+    "response_edge_span_is_4": true,
+    "source_coordinate_span_is_4": true,
+    "source_edge_span_is_4": true,
+    "unique_target_four_channel_loaded": true
+  },
+  "face_flux": {
+    "aggregate_face_sum_profile": [
+      0.013558999419182349,
+      0.14180899881727707,
+      -0.04456821805190816,
+      0.08368178134618658,
+      -0.04456821805190839,
+      0.013325477424216952,
+      -0.04480174004687358,
+      0.01355899941918241,
+      -0.06599804013767764,
+      -0.0657645181427124,
+      0.013325477424217063,
+      0.16300529890808094,
+      -0.06599804013767759,
+      0.08368178134618662,
+      -0.1942480395357724,
+      -0.06576451814271231,
+      0.1630052989080812,
+      -0.19424803953577233,
+      0.14180899881727715,
+      -0.04480174004687357
+    ],
+    "all_pattern_sums_zero": true,
+    "face_count": 20,
+    "maximum_pattern_sum_abs": 1.5612511283791264e-17,
+    "pattern_count": 36,
+    "pattern_rank": 4
+  },
+  "inputs": {
+    "channel_resolution_npz": "artifacts/npy/native_g60_six_flux_channel_resolution_014.npz",
+    "cross_channel_anatomy": "artifacts/json/native_g60_cross_six_channel_anatomy_015.json",
+    "cross_channel_anatomy_npz": "artifacts/npy/native_g60_cross_six_channel_anatomy_015.npz",
+    "static_solver": "artifacts/npy/native_g60_static_field_solver_008.npz"
+  },
+  "outputs": {
+    "face_pattern_csv": "artifacts/csv/native_g60_unique_four_flux_face_patterns_016.csv",
+    "probe_csv": "artifacts/csv/native_g60_unique_four_flux_response_probes_016.csv",
+    "response_npz": "artifacts/npy/native_g60_unique_four_flux_response_016.npz"
+  },
+  "probe_audit": {
+    "all_probes_pass": true,
+    "global_maximum_residuals": {
+      "face_flux_reconstruction": 0.0,
+      "face_flux_zero_sum": 1.3877787807814457e-17,
+      "response_divergence": 1.5612511283791264e-17,
+      "response_is_coexact": 6.071532165918825e-18,
+      "source_has_no_harmonic_part": 1.0581813203458523e-16,
+      "source_in_target_four": 3.187554387107383e-16,
+      "source_is_coexact": 8.326672684688674e-17,
+      "static_equation": 1.43982048506075e-16
+    },
+    "probe_count": 36
+  },
+  "response_pipeline": {
+    "bilinear_source": "j4(u,v) = T4(u tensor v)",
+    "coexact_edge_source": "J4 = coexact_basis j4",
+    "face_flux": "F4 = d1 A4",
+    "static_response": "A4 = Delta1_coexact_inverse J4"
+  },
+  "span_dimensions": {
+    "coexact_edge_sources": 4,
+    "face_flux_patterns": 4,
+    "source_coordinates": 4,
+    "static_responses": 4
+  },
+  "verdict": "native_g60_unique_four_dimensional_cross_flux_response_exported"
+}

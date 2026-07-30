@@ -1,0 +1,67 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_exact_sos_reconstruction_046",
+  "audit_pass": true,
+  "boundary": {
+    "e4_and_e5_not_attempted": true,
+    "full_completion_check_deferred_to_m3_pro": true,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false,
+    "termux_economical_reconstruction": true
+  },
+  "certificate_count": 2,
+  "checks": {
+    "all_float_slice_projections_close": true,
+    "all_reconstructed_grams_numerically_psd": true,
+    "e2_reconstruction_completed": true,
+    "e3_reconstruction_completed": true,
+    "input_045_audit_pass": true,
+    "input_045_has_two_floating_candidates": true
+  },
+  "earned_interpretation": {
+    "e2_globally_nonnegative_proved": true,
+    "e3_globally_nonnegative_proved": true,
+    "exact_rational_sos_certificate_for_e2": true,
+    "exact_rational_sos_certificate_for_e3": true,
+    "global_gap_psd_proved": false
+  },
+  "outputs": {
+    "gram_csv": "artifacts/csv/native_g60_cross_flux_gap_exact_sos_gram_entries_046.csv",
+    "ldl_csv": "artifacts/csv/native_g60_cross_flux_gap_exact_sos_ldl_pivots_046.csv",
+    "reconstruction_npz": "artifacts/npy/native_g60_cross_flux_gap_exact_sos_reconstruction_046.npz",
+    "summary_csv": "artifacts/csv/native_g60_cross_flux_gap_exact_sos_summary_046.csv"
+  },
+  "results": [
+    {
+      "coefficient_count": 35,
+      "elementary_invariant": "e2",
+      "exact_coefficient_equality": true,
+      "exact_ldl_positive_definite": true,
+      "exact_rational_sos_certificate": true,
+      "gram_denominator_limit": 10000000,
+      "gram_size": 10,
+      "maximum_entry_change_from_saved_gram": 1.5326455382602688e-13,
+      "maximum_float_eigenvalue": 0.23903504353038937,
+      "minimum_float_eigenvalue": 0.010900162586799366,
+      "projected_coefficient_residual": 2.7755575615628914e-17,
+      "target_denominator_limit": 10000000000,
+      "target_rationalization_error": 4.336266588855775e-16
+    },
+    {
+      "coefficient_count": 84,
+      "elementary_invariant": "e3",
+      "exact_coefficient_equality": true,
+      "exact_ldl_positive_definite": true,
+      "exact_rational_sos_certificate": true,
+      "gram_denominator_limit": 10000000,
+      "gram_size": 20,
+      "maximum_entry_change_from_saved_gram": 3.048603036681641e-13,
+      "maximum_float_eigenvalue": 0.085051729791646,
+      "minimum_float_eigenvalue": 5.538058860732717e-06,
+      "projected_coefficient_residual": 6.938893903907228e-18,
+      "target_denominator_limit": 10000000000,
+      "target_rationalization_error": 3.500278951233671e-17
+    }
+  ],
+  "theorem_pass": true,
+  "verdict": "exact_rational_sos_certificates_found_for_e2_and_e3"
+}

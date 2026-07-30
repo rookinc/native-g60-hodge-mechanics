@@ -1,0 +1,36 @@
+elementary_progress: e5 1/6 term_count: 286
+elementary_progress: e5 6/6 term_count: 286
+full_solve_start: chart_051_scs_eps_1e8 {'name': 'scs_eps_1e8', 'eps': 1e-08, 'max_iters': 250000, 'scale': 1.0}
+full_solve_result: chart_051_scs_eps_1e8 status: optimal margin: -1.0861662049893416e-13 coefficient_residual: 1.0052690779550075e-15 kernel_max_abs_eig: 9.691876426521289e-13 first_face_eig: 1.0848028580069029e-06 rank: 46 elapsed_seconds: 0.470862332964316
+full_solve_start: chart_051_scs_eps_3e9 {'name': 'scs_eps_3e9', 'eps': 3e-09, 'max_iters': 500000, 'scale': 1.0}
+full_solve_result: chart_051_scs_eps_3e9 status: optimal margin: -2.6365017121024434e-14 coefficient_residual: 3.8619111977344217e-16 kernel_max_abs_eig: 3.815865699568855e-13 first_face_eig: 1.0847929737971696e-06 rank: 46 elapsed_seconds: 0.4393855829257518
+full_solve_start: chart_051_scs_eps_1e9 {'name': 'scs_eps_1e9', 'eps': 1e-09, 'max_iters': 750000, 'scale': 10.0}
+full_solve_result: chart_051_scs_eps_1e9 status: optimal margin: -1.7638862241224938e-14 coefficient_residual: 1.8689019651513608e-16 kernel_max_abs_eig: 2.006816595539725e-13 first_face_eig: 1.3970572075927177e-06 rank: 46 elapsed_seconds: 0.4612171249464154
+full_solve_start: chart_051_scs_eps_3e10 {'name': 'scs_eps_3e10', 'eps': 3e-10, 'max_iters': 1000000, 'scale': 10.0}
+full_solve_result: chart_051_scs_eps_3e10 status: optimal margin: -3.920298947175354e-15 coefficient_residual: 4.109126233720062e-17 kernel_max_abs_eig: 4.4153654920947136e-14 first_face_eig: 1.3970565655529258e-06 rank: 46 elapsed_seconds: 0.44615483400411904
+chart_candidate: denominator_limit: 12 chart_difference: 0.04137663611696358 maximum_angle_degrees: 5.615346788542937 maximum_projector_distance: 0.09784946989470512 maximum_annihilation_residual: 6.28448301507032e-06 exact_nullspace: True audit_candidate: False
+chart_candidate: denominator_limit: 24 chart_difference: 0.02069868391019472 maximum_angle_degrees: 3.2128359801614232 maximum_projector_distance: 0.056045184391218646 maximum_annihilation_residual: 3.4711937718432567e-06 exact_nullspace: True audit_candidate: False
+chart_candidate: denominator_limit: 60 chart_difference: 0.008254641392994855 maximum_angle_degrees: 1.0651754189541305 maximum_projector_distance: 0.01858974730204627 maximum_annihilation_residual: 1.2485898318514285e-06 exact_nullspace: True audit_candidate: False
+chart_candidate: denominator_limit: 120 chart_difference: 0.004162245989676075 maximum_angle_degrees: 0.5923019887781127 maximum_projector_distance: 0.010337435747263026 maximum_annihilation_residual: 6.571803623272257e-07 exact_nullspace: True audit_candidate: False
+chart_candidate: denominator_limit: 360 chart_difference: 0.0013719733589862616 maximum_angle_degrees: 0.19783229319102255 maximum_projector_distance: 0.003452818022273743 maximum_annihilation_residual: 2.457311866741916e-07 exact_nullspace: True audit_candidate: False
+chart_candidate: denominator_limit: 1080 chart_difference: 0.0004597686501835712 maximum_angle_degrees: 0.06371225120445295 maximum_projector_distance: 0.0011119883284732284 maximum_annihilation_residual: 6.536390386526285e-08 exact_nullspace: True audit_candidate: False
+chart_candidate: denominator_limit: 10000 chart_difference: 3.68208830550478e-05 maximum_angle_degrees: 0.0023516945184343723 maximum_projector_distance: 4.1044821639784044e-05 maximum_annihilation_residual: 2.201111681014928e-09 exact_nullspace: True audit_candidate: True
+chart_candidate: denominator_limit: 100000 chart_difference: 1.1401878932232458e-07 maximum_angle_degrees: 5.5796573677183414e-05 maximum_projector_distance: 9.73606241918943e-07 maximum_annihilation_residual: 1.374193356644e-10 exact_nullspace: True audit_candidate: True
+chart_candidate: denominator_limit: 1000000 chart_difference: 1.1401878932232458e-07 maximum_angle_degrees: 5.5796573677183414e-05 maximum_projector_distance: 9.738280213596023e-07 maximum_annihilation_residual: 1.37498758528284e-10 exact_nullspace: True audit_candidate: True
+audit_pass: True
+theorem_pass: False
+verdict: rational_e5_kernel_chart_candidate_recovered_with_exact_nullspace
+pivot_rows: [50, 55, 35, 20, 10, 0, 16, 19, 30, 51]
+chart_condition_number: 2.922277193944341
+best_denominator_limit: 100000
+best_chart_difference: 1.1401878932232458e-07
+best_maximum_angle_degrees: 5.5796573677183414e-05
+best_maximum_projector_distance: 9.73606241918943e-07
+best_maximum_annihilation_residual: 1.374193356644e-10
+exact_kernel_face_orthogonality: True
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_cross_flux_gap_e5_rational_kernel_chart_051.json
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_rational_kernel_candidates_051.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_rational_kernel_chart_051.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_rational_face_basis_051.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_kernel_comparisons_051.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/npy/native_g60_cross_flux_gap_e5_rational_kernel_chart_051.npz

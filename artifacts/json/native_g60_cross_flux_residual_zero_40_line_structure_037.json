@@ -1,0 +1,101 @@
+{
+  "artifact_id": "native_g60_cross_flux_residual_zero_40_line_structure_037",
+  "audit_pass": false,
+  "boundary": {
+    "complete_real_zero_locus_proved": false,
+    "forty_lines_proved_to_be_all_real_projective_zeros": false,
+    "global_one_third_bound_proved": false,
+    "nonaxis_lines_are_global_norm_maximizers": false,
+    "physical_claim": false,
+    "structure_of_recovered_forty_line_census_resolved": false
+  },
+  "checks": {
+    "all_nonaxis_roots_are_equal_weight_pair_combinations": false,
+    "all_nonaxis_roots_lie_in_matched_axis_pair_spans": false,
+    "all_nonaxis_roots_match_weak_pair_bisectors": false,
+    "input_036_census_completed": true,
+    "native_axis_root_count_is_10": true,
+    "nonaxis_root_count_is_30": true,
+    "recovered_projective_root_count_is_40": true,
+    "strong_overlap_pair_count_is_15": true,
+    "weak_overlap_pair_count_is_30": true,
+    "weak_pair_matching_is_bijective": true
+  },
+  "earned_interpretation": {
+    "forty_line_census_has_ten_plus_thirty_structure": false,
+    "native_axis_lines_remain_the_observed_one_third_extremizers": true,
+    "self_alignment_implies_cross_flux_extremality": false,
+    "thirty_nonaxis_lines_are_indexed_by_weak_axis_pairs": false
+  },
+  "gram_profiles": {
+    "full_forty_line_register": {
+      "0.0": 205,
+      "0.166666666667": 30,
+      "0.25": 70,
+      "0.353553390593": 60,
+      "0.408248290464": 30,
+      "0.456435464588": 60,
+      "0.5": 30,
+      "0.559016994375": 60,
+      "0.612372435696": 20,
+      "0.645497224368": 60,
+      "0.666666666667": 15,
+      "0.707106781187": 60,
+      "0.75": 30,
+      "0.790569415042": 20,
+      "0.912870929175": 30
+    },
+    "native_ten_axes": {
+      "0.166666666667": 30,
+      "0.666666666667": 15
+    },
+    "nonaxis_thirty_lines": {
+      "0.0": 105,
+      "0.25": 70,
+      "0.353553390593": 60,
+      "0.5": 30,
+      "0.559016994375": 60,
+      "0.707106781187": 60,
+      "0.75": 30,
+      "0.790569415042": 20
+    }
+  },
+  "matching": {
+    "branch_counts": {
+      "acute": 20,
+      "obtuse": 10
+    },
+    "maximum_equal_weight_residual": 0.5477225575051682,
+    "maximum_pair_span_residual": 0.597614304667197,
+    "maximum_projective_distance": 0.6296288974669554,
+    "strong_pair_control_maximum_matching_distance": 0.6471948469478187
+  },
+  "operator_norms": {
+    "native_axes": {
+      "maximum": 0.3333333333333339,
+      "minimum": 0.3333333333333328
+    },
+    "nonaxis_self_aligned_lines": {
+      "maximum": 0.33027980490978576,
+      "maximum_one_third_gap": 0.12920918810140197,
+      "mean": 0.2824939266602145,
+      "minimum": 0.20412414523193134,
+      "minimum_one_third_gap": 0.003053528423547558
+    }
+  },
+  "outputs": {
+    "line_csv": "artifacts/csv/native_g60_cross_flux_residual_zero_lines_037.csv",
+    "matching_csv": "artifacts/csv/native_g60_cross_flux_residual_zero_weak_pair_matching_037.csv",
+    "pair_csv": "artifacts/csv/native_g60_cross_flux_axis_pair_candidates_037.csv",
+    "structure_npz": "artifacts/npy/native_g60_cross_flux_residual_zero_40_line_structure_037.npz"
+  },
+  "theorem": {
+    "decomposition": "40 = 10 native axes + 30 weak-overlap pair bisectors",
+    "native_axis_count": 10,
+    "nonaxis_zero_count": 30,
+    "statement": "Within the recovered forty-line projective zero census, ten lines are the native flux axes and the remaining thirty match bijectively with the thirty native axis pairs having absolute overlap 1/6. Each non-axis zero is the normalized equal-weight acute or obtuse bisector of its matched weak axis pair.",
+    "weak_pair_count": 30
+  },
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_residual_zero_40_line_structure_not_resolved"
+}

@@ -1,0 +1,16 @@
+{
+  "artifact_id": "project45_symmetry_source_supplement_005",
+  "boundary": {
+    "original_001_import_manifest_modified": false,
+    "physical_claim": false,
+    "surface_modified": false,
+    "symmetry_action_redefined": false
+  },
+  "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+  "file": "data/imported/project45/native_g60_fiber_product_isomorphism_044.json",
+  "hash_match": true,
+  "immutable_import": true,
+  "role": "explicit 480-element native vertex permutation action",
+  "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+  "source_project": "45-native-g60-surface-complex"
+}

@@ -1,0 +1,350 @@
+{
+  "artifact_id": "native_g60_flux_axis_to_face_relation_019",
+  "audit_pass": true,
+  "axis": {
+    "coordinate": [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "face_pattern_sum": -1.1102230246251565e-16,
+    "signed_pattern_invariance_max_abs": 2.7478019859472624e-15,
+    "stabilizer_order": 24
+  },
+  "boundary": {
+    "axis_to_face_orbit_relation_resolved": true,
+    "force_claim": false,
+    "metric_distance_derived": false,
+    "physical_claim": false,
+    "physical_flux_claim": false,
+    "physical_near_far_interpretation": false,
+    "twelve_six_two_partition_verified": true
+  },
+  "checks": {
+    "axis_stabilizer_order_is_24": true,
+    "base_pattern_has_zero_total_flux": true,
+    "every_face_has_orbit_label": true,
+    "face_orbit_sizes_are_12_6_2": true,
+    "input_018_audit_pass": true,
+    "orbit_count_is_3": true,
+    "signed_face_pattern_is_axis_stabilizer_invariant": true,
+    "stabilizer_face_orbits_partition_all_20_faces": true,
+    "stabilizer_orbits_match_intersection_order_classes": true
+  },
+  "earned_interpretation": {
+    "flux_values_are_stabilizer_constrained": true,
+    "one_flux_axis_induces_three_face_relation_classes": true,
+    "physical_flux_claim": false,
+    "relation_class_sizes": [
+      2,
+      6,
+      12
+    ],
+    "relation_classes_are_not_face_attachment": true
+  },
+  "face_relation": {
+    "intersection_size_classes": {
+      "12": 2,
+      "2": 12,
+      "4": 6
+    },
+    "orbit_count": 3,
+    "orbit_intersection_order_sets": [
+      [
+        2
+      ],
+      [
+        4
+      ],
+      [
+        12
+      ]
+    ],
+    "orbit_partition_matches_intersection_classes": true,
+    "orbit_size_profile": {
+      "12": 1,
+      "2": 1,
+      "6": 1
+    },
+    "orbit_sizes": [
+      12,
+      6,
+      2
+    ],
+    "sorted_orbit_sizes": [
+      2,
+      6,
+      12
+    ]
+  },
+  "face_rows": [
+    {
+      "absolute_flux_value": 0.447213595499957,
+      "axis_face_stabilizer_intersection_order": 12,
+      "face_id": 0,
+      "flux_sign": 1,
+      "flux_value": 0.447213595499957,
+      "orbit_id": 2,
+      "orbit_size": 2
+    },
+    {
+      "absolute_flux_value": 0.07453559924999287,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 1,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999287,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.0745355992499937,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 2,
+      "flux_sign": 1,
+      "flux_value": 0.0745355992499937,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.2981423969999719,
+      "axis_face_stabilizer_intersection_order": 4,
+      "face_id": 3,
+      "flux_sign": -1,
+      "flux_value": -0.2981423969999719,
+      "orbit_id": 1,
+      "orbit_size": 6
+    },
+    {
+      "absolute_flux_value": 0.07453559924999385,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 4,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999385,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.07453559924999228,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 5,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999228,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.29814239699997247,
+      "axis_face_stabilizer_intersection_order": 4,
+      "face_id": 6,
+      "flux_sign": -1,
+      "flux_value": -0.29814239699997247,
+      "orbit_id": 1,
+      "orbit_size": 6
+    },
+    {
+      "absolute_flux_value": 0.44721359549995826,
+      "axis_face_stabilizer_intersection_order": 12,
+      "face_id": 7,
+      "flux_sign": 1,
+      "flux_value": 0.44721359549995826,
+      "orbit_id": 2,
+      "orbit_size": 2
+    },
+    {
+      "absolute_flux_value": 0.29814239699997164,
+      "axis_face_stabilizer_intersection_order": 4,
+      "face_id": 8,
+      "flux_sign": -1,
+      "flux_value": -0.29814239699997164,
+      "orbit_id": 1,
+      "orbit_size": 6
+    },
+    {
+      "absolute_flux_value": 0.07453559924999391,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 9,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999391,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.07453559924999228,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 10,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999228,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.07453559924999174,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 11,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999174,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.2981423969999721,
+      "axis_face_stabilizer_intersection_order": 4,
+      "face_id": 12,
+      "flux_sign": -1,
+      "flux_value": -0.2981423969999721,
+      "orbit_id": 1,
+      "orbit_size": 6
+    },
+    {
+      "absolute_flux_value": 0.29814239699997236,
+      "axis_face_stabilizer_intersection_order": 4,
+      "face_id": 13,
+      "flux_sign": -1,
+      "flux_value": -0.29814239699997236,
+      "orbit_id": 1,
+      "orbit_size": 6
+    },
+    {
+      "absolute_flux_value": 0.07453559924999395,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 14,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999395,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.07453559924999408,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 15,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999408,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.07453559924999217,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 16,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999217,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.07453559924999449,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 17,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999449,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.07453559924999177,
+      "axis_face_stabilizer_intersection_order": 2,
+      "face_id": 18,
+      "flux_sign": 1,
+      "flux_value": 0.07453559924999177,
+      "orbit_id": 0,
+      "orbit_size": 12
+    },
+    {
+      "absolute_flux_value": 0.29814239699997197,
+      "axis_face_stabilizer_intersection_order": 4,
+      "face_id": 19,
+      "flux_sign": -1,
+      "flux_value": -0.29814239699997197,
+      "orbit_id": 1,
+      "orbit_size": 6
+    }
+  ],
+  "flux_sign_summary": {
+    "negative_face_count": 6,
+    "negative_faces": [
+      3,
+      6,
+      8,
+      12,
+      13,
+      19
+    ],
+    "positive_face_count": 14,
+    "positive_faces": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      9,
+      10,
+      11,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "zero_face_count": 0,
+    "zero_faces": []
+  },
+  "inputs": {
+    "axis_register": "artifacts/json/native_g60_four_flux_axis_register_018.json",
+    "axis_register_npz": "artifacts/npy/native_g60_four_flux_axis_register_018.npz",
+    "four_flux_geometry_npz": "artifacts/npy/native_g60_four_flux_face_geometry_017.npz",
+    "native_group": "data/imported/project45/native_g60_fiber_product_isomorphism_044.json",
+    "signed_cochain_actions": "artifacts/npy/native_g60_signed_cochain_actions_005.npz"
+  },
+  "orbit_rows": [
+    {
+      "absolute_flux_profile": "{\"0.07453559925\": 12}",
+      "constant_absolute_value": true,
+      "constant_signed_value": true,
+      "faces": "[1, 2, 4, 5, 9, 10, 11, 14, 15, 16, 17, 18]",
+      "flux_mean": 0.07453559924999309,
+      "flux_norm": 0.2581988897471615,
+      "flux_sum": 0.8944271909999171,
+      "intersection_order_profile": "{\"2\": 12}",
+      "orbit_id": 0,
+      "orbit_size": 12,
+      "sign_profile": "{\"1\": 12}",
+      "signed_flux_profile": "{\"0.07453559925\": 12}"
+    },
+    {
+      "absolute_flux_profile": "{\"0.298142397\": 6}",
+      "constant_absolute_value": true,
+      "constant_signed_value": true,
+      "faces": "[3, 6, 8, 12, 13, 19]",
+      "flux_mean": -0.2981423969999721,
+      "flux_norm": 0.7302967433402218,
+      "flux_sum": -1.7888543819998324,
+      "intersection_order_profile": "{\"4\": 6}",
+      "orbit_id": 1,
+      "orbit_size": 6,
+      "sign_profile": "{\"-1\": 6}",
+      "signed_flux_profile": "{\"-0.298142397\": 6}"
+    },
+    {
+      "absolute_flux_profile": "{\"0.4472135955\": 2}",
+      "constant_absolute_value": true,
+      "constant_signed_value": true,
+      "faces": "[0, 7]",
+      "flux_mean": 0.44721359549995765,
+      "flux_norm": 0.6324555320336754,
+      "flux_sum": 0.8944271909999153,
+      "intersection_order_profile": "{\"12\": 2}",
+      "orbit_id": 2,
+      "orbit_size": 2,
+      "sign_profile": "{\"1\": 2}",
+      "signed_flux_profile": "{\"0.4472135955\": 2}"
+    }
+  ],
+  "outputs": {
+    "face_csv": "artifacts/csv/native_g60_flux_axis_to_face_relation_019.csv",
+    "orbit_csv": "artifacts/csv/native_g60_flux_axis_face_orbits_019.csv",
+    "relation_npz": "artifacts/npy/native_g60_flux_axis_to_face_relation_019.npz"
+  },
+  "verdict": "native_g60_flux_axis_induces_exact_12_6_2_face_relation"
+}

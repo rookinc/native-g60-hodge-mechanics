@@ -1,0 +1,97 @@
+{
+  "artifact_id": "native_g60_cross_flux_pencil_spectral_identity_027",
+  "audit_pass": false,
+  "boundary": {
+    "finite_coefficient_certificate_completed": false,
+    "force_claim": false,
+    "minimal_potential_sharp_noncoercive_ray_coefficient_proved": false,
+    "physical_claim": false,
+    "physical_energy_claim": false,
+    "physical_instability_claim": false,
+    "physical_thread_claim": false,
+    "sharp_rank_one_tensor_norm_proved": false
+  },
+  "checks": {
+    "all_coefficient_matrices_vanish": false,
+    "all_spectral_probes_pass": false,
+    "degree_four_monomial_count_is_35": true,
+    "high_projector_has_trace_two": true,
+    "input_026_audit_pass": true,
+    "low_projector_has_trace_four": true,
+    "maximum_coefficient_residual_resolved": false,
+    "probe_polynomial_identity_resolved": false,
+    "slice_shape_is_4_by_6_by_6": true
+  },
+  "coefficient_certificate": {
+    "all_coefficients_pass": false,
+    "certificate_kind": "all 35 degree-four monomial coefficient matrices verified",
+    "degree_four_monomial_count": 35,
+    "integer_coefficients": {
+      "M_squared": 1296,
+      "norm_fourth_times_identity": 1,
+      "norm_squared_times_M": -153
+    },
+    "maximum_coefficient_frobenius_residual": 29.034682188622906,
+    "maximum_coefficient_residual": 14.604583543309392
+  },
+  "earned_interpretation": {
+    "operator_norm_is_constant_on_unit_flux_sphere": false,
+    "operator_pencil_is_spectrally_locked": false,
+    "quartic_descent_rate_is_sharp": false,
+    "sharp_g_1_descent_coefficient": "-1/180",
+    "sharp_tensor_norm_is_one_third": false
+  },
+  "outputs": {
+    "certificate_npz": "artifacts/npy/native_g60_cross_flux_pencil_spectral_identity_027.npz",
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_pencil_spectral_coefficients_027.csv",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_pencil_spectral_probes_027.csv"
+  },
+  "spectral_probe": {
+    "all_probes_pass": false,
+    "expected_M_eigenvalues_for_unit_f": [
+      0.006944444444444444,
+      0.006944444444444444,
+      0.006944444444444444,
+      0.006944444444444444,
+      0.1111111111111111,
+      0.1111111111111111
+    ],
+    "expected_singular_values_for_unit_f": [
+      0.08333333333333333,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.08333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "global_maximum_residuals": {
+      "high_eigenvalue": 0.06582407166453194,
+      "high_projector_idempotence": 0.2479633641900036,
+      "high_projector_trace": 1.2434497875801753e-14,
+      "integer_polynomial_identity": 3.4869848089219264,
+      "low_eigenvalue": 0.053952984915180045,
+      "low_projector_idempotence": 0.2479633641900036,
+      "low_projector_trace": 1.2434497875801753e-14,
+      "projector_completeness": 1.1102230246251565e-16,
+      "projector_orthogonality": 0.2479633641900036
+    },
+    "probe_count": 4096
+  },
+  "theorem": {
+    "A_high_multiplicity": 2,
+    "A_high_singular_value": "||f||/3",
+    "A_low_multiplicity": 4,
+    "A_low_singular_value": "||f||/12",
+    "M_high_eigenvalue": "||f||^2/9",
+    "M_high_multiplicity": 2,
+    "M_low_eigenvalue": "||f||^2/144",
+    "M_low_multiplicity": 4,
+    "fractional_polynomial_identity": "M(f)^2 - (17/144)||f||^2 M(f) + (1/1296)||f||^4 I6 = 0",
+    "integer_polynomial_identity": "1296 M(f)^2 - 153 ||f||^2 M(f) + ||f||^4 I6 = 0",
+    "operator_norm": "||A(f)||_op = ||f||/3",
+    "sharp_bilinear_norm": "sigma_star = 1/3",
+    "statement": "For every f in the native four-flux coordinate space, with A(f)=sum_r f_r A_r and M(f)=A(f)^T A(f), the coefficientwise polynomial identity 1296 M(f)^2 - 153 ||f||^2 M(f) + ||f||^4 I6 = 0 holds. For nonzero f, M(f) has eigenvalues ||f||^2/9 with multiplicity 2 and ||f||^2/144 with multiplicity 4. Therefore A(f) has singular values ||f||/3 twice and ||f||/12 four times."
+  },
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_pencil_spectral_identity_failed"
+}

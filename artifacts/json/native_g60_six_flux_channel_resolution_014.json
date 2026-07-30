@@ -1,0 +1,268 @@
+{
+  "artifact_id": "native_g60_six_flux_channel_resolution_014",
+  "audit_pass": true,
+  "boundary": {
+    "bilinear_normalization_selected": false,
+    "canonical_flux_channel_selected": false,
+    "coexact_target_isotypic_sectors_resolved": true,
+    "complete_tested_hom_bases_constructed": true,
+    "cross_six_target_reach_measured": true,
+    "electromagnetism_claim": false,
+    "force_claim": false,
+    "physical_claim": false,
+    "physical_flux_claim": false,
+    "source_dynamics_selected": false
+  },
+  "channel_resolution": {
+    "all_channels_combined_image_dimension": 19,
+    "channel_rows": [
+      {
+        "combined_image_dimension": 10,
+        "coupling_name": "six_a_tensor_six_a",
+        "hom_basis_gram_max_abs": 1.1102230246251565e-15,
+        "hom_dimension_expected": 2,
+        "hom_dimension_recovered": 2,
+        "individual_map_ranks": "[10, 10]",
+        "maximum_equivariance_residual": 2.0634998769770607e-15,
+        "target_reach": "[{\"reached_dimension\": 0, \"target_dimension\": 4, \"target_sector_id\": 0}, {\"reached_dimension\": 4, \"target_dimension\": 4, \"target_sector_id\": 1}, {\"reached_dimension\": 0, \"target_dimension\": 5, \"target_sector_id\": 2}, {\"reached_dimension\": 6, \"target_dimension\": 6, \"target_sector_id\": 3}]"
+      },
+      {
+        "combined_image_dimension": 9,
+        "coupling_name": "six_a_tensor_six_b",
+        "hom_basis_gram_max_abs": 4.440892098500626e-16,
+        "hom_dimension_expected": 3,
+        "hom_dimension_recovered": 3,
+        "individual_map_ranks": "[9, 9, 9]",
+        "maximum_equivariance_residual": 4.440892098500626e-16,
+        "target_reach": "[{\"reached_dimension\": 4, \"target_dimension\": 4, \"target_sector_id\": 0}, {\"reached_dimension\": 0, \"target_dimension\": 4, \"target_sector_id\": 1}, {\"reached_dimension\": 5, \"target_dimension\": 5, \"target_sector_id\": 2}, {\"reached_dimension\": 0, \"target_dimension\": 6, \"target_sector_id\": 3}]"
+      },
+      {
+        "combined_image_dimension": 10,
+        "coupling_name": "six_b_tensor_six_b",
+        "hom_basis_gram_max_abs": 1.5543122344752192e-15,
+        "hom_dimension_expected": 2,
+        "hom_dimension_recovered": 2,
+        "individual_map_ranks": "[10, 10]",
+        "maximum_equivariance_residual": 2.6835727119941507e-15,
+        "target_reach": "[{\"reached_dimension\": 0, \"target_dimension\": 4, \"target_sector_id\": 0}, {\"reached_dimension\": 4, \"target_dimension\": 4, \"target_sector_id\": 1}, {\"reached_dimension\": 0, \"target_dimension\": 5, \"target_sector_id\": 2}, {\"reached_dimension\": 6, \"target_dimension\": 6, \"target_sector_id\": 3}]"
+      }
+    ],
+    "coexact_target_dimension": 19,
+    "cross_channel_combined_image_dimension": 9,
+    "self_channel_combined_image_dimension": 10
+  },
+  "checks": {
+    "all_channel_image_is_nonzero": true,
+    "all_expected_hom_dimensions_recovered": true,
+    "all_hom_bases_are_orthonormal": true,
+    "all_hom_basis_maps_are_equivariant": true,
+    "all_target_sectors_are_group_invariant": true,
+    "coexact_dimension_is_19": true,
+    "cross_channel_image_is_nonzero": true,
+    "input_permission_audit_pass": true,
+    "target_projectors_are_pairwise_orthogonal": true,
+    "target_projectors_sum_to_identity": true,
+    "target_sectors_sum_to_19": true,
+    "two_six_sectors_found": true
+  },
+  "coexact_target_decomposition": {
+    "dimension_sum": 19,
+    "sector_count": 4,
+    "sector_dimensions": [
+      4,
+      4,
+      5,
+      6
+    ],
+    "sector_rows": [
+      {
+        "character_norm": 1.0000000000000002,
+        "dimension": 4,
+        "group_invariance_max_abs": 1.2559397966072083e-15,
+        "projector_idempotence_max_abs": 3.3306690738754696e-16,
+        "target_sector_id": 0
+      },
+      {
+        "character_norm": 1.0,
+        "dimension": 4,
+        "group_invariance_max_abs": 1.3322676295501878e-15,
+        "projector_idempotence_max_abs": 3.3306690738754696e-16,
+        "target_sector_id": 1
+      },
+      {
+        "character_norm": 1.0,
+        "dimension": 5,
+        "group_invariance_max_abs": 3.1433189384699745e-15,
+        "projector_idempotence_max_abs": 2.220446049250313e-16,
+        "target_sector_id": 2
+      },
+      {
+        "character_norm": 1.0000000000000002,
+        "dimension": 6,
+        "group_invariance_max_abs": 3.219646771412954e-15,
+        "projector_idempotence_max_abs": 1.6653345369377348e-16,
+        "target_sector_id": 3
+      }
+    ]
+  },
+  "earned_interpretation": {
+    "all_six_couplings_reached_coexact_dimension": 19,
+    "constitutive_selector_selected": false,
+    "cross_six_channels_constructed": 3,
+    "cross_six_permission_dimension": 3,
+    "cross_six_reached_coexact_dimension": 9,
+    "normalization_selected": false,
+    "physical_flux_claim": false
+  },
+  "hom_space_resolution": {
+    "six_a_tensor_six_a": {
+      "equivariance_residuals": [
+        2.0634998769770607e-15,
+        1.446028980250612e-15
+      ],
+      "expected_dimension": 2,
+      "hom_basis_gram_max_abs": 1.1102230246251565e-15,
+      "maximum_equivariance_residual": 2.0634998769770607e-15,
+      "recovered_dimension": 2,
+      "seed_count": 32,
+      "singular_values": [
+        10.136275958862841,
+        5.985735866686401,
+        3.749815147473382e-15,
+        2.827510988101181e-15,
+        2.266682211282288e-15,
+        2.0814186349992652e-15,
+        1.29837740416439e-15,
+        1.0160337708721169e-15,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        9.01905674654904e-16,
+        7.802748544333172e-16,
+        5.348531490236003e-16
+      ]
+    },
+    "six_a_tensor_six_b": {
+      "equivariance_residuals": [
+        4.163336342344337e-16,
+        4.440892098500626e-16,
+        4.0245584642661925e-16
+      ],
+      "expected_dimension": 3,
+      "hom_basis_gram_max_abs": 4.440892098500626e-16,
+      "maximum_equivariance_residual": 4.440892098500626e-16,
+      "recovered_dimension": 3,
+      "seed_count": 32,
+      "singular_values": [
+        8.183276714496541,
+        5.834581152350104,
+        3.6199682847586745,
+        3.752537340773159e-15,
+        3.0658570827432364e-15,
+        2.499958687408268e-15,
+        2.3503641358968858e-15,
+        1.371570864891417e-15,
+        1.066394315518682e-15,
+        9.46943077816907e-16,
+        9.377740507239255e-16,
+        9.266955015226943e-16,
+        9.125140711722489e-16,
+        9.079848686605283e-16,
+        9.064768328762855e-16,
+        9.041650004577438e-16,
+        8.931895948808152e-16,
+        8.783089379606846e-16,
+        8.697114695456124e-16,
+        8.688917918782219e-16,
+        8.6386205998511e-16,
+        8.579198299278257e-16,
+        8.407309394664119e-16,
+        8.390510897735218e-16,
+        8.358450004170472e-16,
+        8.178614163224717e-16,
+        7.971855473987624e-16,
+        7.921826519425968e-16,
+        7.700761323975004e-16,
+        7.510532563715771e-16,
+        7.24201934174367e-16,
+        7.012298764668334e-16
+      ]
+    },
+    "six_b_tensor_six_b": {
+      "equivariance_residuals": [
+        2.6835727119941507e-15,
+        7.374925760901523e-16
+      ],
+      "expected_dimension": 2,
+      "hom_basis_gram_max_abs": 1.5543122344752192e-15,
+      "maximum_equivariance_residual": 2.6835727119941507e-15,
+      "recovered_dimension": 2,
+      "seed_count": 32,
+      "singular_values": [
+        9.219104018353246,
+        5.555586605743011,
+        4.243185780610583e-15,
+        2.8471018946693475e-15,
+        2.569309390670451e-15,
+        2.1370992595315623e-15,
+        1.4742720684999587e-15,
+        1.170809062402971e-15,
+        9.629106916918118e-16,
+        9.46146093019165e-16,
+        9.32086153708664e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        8.97974605353061e-16,
+        7.276319884615422e-16
+      ]
+    }
+  },
+  "inputs": {
+    "coexact_projector": "artifacts/npy/native_g60_hodge_projectors_003.npz",
+    "harmonic_irreducible_projectors": "artifacts/npy/native_g60_harmonic_irreducible_projectors_006c.npz",
+    "harmonic_representation": "artifacts/npy/native_g60_harmonic_representation_006.npz",
+    "permission_artifact": "artifacts/json/native_g60_six_sector_flux_intertwiner_013.json",
+    "signed_edge_actions": "artifacts/npy/native_g60_signed_cochain_actions_005.npz"
+  },
+  "outputs": {
+    "channel_csv": "artifacts/csv/native_g60_six_flux_channels_014.csv",
+    "channel_npz": "artifacts/npy/native_g60_six_flux_channel_resolution_014.npz",
+    "target_csv": "artifacts/csv/native_g60_coexact_target_sectors_014.csv"
+  },
+  "verdict": "native_g60_six_flux_channel_family_resolved"
+}

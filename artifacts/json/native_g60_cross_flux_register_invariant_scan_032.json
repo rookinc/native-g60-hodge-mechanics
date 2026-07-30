@@ -1,0 +1,213 @@
+{
+  "artifact_id": "native_g60_cross_flux_register_invariant_scan_032",
+  "audit_pass": true,
+  "axis_moments": {
+    "s2": {
+      "maximum": 2.5000000000000018,
+      "maximum_residual": 2.220446049250313e-15,
+      "mean": 2.500000000000001,
+      "minimum": 2.4999999999999996,
+      "rational": "5/2"
+    },
+    "s4": {
+      "maximum": 1.5972222222222239,
+      "maximum_residual": 2.220446049250313e-15,
+      "mean": 1.5972222222222228,
+      "minimum": 1.5972222222222217,
+      "rational": "115/72"
+    },
+    "s6": {
+      "maximum": 1.263503086419755,
+      "maximum_residual": 2.220446049250313e-15,
+      "mean": 1.2635030864197538,
+      "minimum": 1.2635030864197527,
+      "rational": "3275/2592"
+    },
+    "s8": {
+      "maximum": 1.117058899176957,
+      "maximum_residual": 2.886579864025407e-15,
+      "mean": 1.1170588991769557,
+      "minimum": 1.1170588991769541,
+      "rational": "34745/31104"
+    }
+  },
+  "axis_s4_formula": {
+    "formula": "1 + 3(2/3)^4 + 6(1/6)^4",
+    "rational": "115/72",
+    "value": 1.5972222222222223
+  },
+  "boundary": {
+    "axis_s4_value_exactly_computed": true,
+    "global_operator_norm_bound_proved": false,
+    "global_s4_maximum_proved": false,
+    "native_register_invariant_scan_completed": true,
+    "physical_claim": false,
+    "sampled_affine_envelope_is_theorem": false
+  },
+  "checks": {
+    "all_s4_optimization_endpoints_reach_axis_register": true,
+    "all_s4_optimizations_reach_axis_value": true,
+    "axis_line_count_is_10": true,
+    "axis_s4_is_115_over_72": true,
+    "input_031_theorem_pass": true,
+    "random_s2_is_constant_five_halves": true,
+    "random_sample_does_not_exceed_axis_s4": true,
+    "random_sample_does_not_exceed_one_third": true,
+    "register_is_tight_frame": true
+  },
+  "earned_interpretation": {
+    "global_one_third_bound_proved": false,
+    "native_axes_are_s4_maximizer_candidates": true,
+    "s4_alone_controls_operator_norm": false,
+    "s4_is_first_nonconstant_native_line_register_moment": true,
+    "s4_maximum_globally_proved": false,
+    "sampled_affine_upper_envelope_found": true
+  },
+  "outputs": {
+    "optimization_csv": "artifacts/csv/native_g60_cross_flux_register_invariant_optimizations_032.csv",
+    "regression_csv": "artifacts/csv/native_g60_cross_flux_register_invariant_regressions_032.csv",
+    "sample_csv": "artifacts/csv/native_g60_cross_flux_register_invariant_samples_032.csv",
+    "scan_npz": "artifacts/npy/native_g60_cross_flux_register_invariant_scan_032.npz"
+  },
+  "random_scan": {
+    "correlation_labels": [
+      "top_eigenvalue",
+      "S4",
+      "S6",
+      "S8",
+      "axis_distance"
+    ],
+    "correlation_matrix": [
+      [
+        1.0,
+        0.9820769538213812,
+        0.97698612641656,
+        0.9562715731773277,
+        -0.9179099507867846
+      ],
+      [
+        0.9820769538213812,
+        1.0,
+        0.9921422437490367,
+        0.9749368639214872,
+        -0.9079803385176439
+      ],
+      [
+        0.9769861264165599,
+        0.9921422437490367,
+        1.0,
+        0.9942110355706715,
+        -0.9380326694742699
+      ],
+      [
+        0.9562715731773277,
+        0.9749368639214872,
+        0.9942110355706715,
+        0.9999999999999998,
+        -0.9570246628372528
+      ],
+      [
+        -0.9179099507867846,
+        -0.9079803385176439,
+        -0.9380326694742699,
+        -0.957024662837253,
+        1.0
+      ]
+    ],
+    "maximum_operator_norm": 0.33330392930291003,
+    "maximum_s4": 1.5968510989355176,
+    "maximum_top_eigenvalue": 0.11109150928875924,
+    "minimum_axis_distance": 0.022626590694898308,
+    "sample_count": 50000
+  },
+  "register": {
+    "ambient_dimension": 4,
+    "frame_law": "L10^T L10 = (5/2) I4",
+    "frame_residual": 1.7763568394002505e-15,
+    "line_count": 10,
+    "quadratic_moment": "S2(f)=5/2 for unit f",
+    "random_s2_maximum_residual": 3.1086244689504383e-15
+  },
+  "s4_optimization": {
+    "all_starts_reach_axis_s4": true,
+    "maximum_axis_value_residual": 1.4432899320127035e-14,
+    "maximum_terminal_axis_distance": 9.8843121241194e-08,
+    "maximum_terminal_s4": 1.597222222222224,
+    "near_axis_terminal_count": 256,
+    "start_count": 256
+  },
+  "sampled_axis_anchored_envelope": {
+    "active_sample_count_at_1e_10": 1,
+    "candidate_beta": 0.04020382853310875,
+    "candidate_beta_rational": "2075/51612",
+    "form": "lambda_max <= 1/9 + beta*(S4-115/72)",
+    "maximum_sample_slack": 0.03324906546544278,
+    "minimum_sample_slack": 0.0,
+    "ratio_maximum": 0.08606960346041247,
+    "ratio_median": 0.05158120427293092,
+    "ratio_minimum": 0.04020382853310875
+  },
+  "theorem_pass": false,
+  "top_eigenvalue_regression": {
+    "models": [
+      {
+        "coefficient_count": 2,
+        "coefficients": "[0.010978591701978542, 0.06441298893893677]",
+        "feature_names": "[\"1\", \"S4\"]",
+        "maximum_absolute_residual": 0.014994174700748902,
+        "maximum_residual": 0.005273571933844548,
+        "minimum_residual": -0.014994174700748902,
+        "model": "s4_affine",
+        "r_squared": 0.9644751432270823,
+        "root_mean_square_residual": 0.0025821104223430784
+      },
+      {
+        "coefficient_count": 3,
+        "coefficients": "[-0.03242082986254315, 0.1378059707947084, -0.030099199373620513]",
+        "feature_names": "[\"1\", \"S4\", \"S4^2\"]",
+        "maximum_absolute_residual": 0.015177737795004656,
+        "maximum_residual": 0.005355011352952049,
+        "minimum_residual": -0.015177737795004656,
+        "model": "s4_quadratic",
+        "r_squared": 0.9742020725033894,
+        "root_mean_square_residual": 0.00220039703854601
+      },
+      {
+        "coefficient_count": 3,
+        "coefficients": "[0.01779329373568944, 0.053496242323499164, 0.008742242935415439]",
+        "feature_names": "[\"1\", \"S4\", \"S6\"]",
+        "maximum_absolute_residual": 0.015934051214560437,
+        "maximum_residual": 0.004924900282006317,
+        "minimum_residual": -0.015934051214560437,
+        "model": "s4_s6_affine",
+        "r_squared": 0.9649156997238855,
+        "root_mean_square_residual": 0.00256604963413678
+      },
+      {
+        "coefficient_count": 4,
+        "coefficients": "[0.05040351718411276, -0.0335085505750785, 0.17118740815286326, -0.09282766850702334]",
+        "feature_names": "[\"1\", \"S4\", \"S6\", \"S8\"]",
+        "maximum_absolute_residual": 0.01610831846035881,
+        "maximum_residual": 0.004859705243363849,
+        "minimum_residual": -0.01610831846035881,
+        "model": "s4_s6_s8_affine",
+        "r_squared": 0.9752604695774538,
+        "root_mean_square_residual": 0.002154787109834484
+      }
+    ],
+    "s4_alone_determines_top_eigenvalue": false,
+    "s4_binned_spread": {
+      "bin_count": 200,
+      "maximum_target_spread": 0.019865445811511562,
+      "populated_bin_count": 200,
+      "widest_bin": {
+        "bin_index": 71,
+        "invariant_maximum": 1.0418150711587832,
+        "invariant_minimum": 1.0374788521917775,
+        "sample_count": 274,
+        "target_spread": 0.019865445811511562
+      }
+    }
+  },
+  "verdict": "native_g60_cross_flux_register_s4_axis_maximum_candidate_identified"
+}

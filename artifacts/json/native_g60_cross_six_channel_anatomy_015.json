@@ -1,0 +1,155 @@
+{
+  "artifact_id": "native_g60_cross_six_channel_anatomy_015",
+  "audit_pass": true,
+  "boundary": {
+    "canonical_exchange_transport_exported": true,
+    "cross_channel_target_anatomy_resolved": true,
+    "exchange_parity_claim": false,
+    "force_claim": false,
+    "native_isomorphism_between_sixes_derived": false,
+    "physical_claim": false,
+    "physical_flux_claim": false,
+    "target_adapted_channel_basis_exported": true,
+    "unique_constitutive_channel_selected": false
+  },
+  "channel_rows": [
+    {
+      "channel_id": 0,
+      "equivariance_max_abs": 4.163336342344337e-16,
+      "map_rank": 9,
+      "reverse_equivariance_max_abs": 4.163336342344337e-16,
+      "target_component_frobenius_norms": "[0.5962903550559174, 5.074126918688302e-16, 0.8027688412409193, 2.2214840764233536e-15]",
+      "target_component_ranks": "[4, 0, 5, 0]"
+    },
+    {
+      "channel_id": 1,
+      "equivariance_max_abs": 4.440892098500626e-16,
+      "map_rank": 9,
+      "reverse_equivariance_max_abs": 4.3021142204224816e-16,
+      "target_component_frobenius_norms": "[0.5364798827001857, 5.567684484917398e-16, 0.8439131089502016, 2.3229843329906495e-15]",
+      "target_component_ranks": "[4, 0, 5, 0]"
+    },
+    {
+      "channel_id": 2,
+      "equivariance_max_abs": 4.0245584642661925e-16,
+      "map_rank": 9,
+      "reverse_equivariance_max_abs": 3.885780586188048e-16,
+      "target_component_frobenius_norms": "[0.5971826755066529, 5.447511068967213e-16, 0.802105262465417, 2.2350877846469573e-15]",
+      "target_component_ranks": "[4, 0, 5, 0]"
+    }
+  ],
+  "checks": {
+    "all_reverse_maps_are_equivariant": true,
+    "all_target_channel_bases_are_equivariant": true,
+    "cross_hom_dimension_is_3": true,
+    "cross_maps_reconstruct_from_target_sectors": true,
+    "cross_reaches_exactly_two_target_sectors": true,
+    "input_014_audit_pass": true,
+    "target_channel_dimensions_sum_to_3": true,
+    "target_dimensions_are_4_4_5_6": true,
+    "tensor_flip_intertwines_ab_and_ba": true,
+    "tensor_flip_is_involution": true,
+    "three_cross_maps_loaded": true
+  },
+  "cross_hom_space": {
+    "basis_gram_max_abs": 4.440892098500626e-16,
+    "dimension": 3,
+    "target_channel_dimension_sum": 3,
+    "target_channel_signature": [
+      {
+        "channel_dimension": 1,
+        "image_dimension": 4,
+        "target_dimension": 4,
+        "target_sector_id": 0
+      },
+      {
+        "channel_dimension": 2,
+        "image_dimension": 5,
+        "target_dimension": 5,
+        "target_sector_id": 2
+      }
+    ]
+  },
+  "earned_interpretation": {
+    "cross_channel_family_dimension": 3,
+    "cross_target_dimension": 9,
+    "exchange_even_odd_parity_resolved": false,
+    "exchange_order_transport_resolved": true,
+    "target_native_channel_split": [
+      {
+        "channel_dimension": 1,
+        "image_dimension": 4,
+        "target_dimension": 4,
+        "target_sector_id": 0
+      },
+      {
+        "channel_dimension": 2,
+        "image_dimension": 5,
+        "target_dimension": 5,
+        "target_sector_id": 2
+      }
+    ],
+    "unique_channel_selected": false
+  },
+  "exchange_transport": {
+    "exchange_parity_defined": false,
+    "flip_involution_max_abs": 0.0,
+    "flip_shape": [
+      36,
+      36
+    ],
+    "reason_exchange_parity_not_defined": "V6a and V6b are distinct invariant sectors. The tensor flip canonically exchanges their order, but no native identification V6a = V6b has been derived.",
+    "reverse_map_equivariance_max_abs": [
+      4.163336342344337e-16,
+      4.3021142204224816e-16,
+      3.885780586188048e-16
+    ],
+    "statement": "Tensor flip transports an equivariant map V6a tensor V6b -> C into an equivariant map V6b tensor V6a -> C.",
+    "tensor_representation_intertwining_max_abs": 0.0
+  },
+  "inputs": {
+    "channel_resolution": "artifacts/json/native_g60_six_flux_channel_resolution_014.json",
+    "channel_resolution_npz": "artifacts/npy/native_g60_six_flux_channel_resolution_014.npz",
+    "harmonic_representation": "artifacts/npy/native_g60_harmonic_representation_006.npz",
+    "signed_edge_actions": "artifacts/npy/native_g60_signed_cochain_actions_005.npz"
+  },
+  "outputs": {
+    "channel_csv": "artifacts/csv/native_g60_cross_six_channel_anatomy_015.csv",
+    "channel_npz": "artifacts/npy/native_g60_cross_six_channel_anatomy_015.npz"
+  },
+  "target_rows": [
+    {
+      "cross_channel_dimension": 1,
+      "cross_combined_image_dimension": 4,
+      "cross_reaches_full_target": true,
+      "maximum_equivariance_residual": 6.084542591988651e-16,
+      "target_dimension": 4,
+      "target_sector_id": 0
+    },
+    {
+      "cross_channel_dimension": 0,
+      "cross_combined_image_dimension": 0,
+      "cross_reaches_full_target": false,
+      "maximum_equivariance_residual": 0.0,
+      "target_dimension": 4,
+      "target_sector_id": 1
+    },
+    {
+      "cross_channel_dimension": 2,
+      "cross_combined_image_dimension": 5,
+      "cross_reaches_full_target": true,
+      "maximum_equivariance_residual": 1.0408340855860843e-15,
+      "target_dimension": 5,
+      "target_sector_id": 2
+    },
+    {
+      "cross_channel_dimension": 0,
+      "cross_combined_image_dimension": 0,
+      "cross_reaches_full_target": false,
+      "maximum_equivariance_residual": 0.0,
+      "target_dimension": 6,
+      "target_sector_id": 3
+    }
+  ],
+  "verdict": "native_g60_cross_six_channel_target_anatomy_resolved"
+}

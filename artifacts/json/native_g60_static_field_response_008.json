@@ -1,0 +1,94 @@
+{
+  "artifact_id": "native_g60_static_field_response_008",
+  "audit_pass": true,
+  "boundary": {
+    "constitutive_law_derived": false,
+    "dynamics_defined": false,
+    "electromagnetism_claim": false,
+    "force_claim": false,
+    "harmonic_solvability_obstruction_identified": true,
+    "maxwell_claim": false,
+    "minimum_norm_response_is_mathematical": true,
+    "physical_claim": false,
+    "physical_energy_claim": false,
+    "source_law_derived": false,
+    "static_solver_constructed": true,
+    "unification_claim": false,
+    "universe_simulation_claim": false
+  },
+  "checks": {
+    "all_deterministic_probes_pass": true,
+    "coexact_solver_is_divergence_free": true,
+    "coexact_solver_is_inverse_on_coexact_sector": true,
+    "delta1_kernel_dimension_is_42": true,
+    "delta1_rank_is_78": true,
+    "delta1_shape_is_120_by_120": true,
+    "input_gauge_audit_pass": true,
+    "input_uniform_hodge_pass": true,
+    "kernel_is_harmonic": true,
+    "moore_penrose_identities_pass": true,
+    "range_is_exact_plus_coexact": true,
+    "solver_is_symmetric": true,
+    "static_solver_rank_is_78": true
+  },
+  "earned_interpretation": {
+    "coexact_source": "Has a unique minimum-norm gauge-fixed static response.",
+    "harmonic_source": "Lies in ker(Delta1), so no static solution exists unless that harmonic component is removed or supplied with an additional constitutive constraint.",
+    "mixed_source": "The pseudoinverse responds only to the coexact part; the unsatisfied residual is exactly the harmonic part.",
+    "physical_source_claim": false
+  },
+  "inputs": {
+    "delta1": "artifacts/matrices/native_g60_Delta1_uniform_002.csv",
+    "gauge_equivalence": "artifacts/json/native_g60_gauge_equivalence_audit_007.json",
+    "hodge_projectors": "artifacts/npy/native_g60_hodge_projectors_003.npz",
+    "uniform_hodge_baseline": "artifacts/json/native_g60_uniform_hodge_baseline_002.json"
+  },
+  "operator_residuals": {
+    "coexact_inverse_left": 2.7755575615628914e-16,
+    "coexact_inverse_right": 2.498001805406602e-16,
+    "coexact_response_divergence": 4.163336342344337e-17,
+    "coexact_solver_stays_coexact": 2.0816681711721685e-17,
+    "kernel_projector_harmonic": 2.220446049250313e-15,
+    "moore_penrose_delta_solver_delta": 7.105427357601002e-15,
+    "moore_penrose_solver_delta_solver": 6.661338147750939e-16,
+    "range_projector_exact_plus_coexact": 2.220446049250313e-15,
+    "solver_symmetry_max_abs": 0.0
+  },
+  "outputs": {
+    "probe_csv": "artifacts/csv/native_g60_static_field_response_probes_008.csv",
+    "solver_npz": "artifacts/npy/native_g60_static_field_solver_008.npz"
+  },
+  "probe_audit": {
+    "all_probes_pass": true,
+    "global_maximum_residuals": {
+      "coexact_exact_solution": 3.885780586188048e-15,
+      "coexact_response_divergence": 4.3021142204224816e-16,
+      "coexact_response_stays_coexact": 2.0816681711721685e-16,
+      "curvature_response_consistency": 3.4416913763379853e-15,
+      "harmonic_residual_equals_source": 5.551115123125783e-15,
+      "harmonic_response_zero": 5.218048215738236e-15,
+      "minimum_norm_orthogonal_to_kernel": 4.3021142204224816e-16,
+      "mixed_residual_equals_harmonic": 6.439293542825908e-15,
+      "mixed_response_equals_coexact_response": 5.1295773184634186e-15,
+      "source_decomposition": 8.881784197001252e-16
+    },
+    "probe_count": 24,
+    "random_seed": 46008
+  },
+  "solver_spectrum": {
+    "dimension": 120,
+    "kernel_dimension": 42,
+    "largest_positive_eigenvalue": 16.000000000000014,
+    "rank": 78,
+    "smallest_positive_eigenvalue": 0.763932022500207
+  },
+  "static_problem": {
+    "coexact_solver": "P_coexact Delta1^+ P_coexact",
+    "equation": "Delta1 A = J",
+    "exactly_solvable_gauge_fixed_source_space": "Coexact(19)",
+    "gauge_fixed_source_space": "Harmonic(42) direct_sum Coexact(19)",
+    "harmonic_obstruction_dimension": 42,
+    "minimum_norm_solver": "Moore-Penrose pseudoinverse of Delta1"
+  },
+  "verdict": "native_g60_static_solvability_and_harmonic_obstruction_identified"
+}

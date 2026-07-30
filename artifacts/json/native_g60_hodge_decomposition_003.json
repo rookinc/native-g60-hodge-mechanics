@@ -1,0 +1,131 @@
+{
+  "artifact_id": "native_g60_hodge_decomposition_003",
+  "audit_pass": true,
+  "boundary": {
+    "dynamics_defined": false,
+    "explicit_hodge_projectors_constructed": true,
+    "force_claim": false,
+    "harmonic_basis_exported": false,
+    "hodge_decomposition_proved_for_uniform_baseline": true,
+    "maxwell_claim": false,
+    "metric_geometry_derived": false,
+    "native_group_commutation_audited": false,
+    "physical_claim": false,
+    "physical_constitutive_law_derived": false,
+    "physical_energy_claim": false,
+    "unification_claim": false,
+    "universe_simulation_claim": false
+  },
+  "checks": {
+    "all_projectors_are_symmetric": true,
+    "coexact_sector_is_coclosed": true,
+    "dimension_sum_is_120": true,
+    "exact_coexact_product_is_zero": true,
+    "exact_harmonic_product_is_zero": true,
+    "exact_sector_is_closed": true,
+    "harmonic_coexact_product_is_zero": true,
+    "harmonic_sector_is_closed": true,
+    "harmonic_sector_is_coclosed": true,
+    "harmonic_sector_is_laplacian_kernel": true,
+    "input_uniform_hodge_baseline_pass": true,
+    "p_coexact_fixes_image_d1_transpose": true,
+    "p_coexact_is_idempotent": true,
+    "p_coexact_rank_is_19": true,
+    "p_exact_fixes_image_d0": true,
+    "p_exact_is_idempotent": true,
+    "p_exact_rank_is_59": true,
+    "p_harmonic_is_idempotent": true,
+    "p_harmonic_rank_is_42": true,
+    "projector_traces_match_dimensions": true,
+    "projectors_sum_to_identity": true
+  },
+  "construction": {
+    "numerical_tolerance": 1e-09,
+    "p_coexact": "orthogonal spectral projector onto image(d1^T)",
+    "p_exact": "orthogonal spectral projector onto image(d0)",
+    "p_harmonic": "I120 - p_exact - p_coexact",
+    "weight_model": "uniform_identity_inner_products"
+  },
+  "decomposition": {
+    "coexact_dimension": 19,
+    "edge_space_dimension": 120,
+    "exact_dimension": 59,
+    "harmonic_dimension": 42,
+    "statement": "C1 = im(d0) orthogonal_direct_sum ker(Delta1) orthogonal_direct_sum im(d1^T)"
+  },
+  "inputs": {
+    "b1": "data/imported/project45/native_g60_B1_vertex_edge_004.csv",
+    "b2": "data/imported/project45/native_g60_B2_edge_face_004.csv",
+    "uniform_hodge_baseline": "artifacts/json/native_g60_uniform_hodge_baseline_002.json"
+  },
+  "outputs": {
+    "p_coexact_csv": "artifacts/matrices/native_g60_P_coexact_003.csv",
+    "p_exact_csv": "artifacts/matrices/native_g60_P_exact_003.csv",
+    "p_harmonic_csv": "artifacts/matrices/native_g60_P_harmonic_003.csv",
+    "projector_npz": "artifacts/npy/native_g60_hodge_projectors_003.npz"
+  },
+  "projector_audits": {
+    "coexact": {
+      "idempotence_frobenius": 4.66033384436973e-15,
+      "idempotence_max_abs": 2.7755575615628914e-16,
+      "maximum_eigenvalue": 1.0000000000000018,
+      "minimum_eigenvalue": -4.448690809453973e-16,
+      "rank": 19,
+      "symmetry_max_abs": 0.0,
+      "trace": 19.000000000000007
+    },
+    "exact": {
+      "idempotence_frobenius": 8.889443211590855e-15,
+      "idempotence_max_abs": 6.661338147750939e-16,
+      "maximum_eigenvalue": 1.0000000000000027,
+      "minimum_eigenvalue": -8.425907473276116e-16,
+      "rank": 59,
+      "symmetry_max_abs": 0.0,
+      "trace": 58.99999999999999
+    },
+    "harmonic": {
+      "idempotence_frobenius": 1.1410572437096634e-14,
+      "idempotence_max_abs": 6.661338147750939e-16,
+      "maximum_eigenvalue": 1.0000000000000013,
+      "minimum_eigenvalue": -2.927376966403368e-15,
+      "rank": 42,
+      "symmetry_max_abs": 0.0,
+      "trace": 42.0
+    }
+  },
+  "residuals": {
+    "coexact_coclosed_max_abs": 2.8449465006019636e-16,
+    "completeness_max_abs": 2.220446049250313e-16,
+    "exact_closed_max_abs": 1.0737938316296436e-15,
+    "exact_coexact_max_abs": 2.1981982206709105e-16,
+    "exact_harmonic_max_abs": 4.447173786860796e-16,
+    "harmonic_closed_max_abs": 2.157996004115148e-15,
+    "harmonic_coclosed_max_abs": 2.192690473634684e-15,
+    "harmonic_coexact_max_abs": 3.0657262029924284e-16,
+    "harmonic_laplacian_max_abs": 4.73232564246473e-15,
+    "p_coexact_fixes_d1t_max_abs": 2.220446049250313e-15,
+    "p_coexact_idempotence_max_abs": 2.7755575615628914e-16,
+    "p_exact_fixes_d0_max_abs": 1.9984014443252818e-15,
+    "p_exact_idempotence_max_abs": 6.661338147750939e-16,
+    "p_harmonic_idempotence_max_abs": 6.661338147750939e-16
+  },
+  "source_operator_spectra": {
+    "coexact_operator": {
+      "dimension": 120,
+      "maximum_eigenvalue": 16.000000000000014,
+      "minimum_eigenvalue": -8.901678360601832e-15,
+      "positive_eigenvalue_count": 19,
+      "smallest_positive_eigenvalue": 5.999999999999994,
+      "zero_eigenvalue_count": 101
+    },
+    "exact_operator": {
+      "dimension": 120,
+      "maximum_eigenvalue": 6.0000000000000036,
+      "minimum_eigenvalue": -4.483321893961833e-15,
+      "positive_eigenvalue_count": 59,
+      "smallest_positive_eigenvalue": 0.7639320225002095,
+      "zero_eigenvalue_count": 61
+    }
+  },
+  "verdict": "native_g60_explicit_hodge_decomposition_constructed"
+}

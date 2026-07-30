@@ -1,0 +1,200 @@
+{
+  "artifact_id": "native_g60_harmonic_multiplicity_split_006c",
+  "audit_pass": true,
+  "boundary": {
+    "abstract_irreducible_names_assigned": false,
+    "concrete_equivalent_10_dimensional_copies_exported": true,
+    "doubled_isotypic_sector_split": true,
+    "energy_claim": false,
+    "force_claim": false,
+    "frequency_claim": false,
+    "maxwell_claim": false,
+    "particle_claim": false,
+    "physical_claim": false,
+    "physical_mode_interpretation": false,
+    "symmetry_adapted_harmonic_basis_exported": true,
+    "unification_claim": false,
+    "universe_simulation_claim": false
+  },
+  "checks": {
+    "both_copy_projectors_are_idempotent": true,
+    "both_copy_projectors_are_invariant": true,
+    "commutant_operator_commutes_with_group": true,
+    "copy_bases_are_orthonormal": true,
+    "copy_characters_are_equal": true,
+    "copy_projectors_are_orthogonal": true,
+    "copy_projectors_reconstruct_20_sector": true,
+    "deterministic_commutant_seed_found": true,
+    "each_copy_character_norm_is_one": true,
+    "final_irreducible_dimensions_are_2_6_6_8_10_10": true,
+    "final_projectors_are_pairwise_orthogonal": true,
+    "final_projectors_sum_to_identity": true,
+    "input_006b_audit_pass": true,
+    "intertwiner_commutes_with_group": true,
+    "nonzero_full_rank_intertwiner_found": true,
+    "representation_shape_is_480_by_42_by_42": true,
+    "split_dimensions_are_10_and_10": true,
+    "symmetry_adapted_basis_is_orthonormal": true,
+    "unique_20_dimensional_isotypic_sector": true
+  },
+  "construction": {
+    "method": "Reynolds-average deterministic self-adjoint seed operators into the representation commutant, then spectrally split the 20-dimensional multiplicity-two isotypic sector.",
+    "selected_eigenvalue_clusters": [
+      {
+        "dimension": 10,
+        "maximum": 20.777783601273697,
+        "minimum": 20.777783601273647
+      },
+      {
+        "dimension": 10,
+        "maximum": 22.369562815675206,
+        "minimum": 22.36956281567515
+      }
+    ],
+    "selected_seed_id": 0,
+    "tolerance": 1e-08
+  },
+  "final_decomposition": {
+    "dimension_sum": 42,
+    "dimensions": [
+      2,
+      6,
+      6,
+      8,
+      10,
+      10
+    ],
+    "projector_completeness_max_abs": 5.551115123125783e-16,
+    "projector_pairwise_max_abs": 1.9828145084802168e-16,
+    "sector_count": 6,
+    "sorted_dimensions": [
+      2,
+      6,
+      6,
+      8,
+      10,
+      10
+    ],
+    "symmetry_adapted_basis_gram_max_abs": 6.661338147750939e-16,
+    "symmetry_adapted_basis_shape": [
+      42,
+      42
+    ]
+  },
+  "inputs": {
+    "harmonic_representation": "artifacts/npy/native_g60_harmonic_representation_006.npz",
+    "isotypic_decomposition": "artifacts/json/native_g60_harmonic_irreducible_decomposition_006b.json",
+    "isotypic_projectors": "artifacts/npy/native_g60_harmonic_isotypic_projectors_006b.npz"
+  },
+  "intertwiner": {
+    "commutation_max_abs": 3.642919299551295e-17,
+    "rank": 10,
+    "restricted_shape": [
+      10,
+      10
+    ],
+    "singular_values": [
+      0.060567944084191166,
+      0.060567944084191166,
+      0.06056794408419116,
+      0.06056794408419115,
+      0.06056794408419115,
+      0.06056794408419115,
+      0.06056794408419115,
+      0.060567944084191146,
+      0.060567944084191146,
+      0.060567944084191146
+    ]
+  },
+  "multiplicity_split": {
+    "copy_character_difference_max_abs": 3.247402347028583e-15,
+    "copy_character_norms": [
+      0.9999999999999996,
+      0.9999999999999998
+    ],
+    "copy_completeness_max_abs": 3.3306690738754696e-16,
+    "copy_dimensions": [
+      10,
+      10
+    ],
+    "copy_idempotence_max_abs": [
+      1.6653345369377348e-16,
+      2.220446049250313e-16
+    ],
+    "copy_invariance_max_abs": [
+      1.0047518372857667e-14,
+      9.58955137519979e-15
+    ],
+    "copy_orthogonality_max_abs": 1.9828145084802168e-16,
+    "original_sector_dimension": 20
+  },
+  "outputs": {
+    "irreducible_projectors_npz": "artifacts/npy/native_g60_harmonic_irreducible_projectors_006c.npz",
+    "sector_csv": "artifacts/csv/native_g60_harmonic_multiplicity_split_006c.csv",
+    "symmetry_adapted_basis_npz": "artifacts/npy/native_g60_harmonic_symmetry_adapted_basis_006c.npz"
+  },
+  "sector_rows": [
+    {
+      "character_norm": 0.9999999999999998,
+      "dimension": 2,
+      "group_invariance_max_abs": 9.103828801926284e-15,
+      "projector_idempotence_max_abs": 8.326672684688674e-17,
+      "projector_rank": 2,
+      "sector_id": 0
+    },
+    {
+      "character_norm": 0.9999999999999996,
+      "dimension": 6,
+      "group_invariance_max_abs": 1.4710455076283324e-14,
+      "projector_idempotence_max_abs": 6.938893903907228e-17,
+      "projector_rank": 6,
+      "sector_id": 1
+    },
+    {
+      "character_norm": 0.9999999999999997,
+      "dimension": 6,
+      "group_invariance_max_abs": 9.159339953157541e-16,
+      "projector_idempotence_max_abs": 1.6653345369377348e-16,
+      "projector_rank": 6,
+      "sector_id": 2
+    },
+    {
+      "character_norm": 1.0,
+      "dimension": 8,
+      "group_invariance_max_abs": 1.1268763699945339e-14,
+      "projector_idempotence_max_abs": 1.3877787807814457e-16,
+      "projector_rank": 8,
+      "sector_id": 3
+    },
+    {
+      "character_norm": 0.9999999999999996,
+      "dimension": 10,
+      "group_invariance_max_abs": 1.0047518372857667e-14,
+      "projector_idempotence_max_abs": 1.6653345369377348e-16,
+      "projector_rank": 10,
+      "sector_id": 4
+    },
+    {
+      "character_norm": 0.9999999999999998,
+      "dimension": 10,
+      "group_invariance_max_abs": 9.58955137519979e-15,
+      "projector_idempotence_max_abs": 2.220446049250313e-16,
+      "projector_rank": 10,
+      "sector_id": 5
+    }
+  ],
+  "seed_audit_rows": [
+    {
+      "accepted_10_plus_10": true,
+      "cluster_count": 2,
+      "cluster_sizes": [
+        10,
+        10
+      ],
+      "maximum_eigenvalue": 22.36956281567521,
+      "minimum_eigenvalue": 20.777783601273644,
+      "seed_id": 0
+    }
+  ],
+  "verdict": "native_g60_doubled_10_dimensional_harmonic_sector_split"
+}

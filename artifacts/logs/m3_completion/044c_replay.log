@@ -1,0 +1,35 @@
+certificate_progress: e1 constructing target
+elementary_progress: e1 1/6 term_count: 10
+elementary_progress: e1 6/6 term_count: 10
+certificate_progress: e1 maximum_residual: 1.6167622796103842e-15 pass: True
+certificate_progress: e2 constructing target
+elementary_progress: e2 1/15 term_count: 35
+elementary_progress: e2 15/15 term_count: 35
+certificate_progress: e2 maximum_residual: 6.576228277210827e-16 pass: True
+certificate_progress: e3 constructing target
+elementary_progress: e3 1/20 term_count: 84
+elementary_progress: e3 20/20 term_count: 84
+certificate_progress: e3 maximum_residual: 1.98544522836408e-16 pass: True
+certificate_progress: e4 constructing target
+elementary_progress: e4 1/15 term_count: 165
+elementary_progress: e4 15/15 term_count: 165
+certificate_progress: e4 maximum_residual: 4.174178364069192e-17 pass: True
+certificate_progress: e5 constructing target
+elementary_progress: e5 1/6 term_count: 286
+elementary_progress: e5 6/6 term_count: 286
+certificate_progress: e5 maximum_residual: 5.3939058081153846e-18 pass: True
+audit_pass: True
+theorem_pass: True
+verdict: native_g60_cross_flux_gap_elementary_canonical_certificate_exact
+e1 formula: (5/12)*N2 maximum_coefficient_residual: 1.6167622796103842e-15 pass: True
+e2 formula: (271/3456)*N2^2 + (-1/120)*S4 maximum_coefficient_residual: 6.576228277210827e-16 pass: True
+e3 formula: (6107/746496)*N2^3 + (-1/540)*N2*S4 + (-1/1800)*S6 maximum_coefficient_residual: 1.98544522836408e-16 pass: True
+e4 formula: (70403/143327232)*N2^4 + (-47/276480)*N2^2*S4 + (-1/8640)*N2*S6 + (1/57600)*S4^2 maximum_coefficient_residual: 4.174178364069192e-17 pass: True
+e5 formula: (40051/2579890176)*N2^5 + (-205/35831808)*N2^3*S4 + (-121/12441600)*N2^2*S6 + (1/2073600)*N2*S4^2 + (1/432000)*S4*S6 maximum_coefficient_residual: 5.3939058081153846e-18 pass: True
+maximum_probe_residual: 4.050093593832571e-13
+maximum_probe_residual_by_invariant: {'e1': 1.7763568394002505e-14, 'e2': 1.2079226507921703e-13, 'e3': 3.055333763768431e-13, 'e4': 4.050093593832571e-13, 'e5': 2.291500322826323e-13}
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_cross_flux_gap_elementary_canonical_certificate_044c.json
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_elementary_canonical_formulas_044c.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_elementary_canonical_coefficients_044c.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_elementary_canonical_probes_044c.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/npy/native_g60_cross_flux_gap_elementary_canonical_certificate_044c.npz

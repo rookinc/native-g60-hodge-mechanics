@@ -1,0 +1,17 @@
+audit_pass: True
+theorem_pass: True
+verdict: native_g60_cross_flux_gap_determinant_scaled_rational_reconstruction_exact
+scaled_condition_number: 191.08621698843248
+scaled_floating_coefficients: [1.9660792407771413e-07, -5.132001401907501e-08, -2.463360672915736e-07, 3.3489797668034517e-09, 8.233172402618736e-22, 3.215020576131717e-08, 1.5350006592702475e-22, 7.716049382715997e-08]
+scaled_floating_residual: 1.7787691892340307e-19
+best_anchor: N2^2*S4^2
+best_ratio_denominator_limit: 100000
+best_rational_scale: 1/298598400
+best_rational_direction: ["2739025/46656", "-1655/108", "-662/9", "1", "0", "48/5", "0", "576/25"]
+best_coefficient_residual: 1.7808867716021665e-19
+maximum_probe_residual: 5.81756864903582e-14
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_cross_flux_gap_determinant_scaled_reconstruction_043c.json
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_determinant_ratio_search_043c.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_determinant_scaled_coefficients_043c.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_determinant_scaled_probes_043c.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/npy/native_g60_cross_flux_gap_determinant_scaled_reconstruction_043c.npz

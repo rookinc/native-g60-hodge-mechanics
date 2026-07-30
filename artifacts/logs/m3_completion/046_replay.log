@@ -1,0 +1,19 @@
+exact_sos_target: e2 constructing coefficient target
+elementary_progress: e2 1/15 term_count: 35
+elementary_progress: e2 15/15 term_count: 35
+exact_sos_result: e2 target_error: 4.349819116011844e-16 entry_change: 1.5326455382602688e-13 min_float_eig: 0.010900162586799383 exact_ldl_pd: True certificate: True
+exact_sos_target: e3 constructing coefficient target
+elementary_progress: e3 1/20 term_count: 84
+elementary_progress: e3 20/20 term_count: 84
+exact_sos_result: e3 target_error: 3.5090880938851154e-17 entry_change: 3.048603036681641e-13 min_float_eig: 5.538058860725493e-06 exact_ldl_pd: True certificate: True
+audit_pass: True
+theorem_pass: True
+verdict: exact_rational_sos_certificates_found_for_e2_and_e3
+certificate_count: 2
+e2 target_error: 4.349819116011844e-16 entry_change: 1.5326455382602688e-13 minimum_float_eigenvalue: 0.010900162586799383 exact_ldl_pd: True certificate: True
+e3 target_error: 3.5090880938851154e-17 entry_change: 3.048603036681641e-13 minimum_float_eigenvalue: 5.538058860725493e-06 exact_ldl_pd: True certificate: True
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_cross_flux_gap_exact_sos_reconstruction_046.json
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_exact_sos_summary_046.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_exact_sos_gram_entries_046.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_exact_sos_ldl_pivots_046.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/npy/native_g60_cross_flux_gap_exact_sos_reconstruction_046.npz

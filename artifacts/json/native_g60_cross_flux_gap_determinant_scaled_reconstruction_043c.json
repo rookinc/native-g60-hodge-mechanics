@@ -1,0 +1,85 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_determinant_scaled_reconstruction_043c",
+  "audit_pass": true,
+  "boundary": {
+    "determinant_nonnegative_proved": false,
+    "exact_rational_reconstruction_completed": true,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false,
+    "scaled_coefficient_fit_completed": true
+  },
+  "checks": {
+    "common_scale_rational_candidate_passes_coefficients": true,
+    "common_scale_rational_candidate_passes_probes": true,
+    "design_shape_is_455_by_8": true,
+    "input_043b_record_present": true,
+    "scaled_design_has_full_rank": true,
+    "scaled_floating_fit_is_exact": true
+  },
+  "earned_interpretation": {
+    "column_scaling_resolves_numerical_conditioning": true,
+    "determinant_identity_proved": true,
+    "global_gap_psd_proved": false,
+    "single_common_rational_scale_recovered": true
+  },
+  "outputs": {
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_gap_determinant_scaled_coefficients_043c.csv",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_gap_determinant_scaled_probes_043c.csv",
+    "reconstruction_npz": "artifacts/npy/native_g60_cross_flux_gap_determinant_scaled_reconstruction_043c.npz",
+    "search_csv": "artifacts/csv/native_g60_cross_flux_gap_determinant_ratio_search_043c.csv"
+  },
+  "probe_summary": {
+    "all_probes_pass": true,
+    "maximum_probe_residual": 5.81756864903582e-14,
+    "probe_count": 4096
+  },
+  "rational_search": {
+    "best_anchor": "N2^2*S4^2",
+    "best_coefficients": [
+      1.966079240777154e-07,
+      -5.1320014019077376e-08,
+      -2.463360672915714e-07,
+      3.348979766803841e-09,
+      0.0,
+      3.215020576131687e-08,
+      0.0,
+      7.71604938271605e-08
+    ],
+    "best_ratio_denominator_limit": 100000,
+    "best_rational_direction": "[\"2739025/46656\", \"-1655/108\", \"-662/9\", \"1\", \"0\", \"48/5\", \"0\", \"576/25\"]",
+    "best_rational_scale": "1/298598400",
+    "candidate_count": 30,
+    "maximum_coefficient_residual": 1.7830043539703022e-19
+  },
+  "scaled_fit": {
+    "column_norms": [
+      622.2025393712244,
+      754.5732629925977,
+      489.0437868462561,
+      958.7400826372345,
+      375.4979267786369,
+      654.4503360209272,
+      1315.955449708746,
+      485.24544303916326
+    ],
+    "condition_number": 191.08621698843243,
+    "design_shape": [
+      455,
+      8
+    ],
+    "floating_coefficients": [
+      1.9660792407771434e-07,
+      -5.132001401907524e-08,
+      -2.463360672915735e-07,
+      3.348979766803549e-09,
+      7.420539460584716e-22,
+      3.215020576131711e-08,
+      1.586756244361494e-22,
+      7.716049382715997e-08
+    ],
+    "maximum_residual": 1.776651606865895e-19,
+    "rank": 8
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_cross_flux_gap_determinant_scaled_rational_reconstruction_exact"
+}

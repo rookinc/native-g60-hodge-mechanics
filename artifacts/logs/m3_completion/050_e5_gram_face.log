@@ -1,0 +1,39 @@
+elementary_progress: e5 1/6 term_count: 286
+elementary_progress: e5 6/6 term_count: 286
+full_solve_start: scs_eps_1e8 {'name': 'scs_eps_1e8', 'eps': 1e-08, 'max_iters': 250000, 'scale': 1.0}
+full_solve_result: scs_eps_1e8 status: optimal margin: -1.0861662049893416e-13 coefficient_residual: 1.0052690779550075e-15 kernel_max_abs_eig: 9.691876426521289e-13 first_face_eig: 1.0848028580069029e-06 rank: 46 elapsed_seconds: 0.4679597089998424
+full_solve_start: scs_eps_3e9 {'name': 'scs_eps_3e9', 'eps': 3e-09, 'max_iters': 500000, 'scale': 1.0}
+full_solve_result: scs_eps_3e9 status: optimal margin: -2.6365017121024434e-14 coefficient_residual: 3.8619111977344217e-16 kernel_max_abs_eig: 3.815865699568855e-13 first_face_eig: 1.0847929737971696e-06 rank: 46 elapsed_seconds: 0.4385176249779761
+full_solve_start: scs_eps_1e9 {'name': 'scs_eps_1e9', 'eps': 1e-09, 'max_iters': 750000, 'scale': 10.0}
+full_solve_result: scs_eps_1e9 status: optimal margin: -1.7638862241224938e-14 coefficient_residual: 1.8689019651513608e-16 kernel_max_abs_eig: 2.006816595539725e-13 first_face_eig: 1.3970572075927177e-06 rank: 46 elapsed_seconds: 0.46246045804582536
+full_solve_start: scs_eps_3e10 {'name': 'scs_eps_3e10', 'eps': 3e-10, 'max_iters': 1000000, 'scale': 10.0}
+full_solve_result: scs_eps_3e10 status: optimal margin: -3.920298947175354e-15 coefficient_residual: 4.109126233720062e-17 kernel_max_abs_eig: 4.4153654920947136e-14 first_face_eig: 1.3970565655529258e-06 rank: 46 elapsed_seconds: 0.4469578331336379
+reduced_face_precompute_start: constraint_count: 286 reduced_size: 46
+reduced_face_precompute_progress: 1/286
+reduced_face_precompute_progress: 50/286
+reduced_face_precompute_progress: 100/286
+reduced_face_precompute_progress: 150/286
+reduced_face_precompute_progress: 200/286
+reduced_face_precompute_progress: 250/286
+reduced_face_precompute_progress: 286/286
+reduced_face_solve_start: reduced_size: 46 constraint_count: 286
+/Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/scripts/native_g60_cross_flux_gap_e5_gram_face_probe_050.py:846: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  objective = problem.solve(
+reduced_face_solve_result: status: optimal_inaccurate margin: -0.1256381649926885 coefficient_residual: 3.1336658348991804e-05 coefficient_consistency: 2.3592239273284576e-16 min_reduced_eig: -0.16883639192394523 first_positive_full_eig: -0.13069483677612398 full_rank: 18 elapsed_seconds: 1037.926376709016
+audit_pass: True
+theorem_pass: False
+verdict: stable_ten_dimensional_e5_kernel_found_reduced_face_interior_open
+maximum_pairwise_kernel_angle_degrees: 0.00010109559666323131
+maximum_kernel_projector_deviation: 8.996214635587539e-07
+best_rational_projector_denominator_limit: 100000
+best_rational_projector_idempotence_error: 4.008866806162145e-06
+reduced_face_margin: -0.1256381649926885
+reduced_face_minimum_eigenvalue: -0.16883639192394523
+reduced_face_coefficient_residual: 3.1336658348991804e-05
+reduced_face_interior_candidate: False
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_cross_flux_gap_e5_gram_face_probe_050.json
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_face_solves_050.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_kernel_angles_050.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_kernel_projector_050.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_projector_rationalization_050.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/npy/native_g60_cross_flux_gap_e5_gram_face_probe_050.npz

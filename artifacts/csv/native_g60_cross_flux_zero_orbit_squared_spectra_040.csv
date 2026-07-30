@@ -1,0 +1,4 @@
+orbit_id,orbit_size,stabilizer_order,polynomial_law,expected_rank,observed_rank_profile,expected_squared_spectrum,expected_operator_norm,observed_operator_norm_minimum,observed_operator_norm_maximum,maximum_polynomial_residual,maximum_spectral_residual,maximum_trace_residual,orbit_pass
+0,15,32,B(B^2-(1/8)B+(1/576)I6)=0,4,[4],"[""0"", ""0"", ""(3-sqrt(5))/48"", ""(3-sqrt(5))/48"", ""(3+sqrt(5))/48"", ""(3+sqrt(5))/48""]",sqrt((3+sqrt(5))/48),0.3302798049097846,0.33027980490978576,3.604532713465232e-18,5.134781488891349e-16,1.0547118733938987e-15,True
+1,10,48,B(B-(1/16)I6)=0,4,[4],"[""0"", ""0"", ""1/16"", ""1/16"", ""1/16"", ""1/16""]",1/4,0.2499999999999997,0.25000000000000094,1.8274725583545503e-17,4.85722573273506e-16,1.1102230246251565e-15,True
+2,5,96,B=(1/24)I6,6,[6],"[""1/24"", ""1/24"", ""1/24"", ""1/24"", ""1/24"", ""1/24""]",sqrt(6)/12,0.2041241452319314,0.2041241452319323,2.220446049250313e-16,3.2612801348363973e-16,8.049116928532385e-16,True

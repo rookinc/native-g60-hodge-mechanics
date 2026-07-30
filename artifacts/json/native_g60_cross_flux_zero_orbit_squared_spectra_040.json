@@ -1,0 +1,129 @@
+{
+  "artifact_id": "native_g60_cross_flux_zero_orbit_squared_spectra_040",
+  "audit_pass": true,
+  "boundary": {
+    "complete_real_zero_locus_proved": false,
+    "coordinate_construction_law_derived": false,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false,
+    "squared_spectral_polynomial_certificates_completed": true
+  },
+  "checks": {
+    "all_orbit_polynomial_laws_pass": true,
+    "all_pencil_gram_traces_equal_one_quarter": true,
+    "global_polynomial_residual_resolved": true,
+    "global_spectral_residual_resolved": true,
+    "input_038_theorem_pass": true,
+    "orbit_sizes_are_15_10_5": true
+  },
+  "earned_interpretation": {
+    "all_three_nonaxis_orbits_have_exact_squared_spectral_laws": true,
+    "fifteen_line_orbit_is_near_extremal_nonaxis_layer": true,
+    "five_line_orbit_is_isotropic_full_rank_layer": true,
+    "nonaxis_lines_reach_one_third": false,
+    "ten_line_orbit_has_two_dimensional_kernel": true
+  },
+  "global_residuals": {
+    "polynomial_law": 2.220446049250313e-16,
+    "squared_spectrum": 5.134781488891349e-16,
+    "trace_one_quarter": 1.1102230246251565e-15
+  },
+  "orbit_rows": [
+    {
+      "expected_operator_norm": "sqrt((3+sqrt(5))/48)",
+      "expected_rank": 4,
+      "expected_squared_spectrum": "[\"0\", \"0\", \"(3-sqrt(5))/48\", \"(3-sqrt(5))/48\", \"(3+sqrt(5))/48\", \"(3+sqrt(5))/48\"]",
+      "maximum_polynomial_residual": 3.604532713465232e-18,
+      "maximum_spectral_residual": 5.134781488891349e-16,
+      "maximum_trace_residual": 1.0547118733938987e-15,
+      "observed_operator_norm_maximum": 0.33027980490978576,
+      "observed_operator_norm_minimum": 0.3302798049097846,
+      "observed_rank_profile": "[4]",
+      "orbit_id": 0,
+      "orbit_pass": true,
+      "orbit_size": 15,
+      "polynomial_law": "B(B^2-(1/8)B+(1/576)I6)=0",
+      "stabilizer_order": 32
+    },
+    {
+      "expected_operator_norm": "1/4",
+      "expected_rank": 4,
+      "expected_squared_spectrum": "[\"0\", \"0\", \"1/16\", \"1/16\", \"1/16\", \"1/16\"]",
+      "maximum_polynomial_residual": 1.8274725583545503e-17,
+      "maximum_spectral_residual": 4.85722573273506e-16,
+      "maximum_trace_residual": 1.1102230246251565e-15,
+      "observed_operator_norm_maximum": 0.25000000000000094,
+      "observed_operator_norm_minimum": 0.2499999999999997,
+      "observed_rank_profile": "[4]",
+      "orbit_id": 1,
+      "orbit_pass": true,
+      "orbit_size": 10,
+      "polynomial_law": "B(B-(1/16)I6)=0",
+      "stabilizer_order": 48
+    },
+    {
+      "expected_operator_norm": "sqrt(6)/12",
+      "expected_rank": 6,
+      "expected_squared_spectrum": "[\"1/24\", \"1/24\", \"1/24\", \"1/24\", \"1/24\", \"1/24\"]",
+      "maximum_polynomial_residual": 2.220446049250313e-16,
+      "maximum_spectral_residual": 3.2612801348363973e-16,
+      "maximum_trace_residual": 8.049116928532385e-16,
+      "observed_operator_norm_maximum": 0.2041241452319323,
+      "observed_operator_norm_minimum": 0.2041241452319314,
+      "observed_rank_profile": "[6]",
+      "orbit_id": 2,
+      "orbit_pass": true,
+      "orbit_size": 5,
+      "polynomial_law": "B=(1/24)I6",
+      "stabilizer_order": 96
+    }
+  ],
+  "outputs": {
+    "line_csv": "artifacts/csv/native_g60_cross_flux_zero_orbit_squared_spectra_lines_040.csv",
+    "orbit_csv": "artifacts/csv/native_g60_cross_flux_zero_orbit_squared_spectra_040.csv",
+    "squared_spectra_npz": "artifacts/npy/native_g60_cross_flux_zero_orbit_squared_spectra_040.npz"
+  },
+  "theorem": {
+    "orbit_10": {
+      "operator_norm": "1/4",
+      "polynomial_law": "B(B-(1/16)I6)=0",
+      "rank": 4,
+      "squared_spectrum": [
+        "0",
+        "0",
+        "1/16",
+        "1/16",
+        "1/16",
+        "1/16"
+      ]
+    },
+    "orbit_15": {
+      "operator_norm": "sqrt((3+sqrt(5))/48)",
+      "polynomial_law": "B(B^2-(1/8)B+(1/576)I6)=0",
+      "rank": 4,
+      "squared_spectrum": [
+        "0",
+        "0",
+        "(3-sqrt(5))/48",
+        "(3-sqrt(5))/48",
+        "(3+sqrt(5))/48",
+        "(3+sqrt(5))/48"
+      ]
+    },
+    "orbit_5": {
+      "operator_norm": "sqrt(6)/12",
+      "polynomial_law": "B=(1/24)I6",
+      "rank": 6,
+      "squared_spectrum": [
+        "1/24",
+        "1/24",
+        "1/24",
+        "1/24",
+        "1/24",
+        "1/24"
+      ]
+    }
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_cross_flux_zero_orbit_squared_spectra_exact"
+}

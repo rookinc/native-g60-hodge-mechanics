@@ -1,0 +1,90 @@
+{
+  "artifact_id": "native_g60_four_flux_axis_register_018",
+  "audit_pass": true,
+  "axis_register": {
+    "antipodal_pair_count": 10,
+    "axis_stabilizer_order": 24,
+    "line_stabilizer_order": 48,
+    "signed_axis_count": 20,
+    "unoriented_line_count": 10
+  },
+  "boundary": {
+    "axis_face_register_equivalence_refuted": true,
+    "axis_register_identified": true,
+    "axis_register_matched_to_known_quotient": false,
+    "axis_register_native_origin_named": false,
+    "force_claim": false,
+    "metric_geometry_derived": false,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "physical_flux_claim": false
+  },
+  "checks": {
+    "all_axes_have_unit_norm": true,
+    "all_axis_actions_are_permutations": true,
+    "axis_action_shape_is_480_by_20": true,
+    "axis_and_face_actions_are_inequivalent": true,
+    "axis_frame_is_tight": true,
+    "axis_line_stabilizer_order_is_48": true,
+    "axis_stabilizer_order_is_24": true,
+    "axis_sum_is_zero": true,
+    "distinguished_mode_is_2": true,
+    "each_axis_has_unique_antipode": true,
+    "frame_constant_is_5": true,
+    "gram_polynomial_identity_passes": true,
+    "input_017_audit_pass": true,
+    "no_conjugate_face_stabilizer_match": true,
+    "no_direct_face_stabilizer_match": true,
+    "signed_axis_orbit_size_is_20": true,
+    "unoriented_line_orbit_size_is_10": true
+  },
+  "earned_interpretation": {
+    "axes_form_ten_antipodal_lines": true,
+    "axes_form_unit_norm_tight_frame": true,
+    "axis_register_is_new_native_twenty_object_register": true,
+    "axis_register_is_not_face_register": true,
+    "physical_direction_claim": false,
+    "physical_flux_claim": false,
+    "twenty_signed_flux_axes_exist": true
+  },
+  "face_register_comparison": {
+    "axis_character_equals_face_character": false,
+    "axis_face_stabilizer_intersection_profile": {
+      "12": 2,
+      "2": 12,
+      "4": 6
+    },
+    "character_difference_nonzero_count": 100,
+    "conjugate_stabilizer_matches": [],
+    "direct_stabilizer_matches": [],
+    "equivariant_register_isomorphism": false
+  },
+  "inputs": {
+    "four_flux_geometry": "artifacts/json/native_g60_four_flux_face_geometry_017.json",
+    "four_flux_geometry_npz": "artifacts/npy/native_g60_four_flux_face_geometry_017.npz",
+    "native_group": "data/imported/project45/native_g60_fiber_product_isomorphism_044.json",
+    "signed_cochain_actions": "artifacts/npy/native_g60_signed_cochain_actions_005.npz"
+  },
+  "outputs": {
+    "axis_csv": "artifacts/csv/native_g60_four_flux_axis_register_018.csv",
+    "axis_npz": "artifacts/npy/native_g60_four_flux_axis_register_018.npz",
+    "character_csv": "artifacts/csv/native_g60_axis_vs_face_character_018.csv",
+    "gram_csv": "artifacts/matrices/native_g60_four_flux_axis_gram_018.csv"
+  },
+  "tight_frame": {
+    "ambient_dimension": 4,
+    "axis_sum_max_abs": 1.2212453270876722e-15,
+    "frame_constant": 5.0,
+    "gram_polynomial_max_abs": 3.552713678800501e-15,
+    "off_diagonal_profile": {
+      "-0.1666666667": 60,
+      "-0.6666666667": 30,
+      "-1.0": 10,
+      "0.1666666667": 60,
+      "0.6666666667": 30
+    },
+    "tight_frame_max_abs": 2.6645352591003757e-15,
+    "vector_count": 20
+  },
+  "verdict": "native_g60_four_flux_axis_register_is_distinct_from_face_register"
+}

@@ -1,0 +1,57 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_exact_e4_sos_reconstruction_049",
+  "audit_pass": true,
+  "boundary": {
+    "e5_not_resolved": true,
+    "exact_e4_sos_certificate": true,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false
+  },
+  "checks": {
+    "coefficient_count_is_165": true,
+    "exact_coefficient_equality": true,
+    "exact_ldl_positive_definite": true,
+    "floating_slice_projection_closes": true,
+    "gram_size_is_35": true,
+    "input_048_audit_pass": true,
+    "input_048_e4_interior_candidate": true,
+    "reconstructed_gram_numerically_positive": true
+  },
+  "definition": {
+    "coefficient_count": 165,
+    "gram_size": 35,
+    "monomial_degree": 4,
+    "sos_form": "e4=z4^T Q4 z4",
+    "target": "e4(G)"
+  },
+  "earned_interpretation": {
+    "e4_globally_positive_for_nonzero_f": true,
+    "exact_rational_sos_certificate_for_e4": true,
+    "global_gap_psd_proved": false,
+    "remaining_open_elementary_invariant": "e5"
+  },
+  "outputs": {
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_gap_exact_e4_sos_coefficients_049.csv",
+    "gram_csv": "artifacts/csv/native_g60_cross_flux_gap_exact_e4_sos_gram_entries_049.csv",
+    "ldl_csv": "artifacts/csv/native_g60_cross_flux_gap_exact_e4_sos_ldl_pivots_049.csv",
+    "reconstruction_npz": "artifacts/npy/native_g60_cross_flux_gap_exact_e4_sos_reconstruction_049.npz",
+    "summary_csv": "artifacts/csv/native_g60_cross_flux_gap_exact_e4_sos_summary_049.csv"
+  },
+  "result": {
+    "coefficient_count": 165,
+    "exact_coefficient_equality": true,
+    "exact_ldl_positive_definite": true,
+    "exact_rational_sos_certificate": true,
+    "gram_denominator_limit": 100000000,
+    "gram_size": 35,
+    "maximum_entry_change_from_saved_gram": 2.3835778186279133e-14,
+    "maximum_float_eigenvalue": 0.006110093017198942,
+    "minimum_float_eigenvalue": 0.00011773756992669807,
+    "projected_coefficient_residual": 8.673617379884035e-19,
+    "target": "e4",
+    "target_denominator_limit": 1000000000000,
+    "target_rationalization_error": 2.912311030897098e-18
+  },
+  "theorem_pass": true,
+  "verdict": "exact_rational_sos_certificate_found_for_e4"
+}

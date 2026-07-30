@@ -1,0 +1,34 @@
+exact_e4_target: constructing coefficient polynomial
+elementary_progress: e4 1/15 term_count: 165
+elementary_progress: e4 15/15 term_count: 165
+candidate: target_limit: 1000000 gram_limit: 100000 target_error: 3.4715259354271616e-07 entry_change: 7.738018772443692e-06 min_eig: 0.0001177375710738682 ldl_pd: True pass: False
+candidate: target_limit: 1000000 gram_limit: 1000000 target_error: 3.4715259354271616e-07 entry_change: 4.738858962151109e-07 min_eig: 0.00011773757107390878 ldl_pd: True pass: False
+candidate: target_limit: 1000000 gram_limit: 10000000 target_error: 3.4715259354271616e-07 entry_change: 1.735762469605353e-07 min_eig: 0.00011773757107390861 ldl_pd: True pass: False
+candidate: target_limit: 1000000 gram_limit: 100000000 target_error: 3.4715259354271616e-07 entry_change: 1.7357629755721492e-07 min_eig: 0.00011773757107390861 ldl_pd: True pass: False
+candidate: target_limit: 100000000 gram_limit: 100000 target_error: 1.9551200935996604e-14 entry_change: 7.738018920427754e-06 min_eig: 0.00011773756992665685 ldl_pd: True pass: True
+candidate: target_limit: 100000000 gram_limit: 1000000 target_error: 1.9551200935996604e-14 entry_change: 4.7388595523622373e-07 min_eig: 0.00011773756992669748 ldl_pd: True pass: True
+candidate: target_limit: 100000000 gram_limit: 10000000 target_error: 1.9551200935996604e-14 entry_change: 3.034531883926969e-08 min_eig: 0.00011773756992669727 ldl_pd: True pass: True
+candidate: target_limit: 100000000 gram_limit: 100000000 target_error: 1.9551200935996604e-14 entry_change: 2.3823147230969677e-14 min_eig: 0.00011773756992669766 ldl_pd: True pass: True
+candidate: target_limit: 10000000000 gram_limit: 100000 target_error: 2.912311030897098e-18 entry_change: 7.738018920401144e-06 min_eig: 0.00011773756992665722 ldl_pd: True pass: True
+candidate: target_limit: 10000000000 gram_limit: 1000000 target_error: 2.912311030897098e-18 entry_change: 4.738859551839652e-07 min_eig: 0.0001177375699266975 ldl_pd: True pass: True
+candidate: target_limit: 10000000000 gram_limit: 10000000 target_error: 2.912311030897098e-18 entry_change: 3.03453188005569e-08 min_eig: 0.00011773756992669744 ldl_pd: True pass: True
+candidate: target_limit: 10000000000 gram_limit: 100000000 target_error: 2.912311030897098e-18 entry_change: 2.3835805291333445e-14 min_eig: 0.00011773756992669781 ldl_pd: True pass: True
+candidate: target_limit: 1000000000000 gram_limit: 100000 target_error: 2.912311030897098e-18 entry_change: 7.738018920401144e-06 min_eig: 0.00011773756992665809 ldl_pd: True pass: True
+candidate: target_limit: 1000000000000 gram_limit: 1000000 target_error: 2.912311030897098e-18 entry_change: 4.738859551839652e-07 min_eig: 0.000117737569926698 ldl_pd: True pass: True
+candidate: target_limit: 1000000000000 gram_limit: 10000000 target_error: 2.912311030897098e-18 entry_change: 3.034531880049591e-08 min_eig: 0.0001177375699266983 ldl_pd: True pass: True
+candidate: target_limit: 1000000000000 gram_limit: 100000000 target_error: 2.912311030897098e-18 entry_change: 2.3835778186279133e-14 min_eig: 0.00011773756992669807 ldl_pd: True pass: True
+audit_pass: True
+theorem_pass: True
+verdict: exact_rational_sos_certificate_found_for_e4
+target_error: 2.912311030897098e-18
+entry_change: 2.3835778186279133e-14
+minimum_float_eigenvalue: 0.00011773756992669807
+maximum_float_eigenvalue: 0.006110093017198942
+exact_ldl_positive_definite: True
+minimum_exact_ldl_pivot_float: 0.0001177375699266982
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_cross_flux_gap_exact_e4_sos_reconstruction_049.json
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_exact_e4_sos_summary_049.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_exact_e4_sos_gram_entries_049.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_exact_e4_sos_ldl_pivots_049.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_exact_e4_sos_coefficients_049.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/npy/native_g60_cross_flux_gap_exact_e4_sos_reconstruction_049.npz

@@ -1,0 +1,150 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_elementary_invariants_044",
+  "audit_pass": true,
+  "boundary": {
+    "elementary_invariant_identities_proved": true,
+    "global_gap_psd_proved": false,
+    "global_nonnegativity_of_all_formulas_proved": false,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false
+  },
+  "checks": {
+    "all_coefficient_fits_pass": true,
+    "all_direct_probes_pass": true,
+    "all_stored_sample_elementary_invariants_nonnegative": true,
+    "five_elementary_invariants_derived": true,
+    "global_coefficient_residual_resolved": true,
+    "input_043c_theorem_pass": true
+  },
+  "definition": {
+    "determinant": "e6 supplied by exact square law from 043c",
+    "elementary_invariants": "e_k(G) for k=1,...,6",
+    "gap_matrix": "G(f)=(||f||^2/9)I6-A(f)^T A(f)"
+  },
+  "determinant_square": {
+    "formula": "e6=(1/298598400)*(N2*S4+(24/5)S6-(1655/216)N2^3)^2",
+    "source_artifact": "native_g60_cross_flux_gap_determinant_scaled_reconstruction_043c"
+  },
+  "earned_interpretation": {
+    "all_sampled_elementary_invariants_nonnegative": true,
+    "determinant_is_exact_square": true,
+    "exact_native_moment_formulas_for_e1_through_e5": true,
+    "global_gap_psd_proved": false
+  },
+  "invariants": [
+    {
+      "anchor_basis": "N2",
+      "basis_count": 1,
+      "basis_names": "[\"N2\"]",
+      "common_scale": "5/12",
+      "condition_number": 1.0,
+      "design_rank": 1,
+      "elementary_invariant": "e1",
+      "floating_maximum_residual": 1.6167622796103842e-15,
+      "formula": "(5/12)*N2",
+      "invariant_pass": true,
+      "matrix_order": 1,
+      "monomial_count": 10,
+      "polynomial_degree": 2,
+      "ratio_denominator_limit": 1000,
+      "rational_maximum_residual": 1.6167622796103842e-15
+    },
+    {
+      "anchor_basis": "S4",
+      "basis_count": 2,
+      "basis_names": "[\"N2^2\", \"S4\"]",
+      "common_scale": "-1/120",
+      "condition_number": 2.629253183605631,
+      "design_rank": 2,
+      "elementary_invariant": "e2",
+      "floating_maximum_residual": 6.585443995676954e-16,
+      "formula": "(271/3456)*N2^2 + (-1/120)*S4",
+      "invariant_pass": true,
+      "matrix_order": 2,
+      "monomial_count": 35,
+      "polynomial_degree": 4,
+      "ratio_denominator_limit": 1000,
+      "rational_maximum_residual": 6.576228277210827e-16
+    },
+    {
+      "anchor_basis": "N2^3",
+      "basis_count": 3,
+      "basis_names": "[\"N2^3\", \"N2*S4\", \"S6\"]",
+      "common_scale": "44436804164/5431782636517",
+      "condition_number": 9.751598703520981,
+      "design_rank": 3,
+      "elementary_invariant": "e3",
+      "floating_maximum_residual": 1.9800242175016525e-16,
+      "formula": "(44436804164/5431782636517)*N2^3 + (-307147190381568/165859482806046595)*N2*S4 + (-460720785572352/829297414030232975)*S6",
+      "invariant_pass": true,
+      "matrix_order": 3,
+      "monomial_count": 84,
+      "polynomial_degree": 6,
+      "ratio_denominator_limit": 1000000,
+      "rational_maximum_residual": 1.979753166958531e-16
+    },
+    {
+      "anchor_basis": "N2^2*S4",
+      "basis_count": 5,
+      "basis_names": "[\"N2^4\", \"N2^2*S4\", \"N2*S6\", \"S4^2\", \"S8\"]",
+      "common_scale": "-47/276480",
+      "condition_number": 26.65657923358334,
+      "design_rank": 5,
+      "elementary_invariant": "e4",
+      "floating_maximum_residual": 4.185020385794047e-17,
+      "formula": "(70403/143327232)*N2^4 + (-47/276480)*N2^2*S4 + (-1/8640)*N2*S6 + (1/57600)*S4^2",
+      "invariant_pass": true,
+      "matrix_order": 4,
+      "monomial_count": 165,
+      "polynomial_degree": 8,
+      "ratio_denominator_limit": 1000000,
+      "rational_maximum_residual": 4.2039939238125434e-17
+    },
+    {
+      "anchor_basis": "N2*S4^2",
+      "basis_count": 7,
+      "basis_names": "[\"N2^5\", \"N2^3*S4\", \"N2^2*S6\", \"N2*S4^2\", \"N2*S8\", \"S4*S6\", \"S10\"]",
+      "common_scale": "1/2073600",
+      "condition_number": 76.91262068746727,
+      "design_rank": 7,
+      "elementary_invariant": "e5",
+      "floating_maximum_residual": 5.349860094858161e-18,
+      "formula": "(40051/2579890176)*N2^5 + (-205/35831808)*N2^3*S4 + (-121/12441600)*N2^2*S6 + (1/2073600)*N2*S4^2 + (1/432000)*S4*S6",
+      "invariant_pass": true,
+      "matrix_order": 5,
+      "monomial_count": 286,
+      "polynomial_degree": 10,
+      "ratio_denominator_limit": 100000,
+      "rational_maximum_residual": 5.451504048528677e-18
+    }
+  ],
+  "outputs": {
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_gap_elementary_coefficients_044.csv",
+    "invariant_csv": "artifacts/csv/native_g60_cross_flux_gap_elementary_invariants_044.csv",
+    "invariant_npz": "artifacts/npy/native_g60_cross_flux_gap_elementary_invariants_044.npz",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_gap_elementary_probes_044.csv"
+  },
+  "probe_summary": {
+    "maximum_probe_residual": 4.689582056016661e-13,
+    "minimum_random_probe_elementary_values": [
+      Infinity,
+      0.0003192348726736358,
+      4.013143452517598e-08,
+      2.4971596485008806e-12,
+      7.89298438539982e-17,
+      1.158905085068273e-21
+    ],
+    "minimum_stored_sample_elementary_values": [
+      1.0,
+      0.4166666666666651,
+      0.0651072593607228,
+      0.004522192283757718,
+      0.00011785973171919413,
+      4.61532030299946e-09,
+      4.521732419441596e-14
+    ],
+    "probe_count": 4096
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_cross_flux_gap_elementary_invariant_identities_exact"
+}

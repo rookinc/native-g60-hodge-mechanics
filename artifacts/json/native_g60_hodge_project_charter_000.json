@@ -1,0 +1,68 @@
+{
+  "artifact_id": "native_g60_hodge_project_charter_000",
+  "project": "46-native-g60-hodge-mechanics",
+  "status": "project_stub_created",
+  "purpose": "Develop a symmetry-compatible discrete Hodge and finite field-mechanics layer on the admitted Project 45 genus-21 surface.",
+  "authority": {
+    "surface_source_project": "45-native-g60-surface-complex",
+    "surface_is_immutable_input": true,
+    "vertex_count": 60,
+    "edge_count": 120,
+    "face_count": 20,
+    "face_length": 12,
+    "genus": 21,
+    "integral_homology": {
+      "H0": "Z",
+      "H1": "Z^42",
+      "H2": "Z"
+    }
+  },
+  "baseline": {
+    "d0": "B1^T",
+    "d1": "B2^T",
+    "star0": "I60",
+    "star1": "I120",
+    "star2": "I20",
+    "delta1": "d0^T",
+    "delta2": "d1^T",
+    "Delta0": "B1 B1^T",
+    "Delta1": "B1^T B1 + B2 B2^T",
+    "Delta2": "B2^T B2"
+  },
+  "first_theorem_target": {
+    "statement": "C1 decomposes orthogonally into exact, harmonic, and coexact subspaces.",
+    "exact_dimension": 59,
+    "harmonic_dimension": 42,
+    "coexact_dimension": 19,
+    "total_dimension": 120
+  },
+  "artifact_ladder": [
+    "001_native_g60_cochain_complex_import",
+    "002_native_g60_uniform_hodge_baseline",
+    "003_native_g60_hodge_decomposition",
+    "004_native_g60_harmonic_1_form_basis",
+    "005_native_g60_hodge_symmetry_commutation",
+    "006_native_g60_harmonic_representation_decomposition",
+    "007_native_g60_gauge_equivalence_audit",
+    "008_native_g60_static_field_response",
+    "009_native_g60_wave_operator_baseline",
+    "010_native_g60_discrete_energy_conservation",
+    "011_native_g60_weighted_hodge_candidate_search",
+    "012_native_g60_hodge_mechanics_theorem"
+  ],
+  "boundary": {
+    "hodge_structure_derived": false,
+    "hodge_decomposition_proved": false,
+    "dynamics_defined": false,
+    "physical_energy_claim": false,
+    "maxwell_claim": false,
+    "electromagnetism_claim": false,
+    "spacetime_claim": false,
+    "quantum_claim": false,
+    "gravity_claim": false,
+    "physical_constant_claim": false,
+    "universe_simulation_claim": false,
+    "force_claim": false,
+    "unification_claim": false
+  }
+}

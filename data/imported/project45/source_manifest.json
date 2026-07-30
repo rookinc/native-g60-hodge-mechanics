@@ -1,0 +1,69 @@
+{
+  "artifact_id": "project45_hodge_input_manifest_001",
+  "authority_rule": "Project 45 owns the native surface and chain complex. Project 46 consumes the imported artifacts without mutation.",
+  "boundary": {
+    "hodge_structure_present_in_source": false,
+    "physical_claim": false,
+    "surface_modified_here": false,
+    "surface_rederived_here": false
+  },
+  "source_count": 9,
+  "source_project": "../45-native-g60-surface-complex",
+  "sources": [
+    {
+      "file": "data/imported/project45/native_g60_surface_orientation_004.json",
+      "immutable_import": true,
+      "role": "oriented surface and signed chain-complex authority",
+      "sha256": "b7671045c8dee327d9f02d6a04c5707231f46815e05596b2b1074bed564b2ae8"
+    },
+    {
+      "file": "data/imported/project45/native_g60_surface_symmetry_and_kernel_005.json",
+      "immutable_import": true,
+      "role": "surface symmetry descent authority",
+      "sha256": "1e4901457a9d327d689af6a48ac4057e54e14af872730ed0b4473c38dbccac85"
+    },
+    {
+      "file": "data/imported/project45/native_g60_surface_integral_homology_006.json",
+      "immutable_import": true,
+      "role": "integral homology authority",
+      "sha256": "47a5b68557e962e4079bcad35e749df86ec8e300ae214cc966f39ee2c1c40192"
+    },
+    {
+      "file": "data/imported/project45/native_g60_surface_canonicity_census_007.json",
+      "immutable_import": true,
+      "role": "bounded surface canonicity authority",
+      "sha256": "afe127f934ea0c9a6a62b52b99db39c96264e068ee5fd7ed88d074c45d1b0a74"
+    },
+    {
+      "file": "data/imported/project45/native_g60_oriented_dodecagonal_faces_004.csv",
+      "immutable_import": true,
+      "role": "oriented face list",
+      "sha256": "eb8208c00bf259b994b1d7ec405d197a14691992d5ac981823b65fed902fc1d7"
+    },
+    {
+      "file": "data/imported/project45/native_g60_B1_vertex_edge_004.csv",
+      "immutable_import": true,
+      "role": "signed vertex-edge boundary matrix",
+      "sha256": "9a3db57bb31a3e9ab31a5dfb969697ccdca685e8bcafa19bde51a9349b81093c"
+    },
+    {
+      "file": "data/imported/project45/native_g60_B2_edge_face_004.csv",
+      "immutable_import": true,
+      "role": "signed edge-face boundary matrix",
+      "sha256": "1ed06f750330b53e238331eef1c12879c6b94fa74c7c06bb32368b62dafa20b8"
+    },
+    {
+      "file": "data/imported/project45/native_g60_fundamental_cycle_basis_006.csv",
+      "immutable_import": true,
+      "role": "integral graph cycle basis",
+      "sha256": "845294f8e421f2dff35cf9378e88168991e49a5cc0d63788c6e9c397cd473fad"
+    },
+    {
+      "file": "data/imported/project45/native_g60_face_in_cycle_basis_006.csv",
+      "immutable_import": true,
+      "role": "face boundaries in the integral cycle basis",
+      "sha256": "58285ce4bd6543fb8d87c3a22763288a580efa49cd2ba6b88750346a67f90ba0"
+    }
+  ],
+  "target_project": "46-native-g60-hodge-mechanics"
+}

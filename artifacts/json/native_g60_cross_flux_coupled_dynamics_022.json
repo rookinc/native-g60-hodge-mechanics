@@ -1,0 +1,200 @@
+{
+  "artifact_id": "native_g60_cross_flux_coupled_dynamics_022",
+  "audit_pass": true,
+  "boundary": {
+    "bounded_exchange_regime_observed": true,
+    "coupling_strength_derived": false,
+    "finite_coupled_scan_completed": true,
+    "force_claim": false,
+    "global_nonlinear_stability_proved": false,
+    "numerical_energy_conservation_verified": true,
+    "periodic_orbit_proved": false,
+    "physical_claim": false,
+    "physical_energy_claim": false,
+    "physical_thread_claim": false,
+    "physical_time_scale_derived": false
+  },
+  "checks": {
+    "all_coupling_values_scanned": true,
+    "all_runs_meet_energy_tolerance": true,
+    "all_runs_remain_finite": true,
+    "at_least_one_bounded_exchange_run": true,
+    "channel_shape_is_4_by_36": true,
+    "input_021_audit_pass": true,
+    "stiffness_is_10_identity": true,
+    "stiffness_shape_is_4_by_4": true
+  },
+  "earned_interpretation": {
+    "bounded_exchange_observed": true,
+    "closed_reciprocal_dynamics_evolved": true,
+    "periodicity_proved": false,
+    "physical_energy_claim": false,
+    "physical_thread_claim": false,
+    "physical_time_claim": false,
+    "stability_for_all_initial_conditions_proved": false
+  },
+  "outputs": {
+    "scan_csv": "artifacts/csv/native_g60_cross_flux_coupled_dynamics_scan_022.csv",
+    "trajectory_csv": "artifacts/csv/native_g60_cross_flux_coupled_dynamics_trajectory_022.csv",
+    "trajectory_npz": "artifacts/npy/native_g60_cross_flux_coupled_dynamics_022.npz"
+  },
+  "scan": {
+    "bounded_run_count": 7,
+    "classification_counts": {
+      "bounded_exchange_observed": 6,
+      "decoupled_baseline": 1
+    },
+    "coupling_values": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.8,
+      1.2
+    ],
+    "growth_run_count": 0,
+    "maximum_relative_energy_drift": 3.3343152135265233e-06,
+    "random_seed": 46022,
+    "sample_every": 100,
+    "step_count": 20000,
+    "time_horizon": 20.0,
+    "time_step": 0.001
+  },
+  "scan_rows": [
+    {
+      "classification": "decoupled_baseline",
+      "coupling": 0.0,
+      "finite": true,
+      "flux_norm_range": 0.0,
+      "initial_energy": 0.006400000000000001,
+      "maximum_energy": 0.006400000000000001,
+      "maximum_f_norm": 0.0,
+      "maximum_interaction_energy": 0.0,
+      "maximum_state_norm": 1.8611702531114642,
+      "maximum_u_norm": 1.4020288185528673,
+      "maximum_v_norm": 1.8611702531114642,
+      "minimum_energy": 0.006400000000000001,
+      "minimum_interaction_energy": 0.0,
+      "relative_energy_drift": 0.0,
+      "sample_count": 201
+    },
+    {
+      "classification": "bounded_exchange_observed",
+      "coupling": 0.05,
+      "finite": true,
+      "flux_norm_range": 0.0020876692312885763,
+      "initial_energy": 0.006400000000000001,
+      "maximum_energy": 0.0064000000000352586,
+      "maximum_f_norm": 0.0020876692312885763,
+      "maximum_interaction_energy": 0.0,
+      "maximum_state_norm": 1.8618041314782225,
+      "maximum_u_norm": 1.4029159535546298,
+      "maximum_v_norm": 1.8618041314782225,
+      "minimum_energy": 0.006399999999819922,
+      "minimum_interaction_energy": -4.392929526848483e-05,
+      "relative_energy_drift": 2.8137350305615365e-11,
+      "sample_count": 201
+    },
+    {
+      "classification": "bounded_exchange_observed",
+      "coupling": 0.1,
+      "finite": true,
+      "flux_norm_range": 0.004204384795392301,
+      "initial_energy": 0.006400000000000001,
+      "maximum_energy": 0.006400000000148554,
+      "maximum_f_norm": 0.004204384795392301,
+      "maximum_interaction_energy": 0.0,
+      "maximum_state_norm": 1.863716261565188,
+      "maximum_u_norm": 1.40559225732606,
+      "maximum_v_norm": 1.863716261565188,
+      "minimum_energy": 0.0063999999992796945,
+      "minimum_interaction_energy": -0.00017815847769327446,
+      "relative_energy_drift": 1.125479104444743e-10,
+      "sample_count": 201
+    },
+    {
+      "classification": "bounded_exchange_observed",
+      "coupling": 0.2,
+      "finite": true,
+      "flux_norm_range": 0.008645865682282528,
+      "initial_energy": 0.006400000000000001,
+      "maximum_energy": 0.006400000000725964,
+      "maximum_f_norm": 0.008645865682282528,
+      "maximum_interaction_energy": 0.0,
+      "maximum_state_norm": 1.871524897009682,
+      "maximum_u_norm": 1.4165240839690987,
+      "maximum_v_norm": 1.871524897009682,
+      "minimum_energy": 0.006399999997118821,
+      "minimum_interaction_energy": -0.0007531970236385882,
+      "relative_energy_drift": 4.5018445893850446e-10,
+      "sample_count": 201
+    },
+    {
+      "classification": "bounded_exchange_observed",
+      "coupling": 0.4,
+      "finite": true,
+      "flux_norm_range": 0.01935087066823628,
+      "initial_energy": 0.006400000000000001,
+      "maximum_energy": 0.006400000005886205,
+      "maximum_f_norm": 0.01935087066823628,
+      "maximum_interaction_energy": 0.0,
+      "maximum_state_norm": 1.905501067595525,
+      "maximum_u_norm": 1.4640835147938915,
+      "maximum_v_norm": 1.905501067595525,
+      "minimum_energy": 0.006399999988475622,
+      "minimum_interaction_energy": -0.003770181164094895,
+      "relative_energy_drift": 1.8006843032717514e-09,
+      "sample_count": 201
+    },
+    {
+      "classification": "bounded_exchange_observed",
+      "coupling": 0.8,
+      "finite": true,
+      "flux_norm_range": 0.06236048039273531,
+      "initial_energy": 0.006400000000000001,
+      "maximum_energy": 0.006400000227465556,
+      "maximum_f_norm": 0.06236048039273531,
+      "maximum_interaction_energy": 0.0,
+      "maximum_state_norm": 2.100142380675001,
+      "maximum_u_norm": 1.7318081848343216,
+      "maximum_v_norm": 2.100142380675001,
+      "minimum_energy": 0.006399999953908439,
+      "minimum_interaction_energy": -0.03917967911841633,
+      "relative_energy_drift": 3.5541492980021426e-08,
+      "sample_count": 201
+    },
+    {
+      "classification": "bounded_exchange_observed",
+      "coupling": 1.2,
+      "finite": true,
+      "flux_norm_range": 0.24888300273921277,
+      "initial_energy": 0.006400000000000001,
+      "maximum_energy": 0.006400021339617368,
+      "maximum_f_norm": 0.24888300273921277,
+      "maximum_interaction_energy": 0.0,
+      "maximum_state_norm": 2.868401517039108,
+      "maximum_u_norm": 2.6868871836066357,
+      "maximum_v_norm": 2.868401517039108,
+      "minimum_energy": 0.006399999896316341,
+      "minimum_interaction_energy": -0.6368805377384155,
+      "relative_energy_drift": 3.3343152135265233e-06,
+      "sample_count": 201
+    }
+  ],
+  "system": {
+    "dimension": 16,
+    "equations": {
+      "f": "f_double_dot + 10 f = -g T4(u tensor v)",
+      "u": "u_double_dot = -g grad_u I",
+      "v": "v_double_dot = -g grad_v I"
+    },
+    "interaction": "I(u,v,f) = <f,T4(u tensor v)>",
+    "sector_dimensions": {
+      "four_flux": 4,
+      "six_a": 6,
+      "six_b": 6
+    }
+  },
+  "verdict": "native_g60_cross_flux_closed_dynamics_scan_completed"
+}

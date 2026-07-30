@@ -1,0 +1,3 @@
+target,carrier_0,carrier_1,floating_coefficient_0,floating_coefficient_1,rational_coefficient_0,rational_coefficient_1,minimum_residual,maximum_residual,mean_residual,negative_residual_count,sample_nonnegative,original_support_size,residual_support_size,residual_formula
+e4,e2^2,e1*e3,0.0,0.0625500505898472,0,625/9992,1.9893541376931126e-11,0.00017420676679710025,7.473589010985462e-05,0,True,4,4,(16588199/59671904256)*N2^4 + (-126109/1035970560)*N2^2*S4 + (-1457/14388480)*N2*S6 + (1/57600)*S4^2
+e5,e2*e3,e1*e4,0.0,9.398263991834822e-05,0,0,4.615320302932454e-09,9.685420637683738e-06,3.943287517099145e-06,0,True,5,5,(40051/2579890176)*N2^5 + (-205/35831808)*N2^3*S4 + (-121/12441600)*N2^2*S6 + (1/2073600)*N2*S4^2 + (1/432000)*S4*S6

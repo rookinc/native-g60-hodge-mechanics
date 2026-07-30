@@ -1,0 +1,74 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_higher_invariant_decomposition_probe_047",
+  "audit_pass": true,
+  "boundary": {
+    "global_one_third_bound_proved": false,
+    "m3_pro_completion_check_deferred": true,
+    "no_residual_sos_certificate": true,
+    "physical_claim": false,
+    "sample_nonnegativity_only": true,
+    "termux_economical_probe": true
+  },
+  "checks": {
+    "e4_decomposition_completed": true,
+    "e5_decomposition_completed": true,
+    "input_044c_theorem_pass": true,
+    "input_046_theorem_pass": true,
+    "rational_coefficients_nonnegative": true,
+    "stored_sample_count_is_50000": true
+  },
+  "earned_interpretation": {
+    "e4_product_decomposition_sample_nonnegative": true,
+    "e5_product_decomposition_sample_nonnegative": false,
+    "global_gap_psd_proved": false,
+    "residual_formulas_exact_in_native_moment_coordinates": true,
+    "residual_global_nonnegativity_proved": false
+  },
+  "outputs": {
+    "candidate_csv": "artifacts/csv/native_g60_cross_flux_gap_higher_invariant_decomposition_candidates_047.csv",
+    "probe_npz": "artifacts/npy/native_g60_cross_flux_gap_higher_invariant_decomposition_probe_047.npz",
+    "sample_csv": "artifacts/csv/native_g60_cross_flux_gap_higher_invariant_decomposition_samples_047.csv",
+    "summary_csv": "artifacts/csv/native_g60_cross_flux_gap_higher_invariant_decomposition_summary_047.csv"
+  },
+  "results": [
+    {
+      "carrier_0": "e2^2",
+      "carrier_1": "e1*e3",
+      "floating_coefficient_0": 0.0,
+      "floating_coefficient_1": 0.0625500505898472,
+      "maximum_residual": 0.00017420676679710025,
+      "mean_residual": 7.473589010985462e-05,
+      "minimum_residual": 1.9893541376931126e-11,
+      "negative_residual_count": 0,
+      "original_support_size": 4,
+      "rational_coefficient_0": "0",
+      "rational_coefficient_1": "625/9992",
+      "residual_formula": "(16588199/59671904256)*N2^4 + (-126109/1035970560)*N2^2*S4 + (-1457/14388480)*N2*S6 + (1/57600)*S4^2",
+      "residual_support_size": 4,
+      "sample_nonnegative": true,
+      "target": "e4"
+    },
+    {
+      "carrier_0": "e2*e3",
+      "carrier_1": "e1*e4",
+      "floating_coefficient_0": 0.0,
+      "floating_coefficient_1": 9.398263991834822e-05,
+      "maximum_residual": 9.685420637683738e-06,
+      "mean_residual": 3.943287517099145e-06,
+      "minimum_residual": 4.615320302932454e-09,
+      "negative_residual_count": 0,
+      "original_support_size": 5,
+      "rational_coefficient_0": "0",
+      "rational_coefficient_1": "0",
+      "residual_formula": "(40051/2579890176)*N2^5 + (-205/35831808)*N2^3*S4 + (-121/12441600)*N2^2*S6 + (1/2073600)*N2*S4^2 + (1/432000)*S4*S6",
+      "residual_support_size": 5,
+      "sample_nonnegative": true,
+      "target": "e5"
+    }
+  ],
+  "sample_count": 50000,
+  "sample_nonnegative_decomposition_count": 1,
+  "theorem_pass": false,
+  "training_sample_count": 5000,
+  "verdict": "sample_nonnegative_product_decomposition_found_for_one_higher_invariant"
+}

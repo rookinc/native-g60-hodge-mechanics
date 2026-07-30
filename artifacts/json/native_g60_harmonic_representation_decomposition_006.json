@@ -1,0 +1,212 @@
+{
+  "artifact_id": "native_g60_harmonic_representation_decomposition_006",
+  "audit_pass": true,
+  "boundary": {
+    "central_halfturn_split_computed": true,
+    "character_profile_computed": true,
+    "energy_claim": false,
+    "force_claim": false,
+    "frequency_claim": false,
+    "full_irreducible_decomposition_computed": false,
+    "harmonic_representation_constructed": true,
+    "maxwell_claim": false,
+    "particle_claim": false,
+    "physical_claim": false,
+    "physical_mode_interpretation": false,
+    "representation_law_verified_on_generators_and_all_elements": true,
+    "symmetry_adapted_harmonic_basis_exported": false,
+    "unification_claim": false,
+    "universe_simulation_claim": false
+  },
+  "central_halfturn_split": {
+    "central_coordinates": {
+      "d8_flip": 0,
+      "d8_rotation": 2,
+      "s5_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "central_index": 326,
+    "commutation_max_abs": 1.887379141862766e-15,
+    "involution_residual": 1.6653345369377348e-15,
+    "minus_dimension": 30,
+    "plus_dimension": 12,
+    "trace": -17.999999999999993
+  },
+  "character": {
+    "identity_value": 41.99999999999999,
+    "interpretation": "The integer character norm equals the sum of squares of irreducible multiplicities over the real/complex character calculation. It detects reducibility but does not by itself identify every irreducible constituent.",
+    "norm_integer": 8,
+    "norm_raw": 7.999999999999997,
+    "rounded_character_profile": {
+      "-10": 15,
+      "-18": 1,
+      "0": 400,
+      "2": 63,
+      "42": 1
+    }
+  },
+  "checks": {
+    "all_representation_matrices_are_orthogonal": true,
+    "central_element_commutes_on_harmonic_space": true,
+    "central_element_is_involution_on_harmonic_space": true,
+    "central_sector_dimensions_sum_to_42": true,
+    "central_sector_projectors_sum_to_identity": true,
+    "character_identity_value_is_42": true,
+    "character_norm_is_integer": true,
+    "edge_action_shape_is_480_by_120": true,
+    "generator_representation_law_passes": true,
+    "generator_set_generates_all_480": true,
+    "group_average_is_projector": true,
+    "harmonic_basis_shape_is_120_by_42": true,
+    "harmonic_subspace_invariant_for_all_480": true,
+    "identity_representation_is_identity": true,
+    "input_symmetry_commutation_pass": true,
+    "orientation_average_is_projector": true,
+    "representation_shape_is_480_by_42_by_42": true
+  },
+  "construction": {
+    "ambient_edge_dimension": 120,
+    "formula": "rho_H(g) = H^T R1(g) H",
+    "group_order": 480,
+    "harmonic_dimension": 42,
+    "tolerance": 1e-09
+  },
+  "inputs": {
+    "harmonic_basis": "artifacts/npy/native_g60_harmonic_1_form_basis_004.npz",
+    "hodge_symmetry_commutation": "artifacts/json/native_g60_hodge_symmetry_commutation_005.json",
+    "native_group_coordinates": "data/imported/project45/native_g60_fiber_product_isomorphism_044.json",
+    "signed_cochain_actions": "artifacts/npy/native_g60_signed_cochain_actions_005.npz",
+    "surface_symmetry": "data/imported/project45/native_g60_surface_symmetry_and_kernel_005.json"
+  },
+  "one_dimensional_sectors": {
+    "orientation_character_multiplicity": 0,
+    "trivial_multiplicity": 0
+  },
+  "outputs": {
+    "central_sectors_npz": "artifacts/npy/native_g60_harmonic_central_sectors_006.npz",
+    "character_csv": "artifacts/csv/native_g60_harmonic_character_006.csv",
+    "representation_npz": "artifacts/npy/native_g60_harmonic_representation_006.npz"
+  },
+  "profiles": {
+    "order_character_profile": [
+      {
+        "actual_order": 1,
+        "count": 1,
+        "rounded_character": "42"
+      },
+      {
+        "actual_order": 2,
+        "count": 15,
+        "rounded_character": "-10"
+      },
+      {
+        "actual_order": 2,
+        "count": 1,
+        "rounded_character": "-18"
+      },
+      {
+        "actual_order": 2,
+        "count": 52,
+        "rounded_character": "0"
+      },
+      {
+        "actual_order": 2,
+        "count": 15,
+        "rounded_character": "2"
+      },
+      {
+        "actual_order": 3,
+        "count": 20,
+        "rounded_character": "0"
+      },
+      {
+        "actual_order": 4,
+        "count": 140,
+        "rounded_character": "0"
+      },
+      {
+        "actual_order": 5,
+        "count": 24,
+        "rounded_character": "2"
+      },
+      {
+        "actual_order": 6,
+        "count": 100,
+        "rounded_character": "0"
+      },
+      {
+        "actual_order": 10,
+        "count": 48,
+        "rounded_character": "0"
+      },
+      {
+        "actual_order": 10,
+        "count": 24,
+        "rounded_character": "2"
+      },
+      {
+        "actual_order": 12,
+        "count": 40,
+        "rounded_character": "0"
+      }
+    ],
+    "orientation_character_profile": [
+      {
+        "count": 15,
+        "orientation_type": "preserving",
+        "rounded_character": "-10"
+      },
+      {
+        "count": 1,
+        "orientation_type": "preserving",
+        "rounded_character": "-18"
+      },
+      {
+        "count": 160,
+        "orientation_type": "preserving",
+        "rounded_character": "0"
+      },
+      {
+        "count": 63,
+        "orientation_type": "preserving",
+        "rounded_character": "2"
+      },
+      {
+        "count": 1,
+        "orientation_type": "preserving",
+        "rounded_character": "42"
+      },
+      {
+        "count": 240,
+        "orientation_type": "reversing",
+        "rounded_character": "0"
+      }
+    ]
+  },
+  "representation": {
+    "generator_count": 2,
+    "greedy_generator_indices": [
+      15,
+      1
+    ],
+    "kernel_indices": [
+      0
+    ],
+    "kernel_order": 1,
+    "matrix_count": 480,
+    "matrix_shape": [
+      42,
+      42
+    ],
+    "maximum_orthogonality_residual": 3.1086244689504383e-15,
+    "maximum_subspace_leakage": 1.1934897514720433e-15,
+    "representation_law_max_abs": 1.1102230246251565e-15,
+    "representation_law_test_count": 960
+  },
+  "verdict": "native_g60_harmonic_representation_restricted_and_profiled"
+}

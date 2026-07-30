@@ -1,0 +1,102 @@
+{
+  "artifact_id": "native_g60_wave_operator_baseline_009",
+  "audit_pass": true,
+  "boundary": {
+    "causal_lightcone_derived": false,
+    "electromagnetism_claim": false,
+    "finite_propagation_speed_proved": false,
+    "force_claim": false,
+    "forced_response_audited": false,
+    "homogeneous_wave_baseline_constructed": true,
+    "mathematical_energy_conserved": true,
+    "maxwell_claim": false,
+    "physical_claim": false,
+    "physical_energy_claim": false,
+    "physical_frequency_claim": false,
+    "physical_time_scale_derived": false,
+    "spectral_propagator_verified": true,
+    "unification_claim": false,
+    "universe_simulation_claim": false
+  },
+  "checks": {
+    "all_wave_probes_pass": true,
+    "coexact_sector_is_invariant": true,
+    "delta1_shape_is_120_by_120": true,
+    "exact_sector_is_invariant": true,
+    "harmonic_motion_is_linear": true,
+    "harmonic_sector_has_zero_stiffness": true,
+    "homogeneous_energy_is_conserved": true,
+    "input_static_response_pass": true,
+    "input_uniform_hodge_pass": true,
+    "positive_mode_count_is_78": true,
+    "spectral_harmonic_projector_matches": true,
+    "spectral_range_projector_matches_exact_plus_coexact": true,
+    "zero_mode_count_is_42": true
+  },
+  "earned_interpretation": {
+    "exact_and_coexact_modes": "Oscillate at square roots of positive Delta1 eigenvalues.",
+    "harmonic_initial_position": "Remains constant when harmonic initial velocity is zero.",
+    "harmonic_initial_velocity": "Produces linear drift because the harmonic sector has zero restoring operator.",
+    "physical_wave_claim": false
+  },
+  "energy": {
+    "conserved_for_homogeneous_system": true,
+    "formula": "E = 1/2 ||A_dot||^2 + 1/2 <A, Delta1 A>",
+    "status": "mathematical quadratic invariant"
+  },
+  "inputs": {
+    "delta1": "artifacts/matrices/native_g60_Delta1_uniform_002.csv",
+    "hodge_projectors": "artifacts/npy/native_g60_hodge_projectors_003.npz",
+    "static_response": "artifacts/json/native_g60_static_field_response_008.json",
+    "uniform_hodge_baseline": "artifacts/json/native_g60_uniform_hodge_baseline_002.json"
+  },
+  "operator_residuals": {
+    "delta1_annihilates_harmonic": 4.73232564246473e-15,
+    "delta1_preserves_coexact": 2.220446049250313e-15,
+    "delta1_preserves_exact": 2.5097111888694457e-15,
+    "spectral_harmonic_projector_match": 1.942890293094024e-15,
+    "spectral_range_projector_match": 2.914335439641036e-15
+  },
+  "outputs": {
+    "probe_csv": "artifacts/csv/native_g60_wave_operator_probes_009.csv",
+    "propagator_npz": "artifacts/npy/native_g60_wave_propagator_009.npz"
+  },
+  "probe_audit": {
+    "all_probes_pass": true,
+    "global_maximum_residuals": {
+      "energy_conservation": 1.5916157281026244e-12,
+      "harmonic_constant_velocity": 1.7541523789077473e-14,
+      "harmonic_linear_field": 9.592326932761353e-14,
+      "initial_field": 5.10702591327572e-15,
+      "initial_velocity": 5.925815393936773e-15,
+      "oscillatory_field_has_no_harmonic_part": 6.20128948192189e-14,
+      "oscillatory_velocity_has_no_harmonic_part": 1.63202784619898e-14,
+      "sector_reconstruction": 9.409140133698202e-14,
+      "wave_equation": 0.0
+    },
+    "probe_count": 16,
+    "random_seed": 46009,
+    "row_count": 784,
+    "time_count": 49,
+    "time_maximum": 12.0,
+    "time_minimum": 0.0
+  },
+  "spectrum": {
+    "largest_positive_eigenvalue": 16.000000000000014,
+    "largest_positive_frequency": 4.000000000000002,
+    "positive_mode_count": 78,
+    "smallest_positive_eigenvalue": 0.763932022500207,
+    "smallest_positive_frequency": 0.8740320488976402,
+    "zero_mode_count": 42
+  },
+  "verdict": "native_g60_uniform_wave_dynamics_baseline_constructed",
+  "wave_system": {
+    "ambient_dimension": 120,
+    "coexact_oscillatory_dimension": 19,
+    "exact_oscillatory_dimension": 59,
+    "forced_equation_candidate": "A_double_dot + Delta1 A = J(t)",
+    "harmonic_zero_mode_dimension": 42,
+    "homogeneous_equation": "A_double_dot + Delta1 A = 0",
+    "oscillatory_dimension": 78
+  }
+}

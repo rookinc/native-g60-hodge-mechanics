@@ -1,0 +1,169 @@
+{
+  "artifact_id": "native_g60_four_flux_face_geometry_017",
+  "audit_pass": true,
+  "boundary": {
+    "canonical_mode_basis_selected": false,
+    "electromagnetism_claim": false,
+    "force_claim": false,
+    "four_flux_face_subspace_identified": true,
+    "four_flux_group_representation_identified": true,
+    "irreducibility_established": true,
+    "localization_claim": false,
+    "physical_claim": false,
+    "physical_flux_claim": false
+  },
+  "checks": {
+    "all_faces_have_equal_projector_diagonal": true,
+    "all_flux_modes_have_zero_total": true,
+    "all_restricted_actions_are_orthogonal": true,
+    "central_face_kernel_element_acts_trivially": true,
+    "character_identity_value_is_4": true,
+    "character_norm_is_one": true,
+    "face_flux_matrix_shape_is_20_by_36": true,
+    "face_flux_rank_is_4": true,
+    "flux_basis_is_orthonormal": true,
+    "flux_basis_shape_is_20_by_4": true,
+    "flux_subspace_is_invariant_for_all_480": true,
+    "input_016_audit_pass": true
+  },
+  "earned_interpretation": {
+    "all_twenty_faces_participate_equally_at_projector_level": true,
+    "canonical_coordinate_basis_found": false,
+    "central_halfturn_is_invisible_to_four_flux": true,
+    "four_flux_space_is_irreducible": true,
+    "physical_flux_claim": false
+  },
+  "flux_face_space": {
+    "ambient_face_dimension": 20,
+    "equal_face_weight": true,
+    "flux_dimension": 4,
+    "orthogonal_to_constant_face_mode": true,
+    "projector_diagonal_profile": {
+      "0.2": 20
+    }
+  },
+  "inputs": {
+    "signed_cochain_actions": "artifacts/npy/native_g60_signed_cochain_actions_005.npz",
+    "surface_symmetry": "data/imported/project45/native_g60_surface_symmetry_and_kernel_005.json",
+    "unique_four_flux_npz": "artifacts/npy/native_g60_unique_four_flux_response_016.npz",
+    "unique_four_flux_response": "artifacts/json/native_g60_unique_four_flux_response_016.json"
+  },
+  "mode_rows": [
+    {
+      "maximum_face_id": 9,
+      "maximum_face_value": 0.31013948458938084,
+      "minimum_face_id": 19,
+      "minimum_face_value": -0.30318294998635054,
+      "mode_id": 0,
+      "near_zero_face_count": 2,
+      "negative_face_count": 10,
+      "norm": 1.0,
+      "positive_face_count": 8,
+      "sum": -4.440892098500626e-16,
+      "support_above_1e_12": 18
+    },
+    {
+      "maximum_face_id": 14,
+      "maximum_face_value": 0.4152003900996032,
+      "minimum_face_id": 16,
+      "minimum_face_value": -0.3407462701549902,
+      "mode_id": 1,
+      "near_zero_face_count": 2,
+      "negative_face_count": 8,
+      "norm": 0.9999999999999998,
+      "positive_face_count": 10,
+      "sum": 4.440892098500626e-16,
+      "support_above_1e_12": 18
+    },
+    {
+      "maximum_face_id": 7,
+      "maximum_face_value": 0.44721359549995826,
+      "minimum_face_id": 6,
+      "minimum_face_value": -0.29814239699997247,
+      "mode_id": 2,
+      "near_zero_face_count": 0,
+      "negative_face_count": 6,
+      "norm": 1.0,
+      "positive_face_count": 14,
+      "sum": -1.1102230246251565e-16,
+      "support_above_1e_12": 20
+    },
+    {
+      "maximum_face_id": 5,
+      "maximum_face_value": 0.4305031824291208,
+      "minimum_face_id": 2,
+      "minimum_face_value": -0.3136794092835899,
+      "mode_id": 3,
+      "near_zero_face_count": 2,
+      "negative_face_count": 8,
+      "norm": 1.0,
+      "positive_face_count": 10,
+      "sum": 3.469446951953614e-16,
+      "support_above_1e_12": 18
+    }
+  ],
+  "outputs": {
+    "geometry_npz": "artifacts/npy/native_g60_four_flux_face_geometry_017.npz",
+    "mode_csv": "artifacts/csv/native_g60_four_flux_face_modes_017.csv",
+    "representation_csv": "artifacts/csv/native_g60_four_flux_representation_017.csv"
+  },
+  "representation": {
+    "central_halfturn_action": "identity",
+    "character_identity_value": 4.0,
+    "character_norm_integer": 1,
+    "character_norm_raw": 1.0,
+    "dimension": 4,
+    "group_order": 480,
+    "kernel_indices": [
+      0,
+      326
+    ],
+    "kernel_order": 2,
+    "maximum_orthogonality_residual": 1.1102230246251565e-15,
+    "maximum_subspace_leakage": 1.942890293094024e-15,
+    "rounded_character_profile": {
+      "-1": 128,
+      "-2": 20,
+      "-4": 2,
+      "0": 180,
+      "1": 128,
+      "2": 20,
+      "4": 2
+    }
+  },
+  "stabilizer_rows": [
+    {
+      "exact_stabilizer_order": 2,
+      "line_stabilizer_order": 4,
+      "mode_id": 0,
+      "orientation_preserving_exact_count": 2,
+      "orientation_reversing_exact_count": 0,
+      "sign_reverser_count": 2
+    },
+    {
+      "exact_stabilizer_order": 2,
+      "line_stabilizer_order": 4,
+      "mode_id": 1,
+      "orientation_preserving_exact_count": 2,
+      "orientation_reversing_exact_count": 0,
+      "sign_reverser_count": 2
+    },
+    {
+      "exact_stabilizer_order": 24,
+      "line_stabilizer_order": 48,
+      "mode_id": 2,
+      "orientation_preserving_exact_count": 24,
+      "orientation_reversing_exact_count": 0,
+      "sign_reverser_count": 24
+    },
+    {
+      "exact_stabilizer_order": 2,
+      "line_stabilizer_order": 4,
+      "mode_id": 3,
+      "orientation_preserving_exact_count": 2,
+      "orientation_reversing_exact_count": 0,
+      "sign_reverser_count": 2
+    }
+  ],
+  "verdict": "native_g60_unique_four_flux_face_representation_identified"
+}

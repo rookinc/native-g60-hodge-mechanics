@@ -1,0 +1,89 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_determinant_coefficient_fit_043b",
+  "audit_pass": false,
+  "boundary": {
+    "coefficient_space_fit_completed": true,
+    "determinant_identity_proved": false,
+    "determinant_nonnegative_proved": false,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false
+  },
+  "checks": {
+    "all_direct_probes_pass": false,
+    "coefficient_design_has_full_column_rank": true,
+    "degree_twelve_coefficient_count_is_455": true,
+    "floating_coefficient_fit_pass": true,
+    "input_043_failure_recorded": true,
+    "rational_coefficient_fit_pass": false,
+    "weighted_basis_count_is_8": true
+  },
+  "coefficient_fit": {
+    "design_rank": 8,
+    "design_shape": [
+      455,
+      8
+    ],
+    "design_singular_values": [
+      2065.417443676414,
+      561.1207465141852,
+      218.9220085362942,
+      120.5746163738699,
+      78.59249354731327,
+      32.36139429603231,
+      27.81878166760094,
+      10.014211396443265
+    ],
+    "floating_coefficients": [
+      1.9660792407771419e-07,
+      -5.132001401907538e-08,
+      -2.4633606729157367e-07,
+      3.3489797668037437e-09,
+      7.86560908123634e-22,
+      3.215020576131692e-08,
+      2.0909278299954573e-22,
+      7.716049382716012e-08
+    ],
+    "floating_maximum_residual": 1.8126505071242027e-19,
+    "formula": "(1/5086265)*N2^6 + (-3/58456726)*N2^4*S4 + (-22/89308887)*N2^3*S6 + (1/31104000)*N2*S4*S6 + (1/12960000)*S6^2",
+    "rational_coefficients": [
+      "1/5086265",
+      "-3/58456726",
+      "-22/89308887",
+      "0",
+      "0",
+      "1/31104000",
+      "0",
+      "1/12960000"
+    ],
+    "rational_maximum_residual": 8.730027529805071e-07
+  },
+  "earned_interpretation": {
+    "determinant_belongs_to_tested_scalar_moment_algebra": true,
+    "exact_rational_native_moment_formula_proved": false,
+    "global_gap_psd_proved": false,
+    "sample_regression_failure_corrected": true
+  },
+  "outputs": {
+    "basis_csv": "artifacts/csv/native_g60_cross_flux_gap_determinant_basis_fit_043b.csv",
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_gap_determinant_coefficient_fit_043b.csv",
+    "fit_npz": "artifacts/npy/native_g60_cross_flux_gap_determinant_coefficient_fit_043b.npz",
+    "probe_csv": "artifacts/csv/native_g60_cross_flux_gap_determinant_fit_probes_043b.csv"
+  },
+  "probe_summary": {
+    "all_probes_pass": false,
+    "maximum_probe_residual": 0.8747951141137245,
+    "probe_count": 4096
+  },
+  "tested_basis": [
+    "N2^6",
+    "N2^4*S4",
+    "N2^3*S6",
+    "N2^2*S4^2",
+    "N2^2*S8",
+    "N2*S4*S6",
+    "S4^3",
+    "S6^2"
+  ],
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_gap_determinant_moment_space_fit_unrationalized"
+}

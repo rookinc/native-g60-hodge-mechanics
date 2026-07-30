@@ -1,0 +1,74 @@
+{
+  "algebraic_audit": {
+    "forced_balance_max_abs": 7.105427357601002e-15,
+    "homogeneous_derivative_max_abs": 0.0,
+    "probe_count": 24,
+    "random_seed": 46010
+  },
+  "artifact_id": "native_g60_discrete_energy_conservation_010",
+  "audit_pass": true,
+  "boundary": {
+    "algebraic_energy_law_derived": true,
+    "electromagnetism_claim": false,
+    "energy_is_mathematical_quadratic_invariant": true,
+    "force_claim": false,
+    "forced_work_balance_derived": true,
+    "homogeneous_energy_conservation_proved": true,
+    "maxwell_claim": false,
+    "physical_claim": false,
+    "physical_energy_claim": false,
+    "physical_source_claim": false,
+    "physical_time_scale_derived": false,
+    "unification_claim": false,
+    "universe_simulation_claim": false
+  },
+  "checks": {
+    "algebraic_forced_balance_law_passes": true,
+    "algebraic_homogeneous_derivative_is_zero": true,
+    "all_positive_mode_energies_constant": true,
+    "delta1_is_symmetric": true,
+    "forced_numerical_energy_work_balance_passes": true,
+    "input_wave_baseline_pass": true,
+    "positive_mode_count_is_78": true,
+    "spectral_homogeneous_energy_conserved": true,
+    "zero_mode_count_is_42": true
+  },
+  "earned_interpretation": {
+    "forced_system": "Changes energy at the rate of source work <A_dot,J>.",
+    "harmonic_motion": "Harmonic velocity contributes constant kinetic energy despite linear field drift.",
+    "homogeneous_system": "Conserves the uniform quadratic mathematical energy exactly at the differential-equation level.",
+    "physical_energy_claim": false
+  },
+  "energy_law": {
+    "derivation": "dE/dt = <A_dot,A_double_dot + Delta1 A>",
+    "energy": "E(A,V) = 1/2 <V,V> + 1/2 <A,Delta1 A>",
+    "forced_balance": "dE/dt = <A_dot,J>",
+    "forced_equation": "A_double_dot + Delta1 A = J",
+    "homogeneous_balance": "dE/dt = 0",
+    "homogeneous_equation": "A_double_dot + Delta1 A = 0"
+  },
+  "forced_numerical_audit": {
+    "integrator": "velocity Verlet with trapezoidal work accumulation",
+    "maximum_energy_work_balance_residual": 0.0017558227681184757,
+    "source_amplitude": 0.15,
+    "source_frequency": 0.7,
+    "step_count": 2000,
+    "time_step": 0.002
+  },
+  "inputs": {
+    "delta1": "artifacts/matrices/native_g60_Delta1_uniform_002.csv",
+    "wave_operator_baseline": "artifacts/json/native_g60_wave_operator_baseline_009.json",
+    "wave_propagator": "artifacts/npy/native_g60_wave_propagator_009.npz"
+  },
+  "outputs": {
+    "balance_npz": "artifacts/npy/native_g60_discrete_energy_balance_010.npz",
+    "probe_csv": "artifacts/csv/native_g60_discrete_energy_conservation_probes_010.csv"
+  },
+  "spectral_audit": {
+    "homogeneous_total_energy_drift_max": 7.389644451905042e-13,
+    "positive_mode_count": 78,
+    "positive_mode_energy_range_max": 1.4210854715202004e-14,
+    "zero_mode_count": 42
+  },
+  "verdict": "native_g60_uniform_energy_balance_identified"
+}

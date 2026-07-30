@@ -1,0 +1,219 @@
+{
+  "artifact_id": "native_g60_cross_flux_register_covariant_033",
+  "audit_pass": true,
+  "axis_covariant": {
+    "axis_count": 10,
+    "maximum_axis_spectrum_residual": 1.3322676295501878e-15,
+    "mean_spectrum": [
+      0.0694444444444445,
+      0.4166666666666665,
+      0.41666666666666713,
+      1.597222222222223
+    ],
+    "mean_spectrum_rational": [
+      "5/72",
+      "5/12",
+      "5/12",
+      "115/72"
+    ],
+    "trace": 2.500000000000001,
+    "trace_rational": "5/2"
+  },
+  "boundary": {
+    "exact_axis_covariant_spectrum_derived": false,
+    "global_operator_norm_bound_proved": false,
+    "matrix_valued_register_scan_completed": true,
+    "operator_norm_exactly_reconstructed_from_covariant": false,
+    "physical_claim": false
+  },
+  "checks": {
+    "all_regression_models_completed": true,
+    "axis_covariant_spectrum_is_uniform": true,
+    "axis_line_count_is_10": true,
+    "covariant_model_improves_over_s4_affine": true,
+    "covariant_shape_is_N_by_4_by_4": true,
+    "covariant_trace_is_five_halves": true,
+    "input_032_audit_pass": true,
+    "nearest_neighbor_ambiguity_audits_completed": true
+  },
+  "definition": {
+    "ambient_dimension": 4,
+    "covariant": "C(f)=sum_i <f,q_i>^2 q_i q_i^T",
+    "line_count": 10,
+    "trace_law": "tr C(f)=5/2 for unit f"
+  },
+  "earned_interpretation": {
+    "axis_covariant_spectrum_uniform": true,
+    "covariant_retains_more_norm_information_than_s4_affine": true,
+    "covariant_spectrum_fully_determines_operator_norm": false,
+    "covariant_trace_law_verified": true,
+    "global_one_third_bound_proved": false,
+    "matrix_covariant_constructed": true
+  },
+  "nearest_neighbor_ambiguity": {
+    "covariant_elementary_invariants": {
+      "maximum_feature_distance": 0.06484705094628987,
+      "maximum_target_difference": 0.004501279056783769,
+      "median_feature_distance": 0.010983315449626198,
+      "median_target_difference": 8.19407386985771e-05,
+      "q95_target_difference": 0.0005650021765270262,
+      "q99_target_difference": 0.0012745662738536,
+      "sample_count": 8000
+    },
+    "full_covariant_spectrum": {
+      "maximum_feature_distance": 0.35541360369465536,
+      "maximum_target_difference": 0.002655540602367973,
+      "median_feature_distance": 0.053627471980680075,
+      "median_target_difference": 0.00019656906784657618,
+      "q95_target_difference": 0.0009293650603132862,
+      "q99_target_difference": 0.0014722395472223156,
+      "sample_count": 8000
+    },
+    "scalar_moments_s4_s6_s8": {
+      "maximum_feature_distance": 0.0435048644155367,
+      "maximum_target_difference": 0.0037203741048865493,
+      "median_feature_distance": 0.008736424335150629,
+      "median_target_difference": 4.7832464406094566e-05,
+      "q95_target_difference": 0.0003341551331190601,
+      "q99_target_difference": 0.0008742510068346104,
+      "sample_count": 8000
+    }
+  },
+  "one_dimensional_binned_spreads": {
+    "covariant_maximum_eigenvalue": {
+      "bin_count": 200,
+      "maximum_target_spread": 0.007941927813429915,
+      "populated_bin_count": 198,
+      "widest_bin": {
+        "bin_index": 66,
+        "sample_count": 150,
+        "scalar_maximum": 1.0212240038915792,
+        "scalar_minimum": 1.0168955398923973,
+        "target_spread": 0.007941927813429915
+      }
+    },
+    "covariant_trace_square": {
+      "bin_count": 200,
+      "maximum_target_spread": 0.019865445811511562,
+      "populated_bin_count": 200,
+      "widest_bin": {
+        "bin_index": 71,
+        "sample_count": 274,
+        "scalar_maximum": 2.0546248772333264,
+        "scalar_minimum": 2.0480000982559567,
+        "target_spread": 0.019865445811511562
+      }
+    },
+    "s4": {
+      "bin_count": 200,
+      "maximum_target_spread": 0.019865445811511562,
+      "populated_bin_count": 200,
+      "widest_bin": {
+        "bin_index": 71,
+        "sample_count": 274,
+        "scalar_maximum": 1.0418150711587832,
+        "scalar_minimum": 1.0374788521917775,
+        "target_spread": 0.019865445811511562
+      }
+    }
+  },
+  "outputs": {
+    "axis_csv": "artifacts/csv/native_g60_cross_flux_register_covariant_axes_033.csv",
+    "covariant_npz": "artifacts/npy/native_g60_cross_flux_register_covariant_033.npz",
+    "regression_csv": "artifacts/csv/native_g60_cross_flux_register_covariant_regressions_033.csv",
+    "sample_csv": "artifacts/csv/native_g60_cross_flux_register_covariant_samples_033.csv"
+  },
+  "random_scan": {
+    "covariant_eigenvalue_maximum": [
+      0.5820957429592711,
+      0.6939370942287583,
+      0.6944443208529165,
+      1.5969097157827594
+    ],
+    "covariant_eigenvalue_minimum": [
+      0.06965447206899149,
+      0.17422817074650446,
+      0.4218553959836059,
+      0.7312169159463981
+    ],
+    "sample_count": 50000,
+    "trace_maximum_residual": 3.1086244689504383e-15
+  },
+  "regression_comparison": {
+    "best_covariant_model": "covariant_spectrum_quadratic",
+    "best_covariant_r_squared": 0.9995309919930434,
+    "covariant_improves_over_s4": true,
+    "models": [
+      {
+        "coefficient_count": 2,
+        "coefficients": "[0.010978591701978542, 0.06441298893893677]",
+        "feature_names": "[\"1\", \"S4\"]",
+        "maximum_absolute_residual": 0.014994174700748902,
+        "maximum_residual": 0.005273571933844548,
+        "minimum_residual": -0.014994174700748902,
+        "model": "s4_affine",
+        "r_squared": 0.9644751432270823,
+        "root_mean_square_residual": 0.0025821104223430784
+      },
+      {
+        "coefficient_count": 2,
+        "coefficients": "[-0.008540495855275065, 0.04216122912366768]",
+        "feature_names": "[\"1\", \"tr(C^2)\"]",
+        "maximum_absolute_residual": 0.014994174700748819,
+        "maximum_residual": 0.005273571933844548,
+        "minimum_residual": -0.014994174700748819,
+        "model": "covariant_trace2_affine",
+        "r_squared": 0.9644751432270824,
+        "root_mean_square_residual": 0.0025821104223430784
+      },
+      {
+        "coefficient_count": 4,
+        "coefficients": "[-0.2001186396299925, 0.1652973246171782, -0.041196276333762584, 0.27035655591584623]",
+        "feature_names": "[\"1\", \"tr(C^2)\", \"tr(C^3)\", \"det(C)\"]",
+        "maximum_absolute_residual": 0.016748669049565908,
+        "maximum_residual": 0.005408185352636916,
+        "minimum_residual": -0.016748669049565908,
+        "model": "covariant_elementary",
+        "r_squared": 0.969599210746363,
+        "root_mean_square_residual": 0.0023886420433657744
+      },
+      {
+        "coefficient_count": 5,
+        "coefficients": "[0.015250474621447026, -0.008007385716835229, -0.013365800045261956, -0.00540849842857188, 0.06490787074428667]",
+        "feature_names": "[\"1\", \"c0\", \"c1\", \"c2\", \"c3\"]",
+        "maximum_absolute_residual": 0.006231876578342642,
+        "maximum_residual": 0.0005608384542419576,
+        "minimum_residual": -0.006231876578342642,
+        "model": "covariant_spectrum_affine",
+        "r_squared": 0.9986317888323625,
+        "root_mean_square_residual": 0.0005067400247443773
+      },
+      {
+        "coefficient_count": 11,
+        "coefficients": "[0.021228090947172484, -0.016997653136423516, 0.015580269624963347, -0.0031518486759392317, 0.05763945955533041, 0.0001913743414949547, -0.025727467716223102, 0.0013663337643765588, 0.0005029294241059946, 0.0018585925297869813, -0.020880420448842443]",
+        "feature_names": "[\"1\", \"c0\", \"c1\", \"c2\", \"c3\", \"c0^2\", \"c1^2\", \"c2^2\", \"c3^2\", \"c0*c3\", \"c1*c2\"]",
+        "maximum_absolute_residual": 0.004641333958276046,
+        "maximum_residual": 0.0006946080295421597,
+        "minimum_residual": -0.004641333958276046,
+        "model": "covariant_spectrum_quadratic",
+        "r_squared": 0.9995309919930434,
+        "root_mean_square_residual": 0.00029668717368020093
+      },
+      {
+        "coefficient_count": 9,
+        "coefficients": "[0.3011094538145179, -0.1836235951934871, 0.20973633397881633, -0.1703729231772803, -0.14113352329816742, 0.08807974781446523, -0.19700211452755118, 0.020844652834790985, 0.029830950383804247]",
+        "feature_names": "[\"1\", \"S4\", \"S6\", \"S8\", \"tr(C^2)\", \"tr(C^3)\", \"det(C)\", \"gap_top(C)\", \"spread(C)\"]",
+        "maximum_absolute_residual": 0.00676090512737277,
+        "maximum_residual": 0.002528720727392922,
+        "minimum_residual": -0.00676090512737277,
+        "model": "register_joint_scalar_covariant",
+        "r_squared": 0.9968162235957373,
+        "root_mean_square_residual": 0.0007730007632206158
+      }
+    ],
+    "r_squared_improvement": 0.03505584876596113,
+    "s4_affine_r_squared": 0.9644751432270823
+  },
+  "theorem_pass": false,
+  "verdict": "native_g60_cross_flux_register_covariant_retains_additional_norm_information"
+}

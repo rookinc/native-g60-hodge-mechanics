@@ -1,0 +1,185 @@
+{
+  "artifact_id": "native_g60_cochain_complex_import_001",
+  "audit_pass": true,
+  "authority": {
+    "consumer_project": "46-native-g60-hodge-mechanics",
+    "import_is_immutable": true,
+    "source_project": "45-native-g60-surface-complex",
+    "source_remains_authority": true,
+    "surface_modified": false,
+    "surface_rederived": false
+  },
+  "boundary": {
+    "cochain_complex_received": true,
+    "dynamics_defined": false,
+    "force_claim": false,
+    "hodge_decomposition_proved": false,
+    "hodge_structure_constructed": false,
+    "maxwell_claim": false,
+    "physical_claim": false,
+    "unification_claim": false,
+    "universe_simulation_claim": false
+  },
+  "chain_complex": {
+    "b1_b2_nonzero_entry_count": 0,
+    "b1_shape": [
+      60,
+      120
+    ],
+    "b2_shape": [
+      120,
+      20
+    ],
+    "c0_dimension": 60,
+    "c1_dimension": 120,
+    "c2_dimension": 20,
+    "d0_shape": [
+      120,
+      60
+    ],
+    "d1_d0_nonzero_entry_count": 0,
+    "d1_shape": [
+      20,
+      120
+    ]
+  },
+  "checks": {
+    "all_imported_hashes_match": true,
+    "all_imported_sources_exist": true,
+    "all_sources_marked_immutable": true,
+    "b1_b2_is_zero": true,
+    "b1_column_count_is_120": true,
+    "b1_row_labels_are_0_through_59": true,
+    "b1_shape_is_60_by_120": true,
+    "b2_column_count_is_20": true,
+    "b2_row_labels_are_0_through_119": true,
+    "b2_shape_is_120_by_20": true,
+    "canonicity_input_audit_pass": true,
+    "d1_d0_is_zero": true,
+    "every_edge_has_two_face_incidents": true,
+    "every_edge_has_two_vertex_incidents": true,
+    "graph_cycle_dimension_is_61": true,
+    "h1_dimension_f2_is_42": true,
+    "h1_dimension_q_is_42": true,
+    "homology_input_audit_pass": true,
+    "import_matches_integral_homology": true,
+    "import_matches_surface_dimensions": true,
+    "manifest_source_count_is_9": true,
+    "oriented_face_incidents_cancel_per_edge": true,
+    "rank_b1_f2_is_59": true,
+    "rank_b1_q_is_59": true,
+    "rank_b2_f2_is_19": true,
+    "rank_b2_q_is_19": true,
+    "surface_input_audit_pass": true,
+    "symmetry_input_audit_pass": true
+  },
+  "hash_audit": {
+    "match_count": 9,
+    "mismatch_count": 0,
+    "rows": [
+      {
+        "actual_sha256": "b7671045c8dee327d9f02d6a04c5707231f46815e05596b2b1074bed564b2ae8",
+        "exists": true,
+        "expected_sha256": "b7671045c8dee327d9f02d6a04c5707231f46815e05596b2b1074bed564b2ae8",
+        "file": "data/imported/project45/native_g60_surface_orientation_004.json",
+        "hash_match": true,
+        "immutable_import": true,
+        "role": "oriented surface and signed chain-complex authority"
+      },
+      {
+        "actual_sha256": "1e4901457a9d327d689af6a48ac4057e54e14af872730ed0b4473c38dbccac85",
+        "exists": true,
+        "expected_sha256": "1e4901457a9d327d689af6a48ac4057e54e14af872730ed0b4473c38dbccac85",
+        "file": "data/imported/project45/native_g60_surface_symmetry_and_kernel_005.json",
+        "hash_match": true,
+        "immutable_import": true,
+        "role": "surface symmetry descent authority"
+      },
+      {
+        "actual_sha256": "47a5b68557e962e4079bcad35e749df86ec8e300ae214cc966f39ee2c1c40192",
+        "exists": true,
+        "expected_sha256": "47a5b68557e962e4079bcad35e749df86ec8e300ae214cc966f39ee2c1c40192",
+        "file": "data/imported/project45/native_g60_surface_integral_homology_006.json",
+        "hash_match": true,
+        "immutable_import": true,
+        "role": "integral homology authority"
+      },
+      {
+        "actual_sha256": "afe127f934ea0c9a6a62b52b99db39c96264e068ee5fd7ed88d074c45d1b0a74",
+        "exists": true,
+        "expected_sha256": "afe127f934ea0c9a6a62b52b99db39c96264e068ee5fd7ed88d074c45d1b0a74",
+        "file": "data/imported/project45/native_g60_surface_canonicity_census_007.json",
+        "hash_match": true,
+        "immutable_import": true,
+        "role": "bounded surface canonicity authority"
+      },
+      {
+        "actual_sha256": "eb8208c00bf259b994b1d7ec405d197a14691992d5ac981823b65fed902fc1d7",
+        "exists": true,
+        "expected_sha256": "eb8208c00bf259b994b1d7ec405d197a14691992d5ac981823b65fed902fc1d7",
+        "file": "data/imported/project45/native_g60_oriented_dodecagonal_faces_004.csv",
+        "hash_match": true,
+        "immutable_import": true,
+        "role": "oriented face list"
+      },
+      {
+        "actual_sha256": "9a3db57bb31a3e9ab31a5dfb969697ccdca685e8bcafa19bde51a9349b81093c",
+        "exists": true,
+        "expected_sha256": "9a3db57bb31a3e9ab31a5dfb969697ccdca685e8bcafa19bde51a9349b81093c",
+        "file": "data/imported/project45/native_g60_B1_vertex_edge_004.csv",
+        "hash_match": true,
+        "immutable_import": true,
+        "role": "signed vertex-edge boundary matrix"
+      },
+      {
+        "actual_sha256": "1ed06f750330b53e238331eef1c12879c6b94fa74c7c06bb32368b62dafa20b8",
+        "exists": true,
+        "expected_sha256": "1ed06f750330b53e238331eef1c12879c6b94fa74c7c06bb32368b62dafa20b8",
+        "file": "data/imported/project45/native_g60_B2_edge_face_004.csv",
+        "hash_match": true,
+        "immutable_import": true,
+        "role": "signed edge-face boundary matrix"
+      },
+      {
+        "actual_sha256": "845294f8e421f2dff35cf9378e88168991e49a5cc0d63788c6e9c397cd473fad",
+        "exists": true,
+        "expected_sha256": "845294f8e421f2dff35cf9378e88168991e49a5cc0d63788c6e9c397cd473fad",
+        "file": "data/imported/project45/native_g60_fundamental_cycle_basis_006.csv",
+        "hash_match": true,
+        "immutable_import": true,
+        "role": "integral graph cycle basis"
+      },
+      {
+        "actual_sha256": "58285ce4bd6543fb8d87c3a22763288a580efa49cd2ba6b88750346a67f90ba0",
+        "exists": true,
+        "expected_sha256": "58285ce4bd6543fb8d87c3a22763288a580efa49cd2ba6b88750346a67f90ba0",
+        "file": "data/imported/project45/native_g60_face_in_cycle_basis_006.csv",
+        "hash_match": true,
+        "immutable_import": true,
+        "role": "face boundaries in the integral cycle basis"
+      }
+    ],
+    "source_count": 9
+  },
+  "incidence_profiles": {
+    "b1_edge_vertex_incidence": {
+      "2": 120
+    },
+    "b2_edge_face_incidence": {
+      "2": 120
+    },
+    "b2_edge_orientation_sum": {
+      "0": 120
+    }
+  },
+  "ranks": {
+    "graph_cycle_dimension": 61,
+    "h1_dimension_f2": 42,
+    "h1_dimension_q": 42,
+    "rank_b1_f2": 59,
+    "rank_b1_q": 59,
+    "rank_b2_f2": 19,
+    "rank_b2_q": 19
+  },
+  "verdict": "project45_native_g60_cochain_complex_received_unchanged"
+}

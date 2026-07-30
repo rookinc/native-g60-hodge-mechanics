@@ -1,0 +1,188 @@
+{
+  "artifact_id": "native_g60_cross_flux_covariant_orientation_035",
+  "audit_pass": true,
+  "axis_orientation": {
+    "axis_count": 10,
+    "interpretation": "each native axis is an eigenvector of C(q) with eigenvalue S4(q)",
+    "maximum_axis_residual_norm": 8.045527044939629e-16,
+    "maximum_top_eigenweight_residual": 8.881784197001252e-16
+  },
+  "boundary": {
+    "covariant_orientation_audit_completed": true,
+    "global_operator_norm_bound_proved": false,
+    "native_axes_characterized_as_covariant_eigendirections": true,
+    "operator_norm_exactly_reconstructed": false,
+    "physical_claim": false,
+    "residual_norm_identity_proved": true,
+    "zero_residual_locus_equals_native_axis_register": false
+  },
+  "checks": {
+    "eigenweights_sum_to_one": true,
+    "input_034_theorem_pass": true,
+    "native_axes_lie_in_top_covariant_eigenspace": true,
+    "native_axis_residuals_vanish": true,
+    "orientation_regression_completed": true,
+    "rayleigh_reconstructs_s4": true,
+    "residual_is_tangent": true,
+    "residual_norm_identity_exact": true,
+    "spectral_variance_reconstructs_residual_norm": true,
+    "unit_direction_count_matches_covariants": true
+  },
+  "definition": {
+    "residual_norm_identity": "||r(f)||^2=-625/1152+(55/48)S4(f)+S6(f)-S4(f)^2",
+    "spectral_variance_identity": "||r(f)||^2=sum_j c_j(f)^2 w_j(f)-S4(f)^2",
+    "tangency": "f^T r(f)=0",
+    "tangent_residual": "r(f)=C(f)f-S4(f)f for unit f"
+  },
+  "earned_interpretation": {
+    "global_one_third_bound_proved": false,
+    "native_axes_are_covariant_eigendirections": true,
+    "orientation_data_completely_determines_pencil_norm": false,
+    "orientation_data_retains_additional_norm_information": true,
+    "tangent_covariant_identity_proved": true
+  },
+  "identity_residuals": {
+    "eigenweight_sum": 2.55351295663786e-15,
+    "moment_formula": 3.139849491518021e-15,
+    "rayleigh_s4": 5.10702591327572e-15,
+    "spectral_variance": 5.336009412104659e-15,
+    "tangency": 1.2490009027033011e-15
+  },
+  "nearest_neighbor_ambiguity": {
+    "covariant_orientation": {
+      "maximum_feature_distance": 4.073956181876926,
+      "maximum_target_difference": 0.006483062178908955,
+      "median_feature_distance": 0.10311648483742296,
+      "median_target_difference": 0.00018973252314068156,
+      "q95_target_difference": 0.001198849058616211,
+      "q99_target_difference": 0.0020882296822225667,
+      "sample_count": 8000
+    },
+    "covariant_spectrum": {
+      "maximum_feature_distance": 0.355413603694653,
+      "maximum_target_difference": 0.002655540602367973,
+      "median_feature_distance": 0.053627471980681046,
+      "median_target_difference": 0.00019656906784657618,
+      "q95_target_difference": 0.0009293650603132862,
+      "q99_target_difference": 0.0014722395472223156,
+      "sample_count": 8000
+    },
+    "full_register_orientation": {
+      "maximum_feature_distance": 4.0742693025911425,
+      "maximum_target_difference": 0.006483062178908955,
+      "median_feature_distance": 0.10962247669612044,
+      "median_target_difference": 0.00017010818734985306,
+      "q95_target_difference": 0.0011257474786007615,
+      "q99_target_difference": 0.0020260361629677107,
+      "sample_count": 8000
+    },
+    "orientation_reduces_maximum_ambiguity": false
+  },
+  "outputs": {
+    "axis_csv": "artifacts/csv/native_g60_cross_flux_covariant_orientation_axes_035.csv",
+    "orientation_npz": "artifacts/npy/native_g60_cross_flux_covariant_orientation_035.npz",
+    "regression_csv": "artifacts/csv/native_g60_cross_flux_covariant_orientation_regressions_035.csv",
+    "sample_csv": "artifacts/csv/native_g60_cross_flux_covariant_orientation_samples_035.csv"
+  },
+  "regression_comparison": {
+    "full_orientation_r_squared": 0.9999614601673992,
+    "models": [
+      {
+        "coefficient_count": 2,
+        "coefficients": "[0.010978591701978542, 0.06441298893893677]",
+        "design_rank": 2,
+        "design_singular_values": "[359.68223463640624, 29.035661653849854]",
+        "feature_names": "[\"1\", \"S4\"]",
+        "maximum_absolute_residual": 0.014994174700748902,
+        "maximum_residual": 0.005273571933844548,
+        "minimum_residual": -0.014994174700748902,
+        "model": "s4_affine",
+        "r_squared": 0.9644751432270823,
+        "root_mean_square_residual": 0.0025821104223430784
+      },
+      {
+        "coefficient_count": 3,
+        "coefficients": "[0.001869260528072712, 0.06774269437475959, 0.07601832176774136]",
+        "design_rank": 3,
+        "design_singular_values": "[359.9655061052479, 29.26002351367362, 6.7332965767229105]",
+        "feature_names": "[\"1\", \"S4\", \"||r||^2\"]",
+        "maximum_absolute_residual": 0.009501583725494693,
+        "maximum_residual": 0.0032731952685925297,
+        "minimum_residual": -0.009501583725494693,
+        "model": "s4_residual_affine",
+        "r_squared": 0.9928722724417532,
+        "root_mean_square_residual": 0.0011566026646886243
+      },
+      {
+        "coefficient_count": 6,
+        "coefficients": "[-0.0013350163203827289, 0.05997537319532916, 0.3534641762681588, 0.006550633305703811, -0.5151898068067422, -0.16321049853362754]",
+        "design_rank": 6,
+        "design_singular_values": "[518.4015783072662, 61.32581980829993, 10.826651943450285, 2.401688457713691, 0.8045769831986784, 0.23173171761924755]",
+        "feature_names": "[\"1\", \"S4\", \"||r||^2\", \"S4^2\", \"||r||^4\", \"S4*||r||^2\"]",
+        "maximum_absolute_residual": 0.0072492316042521085,
+        "maximum_residual": 0.00309203407257741,
+        "minimum_residual": -0.0072492316042521085,
+        "model": "s4_residual_quadratic",
+        "r_squared": 0.9977623226580149,
+        "root_mean_square_residual": 0.0006480482990077447
+      },
+      {
+        "coefficient_count": 11,
+        "coefficients": "[0.021228090947172564, -0.016997653136423523, 0.01558026962496347, -0.0031518486759393007, 0.05763945955533042, 0.00019137434149502734, -0.02572746771622336, 0.0013663337643765833, 0.0005029294241059684, 0.0018585925297869106, -0.020880420448842425]",
+        "design_rank": 9,
+        "design_singular_values": "[589.0018093988249, 84.10886957047033, 26.021938811950957, 17.868317475707684, 4.393320084134561, 2.8912380732768117, 1.0736948652179537, 0.5797239356374451, 0.5334727471664038, 1.513967488206203e-13, 9.4676012401074e-14]",
+        "feature_names": "[\"1\", \"c0\", \"c1\", \"c2\", \"c3\", \"c0^2\", \"c1^2\", \"c2^2\", \"c3^2\", \"c0*c3\", \"c1*c2\"]",
+        "maximum_absolute_residual": 0.0046413339582760185,
+        "maximum_residual": 0.0006946080295421458,
+        "minimum_residual": -0.0046413339582760185,
+        "model": "covariant_spectrum_quadratic",
+        "r_squared": 0.9995309919930434,
+        "root_mean_square_residual": 0.0002966871736802008
+      },
+      {
+        "coefficient_count": 9,
+        "coefficients": "[0.016076476267033516, -0.010172593951172204, -0.013385384575359708, -0.0051989825873482495, 0.06894815178146388, 0.006243344713407082, 0.013520549730989062, 0.003760809648716478, -0.007448227826078873]",
+        "design_rank": 7,
+        "design_singular_values": "[456.19908934676783, 44.1645695135824, 19.146101333442573, 12.779628021731236, 6.198733135964824, 3.9399163423145485, 1.0960165400597848, 2.0087836145910562e-13, 6.359591047693795e-14]",
+        "feature_names": "[\"1\", \"c0\", \"c1\", \"c2\", \"c3\", \"w0\", \"w1\", \"w2\", \"w3\"]",
+        "maximum_absolute_residual": 0.0038673100924520656,
+        "maximum_residual": 0.0016264772454662804,
+        "minimum_residual": -0.0038673100924520656,
+        "model": "covariant_orientation_affine",
+        "r_squared": 0.9996970675726723,
+        "root_mean_square_residual": 0.0002384413242970688
+      },
+      {
+        "coefficient_count": 20,
+        "coefficients": "[0.0009294238531935034, -0.00878018821723442, -0.008462119274385957, -0.04206134947095919, 0.061627216595561085, 0.005190061480868294, -0.004755134321284898, 0.032277413177754864, -0.006921716995316549, -0.022503880774874693, -0.0264596945817284, 0.005242263059987324, 0.04465073614980864, 0.005881514463914632, 0.022126162124622397, -0.041283180664769825, 0.029874995762769762, -0.006312327010794526, 0.04465073614980864, -0.09055632495494191]",
+        "design_rank": 16,
+        "design_singular_values": "[732.9279241256702, 85.03261818117473, 23.52771541705548, 18.507025768379222, 11.54767456546526, 5.789617826177468, 3.3356704849945076, 1.8177210497716656, 1.3116620064940154, 1.1045332483724872, 0.5617434470206863, 0.4645291231288311, 0.43015384155837505, 0.17102675747288604, 0.07551918388079844, 0.03015090417813259, 2.3465707511266424e-13, 6.633796117496201e-14, 4.1171208133711134e-14, 2.6054968187989413e-20]",
+        "feature_names": "[\"1\", \"c0\", \"c1\", \"c2\", \"c3\", \"c0^2\", \"c1^2\", \"c2^2\", \"c3^2\", \"w0\", \"w1\", \"w2\", \"w3\", \"c0*w0\", \"c1*w1\", \"c2*w2\", \"c3*w3\", \"||r||^2\", \"w3\", \"w3^2\"]",
+        "maximum_absolute_residual": 0.0031553331593692016,
+        "maximum_residual": 0.0031553331593692016,
+        "minimum_residual": -0.002364634692776743,
+        "model": "covariant_orientation_quadratic",
+        "r_squared": 0.9999582357250203,
+        "root_mean_square_residual": 8.853420994317106e-05
+      },
+      {
+        "coefficient_count": 18,
+        "coefficients": "[0.002318944015835341, 0.0019164452990161167, 0.050132723625326246, -0.006183767159000959, -0.03302822653428881, -0.02733463426483383, -0.05048931895907855, 0.11664953979779213, 0.021415649086051154, 0.001899171746217246, 0.02702555388482568, -0.04633888698440853, -0.04068527244422513, -0.03818514174450337, -0.04528664886819969, 0.1264760070727649, -0.0026722611318983082, -0.1154871922042472]",
+        "design_rank": 15,
+        "design_singular_values": "[740.8564825831609, 97.08401433912084, 23.01239861117196, 20.099819034161435, 13.462815974717508, 5.975510404215808, 3.464978150553302, 2.376390603708852, 1.7495012450076945, 1.1487943638017926, 0.6308684261191775, 0.44033128088644663, 0.34965303446946505, 0.1890598618831652, 0.06892297079676274, 2.6697590109103244e-13, 1.7809184078561244e-13, 4.801948594972113e-14]",
+        "feature_names": "[\"1\", \"S4\", \"S6\", \"S8\", \"c0\", \"c1\", \"c2\", \"c3\", \"c0^2\", \"c1^2\", \"c2^2\", \"c3^2\", \"w0\", \"w1\", \"w2\", \"w3\", \"||r||^2\", \"w3^2\"]",
+        "maximum_absolute_residual": 0.0035531426372724037,
+        "maximum_residual": 0.0035531426372724037,
+        "minimum_residual": -0.0023205730735597757,
+        "model": "full_register_orientation",
+        "r_squared": 0.9999614601673992,
+        "root_mean_square_residual": 8.504789222946295e-05
+      }
+    ],
+    "orientation_improves_over_spectrum": true,
+    "orientation_quadratic_r_squared": 0.9999582357250203,
+    "spectrum_quadratic_r_squared": 0.9995309919930434
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_cross_flux_covariant_orientation_retains_additional_information"
+}

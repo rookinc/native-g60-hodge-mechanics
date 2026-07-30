@@ -1,0 +1,4 @@
+coupling_name,input_dimension,output_dimension,hom_dimension_raw,hom_dimension_integer,symmetry_allows_coupling,canonical_up_to_scale,selected_seed_id,intertwiner_rank,intertwiner_residual_max_abs,largest_singular_value,smallest_nonzero_singular_value
+six_a_tensor_six_a,36,19,1.9999999999999973,2,True,False,0,10,1.6132928326584306e-16,0.06094792368769091,0.05071683406191568
+six_a_tensor_six_b,36,19,2.9999999999999973,3,True,False,0,9,3.3306690738754696e-16,0.3524336574105148,0.12082989240824467
+six_b_tensor_six_b,36,19,1.9999999999999971,2,True,False,0,10,2.914335439641036e-16,0.31704330513058315,0.07966614504820467

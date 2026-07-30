@@ -1,0 +1,98 @@
+{
+  "artifact_id": "native_g60_six_sector_flux_intertwiner_013",
+  "audit_pass": true,
+  "boundary": {
+    "bilinear_normalization_selected": false,
+    "electromagnetism_claim": false,
+    "explicit_equivariant_maps_exported_when_available": true,
+    "force_claim": false,
+    "physical_claim": false,
+    "physical_flux_claim": false,
+    "source_dynamics_selected": false,
+    "symmetry_permission_test_completed": true
+  },
+  "checks": {
+    "all_constructed_intertwiners_are_equivariant": true,
+    "all_hom_dimensions_are_integer": true,
+    "coexact_basis_shape_is_120_by_19": true,
+    "coexact_representation_shape_is_480_by_19_by_19": true,
+    "cross_six_permission_resolved": true,
+    "six_a_basis_shape_is_42_by_6": true,
+    "six_a_representation_shape_is_480_by_6_by_6": true,
+    "six_b_basis_shape_is_42_by_6": true,
+    "six_b_representation_shape_is_480_by_6_by_6": true,
+    "two_six_dimensional_sectors_found": true
+  },
+  "coexact_representation": {
+    "character_norm_integer": 4,
+    "character_norm_raw": 3.9999999999999996,
+    "dimension": 19
+  },
+  "construction": {
+    "explicit_map_method": "Reynolds averaging of deterministic seed maps",
+    "permission_test": "dim Hom_Gamma(domain, coexact) = <chi_domain, chi_coexact>",
+    "target_space": "19-dimensional coexact edge-field sector",
+    "tested_domains": [
+      "V6a tensor V6a",
+      "V6a tensor V6b",
+      "V6b tensor V6b"
+    ],
+    "tolerance": 1e-08
+  },
+  "coupling_rows": [
+    {
+      "canonical_up_to_scale": false,
+      "coupling_name": "six_a_tensor_six_a",
+      "hom_dimension_integer": 2,
+      "hom_dimension_raw": 1.9999999999999973,
+      "input_dimension": 36,
+      "intertwiner_rank": 10,
+      "intertwiner_residual_max_abs": 1.6132928326584306e-16,
+      "largest_singular_value": 0.06094792368769091,
+      "output_dimension": 19,
+      "selected_seed_id": 0,
+      "smallest_nonzero_singular_value": 0.05071683406191568,
+      "symmetry_allows_coupling": true
+    },
+    {
+      "canonical_up_to_scale": false,
+      "coupling_name": "six_a_tensor_six_b",
+      "hom_dimension_integer": 3,
+      "hom_dimension_raw": 2.9999999999999973,
+      "input_dimension": 36,
+      "intertwiner_rank": 9,
+      "intertwiner_residual_max_abs": 3.3306690738754696e-16,
+      "largest_singular_value": 0.3524336574105148,
+      "output_dimension": 19,
+      "selected_seed_id": 0,
+      "smallest_nonzero_singular_value": 0.12082989240824467,
+      "symmetry_allows_coupling": true
+    },
+    {
+      "canonical_up_to_scale": false,
+      "coupling_name": "six_b_tensor_six_b",
+      "hom_dimension_integer": 2,
+      "hom_dimension_raw": 1.9999999999999971,
+      "input_dimension": 36,
+      "intertwiner_rank": 10,
+      "intertwiner_residual_max_abs": 2.914335439641036e-16,
+      "largest_singular_value": 0.31704330513058315,
+      "output_dimension": 19,
+      "selected_seed_id": 0,
+      "smallest_nonzero_singular_value": 0.07966614504820467,
+      "symmetry_allows_coupling": true
+    }
+  ],
+  "cross_six_result": {
+    "canonical_up_to_scale": false,
+    "explicit_intertwiner_rank": 9,
+    "hom_dimension": 3,
+    "interpretation": "A positive Hom dimension means native symmetry permits a bilinear cross-six source in the coexact sector. Zero means the proposed coupling is forbidden without additional structure.",
+    "symmetry_allows_flux_coupling": true
+  },
+  "outputs": {
+    "coupling_csv": "artifacts/csv/native_g60_six_sector_flux_intertwiner_013.csv",
+    "intertwiner_npz": "artifacts/npy/native_g60_six_sector_flux_intertwiner_013.npz"
+  },
+  "verdict": "native_g60_six_sector_flux_permission_resolved"
+}

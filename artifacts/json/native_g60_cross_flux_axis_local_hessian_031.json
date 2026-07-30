@@ -1,0 +1,180 @@
+{
+  "artifact_id": "native_g60_cross_flux_axis_local_hessian_031",
+  "audit_pass": true,
+  "axis_rows": [
+    {
+      "axis_id": 0,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 6.716467815053222e-16,
+      "maximum_finite_difference_residual": 2.0141479137314455e-08,
+      "minimum_curvature_candidate": 0.05555555555555557,
+      "minimum_sampled_curvature": 0.05555560955883762,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 1.3877787807814457e-17,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.03703703703703705,
+      "worst_effective_minimum_eigenvalue": -0.037037037037037264
+    },
+    {
+      "axis_id": 1,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 5.40117657154118e-16,
+      "maximum_finite_difference_residual": 4.242619408567627e-09,
+      "minimum_curvature_candidate": 0.05555555555555486,
+      "minimum_sampled_curvature": 0.05555555615157291,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 2.0816681711721685e-17,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.03703703703703657,
+      "worst_effective_minimum_eigenvalue": -0.037037037037036716
+    },
+    {
+      "axis_id": 2,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 2.6243225550735855e-16,
+      "maximum_finite_difference_residual": 1.3255726849514815e-08,
+      "minimum_curvature_candidate": 0.055555555555554886,
+      "minimum_sampled_curvature": 0.05555556056571823,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 4.163336342344337e-17,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.03703703703703659,
+      "worst_effective_minimum_eigenvalue": -0.037037037037036744
+    },
+    {
+      "axis_id": 3,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 5.10041379953839e-16,
+      "maximum_finite_difference_residual": 2.1500239047456127e-08,
+      "minimum_curvature_candidate": 0.05555555555555573,
+      "minimum_sampled_curvature": 0.05555555724778691,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 2.7755575615628914e-17,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.03703703703703715,
+      "worst_effective_minimum_eigenvalue": -0.037037037037037326
+    },
+    {
+      "axis_id": 4,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 3.771986923251704e-16,
+      "maximum_finite_difference_residual": 7.692672068793094e-09,
+      "minimum_curvature_candidate": 0.055555555555554845,
+      "minimum_sampled_curvature": 0.05555555576396311,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 2.0816681711721685e-17,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.03703703703703656,
+      "worst_effective_minimum_eigenvalue": -0.037037037037036695
+    },
+    {
+      "axis_id": 5,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 2.95505123688407e-16,
+      "maximum_finite_difference_residual": 7.148881098206772e-09,
+      "minimum_curvature_candidate": 0.055555555555555323,
+      "minimum_sampled_curvature": 0.055555555630941666,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 3.469446951953614e-17,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.03703703703703688,
+      "worst_effective_minimum_eigenvalue": -0.037037037037037035
+    },
+    {
+      "axis_id": 6,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 2.785315595247615e-16,
+      "maximum_finite_difference_residual": 9.818446944365178e-09,
+      "minimum_curvature_candidate": 0.05555555555555468,
+      "minimum_sampled_curvature": 0.055555786261454534,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 3.469446951953614e-17,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.03703703703703645,
+      "worst_effective_minimum_eigenvalue": -0.03703703703703652
+    },
+    {
+      "axis_id": 7,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 5.518015742512847e-16,
+      "maximum_finite_difference_residual": 7.530130352595421e-09,
+      "minimum_curvature_candidate": 0.05555555555555548,
+      "minimum_sampled_curvature": 0.05555566298744779,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 9.1817308340787e-18,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.037037037037036986,
+      "worst_effective_minimum_eigenvalue": -0.0370370370370371
+    },
+    {
+      "axis_id": 8,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 5.012826797453595e-16,
+      "maximum_finite_difference_residual": 8.654548813713525e-09,
+      "minimum_curvature_candidate": 0.05555555555555495,
+      "minimum_sampled_curvature": 0.05555561405408675,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 5.551115123125783e-17,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.03703703703703663,
+      "worst_effective_minimum_eigenvalue": -0.03703703703703671
+    },
+    {
+      "axis_id": 9,
+      "axis_pass": true,
+      "first_order_high_block_max_abs": 4.604517641013193e-16,
+      "maximum_finite_difference_residual": 6.52348620955312e-09,
+      "minimum_curvature_candidate": 0.055555555555555254,
+      "minimum_sampled_curvature": 0.05555555630164074,
+      "nonpositive_sampled_curvature_count": 0,
+      "quadratic_reconstruction_max_abs": 6.938893903907228e-18,
+      "rounded_terminal_curvatures": "[0.055555555556]",
+      "worst_effective_maximum_eigenvalue": -0.037037037037036834,
+      "worst_effective_minimum_eigenvalue": -0.037037037037037035
+    }
+  ],
+  "boundary": {
+    "all_ten_axes_strict_local_maxima": true,
+    "complete_global_equality_locus_proved": false,
+    "degenerate_second_order_reduction_constructed": true,
+    "global_operator_norm_upper_bound_proved": false,
+    "physical_claim": false
+  },
+  "checks": {
+    "all_axis_audits_pass": true,
+    "all_effective_second_order_operators_negative": true,
+    "all_singular_drop_curvatures_positive": true,
+    "axis_count_is_10": true,
+    "finite_difference_confirmation_resolved": true,
+    "first_order_top_blocks_vanish": true,
+    "input_030_theorem_pass": true,
+    "quadratic_coefficient_reconstruction_resolved": true
+  },
+  "global_residuals": {
+    "finite_difference_confirmation": 2.1500239047456127e-08,
+    "first_order_top_block": 6.716467815053222e-16,
+    "quadratic_reconstruction": 5.551115123125783e-17
+  },
+  "outputs": {
+    "axis_csv": "artifacts/csv/native_g60_cross_flux_axis_local_hessian_031.csv",
+    "coefficient_csv": "artifacts/csv/native_g60_cross_flux_axis_hessian_coefficients_031.csv",
+    "direction_csv": "artifacts/csv/native_g60_cross_flux_axis_hessian_directions_031.csv",
+    "hessian_npz": "artifacts/npy/native_g60_cross_flux_axis_local_hessian_031.npz"
+  },
+  "perturbation_model": {
+    "effective_second_order_operator": "P(A(t)^T A(t)-B_q)P + P B1(t)(I-P)B1(t)P/(5/48)",
+    "geodesic": "f(theta)=cos(theta)q+sin(theta)t",
+    "lower_eigenvalue": "1/144",
+    "singular_drop_coefficient": "c_q(t)=-(3/2)lambda_max(H_q(t))",
+    "spectral_gap": "5/48",
+    "top_eigenvalue": "1/9"
+  },
+  "theorem": {
+    "axis_count": 10,
+    "global_maximum_effective_eigenvalue": -0.03703703703703645,
+    "global_minimum_drop_curvature_candidate": 0.05555555555555468,
+    "statement": "For each native cross-flux axis q, the first-order perturbation vanishes on the two-dimensional top singular subspace. The degenerate second-order effective operator H_q(t) is negative definite for every tested and globally optimized unit tangent direction t. Therefore the operator norm has positive quadratic drop away from each axis."
+  },
+  "theorem_pass": true,
+  "verdict": "native_g60_cross_flux_ten_axes_are_analytic_strict_local_maxima"
+}

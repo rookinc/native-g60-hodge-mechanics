@@ -1,0 +1,379 @@
+{
+  "artifact_id": "native_g60_harmonic_irreducible_decomposition_006b",
+  "audit_pass": true,
+  "boundary": {
+    "abstract_irreducible_names_assigned": false,
+    "complex_type_vs_real_type_fully_classified": false,
+    "energy_claim": false,
+    "force_claim": false,
+    "frequency_claim": false,
+    "full_character_table_imported": false,
+    "maxwell_claim": false,
+    "particle_claim": false,
+    "physical_claim": false,
+    "physical_mode_interpretation": false,
+    "real_isotypic_decomposition_computed": true,
+    "symmetry_adapted_basis_exported": false,
+    "unification_claim": false,
+    "universe_simulation_claim": false
+  },
+  "checks": {
+    "all_sector_projectors_idempotent": true,
+    "all_sectors_group_invariant": true,
+    "at_least_one_isotypic_sector_found": true,
+    "central_sector_dimensions_sum_to_12_30": true,
+    "conjugacy_classes_partition_group": true,
+    "input_006_audit_pass": true,
+    "representation_shape_is_480_by_42_by_42": true,
+    "sector_character_norms_are_integer": true,
+    "sector_character_norms_sum_to_8": true,
+    "sector_characters_sum_to_harmonic_character": true,
+    "sector_dimensions_sum_to_42": true,
+    "sector_multiplicity_candidates_resolved": true,
+    "sector_projectors_pairwise_orthogonal": true,
+    "sector_projectors_sum_to_identity": true
+  },
+  "conjugacy_classes": [
+    {
+      "class_id": 0,
+      "class_size": 1,
+      "d8_flip": 0,
+      "d8_rotation": 0,
+      "harmonic_character": 41.99999999999999,
+      "representative_cycle_type": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "representative_index": 0,
+      "representative_order": 1,
+      "s5_permutation": "0 1 2 3 4"
+    },
+    {
+      "class_id": 1,
+      "class_size": 1,
+      "d8_flip": 0,
+      "d8_rotation": 2,
+      "harmonic_character": -17.999999999999993,
+      "representative_cycle_type": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2",
+      "representative_index": 326,
+      "representative_order": 2,
+      "s5_permutation": "0 1 2 3 4"
+    },
+    {
+      "class_id": 2,
+      "class_size": 2,
+      "d8_flip": 1,
+      "d8_rotation": 0,
+      "harmonic_character": -1.5126788710517758e-15,
+      "representative_cycle_type": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2",
+      "representative_index": 65,
+      "representative_order": 2,
+      "s5_permutation": "0 1 2 3 4"
+    },
+    {
+      "class_id": 3,
+      "class_size": 15,
+      "d8_flip": 0,
+      "d8_rotation": 2,
+      "harmonic_character": -10.0,
+      "representative_cycle_type": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1",
+      "representative_index": 2,
+      "representative_order": 2,
+      "s5_permutation": "2 3 0 1 4"
+    },
+    {
+      "class_id": 4,
+      "class_size": 15,
+      "d8_flip": 0,
+      "d8_rotation": 0,
+      "harmonic_character": 1.9999999999999987,
+      "representative_cycle_type": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2",
+      "representative_index": 41,
+      "representative_order": 2,
+      "s5_permutation": "1 0 4 3 2"
+    },
+    {
+      "class_id": 5,
+      "class_size": 20,
+      "d8_flip": 1,
+      "d8_rotation": 1,
+      "harmonic_character": -1.6653345369377348e-15,
+      "representative_cycle_type": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1",
+      "representative_index": 4,
+      "representative_order": 2,
+      "s5_permutation": "0 3 2 1 4"
+    },
+    {
+      "class_id": 6,
+      "class_size": 20,
+      "d8_flip": 0,
+      "d8_rotation": 1,
+      "harmonic_character": 1.8041124150158794e-16,
+      "representative_cycle_type": "4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+      "representative_index": 13,
+      "representative_order": 4,
+      "s5_permutation": "0 1 2 4 3"
+    },
+    {
+      "class_id": 7,
+      "class_size": 20,
+      "d8_flip": 0,
+      "d8_rotation": 2,
+      "harmonic_character": 1.0269562977782698e-15,
+      "representative_cycle_type": "6 6 6 6 6 6 6 6 6 6",
+      "representative_index": 22,
+      "representative_order": 6,
+      "s5_permutation": "0 1 3 4 2"
+    },
+    {
+      "class_id": 8,
+      "class_size": 20,
+      "d8_flip": 0,
+      "d8_rotation": 0,
+      "harmonic_character": -3.885780586188048e-16,
+      "representative_cycle_type": "3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3",
+      "representative_index": 82,
+      "representative_order": 3,
+      "s5_permutation": "0 1 3 4 2"
+    },
+    {
+      "class_id": 9,
+      "class_size": 24,
+      "d8_flip": 0,
+      "d8_rotation": 0,
+      "harmonic_character": 1.9999999999999993,
+      "representative_cycle_type": "5 5 5 5 5 5 5 5 5 5 5 5",
+      "representative_index": 9,
+      "representative_order": 5,
+      "s5_permutation": "4 0 1 2 3"
+    },
+    {
+      "class_id": 10,
+      "class_size": 24,
+      "d8_flip": 0,
+      "d8_rotation": 2,
+      "harmonic_character": 1.9999999999999991,
+      "representative_cycle_type": "10 10 10 10 10 10",
+      "representative_index": 12,
+      "representative_order": 10,
+      "s5_permutation": "1 2 4 0 3"
+    },
+    {
+      "class_id": 11,
+      "class_size": 24,
+      "d8_flip": 1,
+      "d8_rotation": 2,
+      "harmonic_character": 5.273559366969494e-16,
+      "representative_cycle_type": "10 10 10 10 10 10",
+      "representative_index": 21,
+      "representative_order": 10,
+      "s5_permutation": "4 3 1 0 2"
+    },
+    {
+      "class_id": 12,
+      "class_size": 24,
+      "d8_flip": 1,
+      "d8_rotation": 0,
+      "harmonic_character": 3.0531133177191805e-16,
+      "representative_cycle_type": "10 10 10 10 10 10",
+      "representative_index": 57,
+      "representative_order": 10,
+      "s5_permutation": "1 2 3 4 0"
+    },
+    {
+      "class_id": 13,
+      "class_size": 30,
+      "d8_flip": 1,
+      "d8_rotation": 0,
+      "harmonic_character": 1.27675647831893e-15,
+      "representative_cycle_type": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1",
+      "representative_index": 1,
+      "representative_order": 2,
+      "s5_permutation": "3 2 1 0 4"
+    },
+    {
+      "class_id": 14,
+      "class_size": 40,
+      "d8_flip": 1,
+      "d8_rotation": 3,
+      "harmonic_character": 1.6653345369377348e-15,
+      "representative_cycle_type": "6 6 6 6 6 6 6 6 6 3 3",
+      "representative_index": 10,
+      "representative_order": 6,
+      "s5_permutation": "1 0 4 2 3"
+    },
+    {
+      "class_id": 15,
+      "class_size": 40,
+      "d8_flip": 1,
+      "d8_rotation": 2,
+      "harmonic_character": -9.992007221626409e-16,
+      "representative_cycle_type": "6 6 6 6 6 6 6 6 6 6",
+      "representative_index": 11,
+      "representative_order": 6,
+      "s5_permutation": "0 4 2 1 3"
+    },
+    {
+      "class_id": 16,
+      "class_size": 40,
+      "d8_flip": 0,
+      "d8_rotation": 3,
+      "harmonic_character": -1.1136924715771102e-15,
+      "representative_cycle_type": "12 12 12 12 12",
+      "representative_index": 15,
+      "representative_order": 12,
+      "s5_permutation": "2 4 0 1 3"
+    },
+    {
+      "class_id": 17,
+      "class_size": 60,
+      "d8_flip": 0,
+      "d8_rotation": 1,
+      "harmonic_character": 1.2351231148954867e-15,
+      "representative_cycle_type": "4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 1 1",
+      "representative_index": 3,
+      "representative_order": 4,
+      "s5_permutation": "1 2 3 0 4"
+    },
+    {
+      "class_id": 18,
+      "class_size": 60,
+      "d8_flip": 1,
+      "d8_rotation": 1,
+      "harmonic_character": 2.6575963651964685e-15,
+      "representative_cycle_type": "4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+      "representative_index": 18,
+      "representative_order": 4,
+      "s5_permutation": "3 1 0 4 2"
+    }
+  ],
+  "construction": {
+    "claim_type": "real isotypic decomposition with character-norm multiplicity candidates",
+    "conjugacy_class_count": 19,
+    "group_order": 480,
+    "harmonic_dimension": 42,
+    "method": "joint spectral splitting by self-adjoint central conjugacy-class sum operators",
+    "tolerance": 1e-08
+  },
+  "inputs": {
+    "harmonic_representation": "artifacts/npy/native_g60_harmonic_representation_006.npz",
+    "harmonic_representation_profile": "artifacts/json/native_g60_harmonic_representation_decomposition_006.json",
+    "native_group_coordinates": "data/imported/project45/native_g60_fiber_product_isomorphism_044.json",
+    "surface_symmetry": "data/imported/project45/native_g60_surface_symmetry_and_kernel_005.json"
+  },
+  "sector_rows": [
+    {
+      "central_minus_dimension": 2,
+      "central_plus_dimension": 0,
+      "central_trace": -1.9999999999999998,
+      "character_norm_integer": 1,
+      "character_norm_raw": 0.9999999999999998,
+      "group_invariance_max_abs": 9.103828801926284e-15,
+      "irreducible_dimension_candidate": 2,
+      "multiplicity_candidate": 1,
+      "projector_idempotence_max_abs": 8.326672684688674e-17,
+      "rounded_character_profile": "{\"-2\": 60, \"0\": 360, \"2\": 60}",
+      "sector_dimension": 2,
+      "sector_id": 0
+    },
+    {
+      "central_minus_dimension": 0,
+      "central_plus_dimension": 6,
+      "central_trace": 5.999999999999998,
+      "character_norm_integer": 1,
+      "character_norm_raw": 0.9999999999999996,
+      "group_invariance_max_abs": 1.4710455076283324e-14,
+      "irreducible_dimension_candidate": 6,
+      "multiplicity_candidate": 1,
+      "projector_idempotence_max_abs": 6.938893903907228e-17,
+      "rounded_character_profile": "{\"-2\": 60, \"0\": 320, \"1\": 96, \"6\": 4}",
+      "sector_dimension": 6,
+      "sector_id": 1
+    },
+    {
+      "central_minus_dimension": 0,
+      "central_plus_dimension": 6,
+      "central_trace": 5.999999999999999,
+      "character_norm_integer": 1,
+      "character_norm_raw": 0.9999999999999997,
+      "group_invariance_max_abs": 9.159339953157541e-16,
+      "irreducible_dimension_candidate": 6,
+      "multiplicity_candidate": 1,
+      "projector_idempotence_max_abs": 1.6653345369377348e-16,
+      "rounded_character_profile": "{\"-1\": 48, \"-2\": 30, \"-6\": 2, \"0\": 320, \"1\": 48, \"2\": 30, \"6\": 2}",
+      "sector_dimension": 6,
+      "sector_id": 2
+    },
+    {
+      "central_minus_dimension": 8,
+      "central_plus_dimension": 0,
+      "central_trace": -8.0,
+      "character_norm_integer": 1,
+      "character_norm_raw": 1.0,
+      "group_invariance_max_abs": 1.1268763699945339e-14,
+      "irreducible_dimension_candidate": 8,
+      "multiplicity_candidate": 1,
+      "projector_idempotence_max_abs": 1.3877787807814457e-16,
+      "rounded_character_profile": "{\"-2\": 44, \"-8\": 1, \"0\": 390, \"2\": 44, \"8\": 1}",
+      "sector_dimension": 8,
+      "sector_id": 3
+    },
+    {
+      "central_minus_dimension": 20,
+      "central_plus_dimension": 0,
+      "central_trace": -20.0,
+      "character_norm_integer": 4,
+      "character_norm_raw": 4.0,
+      "group_invariance_max_abs": 4.9682480351975755e-15,
+      "irreducible_dimension_candidate": 10,
+      "multiplicity_candidate": 2,
+      "projector_idempotence_max_abs": 4.440892098500626e-16,
+      "rounded_character_profile": "{\"-20\": 1, \"-4\": 35, \"0\": 408, \"20\": 1, \"4\": 35}",
+      "sector_dimension": 20,
+      "sector_id": 4
+    }
+  ],
+  "summary": {
+    "character_sum_max_abs": 1.0658141036401503e-14,
+    "completeness_max_abs": 4.440892098500626e-16,
+    "decomposition_signature": [
+      {
+        "central_minus_dimension": 2,
+        "central_plus_dimension": 0,
+        "irreducible_dimension": 2,
+        "multiplicity": 1,
+        "sector_dimension": 2
+      },
+      {
+        "central_minus_dimension": 0,
+        "central_plus_dimension": 6,
+        "irreducible_dimension": 6,
+        "multiplicity": 1,
+        "sector_dimension": 6
+      },
+      {
+        "central_minus_dimension": 0,
+        "central_plus_dimension": 6,
+        "irreducible_dimension": 6,
+        "multiplicity": 1,
+        "sector_dimension": 6
+      },
+      {
+        "central_minus_dimension": 8,
+        "central_plus_dimension": 0,
+        "irreducible_dimension": 8,
+        "multiplicity": 1,
+        "sector_dimension": 8
+      },
+      {
+        "central_minus_dimension": 20,
+        "central_plus_dimension": 0,
+        "irreducible_dimension": 10,
+        "multiplicity": 2,
+        "sector_dimension": 20
+      }
+    ],
+    "pairwise_orthogonality_max_abs": 1.4369687977493877e-16,
+    "sector_count": 5,
+    "sector_dimension_sum": 42,
+    "total_character_norm": 7.999999999999999
+  },
+  "verdict": "native_g60_harmonic_real_isotypic_decomposition_identified"
+}

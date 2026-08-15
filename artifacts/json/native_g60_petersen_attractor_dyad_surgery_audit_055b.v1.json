@@ -1,0 +1,1151 @@
+{
+  "artifact_id": "native_g60_petersen_attractor_dyad_surgery_audit_055b",
+  "audit_pass": true,
+  "boundary": {
+    "chart_to_attractor_cell_bijection_proved": false,
+    "chirality_selection_proved": false,
+    "force_claim": false,
+    "physical_attraction_proved": false,
+    "unique_circulating_side_selected": false,
+    "unique_removed_matching_selected": false,
+    "unpolarized_dyad_precursor_proved": true
+  },
+  "checks": {
+    "all_surgeries_are_distinct": true,
+    "all_surgeries_have_target_shape": true,
+    "bipartition_is_three_plus_three": true,
+    "source_degree_sequence_is_cubic": true,
+    "source_has_nine_edges": true,
+    "source_has_six_vertices": true,
+    "source_is_K33": true,
+    "source_is_triangle_free": true,
+    "surgery_candidate_count_is_12": true
+  },
+  "distinct_result_graph_count": 12,
+  "interpretation": "The undirected Petersen chart-overlap graph is K3,3. Each rooted/circulating attractor dyad shape is obtained by choosing one bipartition side as circulating, removing one perfect matching, and inserting the triangle on the circulating side.",
+  "source_bipartition": {
+    "left": [
+      0,
+      2,
+      5
+    ],
+    "right": [
+      1,
+      3,
+      4
+    ]
+  },
+  "source_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "source_is_K33": true,
+  "source_predicate": "ff_edge_overlap==2",
+  "surgeries": [
+    {
+      "added_triangle": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "circulating_side": "left",
+      "circulating_vertices": [
+        0,
+        2,
+        5
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        1,
+        3,
+        4
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "circulating_side": "left",
+      "circulating_vertices": [
+        0,
+        2,
+        5
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        1,
+        3,
+        4
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "circulating_side": "left",
+      "circulating_vertices": [
+        0,
+        2,
+        5
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        1,
+        3,
+        4
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "circulating_side": "left",
+      "circulating_vertices": [
+        0,
+        2,
+        5
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        1,
+        3,
+        4
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "circulating_side": "left",
+      "circulating_vertices": [
+        0,
+        2,
+        5
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        1,
+        3,
+        4
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "circulating_side": "left",
+      "circulating_vertices": [
+        0,
+        2,
+        5
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        1,
+        3,
+        4
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "circulating_side": "right",
+      "circulating_vertices": [
+        1,
+        3,
+        4
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        0,
+        2,
+        5
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "circulating_side": "right",
+      "circulating_vertices": [
+        1,
+        3,
+        4
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        0,
+        2,
+        5
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "circulating_side": "right",
+      "circulating_vertices": [
+        1,
+        3,
+        4
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        0,
+        2,
+        5
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "circulating_side": "right",
+      "circulating_vertices": [
+        1,
+        3,
+        4
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        0,
+        2,
+        5
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "circulating_side": "right",
+      "circulating_vertices": [
+        1,
+        3,
+        4
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        0,
+        2,
+        5
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    },
+    {
+      "added_triangle": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "circulating_side": "right",
+      "circulating_vertices": [
+        1,
+        3,
+        4
+      ],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "removed_matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "result_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rooted_vertices": [
+        0,
+        2,
+        5
+      ],
+      "target_shape": true,
+      "triangle_count": 4
+    }
+  ],
+  "surgery_candidate_count": 12,
+  "target_shape_count": 12,
+  "verdict": "petersen_chart_K33_is_exact_unpolarized_precursor_of_attractor_root_cycle_dyad"
+}

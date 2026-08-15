@@ -1,0 +1,82 @@
+{
+  "ambiguous_signature_count": 360,
+  "artifact_id": "native_g900_attractor_signature_collision_audit_054g",
+  "audit_pass": true,
+  "boundary": {
+    "carrier_class_recovery_proved": true,
+    "chirality_selection_proved": false,
+    "exact_attractor_recovery_proved": false,
+    "face_selection_proved": false,
+    "physical_attraction_proved": false
+  },
+  "checks": {
+    "all_signatures_class_pure": true,
+    "group_sizes_account_for_all_vertices": true,
+    "signature_count_is_540": true,
+    "source_vertex_count_is_900": true
+  },
+  "class_group_size_profile": [
+    {
+      "carrier_class": "0_4",
+      "group_size": 2,
+      "signature_count": 120
+    },
+    {
+      "carrier_class": "2_2",
+      "group_size": 1,
+      "signature_count": 60
+    },
+    {
+      "carrier_class": "2_2",
+      "group_size": 2,
+      "signature_count": 180
+    },
+    {
+      "carrier_class": "4_0",
+      "group_size": 1,
+      "signature_count": 120
+    },
+    {
+      "carrier_class": "4_0",
+      "group_size": 2,
+      "signature_count": 60
+    }
+  ],
+  "exactly_recovered_vertex_count": 180,
+  "group_size_profile": {
+    "1": 180,
+    "2": 360
+  },
+  "half_flip_collision_group_count": 0,
+  "relation_profile": [
+    {
+      "carrier_class": "0_4",
+      "relation": "same_S_multiple_T",
+      "signature_count": 120
+    },
+    {
+      "carrier_class": "2_2",
+      "relation": "same_S_multiple_T",
+      "signature_count": 180
+    },
+    {
+      "carrier_class": "2_2",
+      "relation": "singleton",
+      "signature_count": 60
+    },
+    {
+      "carrier_class": "4_0",
+      "relation": "same_S_multiple_T",
+      "signature_count": 60
+    },
+    {
+      "carrier_class": "4_0",
+      "relation": "singleton",
+      "signature_count": 120
+    }
+  ],
+  "signature_count": 540,
+  "singleton_signature_count": 180,
+  "verdict": "native_g900_attractor_signature_collision_structure_recorded",
+  "vertex_count": 900
+}

@@ -1,0 +1,2 @@
+face_rank,face_condition_number,design_rows,design_columns,design_rank,design_nullity,design_condition_number,linear_maximum_residual,linear_residual_l2,linear_slice_consistent,sdp_attempted,sdp_status,sdp_margin,sdp_maximum_coefficient_residual,sdp_minimum_gram_eigenvalue,sdp_numerical_rank,sdp_feasible,sdp_interior
+46,2.9222771932348204,286,1081,273,808,218608582.27223513,6.626762262844019e-18,2.044673871627511e-17,True,True,optimal_inaccurate,2.0723295623315396e-06,2.4239403683561957e-11,2.0723293445923413e-06,46,True,True

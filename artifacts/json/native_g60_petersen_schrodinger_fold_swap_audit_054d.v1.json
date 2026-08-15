@@ -1,0 +1,447 @@
+{
+  "artifact_id": "native_g60_petersen_schrodinger_fold_swap_audit_054d",
+  "audit_pass": false,
+  "boundary": {
+    "born_rule_derived": false,
+    "continuum_quantum_mechanics_recovered": false,
+    "discrete_schrodinger_model_constructed": true,
+    "e5_kernel_identification_proved": false,
+    "electron_wavefunction_identified": false,
+    "hbar_derived": false,
+    "physical_hamiltonian_uniqueness_proved": false,
+    "physical_time_derived": false
+  },
+  "chart_records": [
+    {
+      "chart_index": 1,
+      "chart_pass": false,
+      "first_cycle": [
+        "0",
+        "1",
+        "2",
+        "5",
+        "6"
+      ],
+      "fold_swap_block_diagonal": false,
+      "fold_swap_off_block_residual": null,
+      "hamiltonian_dimension": 10,
+      "hermitian_residual": 0.0,
+      "matched_second_order": [
+        "3",
+        "9",
+        "8",
+        "4",
+        "7"
+      ],
+      "maximum_norm_error": 9.992007221626409e-16,
+      "maximum_unitary_residual": 8.881784197001252e-16,
+      "minus_dimension": null,
+      "mirror_candidate_count": 0,
+      "plus_dimension": null,
+      "selected_mirror_permutation": null,
+      "spectrum": [
+        -2.0,
+        -1.9999999999999998,
+        -1.9999999999999996,
+        -1.999999999999999,
+        0.999999999999999,
+        0.9999999999999991,
+        0.9999999999999994,
+        1.0,
+        1.0000000000000002,
+        3.0
+      ],
+      "spectrum_residual_from_chart_1": 0.0,
+      "unitary_samples": [
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.0,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 9.992007221626409e-16,
+          "time": 0.25,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.5,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 4.440892098500626e-16,
+          "time": 1.0,
+          "unitary_residual": 7.297724151210982e-16
+        },
+        {
+          "norm_error": 6.661338147750939e-16,
+          "time": 2.0,
+          "unitary_residual": 8.881784197001252e-16
+        }
+      ]
+    },
+    {
+      "chart_index": 2,
+      "chart_pass": false,
+      "first_cycle": [
+        "0",
+        "1",
+        "2",
+        "8",
+        "3"
+      ],
+      "fold_swap_block_diagonal": false,
+      "fold_swap_off_block_residual": null,
+      "hamiltonian_dimension": 10,
+      "hermitian_residual": 0.0,
+      "matched_second_order": [
+        "6",
+        "9",
+        "5",
+        "7",
+        "4"
+      ],
+      "maximum_norm_error": 9.992007221626409e-16,
+      "maximum_unitary_residual": 8.881784197001252e-16,
+      "minus_dimension": null,
+      "mirror_candidate_count": 0,
+      "plus_dimension": null,
+      "selected_mirror_permutation": null,
+      "spectrum": [
+        -2.0,
+        -1.9999999999999998,
+        -1.9999999999999996,
+        -1.999999999999999,
+        0.999999999999999,
+        0.9999999999999991,
+        0.9999999999999994,
+        1.0,
+        1.0000000000000002,
+        3.0
+      ],
+      "spectrum_residual_from_chart_1": 0.0,
+      "unitary_samples": [
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.0,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 9.992007221626409e-16,
+          "time": 0.25,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.5,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 4.440892098500626e-16,
+          "time": 1.0,
+          "unitary_residual": 7.297724151210982e-16
+        },
+        {
+          "norm_error": 6.661338147750939e-16,
+          "time": 2.0,
+          "unitary_residual": 8.881784197001252e-16
+        }
+      ]
+    },
+    {
+      "chart_index": 3,
+      "chart_pass": false,
+      "first_cycle": [
+        "0",
+        "1",
+        "9",
+        "4",
+        "3"
+      ],
+      "fold_swap_block_diagonal": false,
+      "fold_swap_off_block_residual": null,
+      "hamiltonian_dimension": 10,
+      "hermitian_residual": 0.0,
+      "matched_second_order": [
+        "6",
+        "2",
+        "7",
+        "5",
+        "8"
+      ],
+      "maximum_norm_error": 9.992007221626409e-16,
+      "maximum_unitary_residual": 8.881784197001252e-16,
+      "minus_dimension": null,
+      "mirror_candidate_count": 0,
+      "plus_dimension": null,
+      "selected_mirror_permutation": null,
+      "spectrum": [
+        -2.0,
+        -1.9999999999999998,
+        -1.9999999999999996,
+        -1.999999999999999,
+        0.999999999999999,
+        0.9999999999999991,
+        0.9999999999999994,
+        1.0,
+        1.0000000000000002,
+        3.0
+      ],
+      "spectrum_residual_from_chart_1": 0.0,
+      "unitary_samples": [
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.0,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 9.992007221626409e-16,
+          "time": 0.25,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.5,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 4.440892098500626e-16,
+          "time": 1.0,
+          "unitary_residual": 7.297724151210982e-16
+        },
+        {
+          "norm_error": 6.661338147750939e-16,
+          "time": 2.0,
+          "unitary_residual": 8.881784197001252e-16
+        }
+      ]
+    },
+    {
+      "chart_index": 4,
+      "chart_pass": false,
+      "first_cycle": [
+        "0",
+        "1",
+        "9",
+        "7",
+        "6"
+      ],
+      "fold_swap_block_diagonal": false,
+      "fold_swap_off_block_residual": null,
+      "hamiltonian_dimension": 10,
+      "hermitian_residual": 0.0,
+      "matched_second_order": [
+        "3",
+        "2",
+        "4",
+        "8",
+        "5"
+      ],
+      "maximum_norm_error": 9.992007221626409e-16,
+      "maximum_unitary_residual": 8.881784197001252e-16,
+      "minus_dimension": null,
+      "mirror_candidate_count": 0,
+      "plus_dimension": null,
+      "selected_mirror_permutation": null,
+      "spectrum": [
+        -2.0,
+        -1.9999999999999998,
+        -1.9999999999999996,
+        -1.999999999999999,
+        0.999999999999999,
+        0.9999999999999991,
+        0.9999999999999994,
+        1.0,
+        1.0000000000000002,
+        3.0
+      ],
+      "spectrum_residual_from_chart_1": 0.0,
+      "unitary_samples": [
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.0,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 9.992007221626409e-16,
+          "time": 0.25,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.5,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 4.440892098500626e-16,
+          "time": 1.0,
+          "unitary_residual": 7.297724151210982e-16
+        },
+        {
+          "norm_error": 6.661338147750939e-16,
+          "time": 2.0,
+          "unitary_residual": 8.881784197001252e-16
+        }
+      ]
+    },
+    {
+      "chart_index": 5,
+      "chart_pass": false,
+      "first_cycle": [
+        "0",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "fold_swap_block_diagonal": false,
+      "fold_swap_off_block_residual": null,
+      "hamiltonian_dimension": 10,
+      "hermitian_residual": 0.0,
+      "matched_second_order": [
+        "1",
+        "8",
+        "9",
+        "2",
+        "7"
+      ],
+      "maximum_norm_error": 9.992007221626409e-16,
+      "maximum_unitary_residual": 8.881784197001252e-16,
+      "minus_dimension": null,
+      "mirror_candidate_count": 0,
+      "plus_dimension": null,
+      "selected_mirror_permutation": null,
+      "spectrum": [
+        -2.0,
+        -1.9999999999999998,
+        -1.9999999999999996,
+        -1.999999999999999,
+        0.999999999999999,
+        0.9999999999999991,
+        0.9999999999999994,
+        1.0,
+        1.0000000000000002,
+        3.0
+      ],
+      "spectrum_residual_from_chart_1": 0.0,
+      "unitary_samples": [
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.0,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 9.992007221626409e-16,
+          "time": 0.25,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.5,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 4.440892098500626e-16,
+          "time": 1.0,
+          "unitary_residual": 7.297724151210982e-16
+        },
+        {
+          "norm_error": 6.661338147750939e-16,
+          "time": 2.0,
+          "unitary_residual": 8.881784197001252e-16
+        }
+      ]
+    },
+    {
+      "chart_index": 6,
+      "chart_pass": false,
+      "first_cycle": [
+        "0",
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "fold_swap_block_diagonal": false,
+      "fold_swap_off_block_residual": null,
+      "hamiltonian_dimension": 10,
+      "hermitian_residual": 0.0,
+      "matched_second_order": [
+        "1",
+        "4",
+        "2",
+        "9",
+        "5"
+      ],
+      "maximum_norm_error": 9.992007221626409e-16,
+      "maximum_unitary_residual": 8.881784197001252e-16,
+      "minus_dimension": null,
+      "mirror_candidate_count": 0,
+      "plus_dimension": null,
+      "selected_mirror_permutation": null,
+      "spectrum": [
+        -2.0,
+        -1.9999999999999998,
+        -1.9999999999999996,
+        -1.999999999999999,
+        0.999999999999999,
+        0.9999999999999991,
+        0.9999999999999994,
+        1.0,
+        1.0000000000000002,
+        3.0
+      ],
+      "spectrum_residual_from_chart_1": 0.0,
+      "unitary_samples": [
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.0,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 9.992007221626409e-16,
+          "time": 0.25,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 8.881784197001252e-16,
+          "time": 0.5,
+          "unitary_residual": 8.881784197001252e-16
+        },
+        {
+          "norm_error": 4.440892098500626e-16,
+          "time": 1.0,
+          "unitary_residual": 7.297724151210982e-16
+        },
+        {
+          "norm_error": 6.661338147750939e-16,
+          "time": 2.0,
+          "unitary_residual": 8.881784197001252e-16
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "all_chart_spectra_match": true,
+    "all_charts_have_commuting_mirror": false,
+    "all_hamiltonians_are_hermitian": true,
+    "all_hamiltonians_block_diagonalize_in_fold_swap_basis": false,
+    "all_mirror_splits_are_five_plus_five": false,
+    "all_sampled_evolutions_are_unitary": true,
+    "all_sampled_state_norms_are_preserved": true,
+    "chart_count_is_six": true
+  },
+  "failed_checks": [
+    "all_charts_have_commuting_mirror",
+    "all_mirror_splits_are_five_plus_five",
+    "all_hamiltonians_block_diagonalize_in_fold_swap_basis"
+  ],
+  "hamiltonian_definition": {
+    "alpha": 1,
+    "beta": 1,
+    "form": "[[A_plus, M], [M_transpose, A_minus]]",
+    "units": "dimensionless_probe_units"
+  },
+  "interpretation": "The probe constructs a dimensionless adjacency Hamiltonian from each native complementary Petersen chart. Hermiticity and sampled unitarity test whether a discrete Schrodinger evolution is mathematically available. A commuting mirror with five positive and five negative modes tests whether fold and swap are invariant dynamical sectors.",
+  "verdict": "native_petersen_adjacency_dynamics_is_unitary_but_fold_swap_separation_not_fully_established"
+}

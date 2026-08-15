@@ -1,0 +1,14 @@
+artifact_id: native_g60_petersen_face_chirality_audit_054e
+audit_pass: True
+verdict: native_petersen_face_relation_is_balanced_chiral_order_4_intertwiner_space_with_no_static_mirror
+chart_count: 6
+target_intertwiner_count: 10
+target_chirality_profile: {'negative': 5, 'positive': 5}
+target_order_profile: {'4': 10}
+target_involution_count: 0
+same_face_control_order_profile: {'1': 1, '2': 5, '5': 4}
+same_face_control_involution_count: 6
+failed_checks: []
+json: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_petersen_face_chirality_audit_054e.v1.json
+csv: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_petersen_face_chirality_audit_054e.csv
+note: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/notes/native_g60_petersen_face_chirality_audit_054e.md

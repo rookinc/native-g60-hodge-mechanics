@@ -1,0 +1,125 @@
+{
+  "T_incidence_profile": {
+    "0": 60,
+    "1": 60,
+    "10": 60,
+    "11": 60,
+    "14": 60,
+    "2": 60,
+    "3": 60,
+    "4": 60,
+    "5": 60,
+    "7": 60,
+    "8": 60,
+    "9": 60
+  },
+  "T_pair_profile": [
+    {
+      "S_fiber_count": 60,
+      "T_pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "S_fiber_count": 60,
+      "T_pair": [
+        2,
+        5
+      ]
+    },
+    {
+      "S_fiber_count": 60,
+      "T_pair": [
+        3,
+        10
+      ]
+    },
+    {
+      "S_fiber_count": 60,
+      "T_pair": [
+        4,
+        7
+      ]
+    },
+    {
+      "S_fiber_count": 60,
+      "T_pair": [
+        8,
+        14
+      ]
+    },
+    {
+      "S_fiber_count": 60,
+      "T_pair": [
+        9,
+        11
+      ]
+    }
+  ],
+  "artifact_id": "native_g900_attractor_T_collision_law_audit_054h",
+  "audit_pass": true,
+  "boundary": {
+    "G60_S_coordinate_recovery": true,
+    "T_collision_law_classified": true,
+    "chirality_selection_proved": false,
+    "exact_T_recovery_for_all_vertices": false,
+    "face_selection_proved": false,
+    "physical_attraction_proved": false
+  },
+  "checks": {
+    "all_T_pairs_are_distinct": true,
+    "all_pairs_are_same_carrier_class": true,
+    "all_pairs_preserve_S": true,
+    "pair_signature_count_is_360": true
+  },
+  "class_T_delta_profile": [
+    {
+      "carrier_class": "0_4",
+      "pair_count": 60,
+      "undirected_T_delta_mod15": 1
+    },
+    {
+      "carrier_class": "0_4",
+      "pair_count": 60,
+      "undirected_T_delta_mod15": 3
+    },
+    {
+      "carrier_class": "2_2",
+      "pair_count": 60,
+      "undirected_T_delta_mod15": 3
+    },
+    {
+      "carrier_class": "2_2",
+      "pair_count": 60,
+      "undirected_T_delta_mod15": 6
+    },
+    {
+      "carrier_class": "2_2",
+      "pair_count": 60,
+      "undirected_T_delta_mod15": 7
+    },
+    {
+      "carrier_class": "4_0",
+      "pair_count": 60,
+      "undirected_T_delta_mod15": 2
+    }
+  ],
+  "directed_T_delta_profile": {
+    "1": 60,
+    "2": 60,
+    "3": 120,
+    "6": 60,
+    "7": 60
+  },
+  "pair_signature_count": 360,
+  "paired_vertex_count": 720,
+  "undirected_T_delta_profile": {
+    "1": 60,
+    "2": 60,
+    "3": 120,
+    "6": 60,
+    "7": 60
+  },
+  "verdict": "native_g900_attractor_T_collision_law_recorded"
+}

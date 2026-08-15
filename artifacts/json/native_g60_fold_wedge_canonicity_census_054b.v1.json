@@ -1,0 +1,497 @@
+{
+  "artifact_id": "native_g60_fold_wedge_canonicity_census_054b",
+  "audit_pass": true,
+  "boundary": {
+    "electron_claim": false,
+    "proves_e5_kernel_identification": false,
+    "proves_global_g60_closure": false,
+    "proves_native_physical_interpretation": false,
+    "requires_053_for_e5_bridge": true,
+    "tests_all_five_sector_bijections": true,
+    "tests_local_fold_wedge_canonicity": true
+  },
+  "checks": {
+    "four_sector_control_not_same_profile": true,
+    "six_sector_control_not_same_profile": true,
+    "target_all_passes_are_rotations": true,
+    "target_anchor_selects_unique_pairing": true,
+    "target_candidate_count_is_120": true,
+    "target_offsets_are_all_five_rotations": true,
+    "target_pass_count_is_five": true,
+    "target_unique_anchored_pairing_is_identity": true
+  },
+  "controls": {
+    "five_sector_pentagon_step_1": {
+      "all_passes_are_rotations": true,
+      "anchored_pass_count": 1,
+      "anchored_passing_pairings": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "candidate_count": 120,
+      "expected_translation_count_when_coprime": 5,
+      "factorial_candidate_count": 120,
+      "gcd_size_step": 1,
+      "pass_count": 5,
+      "passing_pairings": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          1
+        ],
+        [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "passing_rotation_offsets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rotation_pass_count": 5,
+      "size": 5,
+      "step": 1
+    },
+    "five_sector_reverse_pentagram_step_3": {
+      "all_passes_are_rotations": true,
+      "anchored_pass_count": 1,
+      "anchored_passing_pairings": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "candidate_count": 120,
+      "expected_translation_count_when_coprime": 5,
+      "factorial_candidate_count": 120,
+      "gcd_size_step": 1,
+      "pass_count": 5,
+      "passing_pairings": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        [
+          2,
+          3,
+          4,
+          0,
+          1
+        ],
+        [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "passing_rotation_offsets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rotation_pass_count": 5,
+      "size": 5,
+      "step": 3
+    },
+    "four_sector_step_2": {
+      "all_passes_are_rotations": false,
+      "anchored_pass_count": 2,
+      "anchored_passing_pairings": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ]
+      ],
+      "candidate_count": 24,
+      "expected_translation_count_when_coprime": null,
+      "factorial_candidate_count": 24,
+      "gcd_size_step": 2,
+      "pass_count": 8,
+      "passing_pairings": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "passing_rotation_offsets": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rotation_pass_count": 4,
+      "size": 4,
+      "step": 2
+    },
+    "six_sector_step_2": {
+      "all_passes_are_rotations": false,
+      "anchored_pass_count": 3,
+      "anchored_passing_pairings": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          3,
+          2,
+          5,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          2,
+          1,
+          4,
+          3
+        ]
+      ],
+      "candidate_count": 720,
+      "expected_translation_count_when_coprime": null,
+      "factorial_candidate_count": 720,
+      "gcd_size_step": 2,
+      "pass_count": 18,
+      "passing_pairings": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          3,
+          2,
+          5,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          2,
+          1,
+          4,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          5,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0
+        ],
+        [
+          1,
+          4,
+          3,
+          0,
+          5,
+          2
+        ],
+        [
+          2,
+          1,
+          4,
+          3,
+          0,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          0,
+          1
+        ],
+        [
+          2,
+          5,
+          4,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          5,
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          5,
+          4,
+          1,
+          0
+        ],
+        [
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          0,
+          3,
+          2,
+          5
+        ],
+        [
+          4,
+          3,
+          0,
+          5,
+          2,
+          1
+        ],
+        [
+          4,
+          5,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          5,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          5,
+          2,
+          1,
+          4,
+          3,
+          0
+        ],
+        [
+          5,
+          4,
+          1,
+          0,
+          3,
+          2
+        ]
+      ],
+      "passing_rotation_offsets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rotation_pass_count": 6,
+      "size": 6,
+      "step": 2
+    }
+  },
+  "failed_checks": [],
+  "interpretation": "Among all 120 cross-face pairings for the five-sector step-2 sheet, exactly the five rotational translations preserve the full mirror, fold, swap, and counter-transport laws. Choosing the depicted overlap as sector 0 removes the residual rotational gauge and selects the identity pairing uniquely.",
+  "target": {
+    "all_passes_are_rotations": true,
+    "anchored_pass_count": 1,
+    "anchored_passing_pairings": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "candidate_count": 120,
+    "expected_translation_count_when_coprime": 5,
+    "factorial_candidate_count": 120,
+    "gcd_size_step": 1,
+    "pass_count": 5,
+    "passing_pairings": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      [
+        2,
+        3,
+        4,
+        0,
+        1
+      ],
+      [
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      [
+        4,
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "passing_rotation_offsets": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "rotation_pass_count": 5,
+    "size": 5,
+    "step": 2
+  },
+  "verdict": "fivefold_wedge_selected_up_to_rotation_and_unique_after_anchor"
+}

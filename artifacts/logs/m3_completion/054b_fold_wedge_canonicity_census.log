@@ -1,0 +1,16 @@
+artifact_id: native_g60_fold_wedge_canonicity_census_054b
+audit_pass: True
+verdict: fivefold_wedge_selected_up_to_rotation_and_unique_after_anchor
+target_candidate_count: 120
+target_pass_count: 5
+target_anchored_pass_count: 1
+target_passing_offsets: [0, 1, 2, 3, 4]
+target_anchored_pairings: [[0, 1, 2, 3, 4]]
+pentagon_control_pass_count: 5
+reverse_pentagram_control_pass_count: 5
+four_sector_control_profile: (8, 2)
+six_sector_control_profile: (18, 3)
+failed_check_count: 0
+json: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_fold_wedge_canonicity_census_054b.v1.json
+csv: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_fold_wedge_canonicity_census_054b.csv
+note: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/notes/native_g60_fold_wedge_canonicity_census_054b.md

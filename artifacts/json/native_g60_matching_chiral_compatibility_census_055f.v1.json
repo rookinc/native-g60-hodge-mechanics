@@ -1,0 +1,703 @@
+{
+  "M1": {
+    "directed_overlap_orbit_id": 1,
+    "edge_records": [
+      {
+        "edge": [
+          0,
+          3
+        ],
+        "exact_inverse": false,
+        "left_chirality": "negative",
+        "left_inverse_pair_id": 1,
+        "left_map_index": 0,
+        "opposite_chirality": false,
+        "right_chirality": "negative",
+        "right_inverse_pair_id": 3,
+        "right_map_index": 6,
+        "same_chirality": true,
+        "same_inverse_pair": false,
+        "same_map": false
+      },
+      {
+        "edge": [
+          1,
+          2
+        ],
+        "exact_inverse": false,
+        "left_chirality": "negative",
+        "left_inverse_pair_id": 4,
+        "left_map_index": 5,
+        "opposite_chirality": true,
+        "right_chirality": "positive",
+        "right_inverse_pair_id": 2,
+        "right_map_index": 4,
+        "same_chirality": false,
+        "same_inverse_pair": false,
+        "same_map": false
+      },
+      {
+        "edge": [
+          4,
+          5
+        ],
+        "exact_inverse": true,
+        "left_chirality": "negative",
+        "left_inverse_pair_id": 1,
+        "left_map_index": 0,
+        "opposite_chirality": true,
+        "right_chirality": "positive",
+        "right_inverse_pair_id": 1,
+        "right_map_index": 1,
+        "same_chirality": false,
+        "same_inverse_pair": true,
+        "same_map": false
+      }
+    ],
+    "exact_inverse_edge_count": 1,
+    "matching": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "matching_id": 3,
+    "opposite_chirality_edge_count": 2,
+    "same_chirality_edge_count": 1,
+    "same_inverse_pair_edge_count": 1,
+    "same_map_edge_count": 0,
+    "signature_multiplicity": 2,
+    "surgery_indices": [
+      2,
+      8
+    ]
+  },
+  "M2": {
+    "directed_overlap_orbit_id": 2,
+    "edge_records": [
+      {
+        "edge": [
+          0,
+          3
+        ],
+        "exact_inverse": false,
+        "left_chirality": "negative",
+        "left_inverse_pair_id": 1,
+        "left_map_index": 0,
+        "opposite_chirality": false,
+        "right_chirality": "negative",
+        "right_inverse_pair_id": 3,
+        "right_map_index": 6,
+        "same_chirality": true,
+        "same_inverse_pair": false,
+        "same_map": false
+      },
+      {
+        "edge": [
+          1,
+          5
+        ],
+        "exact_inverse": false,
+        "left_chirality": "negative",
+        "left_inverse_pair_id": 4,
+        "left_map_index": 5,
+        "opposite_chirality": true,
+        "right_chirality": "positive",
+        "right_inverse_pair_id": 1,
+        "right_map_index": 1,
+        "same_chirality": false,
+        "same_inverse_pair": false,
+        "same_map": false
+      },
+      {
+        "edge": [
+          2,
+          4
+        ],
+        "exact_inverse": false,
+        "left_chirality": "positive",
+        "left_inverse_pair_id": 2,
+        "left_map_index": 4,
+        "opposite_chirality": true,
+        "right_chirality": "negative",
+        "right_inverse_pair_id": 1,
+        "right_map_index": 0,
+        "same_chirality": false,
+        "same_inverse_pair": false,
+        "same_map": false
+      }
+    ],
+    "exact_inverse_edge_count": 0,
+    "matching": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "matching_id": 4,
+    "opposite_chirality_edge_count": 2,
+    "same_chirality_edge_count": 1,
+    "same_inverse_pair_edge_count": 0,
+    "same_map_edge_count": 0,
+    "signature_multiplicity": 2,
+    "surgery_indices": [
+      4,
+      9
+    ]
+  },
+  "artifact_id": "native_g60_matching_chiral_compatibility_census_055f",
+  "audit_pass": true,
+  "boundary": {
+    "attractor_to_chart_map_proved": false,
+    "exact_inverse_edge_as_selector_proved": false,
+    "matching_chiral_signatures_classified": true,
+    "physical_chirality_proved": false,
+    "preferred_circulating_side_selected": false,
+    "preferred_matching_selected": false,
+    "preferred_surgery_selected": false
+  },
+  "checks": {
+    "M1_and_M2_found": true,
+    "all_matching_edges_cross_dyad": true,
+    "chart_count_is_six": true,
+    "each_matching_has_two_surgeries": true,
+    "perfect_matching_count_is_six": true
+  },
+  "chiral_signature_profile": [
+    {
+      "exact_inverse_edge_count": 0,
+      "matching_count": 2,
+      "opposite_chirality_edge_count": 2,
+      "same_chirality_edge_count": 1,
+      "same_inverse_pair_edge_count": 0,
+      "same_map_edge_count": 0
+    },
+    {
+      "exact_inverse_edge_count": 1,
+      "matching_count": 2,
+      "opposite_chirality_edge_count": 2,
+      "same_chirality_edge_count": 1,
+      "same_inverse_pair_edge_count": 1,
+      "same_map_edge_count": 0
+    },
+    {
+      "exact_inverse_edge_count": 0,
+      "matching_count": 2,
+      "opposite_chirality_edge_count": 2,
+      "same_chirality_edge_count": 1,
+      "same_inverse_pair_edge_count": 1,
+      "same_map_edge_count": 1
+    }
+  ],
+  "exact_inverse_matching_ids": [
+    1,
+    3
+  ],
+  "matching_count": 6,
+  "matching_records": [
+    {
+      "directed_overlap_orbit_id": 3,
+      "edge_records": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 1,
+          "left_map_index": 0,
+          "opposite_chirality": false,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 4,
+          "right_map_index": 5,
+          "same_chirality": true,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "exact_inverse": false,
+          "left_chirality": "positive",
+          "left_inverse_pair_id": 2,
+          "left_map_index": 4,
+          "opposite_chirality": true,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 3,
+          "right_map_index": 6,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "exact_inverse": true,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 1,
+          "left_map_index": 0,
+          "opposite_chirality": true,
+          "right_chirality": "positive",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 1,
+          "same_chirality": false,
+          "same_inverse_pair": true,
+          "same_map": false
+        }
+      ],
+      "exact_inverse_edge_count": 1,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "matching_id": 1,
+      "opposite_chirality_edge_count": 2,
+      "same_chirality_edge_count": 1,
+      "same_inverse_pair_edge_count": 1,
+      "same_map_edge_count": 0,
+      "signature_multiplicity": 2,
+      "surgery_indices": [
+        0,
+        6
+      ]
+    },
+    {
+      "directed_overlap_orbit_id": 4,
+      "edge_records": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 1,
+          "left_map_index": 0,
+          "opposite_chirality": false,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 4,
+          "right_map_index": 5,
+          "same_chirality": true,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            2,
+            4
+          ],
+          "exact_inverse": false,
+          "left_chirality": "positive",
+          "left_inverse_pair_id": 2,
+          "left_map_index": 4,
+          "opposite_chirality": true,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 0,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            3,
+            5
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 3,
+          "left_map_index": 6,
+          "opposite_chirality": true,
+          "right_chirality": "positive",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 1,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        }
+      ],
+      "exact_inverse_edge_count": 0,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "matching_id": 2,
+      "opposite_chirality_edge_count": 2,
+      "same_chirality_edge_count": 1,
+      "same_inverse_pair_edge_count": 0,
+      "same_map_edge_count": 0,
+      "signature_multiplicity": 2,
+      "surgery_indices": [
+        1,
+        7
+      ]
+    },
+    {
+      "directed_overlap_orbit_id": 1,
+      "edge_records": [
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 1,
+          "left_map_index": 0,
+          "opposite_chirality": false,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 3,
+          "right_map_index": 6,
+          "same_chirality": true,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 4,
+          "left_map_index": 5,
+          "opposite_chirality": true,
+          "right_chirality": "positive",
+          "right_inverse_pair_id": 2,
+          "right_map_index": 4,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "exact_inverse": true,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 1,
+          "left_map_index": 0,
+          "opposite_chirality": true,
+          "right_chirality": "positive",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 1,
+          "same_chirality": false,
+          "same_inverse_pair": true,
+          "same_map": false
+        }
+      ],
+      "exact_inverse_edge_count": 1,
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "matching_id": 3,
+      "opposite_chirality_edge_count": 2,
+      "same_chirality_edge_count": 1,
+      "same_inverse_pair_edge_count": 1,
+      "same_map_edge_count": 0,
+      "signature_multiplicity": 2,
+      "surgery_indices": [
+        2,
+        8
+      ]
+    },
+    {
+      "directed_overlap_orbit_id": 2,
+      "edge_records": [
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 1,
+          "left_map_index": 0,
+          "opposite_chirality": false,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 3,
+          "right_map_index": 6,
+          "same_chirality": true,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            1,
+            5
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 4,
+          "left_map_index": 5,
+          "opposite_chirality": true,
+          "right_chirality": "positive",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 1,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            2,
+            4
+          ],
+          "exact_inverse": false,
+          "left_chirality": "positive",
+          "left_inverse_pair_id": 2,
+          "left_map_index": 4,
+          "opposite_chirality": true,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 0,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        }
+      ],
+      "exact_inverse_edge_count": 0,
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "matching_id": 4,
+      "opposite_chirality_edge_count": 2,
+      "same_chirality_edge_count": 1,
+      "same_inverse_pair_edge_count": 0,
+      "same_map_edge_count": 0,
+      "signature_multiplicity": 2,
+      "surgery_indices": [
+        4,
+        9
+      ]
+    },
+    {
+      "directed_overlap_orbit_id": 3,
+      "edge_records": [
+        {
+          "edge": [
+            0,
+            4
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 1,
+          "left_map_index": 0,
+          "opposite_chirality": false,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 0,
+          "same_chirality": true,
+          "same_inverse_pair": true,
+          "same_map": true
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 4,
+          "left_map_index": 5,
+          "opposite_chirality": true,
+          "right_chirality": "positive",
+          "right_inverse_pair_id": 2,
+          "right_map_index": 4,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            3,
+            5
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 3,
+          "left_map_index": 6,
+          "opposite_chirality": true,
+          "right_chirality": "positive",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 1,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        }
+      ],
+      "exact_inverse_edge_count": 0,
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "matching_id": 5,
+      "opposite_chirality_edge_count": 2,
+      "same_chirality_edge_count": 1,
+      "same_inverse_pair_edge_count": 1,
+      "same_map_edge_count": 1,
+      "signature_multiplicity": 2,
+      "surgery_indices": [
+        3,
+        10
+      ]
+    },
+    {
+      "directed_overlap_orbit_id": 4,
+      "edge_records": [
+        {
+          "edge": [
+            0,
+            4
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 1,
+          "left_map_index": 0,
+          "opposite_chirality": false,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 0,
+          "same_chirality": true,
+          "same_inverse_pair": true,
+          "same_map": true
+        },
+        {
+          "edge": [
+            1,
+            5
+          ],
+          "exact_inverse": false,
+          "left_chirality": "negative",
+          "left_inverse_pair_id": 4,
+          "left_map_index": 5,
+          "opposite_chirality": true,
+          "right_chirality": "positive",
+          "right_inverse_pair_id": 1,
+          "right_map_index": 1,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "exact_inverse": false,
+          "left_chirality": "positive",
+          "left_inverse_pair_id": 2,
+          "left_map_index": 4,
+          "opposite_chirality": true,
+          "right_chirality": "negative",
+          "right_inverse_pair_id": 3,
+          "right_map_index": 6,
+          "same_chirality": false,
+          "same_inverse_pair": false,
+          "same_map": false
+        }
+      ],
+      "exact_inverse_edge_count": 0,
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "matching_id": 6,
+      "opposite_chirality_edge_count": 2,
+      "same_chirality_edge_count": 1,
+      "same_inverse_pair_edge_count": 1,
+      "same_map_edge_count": 1,
+      "signature_multiplicity": 2,
+      "surgery_indices": [
+        5,
+        11
+      ]
+    }
+  ],
+  "unique_chiral_signature_matching_ids": [],
+  "verdict": "native_chart_specific_chiral_matching_census_recorded"
+}

@@ -1,0 +1,39 @@
+elementary_progress: e5 1/6 term_count: 286
+elementary_progress: e5 6/6 term_count: 286
+operator_precompute_start: constraint_count: 286 variable_count: 1081
+operator_precompute_progress: 1/286
+operator_precompute_progress: 50/286
+operator_precompute_progress: 100/286
+operator_precompute_progress: 150/286
+operator_precompute_progress: 200/286
+operator_precompute_progress: 250/286
+operator_precompute_progress: 286/286
+linear_feasibility_start: design_shape: (286, 1081)
+linear_feasibility_result: rank: 273 nullity: 808 condition_number: 218608582.27223513 maximum_residual: 6.626762262844019e-18 minimum_gram_eigenvalue: -5.3798443774447334e-05
+rational_face_sdp_start: constraint_count: 286
+/Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/scripts/native_g60_cross_flux_gap_e5_rational_face_feasibility_052.py:654: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  objective = problem.solve(
+rational_face_sdp_result: status: optimal_inaccurate margin: 2.0723295623315396e-06 coefficient_residual: 2.4239403683561957e-11 minimum_gram_eigenvalue: 2.0723293445923413e-06 rank: 46 elapsed_seconds: 396.4587057500612
+audit_pass: True
+theorem_pass: False
+verdict: rational_e5_face_numerically_feasible_and_interior
+face_rank: 46
+face_condition_number: 2.9222771932348204
+design_shape: (286, 1081)
+design_rank: 273
+design_nullity: 808
+linear_maximum_residual: 6.626762262844019e-18
+linear_slice_consistent: True
+sdp_attempted: True
+sdp_status: optimal_inaccurate
+sdp_margin: 2.0723295623315396e-06
+sdp_maximum_coefficient_residual: 2.4239403683561957e-11
+sdp_minimum_gram_eigenvalue: 2.0723293445923413e-06
+sdp_feasible: True
+sdp_interior: True
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_cross_flux_gap_e5_rational_face_feasibility_052.json
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_rational_face_feasibility_summary_052.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_rational_face_residuals_052.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_rational_face_spectrum_052.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_gap_e5_rational_face_gram_entries_052.csv
+wrote: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/npy/native_g60_cross_flux_gap_e5_rational_face_feasibility_052.npz

@@ -1,0 +1,67 @@
+e5_exact_reconstruction_input_inspection_053a
+
+== JSON ==
+path: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_cross_flux_gap_e5_rational_kernel_chart_051.json
+exists: True
+top_level_type: dict
+top_level_keys:
+  artifact_id -> 'native_g60_cross_flux_gap_e5_rational_kernel_chart_051'
+  audit_pass -> True
+  best_candidate -> dict[6]
+  boundary -> dict[5]
+  chart_condition_number -> 2.922277193944341
+  checks -> dict[9]
+  earned_interpretation -> dict[6]
+  face_dimension -> 46
+  floating_pivot_identity_residual -> 2.861488193571953e-16
+  kernel_dimension -> 10
+  nonpivot_rows -> list[46]
+  outputs -> dict[5]
+  pivot_rows -> list[10]
+  theorem_pass -> False
+  verdict -> 'rational_e5_kernel_chart_candidate_recovered_with_exact_nullspace'
+
+== JSON ==
+path: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_cross_flux_gap_e5_rational_face_feasibility_052.json
+exists: True
+top_level_type: dict
+top_level_keys:
+  artifact_id -> 'native_g60_cross_flux_gap_e5_rational_face_feasibility_052'
+  audit_pass -> True
+  boundary -> dict[5]
+  checks -> dict[6]
+  earned_interpretation -> dict[6]
+  linear_feasibility -> dict[7]
+  outputs -> dict[5]
+  rational_face -> dict[3]
+  reduced_sdp -> dict[10]
+  sdp_feasible -> True
+  sdp_interior -> True
+  theorem_pass -> False
+  verdict -> 'rational_e5_face_numerically_feasible_and_interior'
+
+== NPZ ==
+path: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/npy/native_g60_cross_flux_gap_e5_rational_kernel_chart_051.npz
+exists: True
+keys:
+  floating_chart shape= (56, 10) dtype= float64
+  nonpivot_rows shape= (46,) dtype= int64
+  permutation shape= (56,) dtype= int64
+  pivot_rows shape= (10,) dtype= int64
+  rational_face_float shape= (56, 46) dtype= float64
+  rational_kernel_float shape= (56, 10) dtype= float64
+  rational_kernel_projector shape= (56, 56) dtype= float64
+  target_coefficients shape= (286,) dtype= float64
+
+== NPZ ==
+path: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/npy/native_g60_cross_flux_gap_e5_rational_face_feasibility_052.npz
+exists: True
+keys:
+  linear_eigenvalues shape= (46,) dtype= float64
+  linear_gram shape= (46, 46) dtype= float64
+  linear_solution shape= (1081,) dtype= float64
+  rational_face_basis shape= (56, 46) dtype= float64
+  reduced_design shape= (286, 1081) dtype= float64
+  sdp_eigenvalues shape= (46,) dtype= float64
+  sdp_gram shape= (46, 46) dtype= float64
+  target_coefficients shape= (286,) dtype= float64

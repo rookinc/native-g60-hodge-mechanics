@@ -1,0 +1,18 @@
+target_rational_reconstruction: maximum_error: 9.705310127084674e-20 maximum_denominator: 999511246921
+exact_operator_precompute_start: constraint_count: 286 variable_count: 1081
+exact_operator_precompute_progress: 1/286
+exact_operator_precompute_progress: 25/286
+exact_operator_precompute_progress: 50/286
+exact_operator_precompute_progress: 75/286
+exact_operator_precompute_progress: 100/286
+exact_operator_precompute_progress: 125/286
+exact_operator_precompute_progress: 150/286
+exact_operator_precompute_progress: 175/286
+exact_operator_precompute_progress: 200/286
+exact_operator_precompute_progress: 225/286
+exact_operator_precompute_progress: 250/286
+exact_operator_precompute_progress: 275/286
+exact_operator_precompute_progress: 286/286
+exact_design_check: shape: (286, 1081) rank: 273 saved_design_maximum_difference: 4.440892098500626e-16
+coordinate_partition: dependent_count: 273 free_count: 808 independent_row_count: 273
+exact_dependent_solve_start: size: (273, 273) free_denominator_limit: 1000000

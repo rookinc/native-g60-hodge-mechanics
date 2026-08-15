@@ -1,0 +1,47 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_e5_direct_exact_solve_benchmark_053b",
+  "audit_pass": true,
+  "boundary": {
+    "complete_e5_sos_theorem_not_yet_claimed": true,
+    "exact_rational_ldl_still_open": true,
+    "exact_target_identity_requires_canonical_source_alignment": true,
+    "physical_claim": false
+  },
+  "candidate_records": [
+    {
+      "denominator_limit": 1000000,
+      "elapsed_seconds": 40264.05691470788,
+      "exact_coefficient_match": false,
+      "maximum_denominator_bits": 81397,
+      "maximum_eigenvalue": 0.0008641769387658807,
+      "maximum_entry_change": 0.00029772725315851674,
+      "maximum_numerator_bits": 81380,
+      "minimum_eigenvalue": -0.0007240218798095722,
+      "numerical_rank": 46,
+      "solve_succeeded": true
+    }
+  ],
+  "elapsed_seconds": 40269.115502042,
+  "exact_affine_positive_candidate_found": false,
+  "exact_design": {
+    "dependent_coordinate_count": 273,
+    "free_coordinate_count": 808,
+    "rank": 273,
+    "saved_design_maximum_difference": 4.440892098500626e-16,
+    "shape": [
+      286,
+      1081
+    ]
+  },
+  "exact_rational_ldl_attempted": false,
+  "exact_rational_sos_certificate_found": false,
+  "global_gap_psd_proved": false,
+  "global_one_third_bound_proved": false,
+  "target_reconstruction": {
+    "denominator_limit": 1000000000000,
+    "maximum_float_error": 9.705310127084674e-20,
+    "pass": true
+  },
+  "theorem_pass": false,
+  "verdict": "exact_rational_e5_affine_reconstruction_not_resolved"
+}

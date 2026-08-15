@@ -1,0 +1,70 @@
+{
+  "artifact_id": "native_g60_cross_flux_gap_e5_rational_face_feasibility_052",
+  "audit_pass": true,
+  "boundary": {
+    "exact_rational_ldl_not_attempted": true,
+    "exact_rational_linear_consistency_not_proved": true,
+    "floating_linear_and_sdp_feasibility_only": true,
+    "global_one_third_bound_proved": false,
+    "physical_claim": false
+  },
+  "checks": {
+    "coefficient_count_is_286": true,
+    "input_051_audit_pass": true,
+    "linear_feasibility_probe_completed": true,
+    "rational_face_has_full_column_rank": true,
+    "rational_face_shape_is_56_by_46": true,
+    "reduced_symmetric_variable_count_is_1081": true
+  },
+  "earned_interpretation": {
+    "e5_is_interior_on_rational_candidate_face": true,
+    "exact_rational_e5_sos_certificate_found": false,
+    "exact_rational_face_feasibility_proved": false,
+    "global_gap_psd_proved": false,
+    "rational_face_candidate_is_numerically_consistent_with_e5_slice": true,
+    "rational_face_candidate_supports_feasible_psd_gram": true
+  },
+  "linear_feasibility": {
+    "condition_number": 218608582.27223513,
+    "design_shape": [
+      286,
+      1081
+    ],
+    "maximum_residual": 6.626762262844019e-18,
+    "nullity": 808,
+    "rank": 273,
+    "residual_l2": 2.044673871627511e-17,
+    "slice_consistent": true
+  },
+  "outputs": {
+    "feasibility_npz": "artifacts/npy/native_g60_cross_flux_gap_e5_rational_face_feasibility_052.npz",
+    "gram_csv": "artifacts/csv/native_g60_cross_flux_gap_e5_rational_face_gram_entries_052.csv",
+    "residual_csv": "artifacts/csv/native_g60_cross_flux_gap_e5_rational_face_residuals_052.csv",
+    "spectrum_csv": "artifacts/csv/native_g60_cross_flux_gap_e5_rational_face_spectrum_052.csv",
+    "summary_csv": "artifacts/csv/native_g60_cross_flux_gap_e5_rational_face_feasibility_summary_052.csv"
+  },
+  "rational_face": {
+    "condition_number": 2.9222771932348204,
+    "rank": 46,
+    "shape": [
+      56,
+      46
+    ]
+  },
+  "reduced_sdp": {
+    "attempted": true,
+    "coefficient_residual_l2": 9.541386564671533e-11,
+    "elapsed_seconds": 396.4587057500612,
+    "margin": 2.0723295623315396e-06,
+    "maximum_coefficient_residual": 2.4239403683561957e-11,
+    "maximum_gram_eigenvalue": 0.0007677520731008301,
+    "minimum_gram_eigenvalue": 2.0723293445923413e-06,
+    "numerical_rank": 46,
+    "objective": 2.0723295623315396e-06,
+    "status": "optimal_inaccurate"
+  },
+  "sdp_feasible": true,
+  "sdp_interior": true,
+  "theorem_pass": false,
+  "verdict": "rational_e5_face_numerically_feasible_and_interior"
+}

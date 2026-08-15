@@ -1,0 +1,657 @@
+{
+  "artifact_id": "native_g60_petersen_fold_swap_atlas_054c",
+  "audit_pass": true,
+  "boundary": {
+    "e5_kernel_identification_proved": false,
+    "global_g60_closure_proved": false,
+    "local_fold_swap_atlas_proved": true,
+    "native_strong_overlap_geometry_used": true,
+    "physical_electron_claim": false,
+    "requires_053_for_e5_bridge": true
+  },
+  "checks": {
+    "all_matched_faces_are_pentagram_step_2": true,
+    "all_pairs_have_perfect_matching": true,
+    "native_complementary_pair_count_is_6": true,
+    "native_degree_profile_is_cubic": true,
+    "native_edge_count_is_15": true,
+    "native_five_cycle_count_is_12": true,
+    "native_full_six_chart_atlas_passes": true,
+    "native_graph_is_connected": true,
+    "native_graph_is_triangle_free": true,
+    "native_vertex_count_is_10": true,
+    "no_single_edge_deletion_preserves_full_atlas": true
+  },
+  "deletion_controls": {
+    "control_count": 15,
+    "full_atlas_survives_deletion_count": 0,
+    "rows": [
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "0",
+          "3"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "0",
+          "6"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "1",
+          "9"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "2",
+          "8"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "3",
+          "8"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "4",
+          "5"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "4",
+          "9"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "5",
+          "6"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "6",
+          "7"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "7",
+          "8"
+        ]
+      },
+      {
+        "complementary_pair_count": 2,
+        "five_cycle_count": 8,
+        "full_six_chart_fold_swap_atlas": false,
+        "removed_edge": [
+          "7",
+          "9"
+        ]
+      }
+    ]
+  },
+  "failed_checks": [],
+  "interpretation": "The native ten-axis strong-overlap relation contains twelve five-cycles arranged into six complementary pairs. Every pair is joined by a five-edge perfect matching. When one cycle is used as the sector order, the matched ordering on its complementary face carries step 2, the pentagram traversal. Each chart therefore gives five folded directions and five swap directions.",
+  "native_graph": {
+    "all_complementary_pairs_perfect_matching": true,
+    "all_matched_second_faces_are_pentagrams": true,
+    "complementary_pair_count": 6,
+    "complementary_pairs": [
+      {
+        "cross_edge_count": 5,
+        "cross_edges": [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "1",
+            "9"
+          ],
+          [
+            "2",
+            "8"
+          ],
+          [
+            "4",
+            "5"
+          ],
+          [
+            "6",
+            "7"
+          ]
+        ],
+        "first_cycle": [
+          "0",
+          "1",
+          "2",
+          "5",
+          "6"
+        ],
+        "first_face_step": 1,
+        "first_internal_edge_count": 5,
+        "folded_dimension": 5,
+        "joint_dimension": 10,
+        "matched_second_face_is_pentagram": true,
+        "matched_second_face_step": 2,
+        "matched_second_order": [
+          "3",
+          "9",
+          "8",
+          "4",
+          "7"
+        ],
+        "matching_map": {
+          "0": "3",
+          "1": "9",
+          "2": "8",
+          "5": "4",
+          "6": "7"
+        },
+        "perfect_matching": true,
+        "second_cycle": [
+          "3",
+          "4",
+          "9",
+          "7",
+          "8"
+        ],
+        "second_internal_edge_count": 5,
+        "swap_dimension": 5
+      },
+      {
+        "cross_edge_count": 5,
+        "cross_edges": [
+          [
+            "0",
+            "6"
+          ],
+          [
+            "1",
+            "9"
+          ],
+          [
+            "2",
+            "5"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "7",
+            "8"
+          ]
+        ],
+        "first_cycle": [
+          "0",
+          "1",
+          "2",
+          "8",
+          "3"
+        ],
+        "first_face_step": 1,
+        "first_internal_edge_count": 5,
+        "folded_dimension": 5,
+        "joint_dimension": 10,
+        "matched_second_face_is_pentagram": true,
+        "matched_second_face_step": 2,
+        "matched_second_order": [
+          "6",
+          "9",
+          "5",
+          "7",
+          "4"
+        ],
+        "matching_map": {
+          "0": "6",
+          "1": "9",
+          "2": "5",
+          "3": "4",
+          "8": "7"
+        },
+        "perfect_matching": true,
+        "second_cycle": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "9"
+        ],
+        "second_internal_edge_count": 5,
+        "swap_dimension": 5
+      },
+      {
+        "cross_edge_count": 5,
+        "cross_edges": [
+          [
+            "0",
+            "6"
+          ],
+          [
+            "1",
+            "2"
+          ],
+          [
+            "3",
+            "8"
+          ],
+          [
+            "4",
+            "5"
+          ],
+          [
+            "7",
+            "9"
+          ]
+        ],
+        "first_cycle": [
+          "0",
+          "1",
+          "9",
+          "4",
+          "3"
+        ],
+        "first_face_step": 1,
+        "first_internal_edge_count": 5,
+        "folded_dimension": 5,
+        "joint_dimension": 10,
+        "matched_second_face_is_pentagram": true,
+        "matched_second_face_step": 2,
+        "matched_second_order": [
+          "6",
+          "2",
+          "7",
+          "5",
+          "8"
+        ],
+        "matching_map": {
+          "0": "6",
+          "1": "2",
+          "3": "8",
+          "4": "5",
+          "9": "7"
+        },
+        "perfect_matching": true,
+        "second_cycle": [
+          "2",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "second_internal_edge_count": 5,
+        "swap_dimension": 5
+      },
+      {
+        "cross_edge_count": 5,
+        "cross_edges": [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "1",
+            "2"
+          ],
+          [
+            "4",
+            "9"
+          ],
+          [
+            "5",
+            "6"
+          ],
+          [
+            "7",
+            "8"
+          ]
+        ],
+        "first_cycle": [
+          "0",
+          "1",
+          "9",
+          "7",
+          "6"
+        ],
+        "first_face_step": 1,
+        "first_internal_edge_count": 5,
+        "folded_dimension": 5,
+        "joint_dimension": 10,
+        "matched_second_face_is_pentagram": true,
+        "matched_second_face_step": 2,
+        "matched_second_order": [
+          "3",
+          "2",
+          "4",
+          "8",
+          "5"
+        ],
+        "matching_map": {
+          "0": "3",
+          "1": "2",
+          "6": "5",
+          "7": "8",
+          "9": "4"
+        },
+        "perfect_matching": true,
+        "second_cycle": [
+          "2",
+          "5",
+          "4",
+          "3",
+          "8"
+        ],
+        "second_internal_edge_count": 5,
+        "swap_dimension": 5
+      },
+      {
+        "cross_edge_count": 5,
+        "cross_edges": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "2",
+            "5"
+          ],
+          [
+            "3",
+            "8"
+          ],
+          [
+            "4",
+            "9"
+          ],
+          [
+            "6",
+            "7"
+          ]
+        ],
+        "first_cycle": [
+          "0",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "first_face_step": 1,
+        "first_internal_edge_count": 5,
+        "folded_dimension": 5,
+        "joint_dimension": 10,
+        "matched_second_face_is_pentagram": true,
+        "matched_second_face_step": 2,
+        "matched_second_order": [
+          "1",
+          "8",
+          "9",
+          "2",
+          "7"
+        ],
+        "matching_map": {
+          "0": "1",
+          "3": "8",
+          "4": "9",
+          "5": "2",
+          "6": "7"
+        },
+        "perfect_matching": true,
+        "second_cycle": [
+          "1",
+          "2",
+          "8",
+          "7",
+          "9"
+        ],
+        "second_internal_edge_count": 5,
+        "swap_dimension": 5
+      },
+      {
+        "cross_edge_count": 5,
+        "cross_edges": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "2",
+            "8"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "5",
+            "6"
+          ],
+          [
+            "7",
+            "9"
+          ]
+        ],
+        "first_cycle": [
+          "0",
+          "3",
+          "8",
+          "7",
+          "6"
+        ],
+        "first_face_step": 1,
+        "first_internal_edge_count": 5,
+        "folded_dimension": 5,
+        "joint_dimension": 10,
+        "matched_second_face_is_pentagram": true,
+        "matched_second_face_step": 2,
+        "matched_second_order": [
+          "1",
+          "4",
+          "2",
+          "9",
+          "5"
+        ],
+        "matching_map": {
+          "0": "1",
+          "3": "4",
+          "6": "5",
+          "7": "9",
+          "8": "2"
+        },
+        "perfect_matching": true,
+        "second_cycle": [
+          "1",
+          "2",
+          "5",
+          "4",
+          "9"
+        ],
+        "second_internal_edge_count": 5,
+        "swap_dimension": 5
+      }
+    ],
+    "components": [
+      [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    ],
+    "degree_profile": {
+      "3": 10
+    },
+    "edge_count": 15,
+    "five_cycle_count": 12,
+    "five_cycles": [
+      [
+        "0",
+        "1",
+        "2",
+        "5",
+        "6"
+      ],
+      [
+        "0",
+        "1",
+        "2",
+        "8",
+        "3"
+      ],
+      [
+        "0",
+        "1",
+        "9",
+        "4",
+        "3"
+      ],
+      [
+        "0",
+        "1",
+        "9",
+        "7",
+        "6"
+      ],
+      [
+        "0",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      [
+        "0",
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      [
+        "1",
+        "2",
+        "5",
+        "4",
+        "9"
+      ],
+      [
+        "1",
+        "2",
+        "8",
+        "7",
+        "9"
+      ],
+      [
+        "2",
+        "5",
+        "4",
+        "3",
+        "8"
+      ],
+      [
+        "2",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      [
+        "3",
+        "4",
+        "9",
+        "7",
+        "8"
+      ],
+      [
+        "4",
+        "5",
+        "6",
+        "7",
+        "9"
+      ]
+    ],
+    "full_six_chart_fold_swap_atlas": true,
+    "triangle_count": 0,
+    "vertex_count": 10
+  },
+  "source": "/Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_cross_flux_axis_pair_candidates_037.csv",
+  "verdict": "native_strong_overlap_graph_is_six_chart_petersen_fold_swap_atlas"
+}

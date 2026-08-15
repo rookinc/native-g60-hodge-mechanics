@@ -1,0 +1,16 @@
+artifact_id: native_g60_petersen_fold_swap_atlas_054c
+audit_pass: True
+verdict: native_strong_overlap_graph_is_six_chart_petersen_fold_swap_atlas
+vertex_count: 10
+edge_count: 15
+degree_profile: {3: 10}
+triangle_count: 0
+five_cycle_count: 12
+complementary_pair_count: 6
+all_pairs_perfect_matching: True
+all_matched_faces_pentagram: True
+single_edge_deletion_full_atlas_survivors: 0
+failed_check_count: 0
+json: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_petersen_fold_swap_atlas_054c.v1.json
+csv: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_petersen_fold_swap_atlas_054c.csv
+note: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/notes/native_g60_petersen_fold_swap_atlas_054c.md

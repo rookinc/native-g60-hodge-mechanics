@@ -1,0 +1,336 @@
+{
+  "artifact_id": "native_g60_chart_specific_chiral_map_derivation_055e",
+  "audit_pass": true,
+  "boundary": {
+    "K33_side_chirality_polarization_derived": true,
+    "attractor_to_chart_map_proved": false,
+    "chart_specific_chiral_maps_derived": true,
+    "mixed_side_selected_as_circulating": false,
+    "physical_chirality_proved": false,
+    "preferred_matching_selected": false,
+    "preferred_surgery_selected": false,
+    "uniform_side_selected_as_circulating": false
+  },
+  "chart_count": 6,
+  "chart_records": [
+    {
+      "chart_index": 0,
+      "chirality": "negative",
+      "derived_permutation": [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      "dyad_side": "left",
+      "first_cycle": [
+        "0",
+        "1",
+        "2",
+        "5",
+        "6"
+      ],
+      "inverse_pair_id": 1,
+      "inverse_permutation": [
+        0,
+        3,
+        1,
+        4,
+        2
+      ],
+      "map_index": 0,
+      "matched_second_order": [
+        "3",
+        "9",
+        "8",
+        "4",
+        "7"
+      ],
+      "order": 4,
+      "second_cycle": [
+        "3",
+        "4",
+        "9",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "chart_index": 1,
+      "chirality": "negative",
+      "derived_permutation": [
+        2,
+        4,
+        1,
+        3,
+        0
+      ],
+      "dyad_side": "right",
+      "first_cycle": [
+        "0",
+        "1",
+        "2",
+        "8",
+        "3"
+      ],
+      "inverse_pair_id": 4,
+      "inverse_permutation": [
+        4,
+        2,
+        0,
+        3,
+        1
+      ],
+      "map_index": 5,
+      "matched_second_order": [
+        "6",
+        "9",
+        "5",
+        "7",
+        "4"
+      ],
+      "order": 4,
+      "second_cycle": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "chart_index": 2,
+      "chirality": "positive",
+      "derived_permutation": [
+        2,
+        0,
+        3,
+        1,
+        4
+      ],
+      "dyad_side": "left",
+      "first_cycle": [
+        "0",
+        "1",
+        "9",
+        "4",
+        "3"
+      ],
+      "inverse_pair_id": 2,
+      "inverse_permutation": [
+        1,
+        3,
+        0,
+        2,
+        4
+      ],
+      "map_index": 4,
+      "matched_second_order": [
+        "6",
+        "2",
+        "7",
+        "5",
+        "8"
+      ],
+      "order": 4,
+      "second_cycle": [
+        "2",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "chart_index": 3,
+      "chirality": "negative",
+      "derived_permutation": [
+        3,
+        0,
+        2,
+        4,
+        1
+      ],
+      "dyad_side": "right",
+      "first_cycle": [
+        "0",
+        "1",
+        "9",
+        "7",
+        "6"
+      ],
+      "inverse_pair_id": 3,
+      "inverse_permutation": [
+        1,
+        4,
+        2,
+        0,
+        3
+      ],
+      "map_index": 6,
+      "matched_second_order": [
+        "3",
+        "2",
+        "4",
+        "8",
+        "5"
+      ],
+      "order": 4,
+      "second_cycle": [
+        "2",
+        "5",
+        "4",
+        "3",
+        "8"
+      ]
+    },
+    {
+      "chart_index": 4,
+      "chirality": "negative",
+      "derived_permutation": [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      "dyad_side": "right",
+      "first_cycle": [
+        "0",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "inverse_pair_id": 1,
+      "inverse_permutation": [
+        0,
+        3,
+        1,
+        4,
+        2
+      ],
+      "map_index": 0,
+      "matched_second_order": [
+        "1",
+        "8",
+        "9",
+        "2",
+        "7"
+      ],
+      "order": 4,
+      "second_cycle": [
+        "1",
+        "2",
+        "8",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "chart_index": 5,
+      "chirality": "positive",
+      "derived_permutation": [
+        0,
+        3,
+        1,
+        4,
+        2
+      ],
+      "dyad_side": "left",
+      "first_cycle": [
+        "0",
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "inverse_pair_id": 1,
+      "inverse_permutation": [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      "map_index": 1,
+      "matched_second_order": [
+        "1",
+        "4",
+        "2",
+        "9",
+        "5"
+      ],
+      "order": 4,
+      "second_cycle": [
+        "1",
+        "2",
+        "5",
+        "4",
+        "9"
+      ]
+    }
+  ],
+  "checks": {
+    "all_derived_maps_are_in_054e": true,
+    "all_derived_maps_have_order_four": true,
+    "chart_count_is_six": true,
+    "exactly_one_side_is_chirality_mixed": true,
+    "exactly_one_side_is_chirality_uniform": true,
+    "left_side_is_one_negative_two_positive": true,
+    "left_side_is_three_charts": true,
+    "right_side_is_three_charts": true,
+    "right_side_is_uniform_negative": true
+  },
+  "interpretation": "The native matched-second-face ordering in each Petersen chart selects one of the ten generic order-four chiral intertwiners. The K3,3 chart bipartition is thereby polarized: the right triad is uniformly negative, while the left triad contains two positive and one negative map.",
+  "left_side": [
+    0,
+    2,
+    5
+  ],
+  "mixed_side_names": [
+    "left"
+  ],
+  "right_side": [
+    1,
+    3,
+    4
+  ],
+  "side_chirality_profile": {
+    "left": {
+      "negative": 1,
+      "positive": 2
+    },
+    "right": {
+      "negative": 3
+    }
+  },
+  "side_inverse_pair_profile": {
+    "left": {
+      "1": 2,
+      "2": 1
+    },
+    "right": {
+      "1": 1,
+      "3": 1,
+      "4": 1
+    }
+  },
+  "side_map_profile": {
+    "left": {
+      "0": 1,
+      "1": 1,
+      "4": 1
+    },
+    "right": {
+      "0": 1,
+      "5": 1,
+      "6": 1
+    }
+  },
+  "uniform_side_names": [
+    "right"
+  ],
+  "verdict": "native_chart_orders_derive_chart_specific_chiral_maps_and_polarize_K33_sides"
+}

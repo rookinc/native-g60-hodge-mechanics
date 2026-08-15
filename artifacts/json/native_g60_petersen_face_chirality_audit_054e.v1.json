@@ -1,0 +1,663 @@
+{
+  "artifact_id": "native_g60_petersen_face_chirality_audit_054e",
+  "audit_pass": true,
+  "boundary": {
+    "e5_kernel_identification_proved": false,
+    "irreversible_time_direction_proved": false,
+    "native_face_chirality_established": true,
+    "physical_particle_chirality_proved": false,
+    "schrodinger_dynamics_derived": false,
+    "spinor_double_cover_proved": false
+  },
+  "chart_records": [
+    {
+      "chart_index": 1,
+      "first_cycle": [
+        "0",
+        "1",
+        "2",
+        "5",
+        "6"
+      ],
+      "intertwiner_count": 10,
+      "involution_count": 0,
+      "matched_second_order": [
+        "3",
+        "9",
+        "8",
+        "4",
+        "7"
+      ],
+      "negative_chirality_count": 5,
+      "order_profile": {
+        "4": 10
+      },
+      "positive_chirality_count": 5,
+      "source_step": 2,
+      "target_step": 1
+    },
+    {
+      "chart_index": 2,
+      "first_cycle": [
+        "0",
+        "1",
+        "2",
+        "8",
+        "3"
+      ],
+      "intertwiner_count": 10,
+      "involution_count": 0,
+      "matched_second_order": [
+        "6",
+        "9",
+        "5",
+        "7",
+        "4"
+      ],
+      "negative_chirality_count": 5,
+      "order_profile": {
+        "4": 10
+      },
+      "positive_chirality_count": 5,
+      "source_step": 2,
+      "target_step": 1
+    },
+    {
+      "chart_index": 3,
+      "first_cycle": [
+        "0",
+        "1",
+        "9",
+        "4",
+        "3"
+      ],
+      "intertwiner_count": 10,
+      "involution_count": 0,
+      "matched_second_order": [
+        "6",
+        "2",
+        "7",
+        "5",
+        "8"
+      ],
+      "negative_chirality_count": 5,
+      "order_profile": {
+        "4": 10
+      },
+      "positive_chirality_count": 5,
+      "source_step": 2,
+      "target_step": 1
+    },
+    {
+      "chart_index": 4,
+      "first_cycle": [
+        "0",
+        "1",
+        "9",
+        "7",
+        "6"
+      ],
+      "intertwiner_count": 10,
+      "involution_count": 0,
+      "matched_second_order": [
+        "3",
+        "2",
+        "4",
+        "8",
+        "5"
+      ],
+      "negative_chirality_count": 5,
+      "order_profile": {
+        "4": 10
+      },
+      "positive_chirality_count": 5,
+      "source_step": 2,
+      "target_step": 1
+    },
+    {
+      "chart_index": 5,
+      "first_cycle": [
+        "0",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "intertwiner_count": 10,
+      "involution_count": 0,
+      "matched_second_order": [
+        "1",
+        "8",
+        "9",
+        "2",
+        "7"
+      ],
+      "negative_chirality_count": 5,
+      "order_profile": {
+        "4": 10
+      },
+      "positive_chirality_count": 5,
+      "source_step": 2,
+      "target_step": 1
+    },
+    {
+      "chart_index": 6,
+      "first_cycle": [
+        "0",
+        "3",
+        "8",
+        "7",
+        "6"
+      ],
+      "intertwiner_count": 10,
+      "involution_count": 0,
+      "matched_second_order": [
+        "1",
+        "4",
+        "2",
+        "9",
+        "5"
+      ],
+      "negative_chirality_count": 5,
+      "order_profile": {
+        "4": 10
+      },
+      "positive_chirality_count": 5,
+      "source_step": 2,
+      "target_step": 1
+    }
+  ],
+  "checks": {
+    "native_chart_count_is_six": true,
+    "reverse_step_has_opposite_balanced_chirality": true,
+    "same_face_control_has_dihedral_orders": true,
+    "same_face_control_has_five_reflections": true,
+    "target_all_face_maps_have_order_4": true,
+    "target_candidate_count_is_120": true,
+    "target_has_no_involutive_face_map": true,
+    "target_has_no_symmetric_face_map": true,
+    "target_has_no_unclassified_intertwiners": true,
+    "target_intertwiner_count_is_10": true,
+    "target_negative_chirality_count_is_5": true,
+    "target_positive_chirality_count_is_5": true
+  },
+  "failed_checks": [],
+  "interpretation": "The native map from a matched step-2 face to its step-1 partner is not an involutive mirror. Exactly ten face intertwiners exist. Five preserve directed circulation and five reverse it. Every valid face map has permutation order four. The corresponding same-face cycle control instead has the ordinary dihedral order profile with reflections.",
+  "reverse_step_3_to_step_1": {
+    "candidate_count": 120,
+    "chirality_profile": {
+      "negative": 5,
+      "positive": 5
+    },
+    "intertwiner_count": 10,
+    "involution_count": 0,
+    "order_profile": {
+      "4": 10
+    },
+    "records": [
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "permutation_text": "0-2-4-1-3"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          0,
+          3,
+          1,
+          4,
+          2
+        ],
+        "permutation_text": "0-3-1-4-2"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          1,
+          3,
+          0,
+          2,
+          4
+        ],
+        "permutation_text": "1-3-0-2-4"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          1,
+          4,
+          2,
+          0,
+          3
+        ],
+        "permutation_text": "1-4-2-0-3"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          2,
+          0,
+          3,
+          1,
+          4
+        ],
+        "permutation_text": "2-0-3-1-4"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          2,
+          4,
+          1,
+          3,
+          0
+        ],
+        "permutation_text": "2-4-1-3-0"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          3,
+          0,
+          2,
+          4,
+          1
+        ],
+        "permutation_text": "3-0-2-4-1"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          3,
+          1,
+          4,
+          2,
+          0
+        ],
+        "permutation_text": "3-1-4-2-0"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_text": "4-1-3-0-2"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          4,
+          2,
+          0,
+          3,
+          1
+        ],
+        "permutation_text": "4-2-0-3-1"
+      }
+    ],
+    "size": 5,
+    "source_step": 3,
+    "symmetric_permutation_count": 0,
+    "target_step": 1
+  },
+  "same_face_step_1_control": {
+    "candidate_count": 120,
+    "chirality_profile": {
+      "negative": 5,
+      "positive": 5
+    },
+    "intertwiner_count": 10,
+    "involution_count": 6,
+    "order_profile": {
+      "1": 1,
+      "2": 5,
+      "5": 4
+    },
+    "records": [
+      {
+        "chirality": "positive",
+        "is_involution": true,
+        "is_symmetric_permutation": true,
+        "order": 1,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "permutation_text": "0-1-2-3-4"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": true,
+        "is_symmetric_permutation": true,
+        "order": 2,
+        "permutation": [
+          0,
+          4,
+          3,
+          2,
+          1
+        ],
+        "permutation_text": "0-4-3-2-1"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": true,
+        "is_symmetric_permutation": true,
+        "order": 2,
+        "permutation": [
+          1,
+          0,
+          4,
+          3,
+          2
+        ],
+        "permutation_text": "1-0-4-3-2"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 5,
+        "permutation": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "permutation_text": "1-2-3-4-0"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": true,
+        "is_symmetric_permutation": true,
+        "order": 2,
+        "permutation": [
+          2,
+          1,
+          0,
+          4,
+          3
+        ],
+        "permutation_text": "2-1-0-4-3"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 5,
+        "permutation": [
+          2,
+          3,
+          4,
+          0,
+          1
+        ],
+        "permutation_text": "2-3-4-0-1"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": true,
+        "is_symmetric_permutation": true,
+        "order": 2,
+        "permutation": [
+          3,
+          2,
+          1,
+          0,
+          4
+        ],
+        "permutation_text": "3-2-1-0-4"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 5,
+        "permutation": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "permutation_text": "3-4-0-1-2"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 5,
+        "permutation": [
+          4,
+          0,
+          1,
+          2,
+          3
+        ],
+        "permutation_text": "4-0-1-2-3"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": true,
+        "is_symmetric_permutation": true,
+        "order": 2,
+        "permutation": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "permutation_text": "4-3-2-1-0"
+      }
+    ],
+    "size": 5,
+    "source_step": 1,
+    "symmetric_permutation_count": 6,
+    "target_step": 1
+  },
+  "target_step_2_to_step_1": {
+    "candidate_count": 120,
+    "chirality_profile": {
+      "negative": 5,
+      "positive": 5
+    },
+    "intertwiner_count": 10,
+    "involution_count": 0,
+    "order_profile": {
+      "4": 10
+    },
+    "records": [
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "permutation_text": "0-2-4-1-3"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          0,
+          3,
+          1,
+          4,
+          2
+        ],
+        "permutation_text": "0-3-1-4-2"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          1,
+          3,
+          0,
+          2,
+          4
+        ],
+        "permutation_text": "1-3-0-2-4"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          1,
+          4,
+          2,
+          0,
+          3
+        ],
+        "permutation_text": "1-4-2-0-3"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          2,
+          0,
+          3,
+          1,
+          4
+        ],
+        "permutation_text": "2-0-3-1-4"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          2,
+          4,
+          1,
+          3,
+          0
+        ],
+        "permutation_text": "2-4-1-3-0"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          3,
+          0,
+          2,
+          4,
+          1
+        ],
+        "permutation_text": "3-0-2-4-1"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          3,
+          1,
+          4,
+          2,
+          0
+        ],
+        "permutation_text": "3-1-4-2-0"
+      },
+      {
+        "chirality": "negative",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_text": "4-1-3-0-2"
+      },
+      {
+        "chirality": "positive",
+        "is_involution": false,
+        "is_symmetric_permutation": false,
+        "order": 4,
+        "permutation": [
+          4,
+          2,
+          0,
+          3,
+          1
+        ],
+        "permutation_text": "4-2-0-3-1"
+      }
+    ],
+    "size": 5,
+    "source_step": 2,
+    "symmetric_permutation_count": 0,
+    "target_step": 1
+  },
+  "verdict": "native_petersen_face_relation_is_balanced_chiral_order_4_intertwiner_space_with_no_static_mirror"
+}

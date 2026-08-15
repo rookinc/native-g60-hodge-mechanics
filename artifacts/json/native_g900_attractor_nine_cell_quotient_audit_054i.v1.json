@@ -1,0 +1,241 @@
+{
+  "T_carrier_class": {
+    "0": [
+      "0_4"
+    ],
+    "1": [
+      "0_4"
+    ],
+    "10": [
+      "2_2"
+    ],
+    "11": [
+      "4_0"
+    ],
+    "12": [
+      "4_0"
+    ],
+    "13": [
+      "4_0"
+    ],
+    "14": [
+      "2_2"
+    ],
+    "2": [
+      "0_4"
+    ],
+    "3": [
+      "2_2"
+    ],
+    "4": [
+      "2_2"
+    ],
+    "5": [
+      "0_4"
+    ],
+    "6": [
+      "2_2"
+    ],
+    "7": [
+      "2_2"
+    ],
+    "8": [
+      "2_2"
+    ],
+    "9": [
+      "4_0"
+    ]
+  },
+  "artifact_id": "native_g900_attractor_nine_cell_quotient_audit_054i",
+  "audit_pass": true,
+  "boundary": {
+    "G60_coordinate_preserved_exactly": true,
+    "T_coordinate_quotiented_by_tau": true,
+    "chirality_selection_proved": false,
+    "face_selection_proved": false,
+    "finite_attractor_quotient_proved": true,
+    "force_claim": false,
+    "physical_attraction_proved": false,
+    "six_tau_pairs_identified_with_six_Petersen_charts": false
+  },
+  "checks": {
+    "carrier_class_depends_only_on_T": true,
+    "each_orbit_has_one_carrier_class": true,
+    "observed_equal_pair_count_is_360": true,
+    "predicted_equal_pair_count_is_360": true,
+    "quotient_cell_count_is_9": true,
+    "signature_equality_biconditional_passes": true,
+    "tau_defined_on_all_15_T_states": true,
+    "tau_has_six_doubletons": true,
+    "tau_has_three_fixed_points": true,
+    "tau_is_involution": true,
+    "vertex_count_is_900": true
+  },
+  "counterexamples": [],
+  "false_negative_count": 0,
+  "false_positive_count": 0,
+  "fixed_point_classes": {
+    "12": [
+      "4_0"
+    ],
+    "13": [
+      "4_0"
+    ],
+    "6": [
+      "2_2"
+    ]
+  },
+  "observed_equal_pair_count": 360,
+  "pair_count_tested": 404550,
+  "predicted_equal_pair_count": 360,
+  "quotient_cell_count": 9,
+  "quotient_cells": [
+    {
+      "G900_vertex_count": 60,
+      "T_orbit": [
+        6
+      ],
+      "carrier_classes": [
+        "2_2"
+      ],
+      "orbit_size": 1,
+      "quotient_cell": 1,
+      "signature_count": 60
+    },
+    {
+      "G900_vertex_count": 60,
+      "T_orbit": [
+        12
+      ],
+      "carrier_classes": [
+        "4_0"
+      ],
+      "orbit_size": 1,
+      "quotient_cell": 2,
+      "signature_count": 60
+    },
+    {
+      "G900_vertex_count": 60,
+      "T_orbit": [
+        13
+      ],
+      "carrier_classes": [
+        "4_0"
+      ],
+      "orbit_size": 1,
+      "quotient_cell": 3,
+      "signature_count": 60
+    },
+    {
+      "G900_vertex_count": 120,
+      "T_orbit": [
+        0,
+        1
+      ],
+      "carrier_classes": [
+        "0_4"
+      ],
+      "orbit_size": 2,
+      "quotient_cell": 4,
+      "signature_count": 60
+    },
+    {
+      "G900_vertex_count": 120,
+      "T_orbit": [
+        2,
+        5
+      ],
+      "carrier_classes": [
+        "0_4"
+      ],
+      "orbit_size": 2,
+      "quotient_cell": 5,
+      "signature_count": 60
+    },
+    {
+      "G900_vertex_count": 120,
+      "T_orbit": [
+        3,
+        10
+      ],
+      "carrier_classes": [
+        "2_2"
+      ],
+      "orbit_size": 2,
+      "quotient_cell": 6,
+      "signature_count": 60
+    },
+    {
+      "G900_vertex_count": 120,
+      "T_orbit": [
+        4,
+        7
+      ],
+      "carrier_classes": [
+        "2_2"
+      ],
+      "orbit_size": 2,
+      "quotient_cell": 7,
+      "signature_count": 60
+    },
+    {
+      "G900_vertex_count": 120,
+      "T_orbit": [
+        8,
+        14
+      ],
+      "carrier_classes": [
+        "2_2"
+      ],
+      "orbit_size": 2,
+      "quotient_cell": 8,
+      "signature_count": 60
+    },
+    {
+      "G900_vertex_count": 120,
+      "T_orbit": [
+        9,
+        11
+      ],
+      "carrier_classes": [
+        "4_0"
+      ],
+      "orbit_size": 2,
+      "quotient_cell": 9,
+      "signature_count": 60
+    }
+  ],
+  "tau_cycles": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      11
+    ]
+  ],
+  "tau_fixed_points": [
+    6,
+    12,
+    13
+  ],
+  "verdict": "native_g900_attractor_response_is_exact_G60_times_nine_cell_T_quotient",
+  "vertex_count": 900
+}

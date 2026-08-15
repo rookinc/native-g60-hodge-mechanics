@@ -1,0 +1,7 @@
+chart_index,hermitian_residual,spectrum_residual_from_chart_1,mirror_candidate_count,plus_dimension,minus_dimension,fold_swap_off_block_residual,fold_swap_block_diagonal,maximum_unitary_residual,maximum_norm_error,chart_pass
+1,0.0,0.0,0,None,None,None,false,8.881784197001252e-16,9.992007221626409e-16,false
+2,0.0,0.0,0,None,None,None,false,8.881784197001252e-16,9.992007221626409e-16,false
+3,0.0,0.0,0,None,None,None,false,8.881784197001252e-16,9.992007221626409e-16,false
+4,0.0,0.0,0,None,None,None,false,8.881784197001252e-16,9.992007221626409e-16,false
+5,0.0,0.0,0,None,None,None,false,8.881784197001252e-16,9.992007221626409e-16,false
+6,0.0,0.0,0,None,None,None,false,8.881784197001252e-16,9.992007221626409e-16,false

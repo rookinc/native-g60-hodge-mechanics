@@ -1,0 +1,1375 @@
+{
+  "artifact_id": "native_g60_petersen_chart_dyad_bridge_search_055a",
+  "audit_pass": true,
+  "best_near_hits": [
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_edge_overlap==2",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_edge_overlap==2 AND fs_directed_agree==0",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_edge_overlap==2 AND fs_edge_overlap==0",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_edge_overlap==2 AND sf_directed_agree==0",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_edge_overlap==2 AND sf_edge_overlap==0",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_edge_overlap==2 AND ss_edge_overlap==1",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "fs_directed_agree==0 AND ss_edge_overlap==1",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "fs_edge_overlap==0 AND ss_edge_overlap==1",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "sf_directed_agree==0 AND ss_edge_overlap==1",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "sf_edge_overlap==0 AND ss_edge_overlap==1",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [],
+      "edge_count": 9,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ss_edge_overlap==1",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [
+        0,
+        3
+      ],
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "fs_directed_agree==0 AND ss_directed_reverse==0",
+      "triangle_count": 2
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [
+        0,
+        3
+      ],
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "fs_edge_overlap==0 AND ss_directed_reverse==0",
+      "triangle_count": 2
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [
+        0,
+        3
+      ],
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "sf_directed_agree==0 AND ss_directed_reverse==0",
+      "triangle_count": 2
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [
+        0,
+        3
+      ],
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "sf_edge_overlap==0 AND ss_directed_reverse==0",
+      "triangle_count": 2
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "degree_two_vertices": [
+        0,
+        3
+      ],
+      "edge_count": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ss_directed_reverse==0",
+      "triangle_count": 2
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "degree_two_vertices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "edge_count": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_directed_agree==2",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "degree_two_vertices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "edge_count": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_directed_agree==2 AND ff_directed_reverse==0",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "degree_two_vertices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "edge_count": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_directed_agree==2 AND ff_edge_overlap==2",
+      "triangle_count": 0
+    },
+    {
+      "cross_edge_count": 0,
+      "degree_four_vertices": [],
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "degree_two_vertices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "edge_count": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_target_hit": false,
+      "predicate": "ff_directed_agree==2 AND fs_directed_agree==0",
+      "triangle_count": 0
+    }
+  ],
+  "boundary": {
+    "cardinality_match_is_not_bridge": true,
+    "chirality_selection_proved": false,
+    "face_selection_proved": false,
+    "native_chart_to_attractor_cell_bijection_proved": false,
+    "physical_attraction_proved": false,
+    "signed_overlap_bridge_tested": false,
+    "six_chart_count_matches_six_doubletons": true,
+    "tested_overlap_family_only": true
+  },
+  "candidate_predicate_count": 161,
+  "chart_count": 6,
+  "chart_pair_count": 15,
+  "chart_pairs": [
+    {
+      "ff_directed_agree": 2,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 2,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 0,
+      "right": 1,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 1,
+      "ss_edge_overlap": 1
+    },
+    {
+      "ff_directed_agree": 1,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 1,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 0,
+      "right": 2,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 0,
+      "ss_edge_overlap": 0
+    },
+    {
+      "ff_directed_agree": 2,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 2,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 0,
+      "right": 3,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 1,
+      "ss_edge_overlap": 1
+    },
+    {
+      "ff_directed_agree": 2,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 2,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 0,
+      "right": 4,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 1,
+      "ss_edge_overlap": 1
+    },
+    {
+      "ff_directed_agree": 1,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 1,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 0,
+      "right": 5,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 0,
+      "ss_edge_overlap": 0
+    },
+    {
+      "ff_directed_agree": 2,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 2,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 1,
+      "right": 2,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 1,
+      "ss_edge_overlap": 1
+    },
+    {
+      "ff_directed_agree": 1,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 1,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 1,
+      "right": 3,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 0,
+      "ss_edge_overlap": 0
+    },
+    {
+      "ff_directed_agree": 0,
+      "ff_directed_reverse": 1,
+      "ff_edge_overlap": 1,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 1,
+      "right": 4,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 0,
+      "ss_edge_overlap": 0
+    },
+    {
+      "ff_directed_agree": 0,
+      "ff_directed_reverse": 2,
+      "ff_edge_overlap": 2,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 1,
+      "right": 5,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 1,
+      "ss_directed_reverse": 0,
+      "ss_edge_overlap": 1
+    },
+    {
+      "ff_directed_agree": 2,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 2,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 2,
+      "right": 3,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 1,
+      "ss_edge_overlap": 1
+    },
+    {
+      "ff_directed_agree": 0,
+      "ff_directed_reverse": 2,
+      "ff_edge_overlap": 2,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 2,
+      "right": 4,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 1,
+      "ss_directed_reverse": 0,
+      "ss_edge_overlap": 1
+    },
+    {
+      "ff_directed_agree": 0,
+      "ff_directed_reverse": 1,
+      "ff_edge_overlap": 1,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 2,
+      "right": 5,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 0,
+      "ss_edge_overlap": 0
+    },
+    {
+      "ff_directed_agree": 1,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 1,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 3,
+      "right": 4,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 0,
+      "ss_edge_overlap": 0
+    },
+    {
+      "ff_directed_agree": 2,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 2,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 3,
+      "right": 5,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 1,
+      "ss_edge_overlap": 1
+    },
+    {
+      "ff_directed_agree": 2,
+      "ff_directed_reverse": 0,
+      "ff_edge_overlap": 2,
+      "fs_directed_agree": 0,
+      "fs_edge_overlap": 0,
+      "left": 4,
+      "right": 5,
+      "sf_directed_agree": 0,
+      "sf_edge_overlap": 0,
+      "ss_directed_agree": 0,
+      "ss_directed_reverse": 1,
+      "ss_edge_overlap": 1
+    }
+  ],
+  "checks": {
+    "candidate_predicate_count_positive": true,
+    "chart_count_is_six": true,
+    "chart_pair_count_is_fifteen": true,
+    "target_quotient_has_six_doubletons": true
+  },
+  "exact_hit_count": 0,
+  "exact_hits": [],
+  "feature_names": [
+    "ff_directed_agree",
+    "ff_directed_reverse",
+    "ff_edge_overlap",
+    "fs_directed_agree",
+    "fs_edge_overlap",
+    "sf_directed_agree",
+    "sf_edge_overlap",
+    "ss_directed_agree",
+    "ss_directed_reverse",
+    "ss_edge_overlap"
+  ],
+  "pair_feature_profile": {
+    "ff_directed_agree": {
+      "0": 4,
+      "1": 4,
+      "2": 7
+    },
+    "ff_directed_reverse": {
+      "0": 11,
+      "1": 2,
+      "2": 2
+    },
+    "ff_edge_overlap": {
+      "1": 6,
+      "2": 9
+    },
+    "fs_directed_agree": {
+      "0": 15
+    },
+    "fs_edge_overlap": {
+      "0": 15
+    },
+    "sf_directed_agree": {
+      "0": 15
+    },
+    "sf_edge_overlap": {
+      "0": 15
+    },
+    "ss_directed_agree": {
+      "0": 13,
+      "1": 2
+    },
+    "ss_directed_reverse": {
+      "0": 8,
+      "1": 7
+    },
+    "ss_edge_overlap": {
+      "0": 6,
+      "1": 9
+    }
+  },
+  "verdict": "petersen_chart_overlap_family_does_not_recover_attractor_dyad_in_tested_family"
+}

@@ -1,0 +1,15 @@
+artifact_id: native_g60_petersen_schrodinger_fold_swap_audit_054d
+audit_pass: False
+verdict: native_petersen_adjacency_dynamics_is_unitary_but_fold_swap_separation_not_fully_established
+chart_count: 6
+all_hamiltonians_hermitian: True
+all_chart_spectra_match: True
+all_charts_have_commuting_mirror: False
+all_mirror_splits_are_5_plus_5: False
+all_fold_swap_block_diagonal: False
+all_sampled_evolutions_unitary: True
+all_sampled_norms_preserved: True
+failed_checks: ['all_charts_have_commuting_mirror', 'all_mirror_splits_are_five_plus_five', 'all_hamiltonians_block_diagonalize_in_fold_swap_basis']
+json: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_petersen_schrodinger_fold_swap_audit_054d.v1.json
+csv: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/csv/native_g60_petersen_schrodinger_fold_swap_audit_054d.csv
+note: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/notes/native_g60_petersen_schrodinger_fold_swap_audit_054d.md

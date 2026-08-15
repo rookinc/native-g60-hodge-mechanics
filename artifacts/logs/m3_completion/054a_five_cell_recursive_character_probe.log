@@ -1,0 +1,13 @@
+artifact_id: native_g60_five_cell_recursive_character_probe_054a
+audit_pass: True
+verdict: five_mirrored_v4_cells_close_to_one_four_state_character_with_exact_5_plus_5_fold_swap_module
+closure_spine: {'1': '1', 'A_squared': '1', 'B_squared': '1', 'AB_times_BA': '1'}
+five_cell_quotient_class_count: 4
+same_four_state_character: True
+folded_dimension: 5
+swap_dimension: 5
+joint_dimension: 10
+damaged_control_same_character: False
+failed_check_count: 0
+json: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/artifacts/json/native_g60_five_cell_recursive_character_probe_054a.v1.json
+note: /Users/scottcave/dev/cori/research/mathematics/46-native-g60-hodge-mechanics/notes/native_g60_five_cell_recursive_character_probe_054a.md

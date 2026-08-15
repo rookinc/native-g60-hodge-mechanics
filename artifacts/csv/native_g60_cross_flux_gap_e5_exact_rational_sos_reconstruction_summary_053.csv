@@ -1,0 +1,2 @@
+audit_pass,theorem_pass,verdict,design_rank,design_nullity,target_reconstruction_error,exact_affine_positive_candidate_found,elapsed_seconds
+True,False,exact_rational_e5_affine_reconstruction_not_resolved,273,808,9.705310127084674e-20,False,40269.115502042

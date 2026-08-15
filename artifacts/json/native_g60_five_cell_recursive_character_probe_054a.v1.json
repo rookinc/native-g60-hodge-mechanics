@@ -1,0 +1,428 @@
+{
+  "artifact_id": "native_g60_five_cell_recursive_character_probe_054a",
+  "audit_pass": true,
+  "boundary": {
+    "e5_kernel_identification_proved": false,
+    "electron_identification_claimed": false,
+    "g60_global_closure_proved": false,
+    "native_uniqueness_proved": false,
+    "physical_particle_composition_claimed": false,
+    "requires_053_for_e5_bridge": true
+  },
+  "checks": {
+    "closure_spine_all_identity": true,
+    "counter_rotation_relation": true,
+    "damaged_hinge_control_fails_character": true,
+    "damaged_hinge_control_fails_label_match": true,
+    "five_cell_hinges_all_match": true,
+    "five_cell_quotient_has_four_classes": true,
+    "five_cell_quotient_is_value_pure": true,
+    "five_cells_recover_same_v4_character": true,
+    "fold_and_swap_span_ten_dimensions": true,
+    "fold_annihilates_swap_space": true,
+    "fold_rank_is_five": true,
+    "folded_space_rank_is_five": true,
+    "local_register_has_four_states": true,
+    "mirror_fixes_folded_space": true,
+    "mirror_involution": true,
+    "mirror_is_reverse_register": true,
+    "mirror_negates_swap_space": true,
+    "mirror_reverses_pentagram": true,
+    "pentagon_period_five": true,
+    "pentagram_is_rotation_squared": true,
+    "pentagram_period_five": true,
+    "swap_space_rank_is_five": true
+  },
+  "closure_spine": {
+    "1": "1",
+    "AB_times_BA": "1",
+    "A_squared": "1",
+    "B_squared": "1"
+  },
+  "damaged_hinge_control": {
+    "all_classes_value_pure": false,
+    "all_hinge_labels_match": false,
+    "damaged_shift": 1,
+    "quotient_class_count": 1,
+    "same_four_state_character": false
+  },
+  "failed_checks": [],
+  "five_cell_quotient": {
+    "all_classes_value_pure": true,
+    "all_hinge_labels_match": true,
+    "classes": [
+      {
+        "member_count": 5,
+        "members": [
+          {
+            "cell": 0,
+            "local_index": 0,
+            "value": "1"
+          },
+          {
+            "cell": 1,
+            "local_index": 0,
+            "value": "1"
+          },
+          {
+            "cell": 2,
+            "local_index": 0,
+            "value": "1"
+          },
+          {
+            "cell": 3,
+            "local_index": 0,
+            "value": "1"
+          },
+          {
+            "cell": 4,
+            "local_index": 0,
+            "value": "1"
+          }
+        ],
+        "value_pure": true,
+        "values": [
+          "1"
+        ]
+      },
+      {
+        "member_count": 5,
+        "members": [
+          {
+            "cell": 0,
+            "local_index": 1,
+            "value": "A"
+          },
+          {
+            "cell": 1,
+            "local_index": 1,
+            "value": "A"
+          },
+          {
+            "cell": 2,
+            "local_index": 1,
+            "value": "A"
+          },
+          {
+            "cell": 3,
+            "local_index": 1,
+            "value": "A"
+          },
+          {
+            "cell": 4,
+            "local_index": 1,
+            "value": "A"
+          }
+        ],
+        "value_pure": true,
+        "values": [
+          "A"
+        ]
+      },
+      {
+        "member_count": 5,
+        "members": [
+          {
+            "cell": 0,
+            "local_index": 2,
+            "value": "B"
+          },
+          {
+            "cell": 1,
+            "local_index": 2,
+            "value": "B"
+          },
+          {
+            "cell": 2,
+            "local_index": 2,
+            "value": "B"
+          },
+          {
+            "cell": 3,
+            "local_index": 2,
+            "value": "B"
+          },
+          {
+            "cell": 4,
+            "local_index": 2,
+            "value": "B"
+          }
+        ],
+        "value_pure": true,
+        "values": [
+          "B"
+        ]
+      },
+      {
+        "member_count": 5,
+        "members": [
+          {
+            "cell": 0,
+            "local_index": 3,
+            "value": "AB"
+          },
+          {
+            "cell": 1,
+            "local_index": 3,
+            "value": "AB"
+          },
+          {
+            "cell": 2,
+            "local_index": 3,
+            "value": "AB"
+          },
+          {
+            "cell": 3,
+            "local_index": 3,
+            "value": "AB"
+          },
+          {
+            "cell": 4,
+            "local_index": 3,
+            "value": "AB"
+          }
+        ],
+        "value_pure": true,
+        "values": [
+          "AB"
+        ]
+      }
+    ],
+    "damaged_shift": 0,
+    "hinge_count": 20,
+    "hinges": [
+      {
+        "from_cell": 0,
+        "label_match": true,
+        "mirror_index": 0,
+        "mirror_value": "AB",
+        "source_local_index": 3,
+        "target_local_index": 3,
+        "target_value": "AB",
+        "to_cell": 1
+      },
+      {
+        "from_cell": 0,
+        "label_match": true,
+        "mirror_index": 1,
+        "mirror_value": "B",
+        "source_local_index": 2,
+        "target_local_index": 2,
+        "target_value": "B",
+        "to_cell": 1
+      },
+      {
+        "from_cell": 0,
+        "label_match": true,
+        "mirror_index": 2,
+        "mirror_value": "A",
+        "source_local_index": 1,
+        "target_local_index": 1,
+        "target_value": "A",
+        "to_cell": 1
+      },
+      {
+        "from_cell": 0,
+        "label_match": true,
+        "mirror_index": 3,
+        "mirror_value": "1",
+        "source_local_index": 0,
+        "target_local_index": 0,
+        "target_value": "1",
+        "to_cell": 1
+      },
+      {
+        "from_cell": 1,
+        "label_match": true,
+        "mirror_index": 0,
+        "mirror_value": "AB",
+        "source_local_index": 3,
+        "target_local_index": 3,
+        "target_value": "AB",
+        "to_cell": 2
+      },
+      {
+        "from_cell": 1,
+        "label_match": true,
+        "mirror_index": 1,
+        "mirror_value": "B",
+        "source_local_index": 2,
+        "target_local_index": 2,
+        "target_value": "B",
+        "to_cell": 2
+      },
+      {
+        "from_cell": 1,
+        "label_match": true,
+        "mirror_index": 2,
+        "mirror_value": "A",
+        "source_local_index": 1,
+        "target_local_index": 1,
+        "target_value": "A",
+        "to_cell": 2
+      },
+      {
+        "from_cell": 1,
+        "label_match": true,
+        "mirror_index": 3,
+        "mirror_value": "1",
+        "source_local_index": 0,
+        "target_local_index": 0,
+        "target_value": "1",
+        "to_cell": 2
+      },
+      {
+        "from_cell": 2,
+        "label_match": true,
+        "mirror_index": 0,
+        "mirror_value": "AB",
+        "source_local_index": 3,
+        "target_local_index": 3,
+        "target_value": "AB",
+        "to_cell": 3
+      },
+      {
+        "from_cell": 2,
+        "label_match": true,
+        "mirror_index": 1,
+        "mirror_value": "B",
+        "source_local_index": 2,
+        "target_local_index": 2,
+        "target_value": "B",
+        "to_cell": 3
+      },
+      {
+        "from_cell": 2,
+        "label_match": true,
+        "mirror_index": 2,
+        "mirror_value": "A",
+        "source_local_index": 1,
+        "target_local_index": 1,
+        "target_value": "A",
+        "to_cell": 3
+      },
+      {
+        "from_cell": 2,
+        "label_match": true,
+        "mirror_index": 3,
+        "mirror_value": "1",
+        "source_local_index": 0,
+        "target_local_index": 0,
+        "target_value": "1",
+        "to_cell": 3
+      },
+      {
+        "from_cell": 3,
+        "label_match": true,
+        "mirror_index": 0,
+        "mirror_value": "AB",
+        "source_local_index": 3,
+        "target_local_index": 3,
+        "target_value": "AB",
+        "to_cell": 4
+      },
+      {
+        "from_cell": 3,
+        "label_match": true,
+        "mirror_index": 1,
+        "mirror_value": "B",
+        "source_local_index": 2,
+        "target_local_index": 2,
+        "target_value": "B",
+        "to_cell": 4
+      },
+      {
+        "from_cell": 3,
+        "label_match": true,
+        "mirror_index": 2,
+        "mirror_value": "A",
+        "source_local_index": 1,
+        "target_local_index": 1,
+        "target_value": "A",
+        "to_cell": 4
+      },
+      {
+        "from_cell": 3,
+        "label_match": true,
+        "mirror_index": 3,
+        "mirror_value": "1",
+        "source_local_index": 0,
+        "target_local_index": 0,
+        "target_value": "1",
+        "to_cell": 4
+      },
+      {
+        "from_cell": 4,
+        "label_match": true,
+        "mirror_index": 0,
+        "mirror_value": "AB",
+        "source_local_index": 3,
+        "target_local_index": 3,
+        "target_value": "AB",
+        "to_cell": 0
+      },
+      {
+        "from_cell": 4,
+        "label_match": true,
+        "mirror_index": 1,
+        "mirror_value": "B",
+        "source_local_index": 2,
+        "target_local_index": 2,
+        "target_value": "B",
+        "to_cell": 0
+      },
+      {
+        "from_cell": 4,
+        "label_match": true,
+        "mirror_index": 2,
+        "mirror_value": "A",
+        "source_local_index": 1,
+        "target_local_index": 1,
+        "target_value": "A",
+        "to_cell": 0
+      },
+      {
+        "from_cell": 4,
+        "label_match": true,
+        "mirror_index": 3,
+        "mirror_value": "1",
+        "source_local_index": 0,
+        "target_local_index": 0,
+        "target_value": "1",
+        "to_cell": 0
+      }
+    ],
+    "quotient_class_count": 4,
+    "same_four_state_character": true
+  },
+  "folded_sheet": {
+    "ambient_dimension": 10,
+    "fold_rank": 5,
+    "folded_dimension": 5,
+    "joint_dimension": 10,
+    "pentagram_step": 2,
+    "relations": {
+      "J_P_J_is_P_inverse": true,
+      "J_R_J_is_R_inverse": true,
+      "J_squared_is_identity": true,
+      "P_fifth_is_identity": true,
+      "R_fifth_is_identity": true
+    },
+    "rotation_order": 5,
+    "swap_dimension": 5
+  },
+  "interpretation": "Five mirrored V4 cells admit an exact cyclic hinge quotient with the same four-state V4 character. Their ten face coordinates split exactly into five folded modes and five swap modes. This establishes the proposed local mechanism conditionally, but does not yet prove that the E5 Gram kernel realizes this module.",
+  "local_register": [
+    "1",
+    "A",
+    "B",
+    "AB"
+  ],
+  "mirror_register": [
+    "AB",
+    "B",
+    "A",
+    "1"
+  ],
+  "verdict": "five_mirrored_v4_cells_close_to_one_four_state_character_with_exact_5_plus_5_fold_swap_module"
+}

@@ -1,0 +1,1788 @@
+{
+  "G60_circulating": [
+    0,
+    2,
+    5
+  ],
+  "G60_edge_count": 9,
+  "G60_removed_matching": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "G60_rooted": [
+    1,
+    3,
+    4
+  ],
+  "G900_circulating": [
+    5,
+    6,
+    7
+  ],
+  "G900_edge_count": 9,
+  "G900_edge_law_profile": {
+    "half_flip": 6,
+    "identity": 3
+  },
+  "G900_rooted": [
+    4,
+    8,
+    9
+  ],
+  "artifact_id": "native_g60_g900_polarized_dyad_bridge_census_055h",
+  "audit_pass": true,
+  "boundary": {
+    "attractor_dynamically_executes_selector_proved": false,
+    "class_preserving_six_cell_isomorphism_proved": true,
+    "force_claim": false,
+    "physical_attraction_proved": false,
+    "simple_G60_feature_to_G900_law_bridge_found": false,
+    "unique_labeled_bridge_proved": false,
+    "unique_unlabeled_bijection_proved": false
+  },
+  "bridge_records": [
+    {
+      "edge_rows": [
+        {
+          "g60_edge": [
+            0,
+            1
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            5
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            1,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            2
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            6
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 1,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 1,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 1,
+            "same_map": 1,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            5,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 1,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            6,
+            7
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            2,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            3
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            9
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            3,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            7,
+            9
+          ],
+          "g900_law": "identity"
+        }
+      ],
+      "exact_law_hit_count": 0,
+      "exact_law_hits": [],
+      "isomorphism_index": 1,
+      "mapping": {
+        "0": 5,
+        "1": 4,
+        "2": 6,
+        "3": 9,
+        "4": 8,
+        "5": 7
+      }
+    },
+    {
+      "edge_rows": [
+        {
+          "g60_edge": [
+            0,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 1,
+            "same_map": 1,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            5
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 1,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 1,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            6
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            2
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            1
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            5,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 1,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            6,
+            7
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            1,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            3,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            9
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            2,
+            3
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            7,
+            9
+          ],
+          "g900_law": "identity"
+        }
+      ],
+      "exact_law_hit_count": 0,
+      "exact_law_hits": [],
+      "isomorphism_index": 2,
+      "mapping": {
+        "0": 5,
+        "1": 8,
+        "2": 7,
+        "3": 9,
+        "4": 4,
+        "5": 6
+      }
+    },
+    {
+      "edge_rows": [
+        {
+          "g60_edge": [
+            2,
+            3
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            5
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            3,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            2
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            6
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 1,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            5,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 1,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 1,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            6,
+            7
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            0,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 1,
+            "same_map": 1,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            1
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            9
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            1,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            7,
+            9
+          ],
+          "g900_law": "identity"
+        }
+      ],
+      "exact_law_hit_count": 0,
+      "exact_law_hits": [],
+      "isomorphism_index": 3,
+      "mapping": {
+        "0": 6,
+        "1": 9,
+        "2": 5,
+        "3": 4,
+        "4": 8,
+        "5": 7
+      }
+    },
+    {
+      "edge_rows": [
+        {
+          "g60_edge": [
+            3,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            5
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            3
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 1,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 1,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            6
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 1,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            1,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            5,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            2
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            6,
+            7
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            0,
+            1
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 1,
+            "same_map": 1,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            9
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            2,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            7,
+            9
+          ],
+          "g900_law": "identity"
+        }
+      ],
+      "exact_law_hit_count": 0,
+      "exact_law_hits": [],
+      "isomorphism_index": 4,
+      "mapping": {
+        "0": 6,
+        "1": 8,
+        "2": 7,
+        "3": 4,
+        "4": 9,
+        "5": 5
+      }
+    },
+    {
+      "edge_rows": [
+        {
+          "g60_edge": [
+            2,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            5
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 1,
+            "same_map": 1,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 1,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            6
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            2
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            3
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            5,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 1,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 1,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            6,
+            7
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            3,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            1,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            9
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            0,
+            1
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            7,
+            9
+          ],
+          "g900_law": "identity"
+        }
+      ],
+      "exact_law_hit_count": 0,
+      "exact_law_hits": [],
+      "isomorphism_index": 5,
+      "mapping": {
+        "0": 7,
+        "1": 9,
+        "2": 5,
+        "3": 8,
+        "4": 4,
+        "5": 6
+      }
+    },
+    {
+      "edge_rows": [
+        {
+          "g60_edge": [
+            1,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            5
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            1
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            4,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 1,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            6
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 1,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 1,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            5,
+            7
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            3,
+            5
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            5,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            0,
+            2
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 1,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 1,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 1,
+            "is_surviving_cross_edge": 0,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 0
+          },
+          "g900_edge": [
+            6,
+            7
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            2,
+            3
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            8
+          ],
+          "g900_law": "half_flip"
+        },
+        {
+          "g60_edge": [
+            2,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 0,
+            "ff_directed_reverse": 2,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 1,
+            "same_chirality": 0,
+            "same_inverse_pair": 0,
+            "same_map": 0,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 1,
+            "ss_directed_reverse": 0,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            6,
+            9
+          ],
+          "g900_law": "identity"
+        },
+        {
+          "g60_edge": [
+            0,
+            4
+          ],
+          "g60_features": {
+            "exact_inverse": 0,
+            "ff_directed_agree": 2,
+            "ff_directed_reverse": 0,
+            "ff_edge_overlap": 2,
+            "fs_directed_agree": 0,
+            "fs_edge_overlap": 0,
+            "is_added_triangle_edge": 0,
+            "is_surviving_cross_edge": 1,
+            "opposite_chirality": 0,
+            "same_chirality": 1,
+            "same_inverse_pair": 1,
+            "same_map": 1,
+            "sf_directed_agree": 0,
+            "sf_edge_overlap": 0,
+            "ss_directed_agree": 0,
+            "ss_directed_reverse": 1,
+            "ss_edge_overlap": 1
+          },
+          "g900_edge": [
+            7,
+            9
+          ],
+          "g900_law": "identity"
+        }
+      ],
+      "exact_law_hit_count": 0,
+      "exact_law_hits": [],
+      "isomorphism_index": 6,
+      "mapping": {
+        "0": 7,
+        "1": 4,
+        "2": 6,
+        "3": 8,
+        "4": 9,
+        "5": 5
+      }
+    }
+  ],
+  "candidate_predicate_count": 511,
+  "checks": {
+    "G60_circulating_count_is_3": true,
+    "G60_rooted_count_is_3": true,
+    "G60_selected_surgery_is_2": true,
+    "G900_circulating_count_is_3": true,
+    "G900_doubleton_cell_count_is_6": true,
+    "G900_rooted_count_is_3": true,
+    "all_G900_edges_have_pure_binary_law": true,
+    "both_six_cell_graphs_have_9_edges": true,
+    "class_preserving_bijection_count_is_36": true,
+    "class_preserving_isomorphism_count_is_6": true
+  },
+  "class_preserving_bijection_count": 36,
+  "class_preserving_isomorphism_count": 6,
+  "exact_law_hit_count": 0,
+  "exact_law_hits": [],
+  "isomorphism_law_hit_profile": {
+    "0": 6
+  },
+  "law_compatible_isomorphism_count": 0,
+  "selected_G60_surgery_index": 2,
+  "verdict": "selected_G60_polarization_is_G900_six_cell_quotient_shape_but_simple_law_bridge_not_found"
+}

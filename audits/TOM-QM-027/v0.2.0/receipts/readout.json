@@ -1,0 +1,117 @@
+{
+  "audit": "TOM-QM-027.READOUT",
+  "bare_g60_pointer_coupling_status": "blocked",
+  "expanded_graph_model_status": "pass",
+  "input_lock": "../inputs.lock.json",
+  "pair_quotient_controls": {
+    "cartesian_pair_quotient": {
+      "degree_counts": {
+        "8": 900
+      },
+      "edges": 3600,
+      "triangles_per_vertex": {
+        "4": 900
+      },
+      "vertices": 900
+    },
+    "g900_static_body": {
+      "degree_counts": {
+        "8": 900
+      },
+      "edges": 3600,
+      "triangles_per_vertex": {
+        "2": 180,
+        "3": 540,
+        "4": 180
+      },
+      "vertices": 900
+    },
+    "host_graph_isomorphism": "refuted_by_triangle_census",
+    "shared_deck_motion_disappears": true,
+    "single_lane_relative_deck_motion_survives": true
+  },
+  "parent_commit": "41175a1b765194e03f287633e6e4003ff671cc1a",
+  "readout": {
+    "all_transports_reversed_exactly": true,
+    "balanced_itinerary_lengths": [
+      10,
+      10
+    ],
+    "central_deck_involution_is_fixed_point_free": true,
+    "checks_across_group_and_register_inputs": 15360,
+    "control": "When the pointer follows one fixed itinerary it has the same endpoint for both histories.",
+    "examples": [
+      {
+        "common_route": [
+          0,
+          1,
+          11,
+          0,
+          1,
+          2,
+          3,
+          5,
+          10,
+          11,
+          0
+        ],
+        "holonomy": "ab",
+        "pointer_after_reference_correction": 0,
+        "pointer_at_later_contact": 25,
+        "pointer_initial": 0,
+        "system_after_return": 8,
+        "system_after_reverse_replay": 0,
+        "system_initial": 0
+      },
+      {
+        "common_route": [
+          0,
+          1,
+          0,
+          4,
+          3,
+          2,
+          1,
+          11,
+          10,
+          11,
+          0
+        ],
+        "holonomy": "b",
+        "pointer_after_reference_correction": 40,
+        "pointer_at_later_contact": 9,
+        "pointer_initial": 0,
+        "system_after_return": 15,
+        "system_after_reverse_replay": 0,
+        "system_initial": 0
+      }
+    ],
+    "independent_itineraries_control_endpoints": [
+      [
+        8,
+        8
+      ],
+      [
+        15,
+        8
+      ]
+    ],
+    "minimum_for_based_flat_padding": 10,
+    "pointer_action": [
+      "1",
+      "a"
+    ],
+    "pointer_stays_distinguishable_through_later_lift": true,
+    "pointer_synchronization": "The occupied route drives two lifts on independent carrier copies.",
+    "required_control": "Common branch itinerary, fixed pointer reference, and independently addressable system reversal."
+  },
+  "single_fiber_compression_controls": {
+    "b_ab_quotients_each_keep_flip_but_full_group_exchanges_them": true,
+    "fully_covariant_two_state_deck_quotient": "a",
+    "project41_phase_surface_crosswalk": "a_fixes_all_four_phase_cosets_and_is_in_every_isotropy_kernel",
+    "project42_g30_crosswalk": "all_60_vertices_erase_pointer_flip",
+    "ready_vertex_and_its_a_mate_form_a_two_state_subspace": true,
+    "stable_two_state_deck_quotient_erases_pointer_flip": true
+  },
+  "version": "0.2.0"
+}

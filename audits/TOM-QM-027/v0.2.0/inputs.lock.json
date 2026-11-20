@@ -1,0 +1,28 @@
+{
+  "g30_certificate": {
+    "canonical_path": "sources/project42_g60_to_g30_a_quotient_certificate_035.json",
+    "commit": "0781916602ed37f434cc863a6049c8524ef7ab13",
+    "git_blob": "3a8f72d73283a8bf7f343533fc3d2e8dbf4f59c9",
+    "repo": "rookinc/42-graph-automorphism-groups",
+    "sha256": "acaf79c52d5d83915afc425ba5b2e0547f168b73d1db7f144898599d30654822"
+  },
+  "g900_static_body": {
+    "commit": "fb155cf9916ab1b4e502dd6d2bffdf7d21a59dfc",
+    "git_blob": "4e01d5ff83ddbc5ccff37efd17cecc818b42c157",
+    "path": "public_html/labs/g900_observatory/data/g900_static_body.v1.json",
+    "repo": "rookinc/aletheos-ai",
+    "sha256": "6a2cb6b9892a78d4559ec61cf946b0021962cc6819311234b8bf14102b3b7f63"
+  },
+  "history_groupoid": {
+    "canonical_path": "artifacts/provenance/project41_registered_history_transformation_groupoid_201h874a.v1.json",
+    "commit": "e1bf21ca3ab700f69432852436f092442f8b46bd",
+    "git_blob": "c1b1698ca9a8109aa9d2063b2fa78d28900a8fb8",
+    "repo": "rookinc/order-4-dodecahedral-residue",
+    "sha256": "8daa78b6c27d63ca5aa1d31db88539f4abb6e9a918a56ea98f4c058be70ea4df"
+  },
+  "native_turn_fixture": {
+    "path": "data/g9000/native.json",
+    "sha256": "9d7729b179da8919d2713701a8e4ef4eebc77c9baef4c0051a1bcf5327ba40e6"
+  },
+  "parent_audit_commit": "41175a1b765194e03f287633e6e4003ff671cc1a"
+}

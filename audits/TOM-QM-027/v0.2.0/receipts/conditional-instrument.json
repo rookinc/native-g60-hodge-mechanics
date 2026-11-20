@@ -1,0 +1,120 @@
+{
+  "audit": "TOM-QM-027.INSTRUMENT",
+  "born_rule": "Adopted to compute outcome probabilities from the completely positive maps.",
+  "complete_positivity_checked_by_choi_positive_semidefiniteness": true,
+  "copy_to_external_register_prevents_recovery_by_partial_uncomputation": true,
+  "each_selective_route_state_matches_pointer_record": true,
+  "global_unitary_uncomputation_recovers_phase": true,
+  "individual_maps_trace_nonincreasing": true,
+  "joint_unitary_dimension": 8,
+  "kraus_effect_completeness_checked": true,
+  "native_unassisted_quantum_instrument_status": "blocked",
+  "orthogonal_detector_records_when_prepared_at_one_vertex": true,
+  "phase_tests": [
+    {
+      "joint_XY_times_pointer_flip": [
+        "24/25",
+        "0"
+      ],
+      "pointer_born_probabilities": [
+        "9/25",
+        "16/25"
+      ],
+      "relative_phase": "0",
+      "route_X_Y_after_registration_pointer_unread": [
+        "0",
+        "0"
+      ],
+      "route_X_Y_before_registration": [
+        "24/25",
+        "0"
+      ],
+      "route_X_plus_probability_before": "49/50",
+      "route_X_plus_probability_pointer_unread": "1/2",
+      "same_joint_observables_for_classical_mixture": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "joint_XY_times_pointer_flip": [
+        "-24/25",
+        "0"
+      ],
+      "pointer_born_probabilities": [
+        "9/25",
+        "16/25"
+      ],
+      "relative_phase": "pi",
+      "route_X_Y_after_registration_pointer_unread": [
+        "0",
+        "0"
+      ],
+      "route_X_Y_before_registration": [
+        "-24/25",
+        "0"
+      ],
+      "route_X_plus_probability_before": "1/50",
+      "route_X_plus_probability_pointer_unread": "1/2",
+      "same_joint_observables_for_classical_mixture": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "joint_XY_times_pointer_flip": [
+        "0",
+        "24/25"
+      ],
+      "pointer_born_probabilities": [
+        "9/25",
+        "16/25"
+      ],
+      "relative_phase": "pi/2",
+      "route_X_Y_after_registration_pointer_unread": [
+        "0",
+        "0"
+      ],
+      "route_X_Y_before_registration": [
+        "0",
+        "24/25"
+      ],
+      "route_X_plus_probability_before": "1/2",
+      "route_X_plus_probability_pointer_unread": "1/2",
+      "same_joint_observables_for_classical_mixture": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "joint_XY_times_pointer_flip": [
+        "0",
+        "-24/25"
+      ],
+      "pointer_born_probabilities": [
+        "9/25",
+        "16/25"
+      ],
+      "relative_phase": "-pi/2",
+      "route_X_Y_after_registration_pointer_unread": [
+        "0",
+        "0"
+      ],
+      "route_X_Y_before_registration": [
+        "0",
+        "-24/25"
+      ],
+      "route_X_plus_probability_before": "1/2",
+      "route_X_plus_probability_pointer_unread": "1/2",
+      "same_joint_observables_for_classical_mixture": [
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "physical_selection": "No physical device, preferred measurement basis, or independent collapse law is established.",
+  "pointer_in_flip_eigenstate_yields_no_which_path_record": true,
+  "state_space": "Logical route qubit tensor the complex linear span of one native four-point pointer fiber.",
+  "status": "pass_for_explicit_graph_extension",
+  "version": "0.2.0"
+}

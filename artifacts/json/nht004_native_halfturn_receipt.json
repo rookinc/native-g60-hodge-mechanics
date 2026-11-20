@@ -1,0 +1,79 @@
+{
+  "audit": "NHT-004A",
+  "status": "pass",
+  "source": "data/imported/project45/native_g60_fiber_product_isomorphism_044.json",
+  "group_order": 480,
+  "central_element_index": 326,
+  "central_element_order": 2,
+  "centrality_verified": true,
+  "order_four_root_count": 20,
+  "root_indices": [
+    13,
+    37,
+    67,
+    68,
+    88,
+    121,
+    126,
+    198,
+    209,
+    230,
+    247,
+    270,
+    314,
+    331,
+    354,
+    370,
+    400,
+    420,
+    457,
+    477
+  ],
+  "quotient_halfturn_count": 10,
+  "lift_pairs": [
+    [
+      13,
+      400
+    ],
+    [
+      37,
+      247
+    ],
+    [
+      67,
+      126
+    ],
+    [
+      68,
+      121
+    ],
+    [
+      88,
+      370
+    ],
+    [
+      198,
+      314
+    ],
+    [
+      209,
+      331
+    ],
+    [
+      230,
+      457
+    ],
+    [
+      270,
+      420
+    ],
+    [
+      354,
+      477
+    ]
+  ],
+  "order_two_lift_count_among_pairs": 0,
+  "native_group_obstruction": true,
+  "nested_chamber_obstruction_proved": false,
+  "physical_claim": false
+}

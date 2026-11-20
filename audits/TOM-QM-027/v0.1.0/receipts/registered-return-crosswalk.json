@@ -1,0 +1,72 @@
+{
+  "all_native_distance_two_prefixes_admit_exactly_one_registered_word": true,
+  "audit": "TOM-QM-027.R",
+  "holonomy_profile": {
+    "ab": 60,
+    "b": 60
+  },
+  "input_lock": "../inputs.lock.json",
+  "oriented_rooted_return_words_checked": 120,
+  "project42_voltage_rows_checked": 60,
+  "project43_089_lifted_start_rows_checked": 48,
+  "project43_089_pentagons_checked": 12,
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "provenance_boundary": "The 120 words were expanded from all Project 43 Audit 089 rows. Project 41 Audit 106 supplies a matching aggregate; Audit 094's original rows were unavailable. The 7/8-edge b/ab quartet is a distinct construction.",
+  "shortest_four_contact_nonidentity_vs_flat_witness": {
+    "active_and_flat_lengths": [
+      5,
+      6
+    ],
+    "branches": {
+      "1": {
+        "later_g60_vertex": 25,
+        "lifted_g60_vertices": [
+          0,
+          25,
+          2,
+          45,
+          2,
+          25,
+          0
+        ],
+        "quotient_walk": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "b": {
+        "later_g60_vertex": 1,
+        "lifted_g60_vertices": [
+          0,
+          25,
+          2,
+          45,
+          4,
+          15
+        ],
+        "quotient_walk": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          0
+        ]
+      }
+    },
+    "contact_sites": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "status": "pass",
+  "two_distinct_registered_pentagons_share_four_sites": false,
+  "version": "0.1.0"
+}

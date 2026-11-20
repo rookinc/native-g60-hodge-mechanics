@@ -1,0 +1,436 @@
+{
+  "audit": "TOM-QM-027.V",
+  "audit_021_pinned_input_with_archived_harmonic_basis": {
+    "exit_code": 0,
+    "script": "native_g60_cross_flux_energy_coupling_021.py",
+    "status": "pass",
+    "verdicts": [
+      "True"
+    ]
+  },
+  "numpy": "2.3.5",
+  "ordered_runs": [
+    {
+      "exit_code": 0,
+      "script": "native_g60_cochain_complex_import_001.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_uniform_hodge_baseline_002.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_hodge_decomposition_003.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_harmonic_1_form_basis_004.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_hodge_symmetry_commutation_005.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_harmonic_representation_decomposition_006.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_harmonic_irreducible_decomposition_006b.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_harmonic_multiplicity_split_006c.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_gauge_equivalence_audit_007.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_static_field_response_008.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_wave_operator_baseline_009.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_discrete_energy_conservation_010.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_weighted_hodge_candidate_search_011.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_hodge_mechanics_theorem_012.py",
+      "status": "pass",
+      "verdicts": [
+        "True",
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_six_sector_flux_intertwiner_013.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_six_flux_channel_resolution_014.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_cross_six_channel_anatomy_015.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_unique_four_flux_response_016.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_four_flux_face_geometry_017.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "diagnostic": [
+        "RuntimeError: expected distinguished mode [2], found [1]"
+      ],
+      "exit_code": 1,
+      "script": "native_g60_four_flux_axis_register_018.py",
+      "status": "fail",
+      "verdicts": []
+    },
+    {
+      "diagnostic": [
+        "RuntimeError: expected axis stabilizer order 24, found 2"
+      ],
+      "exit_code": 1,
+      "script": "native_g60_flux_axis_to_face_relation_019.py",
+      "status": "fail",
+      "verdicts": []
+    },
+    {
+      "diagnostic": [
+        "RuntimeError: axis 0 stabilizer order 2, expected 24"
+      ],
+      "exit_code": 1,
+      "script": "native_g60_flux_axis_integer_weight_law_020.py",
+      "status": "fail",
+      "verdicts": []
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_cross_flux_energy_coupling_021.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_cross_flux_coupled_dynamics_022.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_cross_flux_nonlinear_threshold_probe_023.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    }
+  ],
+  "pinned_input_runs": [
+    {
+      "exit_code": 0,
+      "script": "native_g60_cochain_complex_import_001.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_uniform_hodge_baseline_002.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_hodge_decomposition_003.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_harmonic_1_form_basis_004.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_hodge_symmetry_commutation_005.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_harmonic_representation_decomposition_006.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_harmonic_irreducible_decomposition_006b.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_harmonic_multiplicity_split_006c.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_gauge_equivalence_audit_007.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_static_field_response_008.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_wave_operator_baseline_009.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_discrete_energy_conservation_010.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_weighted_hodge_candidate_search_011.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_hodge_mechanics_theorem_012.py",
+      "status": "pass",
+      "verdicts": [
+        "True",
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_six_sector_flux_intertwiner_013.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_six_flux_channel_resolution_014.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_cross_six_channel_anatomy_015.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_unique_four_flux_response_016.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_four_flux_face_geometry_017.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_four_flux_axis_register_018.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_flux_axis_to_face_relation_019.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_flux_axis_integer_weight_law_020.py",
+      "status": "pass",
+      "verdicts": [
+        "True",
+        "True"
+      ]
+    },
+    {
+      "diagnostic": [
+        "verdict: native_g60_cross_flux_energy_coupling_audit_failed",
+        "channel_equivariance_max_abs: 0.4309374281950154"
+      ],
+      "exit_code": 0,
+      "script": "native_g60_cross_flux_energy_coupling_021.py",
+      "status": "fail",
+      "verdicts": [
+        "False"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_cross_flux_coupled_dynamics_022.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "script": "native_g60_cross_flux_nonlinear_threshold_probe_023.py",
+      "status": "pass",
+      "verdicts": [
+        "True"
+      ]
+    }
+  ],
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "python": "3.12.14",
+  "scope": "All discovered unittest cases and 25 G60 producers 001 through 023, including lettered subaudits.",
+  "test_discovery": {
+    "exit_code": 5,
+    "script": "unittest-discovery",
+    "status": "no_tests",
+    "tests_found": 0
+  },
+  "version": "0.1.0"
+}

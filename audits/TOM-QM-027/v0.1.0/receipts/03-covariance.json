@@ -1,0 +1,17 @@
+{
+  "audit": "TOM-QM-027.03",
+  "evidence": {
+    "automorphisms": 480,
+    "b_ab_swapping_automorphisms": 240,
+    "b_ab_swapping_automorphisms_fixing_each_source_vertex": 4,
+    "edge_lifts_checked": 115200,
+    "quartet_images_checked": 194400,
+    "shortest_paths_checked": 144000,
+    "unframed_invariant_scalar_of_start_and_return_cannot_discriminate_b_from_ab": true
+  },
+  "input_lock": "../inputs.lock.json",
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "scope": "Exact covariance for source graph automorphisms",
+  "status": "pass",
+  "version": "0.1.0"
+}

@@ -1,0 +1,14 @@
+{
+  "audit": "TOM-QM-027.Q",
+  "available": "Covariant endpoint distinguishability with an explicit reference and reversible discrete transport.",
+  "born_probability": "blocked",
+  "first_unmet_native_observer_obligation": "06-readout",
+  "interference": "blocked",
+  "missing": "A source-defined coupling to a later readable, persistent record and an admissible state-space and observable correspondence.",
+  "objective_collapse": "open",
+  "physical_detector_record": "blocked",
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "relative_phase": "blocked",
+  "status": "blocked",
+  "version": "0.1.0"
+}

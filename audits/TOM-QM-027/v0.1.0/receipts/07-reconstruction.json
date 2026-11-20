@@ -1,0 +1,12 @@
+{
+  "audit": "TOM-QM-027.07",
+  "evidence": {
+    "discarded_by_endpoint_summary": "Full path, starting role when omitted, and direction; reversing a V4 loop leaves its deck element unchanged.",
+    "reverse_route_replays": true
+  },
+  "input_lock": "../inputs.lock.json",
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "scope": "Reverse transport recovers every start given the route",
+  "status": "pass",
+  "version": "0.1.0"
+}

@@ -1,0 +1,13 @@
+{
+  "audit": "TOM-QM-027.08",
+  "evidence": {
+    "b_ab_swapping_automorphisms": 240,
+    "distinguishes_label_from_order": "Role reassignment either preserves the physical route or specifies a different perimeter.",
+    "role_assignments_checked": 24
+  },
+  "input_lock": "../inputs.lock.json",
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "scope": "All roles are selectable; no fixed origin or b/ab scalar label is assumed",
+  "status": "pass",
+  "version": "0.1.0"
+}

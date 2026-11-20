@@ -1,0 +1,755 @@
+{
+  "audit": "TOM-QM-027",
+  "covariance": {
+    "automorphisms": 480,
+    "b_ab_swapping_automorphisms": 240,
+    "b_ab_swapping_automorphisms_fixing_each_source_vertex": 4,
+    "edge_lifts_checked": 115200,
+    "quartet_images_checked": 194400,
+    "shortest_paths_checked": 144000,
+    "unframed_invariant_scalar_of_start_and_return_cannot_discriminate_b_from_ab": true
+  },
+  "inventory": {
+    "all_four_site_sets": 1365,
+    "fibers": [
+      [
+        0,
+        8,
+        15,
+        40
+      ],
+      [
+        1,
+        9,
+        25,
+        50
+      ],
+      [
+        2,
+        5,
+        10,
+        35
+      ],
+      [
+        3,
+        6,
+        20,
+        45
+      ],
+      [
+        4,
+        7,
+        30,
+        55
+      ],
+      [
+        11,
+        24,
+        39,
+        46
+      ],
+      [
+        12,
+        17,
+        38,
+        43
+      ],
+      [
+        13,
+        32,
+        37,
+        58
+      ],
+      [
+        14,
+        29,
+        36,
+        51
+      ],
+      [
+        16,
+        31,
+        44,
+        59
+      ],
+      [
+        18,
+        23,
+        42,
+        47
+      ],
+      [
+        19,
+        26,
+        41,
+        54
+      ],
+      [
+        21,
+        34,
+        49,
+        56
+      ],
+      [
+        22,
+        27,
+        48,
+        53
+      ],
+      [
+        28,
+        33,
+        52,
+        57
+      ]
+    ],
+    "pair_census": {
+      "distance_1_paths_1_maps_1": 30,
+      "distance_2_paths_1_maps_1": 60,
+      "distance_3_paths_4_maps_4": 15
+    },
+    "quotient_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        14
+      ]
+    ],
+    "simple_cycle_holonomy_census_by_length": {
+      "3": {
+        "1": 10
+      },
+      "4": {},
+      "5": {
+        "ab": 6,
+        "b": 6
+      },
+      "6": {
+        "a": 10,
+        "ab": 30,
+        "b": 30
+      }
+    },
+    "six_unambiguous_comparisons_sets": 405,
+    "two_branch_length_census": {
+      "7,8": 120
+    },
+    "unordered_perimeter_holonomy_spectra": {
+      "1,1,1": 75,
+      "1,a,a": 30,
+      "1,ab,ab": 90,
+      "1,b,b": 90,
+      "a,ab,b": 120
+    }
+  },
+  "native_observer_admitted": false,
+  "pair_selection_obstruction": {
+    "ordered_pairs_with_no_covariant_bijection": [
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          0,
+          5
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          0,
+          14
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          1,
+          6
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          1,
+          12
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          2,
+          9
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          2,
+          13
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          3,
+          7
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          3,
+          11
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          4,
+          8
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          4,
+          10
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          5,
+          0
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          5,
+          14
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          6,
+          1
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          6,
+          12
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          7,
+          3
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          7,
+          11
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          8,
+          4
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          8,
+          10
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          9,
+          2
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          9,
+          13
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          10,
+          4
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          10,
+          8
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          11,
+          3
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          11,
+          7
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          12,
+          1
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          12,
+          6
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          13,
+          2
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          13,
+          9
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          14,
+          0
+        ],
+        "pair_stabilizer_size": 16
+      },
+      {
+        "orbit_size_of_every_deck_equivariant_comparison": 4,
+        "ordered_pair": [
+          14,
+          5
+        ],
+        "pair_stabilizer_size": 16
+      }
+    ],
+    "proof": "The pair stabilizer contains the regular deck group. Its four equivariant bijections are exactly the four geodesic lift maps, and the full pair stabilizer acts transitively on these. There is no fixed map."
+  },
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "quantum_bridge_status": "blocked",
+  "shortest_nonidentity_vs_flat_witness": {
+    "active_and_flat_lengths": [
+      5,
+      6
+    ],
+    "branches": {
+      "1": {
+        "later_g60_vertex": 25,
+        "lifted_g60_vertices": [
+          0,
+          25,
+          2,
+          45,
+          2,
+          25,
+          0
+        ],
+        "quotient_walk": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "b": {
+        "later_g60_vertex": 1,
+        "lifted_g60_vertices": [
+          0,
+          25,
+          2,
+          45,
+          4,
+          15
+        ],
+        "quotient_walk": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          0
+        ]
+      }
+    },
+    "contact_sites": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "version": "0.1.0",
+  "witness": {
+    "contact_sites": [
+      0,
+      1,
+      3,
+      10
+    ],
+    "controls": {
+      "all_flat_quartet_0_1_2_8": "1",
+      "distance_three_comparison": "four different maps from four tied geodesics",
+      "one_fiber_point_selected_deck_translations_all_role_orders": "1",
+      "out_and_back": "1"
+    },
+    "readout": {
+      "boolean": "later vertex equals reference vertex",
+      "exact_group_start_cases": 1920,
+      "later_contact": 1,
+      "reference": "shorter registered b/ab branch followed by first-to-second comparison"
+    },
+    "reverse_route_replays": true,
+    "role_assignments_checked": 24,
+    "six_pair_maps": {
+      "0-1": {
+        "0": 25,
+        "8": 50,
+        "15": 1,
+        "40": 9
+      },
+      "0-10": {
+        "0": 23,
+        "8": 47,
+        "15": 18,
+        "40": 42
+      },
+      "0-3": {
+        "0": 3,
+        "8": 6,
+        "15": 45,
+        "40": 20
+      },
+      "1-10": {
+        "1": 18,
+        "9": 42,
+        "25": 23,
+        "50": 47
+      },
+      "1-3": {
+        "1": 3,
+        "9": 6,
+        "25": 45,
+        "50": 20
+      },
+      "3-10": {
+        "3": 42,
+        "6": 18,
+        "20": 23,
+        "45": 47
+      }
+    },
+    "six_pair_paths": {
+      "0-1": [
+        0,
+        1
+      ],
+      "0-10": [
+        0,
+        11,
+        10
+      ],
+      "0-3": [
+        0,
+        4,
+        3
+      ],
+      "1-10": [
+        1,
+        11,
+        10
+      ],
+      "1-3": [
+        1,
+        2,
+        3
+      ],
+      "3-10": [
+        3,
+        5,
+        10
+      ]
+    },
+    "source_g60_vertex_for_example": 0,
+    "three_perimeters": [
+      {
+        "contact_order": [
+          0,
+          1,
+          3,
+          10,
+          0
+        ],
+        "deck_holonomy": "ab",
+        "edge_count": 7,
+        "later_vertex_at_second_contact": 50,
+        "lifted_g60_vertices": [
+          0,
+          25,
+          2,
+          45,
+          39,
+          47,
+          41,
+          8
+        ],
+        "quotient_walk": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          10,
+          11,
+          0
+        ]
+      },
+      {
+        "contact_order": [
+          0,
+          1,
+          10,
+          3,
+          0
+        ],
+        "deck_holonomy": "a",
+        "edge_count": 7,
+        "later_vertex_at_second_contact": 9,
+        "lifted_g60_vertices": [
+          0,
+          25,
+          19,
+          23,
+          11,
+          20,
+          7,
+          40
+        ],
+        "quotient_walk": [
+          0,
+          1,
+          11,
+          10,
+          5,
+          3,
+          4,
+          0
+        ]
+      },
+      {
+        "contact_order": [
+          0,
+          3,
+          1,
+          10,
+          0
+        ],
+        "deck_holonomy": "b",
+        "edge_count": 8,
+        "later_vertex_at_second_contact": 1,
+        "lifted_g60_vertices": [
+          0,
+          55,
+          3,
+          35,
+          1,
+          26,
+          18,
+          26,
+          15
+        ],
+        "quotient_walk": [
+          0,
+          4,
+          3,
+          2,
+          1,
+          11,
+          10,
+          11,
+          0
+        ]
+      }
+    ]
+  }
+}

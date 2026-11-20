@@ -1,0 +1,79 @@
+{
+  "context_consulted": {
+    "Finite_Observer_Interfaces_G60_Research_Plateau_Final_2026-11-17.pdf": {
+      "sha256": "676189e972ee816903679eb01b94f3878d224aa7f3fab6b9c699bdcf8f842afc"
+    },
+    "automaton-089.json": {
+      "git_head": "d1ac178cce98d310e7cb2a08539dc6d86022a1d5",
+      "git_last_commit": "ba0bacb972b2c1cdd6e7844a8ada52ccf4725e8c",
+      "path": "43-registered-carrier-language/artifacts/json/g60-registered-carrier-automaton-089.json",
+      "sha256": "2d8227767eec51b293290bb32485d4022ea93b717515df86782e92e57a070834"
+    },
+    "history-874a.json": {
+      "canonical_path": "artifacts/provenance/project41_registered_history_transformation_groupoid_201h874a.v1.json",
+      "commit": "e1bf21ca3ab700f69432852436f092442f8b46bd",
+      "git_blob": "c1b1698ca9a8109aa9d2063b2fa78d28900a8fb8",
+      "repo": "rookinc/order-4-dodecahedral-residue",
+      "sha256": "8daa78b6c27d63ca5aa1d31db88539f4abb6e9a918a56ea98f4c058be70ea4df"
+    },
+    "history-crosswalk.tex": {
+      "canonical_path": "paper_v2/frm/sections/16a-relation-registration-history-crosswalk.tex",
+      "commit": "1aba07fb293e2cb3c19421df3502f75becfb76fd",
+      "git_blob": "4eb762a098a4f6145aafad3fd566f77bf552a160",
+      "repo": "rookinc/at4val60-6-finite-relational-mechanics",
+      "sha256": "8fe5c65d6c356558ee6e5267588078947ea2af91cb958d18609fa5eeda66f76d"
+    },
+    "registered-route-106.json": {
+      "canonical_path": "artifacts/provenance/project41_prospective_descent_registered_return_gate_106.v1.json",
+      "commit": "e1bf21ca3ab700f69432852436f092442f8b46bd",
+      "git_blob": "4cb366683d3241679f6c961b1fccfb0d839af87d",
+      "repo": "rookinc/order-4-dodecahedral-residue",
+      "sha256": "68d89eedb0796bc2e9af345e077de8865b6e7287e5a602b186902b790c8411a1"
+    },
+    "thalean-cube-darts.html": {
+      "sha256": "37c0b453089c3d5683172752dabead7f82ab9b39455aab6efd9eccc9edf060b9"
+    },
+    "voltage.json": {
+      "canonical_path": "artifacts/json/native_g60_v4_voltage_character_quotients_057.json",
+      "commit": "0781916602ed37f434cc863a6049c8524ef7ab13",
+      "git_blob": "95f6f4ae8564a4f3eff38fbdaf0084a01ff303da",
+      "repo": "rookinc/42-graph-automorphism-groups",
+      "sha256": "d432fd5ff63bc7504d4e8c53f5d9401fc1eb873601d0f7f9caa05fe4052d84cb"
+    }
+  },
+  "inputs": {
+    "actions": {
+      "path": "artifacts/npy/native_g60_signed_cochain_actions_005.npz",
+      "sha256": "dc7eafc829d31d64182cca9c209e0929dbb20e8f65ee64d1595a237eaf3cd402"
+    },
+    "b1": {
+      "path": "data/imported/project45/native_g60_B1_vertex_edge_004.csv",
+      "sha256": "9a3db57bb31a3e9ab31a5dfb969697ccdca685e8bcafa19bde51a9349b81093c"
+    },
+    "b2": {
+      "path": "data/imported/project45/native_g60_B2_edge_face_004.csv",
+      "sha256": "1ed06f750330b53e238331eef1c12879c6b94fa74c7c06bb32368b62dafa20b8"
+    },
+    "coupling": {
+      "path": "artifacts/npy/native_g60_cross_flux_energy_coupling_021.npz",
+      "sha256": "6a6ba365ebe0ec0962120ac68de538df5c7b2711efb61b48ea9499aa263520ce"
+    },
+    "geometry": {
+      "path": "artifacts/npy/native_g60_four_flux_face_geometry_017.npz",
+      "sha256": "03cdf342fe4bbd2d2a22b5d72356760936d700df6296a3b808a073438f0b1472"
+    },
+    "group": {
+      "path": "data/imported/project45/native_g60_fiber_product_isomorphism_044.json",
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "harmonic": {
+      "path": "artifacts/npy/native_g60_harmonic_1_form_basis_004.npz",
+      "sha256": "92bd9cbbf8f40306eebcef2a72c41eef017229565515fec46888771e929d8fdc"
+    },
+    "response": {
+      "path": "artifacts/npy/native_g60_unique_four_flux_response_016.npz",
+      "sha256": "bc390b95be7dddcef6b734badd5d40c21d732cf0183aa2e38d98ffc5355842a2"
+    }
+  },
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9"
+}

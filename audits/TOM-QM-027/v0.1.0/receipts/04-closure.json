@@ -1,0 +1,172 @@
+{
+  "audit": "TOM-QM-027.04",
+  "evidence": {
+    "direct_four_edge_loop": "fail: no simple G15 four-cycle",
+    "loop_length_and_spectrum_census": {
+      "1,1,1": 75,
+      "1,a,a": 30,
+      "1,ab,ab": 90,
+      "1,b,b": 90,
+      "a,ab,b": 120
+    },
+    "perimeters": [
+      {
+        "contact_order": [
+          0,
+          1,
+          3,
+          10,
+          0
+        ],
+        "deck_holonomy": "ab",
+        "edge_count": 7,
+        "later_vertex_at_second_contact": 50,
+        "lifted_g60_vertices": [
+          0,
+          25,
+          2,
+          45,
+          39,
+          47,
+          41,
+          8
+        ],
+        "quotient_walk": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          10,
+          11,
+          0
+        ]
+      },
+      {
+        "contact_order": [
+          0,
+          1,
+          10,
+          3,
+          0
+        ],
+        "deck_holonomy": "a",
+        "edge_count": 7,
+        "later_vertex_at_second_contact": 9,
+        "lifted_g60_vertices": [
+          0,
+          25,
+          19,
+          23,
+          11,
+          20,
+          7,
+          40
+        ],
+        "quotient_walk": [
+          0,
+          1,
+          11,
+          10,
+          5,
+          3,
+          4,
+          0
+        ]
+      },
+      {
+        "contact_order": [
+          0,
+          3,
+          1,
+          10,
+          0
+        ],
+        "deck_holonomy": "b",
+        "edge_count": 8,
+        "later_vertex_at_second_contact": 1,
+        "lifted_g60_vertices": [
+          0,
+          55,
+          3,
+          35,
+          1,
+          26,
+          18,
+          26,
+          15
+        ],
+        "quotient_walk": [
+          0,
+          4,
+          3,
+          2,
+          1,
+          11,
+          10,
+          11,
+          0
+        ]
+      }
+    ],
+    "shortest_nonidentity_versus_flat_on_same_sites": {
+      "active_and_flat_lengths": [
+        5,
+        6
+      ],
+      "branches": {
+        "1": {
+          "later_g60_vertex": 25,
+          "lifted_g60_vertices": [
+            0,
+            25,
+            2,
+            45,
+            2,
+            25,
+            0
+          ],
+          "quotient_walk": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        "b": {
+          "later_g60_vertex": 1,
+          "lifted_g60_vertices": [
+            0,
+            25,
+            2,
+            45,
+            4,
+            15
+          ],
+          "quotient_walk": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            0
+          ]
+        }
+      },
+      "contact_sites": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "input_lock": "../inputs.lock.json",
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "scope": "All six comparisons are composable; loop closes in G15 with a deck residual",
+  "status": "pass",
+  "version": "0.1.0"
+}

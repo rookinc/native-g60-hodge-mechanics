@@ -1,0 +1,16 @@
+{
+  "audit": "TOM-QM-027.06",
+  "evidence": {
+    "boolean": "later vertex equals reference vertex",
+    "exact_group_start_cases": 1920,
+    "later_contact": 1,
+    "missing": "Source-defined operation that physically couples endpoint identity to a persistent pointer.",
+    "reference": "shorter registered b/ab branch followed by first-to-second comparison",
+    "reference_relative_graph_readout": "pass"
+  },
+  "input_lock": "../inputs.lock.json",
+  "project46_commit": "4769486d7785c21530716d89e253f966f1dc5ab9",
+  "scope": "Native observer readout",
+  "status": "blocked",
+  "version": "0.1.0"
+}
